@@ -1,0 +1,29 @@
+\documentclass[lualatex, ja=standard]{bxjsarticle}
+
+\usepackage{unicode-math}
+
+\usepackage{formalproofwriter}
+
+\usepackage{hyperref}
+
+\usepackage[nameinlink]{cleveref}
+
+\begin{document}
+
+\section{test}
+\label{axm_ref}
+\label{thm_ref}
+
+
+\begin{prf}
+  \Show {$x ⊆ y ∧ ∃ u \ (u ∈ y ∧ u ∉ x) → x ⊂ y$} {
+    \Show {$x ⊂ y$} (label_5, label3) {
+      \step {$x ≠ y$} [label3] (label6, label4, axm_ref, thm_ref)
+      \step {$x = y → ¬ ∃ u \ u ∈ y ∧ u ∉ x$} [label4]
+    }
+    \Assume {$x ⊆ y$} [label_5]
+    \Assume {$∃ u \ (u ∈ y ∧ u ∉ x)$} [label6]
+  }
+\end{prf}
+
+\end{document}

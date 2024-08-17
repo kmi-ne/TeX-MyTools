@@ -1,0 +1,69 @@
+\usepackage[beginComment={\makebox[2em]{\dotfill} by~}, italicComments=false, rightComments=false]{algpseudocodex}
+
+\tikzset{algpxIndentLine/.style={draw=black}}
+
+\algrenewcommand\algorithmicif{\texttt{\color{teal}Show:}}
+\algrenewcommand\algorithmicthen{}
+
+\makeatletter
+\algdef{C}[IF]{IF}{ElsIf}[1]{%
+	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{red}Assume:}\ #1%
+}
+\makeatother
+
+\ExplSyntaxOn
+\bool_set_false:N \g_JustEndedAsmp_bool
+\bool_set_false:N \g_JustEndedShow_bool
+\cs_new:Npn \__set_labelref:nn #1#2 {
+  \tl_if_empty:nTF { #1 } {} { \label{#1} }
+  \clist_if_empty:nTF { #2 } {} {
+    \seq_set_from_clist:Nn \l_tmpa_seq { #2 }
+    \seq_set_map:NNn \l_tmpa_seq \l_tmpa_seq {
+      \str_set:Nn \l_tmpa_str { ##1 }
+      \str_if_in:NnTF \l_tmpa_str { _ } {
+        \str_if_in:NnTF \l_tmpa_str { axm } { \nameref{ ##1 } } { \cref{ ##1 } }
+      } {
+        \ref{ ##1 }
+      }
+    }
+    \Comment{
+      \seq_use:Nn \l_tmpa_seq { ,\ }
+    }
+  }
+}
+\NewDocumentCommand { \Show } { m O{} D(){} m } {
+  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } {
+    \EndIf
+    \bool_set_false:N \g_JustEndedAsmp_bool
+    \bool_set_false:N \g_JustEndedShow_bool
+  } {}
+  \If{#1}
+  \__set_labelref:nn { #2 } { #3 }
+    #4
+  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } { \EndIf } {}
+  \bool_set_false:N \g_JustEndedAsmp_bool
+  \bool_set_true:N \g_JustEndedShow_bool
+}
+
+\NewDocumentCommand { \Assume } { m O{} } {
+  \ElsIf{#1}
+  \tl_if_empty:nTF { #2 } {} { \label{#2} }
+  \bool_set_true:N \g_JustEndedAsmp_bool
+  \bool_set_false:N \g_JustEndedShow_bool
+}
+
+\NewDocumentCommand { \step } { m O{} D(){} } {
+  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } {
+    \EndIf
+    \bool_set_false:N \g_JustEndedAsmp_bool
+    \bool_set_false:N \g_JustEndedShow_bool
+  } {}
+  \State #1
+  \__set_labelref:nn { #2 } { #3 }
+  \bool_set_false:N \g_JustEndedAsmp_bool
+  \bool_set_false:N \g_JustEndedShow_bool
+}
+\ExplSyntaxOff
+
+\NewDocumentEnvironment{prf}{}{\begin{algorithmic}[1]}{\EndIf
+\end{algorithmic}}
