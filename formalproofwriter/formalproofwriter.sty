@@ -31,6 +31,15 @@
 \pretocmd{\AndIf}{\algpx@endCodeCommand}{}{}
 \makeatother
 
+\long\def\cana@extract#1#2#3#4#5{\unexpanded{#3}}
+\newcommand\doubleref[1]{%
+  \@ifundefined{r@#1}{\relax}{%
+    \edef\cana@temp{%
+      \expandafter\expandafter\expandafter\cana@extract\csname r@#1\endcsname
+    }%
+    \ifx\cana@temp\@empty\cref{#1}\else\nameref{#1}\fi}}
+\makeatother
+
 \ExplSyntaxOn
 \bool_set_false:N \g_JustEndedAsmp_bool
 \bool_set_false:N \g_JustEndedShow_bool
@@ -41,7 +50,7 @@
     \seq_set_map:NNn \l_tmpa_seq \l_tmpa_seq {
       \str_set:Nn \l_tmpa_str { ##1 }
       \str_if_in:NnTF \l_tmpa_str { _ } {
-        \str_if_in:NnTF \l_tmpa_str { axm } { \nameref{ ##1 } } { \cref{ ##1 } }
+        \doubleref{ ##1 }
       } {
         \ref{ ##1 }
       }
