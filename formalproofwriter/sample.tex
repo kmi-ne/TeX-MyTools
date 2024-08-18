@@ -4,25 +4,24 @@
 
 \usepackage{formalproofwriter}
 
+\usepackage{showlabels}
+
 \usepackage{hyperref}
 
 \usepackage[nameinlink]{cleveref}
 
 \begin{document}
 
-\section{test}
-\label{axm_ref}
-\label{thm_ref}
-
-
 \begin{prf}
-  \Show {$x ⊆ y ∧ ∃ u \ (u ∈ y ∧ u ∉ x) → x ⊂ y$} {
-    \Show {$x ⊂ y$} (label_5, label3) {
-      \step {$x ≠ y$} [label3] (label6, label4, axm_ref, thm_ref)
-      \step {$x = y → ¬ ∃ u \ u ∈ y ∧ u ∉ x$} [label4]
+  \Show {Assumptions 1 \& 2 then Formulae 1 \& 2} {
+    \Show {Formula 2} [fml2] (fml21) {
+      \step {Formula 2.1} [fml21] (asmp1, fml11)
     }
-    \Assume {$x ⊆ y$} [label_5]
-    \Assume {$∃ u \ (u ∈ y ∧ u ∉ x)$} [label6]
+    \AndShow {Formula 1} [fml1] (fml11) {
+      \step {Formula 1.1} [fml11] (asmp1, asmp2)
+    }
+    \Assume {Assumption 2} [asmp2]
+    \Assume {Assumption 1} [asmp1]
   }
 \end{prf}
 

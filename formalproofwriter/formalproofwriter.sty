@@ -1,14 +1,28 @@
-\usepackage[beginComment={\makebox[2em]{\dotfill} by~}, italicComments=false, rightComments=false]{algpseudocodex}
+\usepackage[beginComment={\ \makebox[2em]{\dotfill} by~}, italicComments=false, rightComments=false]{algpseudocodex}
 
-\tikzset{algpxIndentLine/.style={draw=black}}
+\makeatletter
+\renewcommand{\algpx@commentFormat}[1]{%
+	\ifbool{algpx@italicComments}{%
+		\footnotesize{\textit{\textcolor{\algpx@commentColor}{#1}}}%
+	}{%
+		\footnotesize{\textcolor{\algpx@commentColor}{#1}}%
+	}%
+}
+\makeatother
 
-\algrenewcommand\algorithmicif{\texttt{\color{teal}Show:}}
+% \tikzset{algpxIndentLine/.style={draw=black}}
+
+\algrenewcommand\algorithmicif{\texttt{\color{green}Show:}}
 \algrenewcommand\algorithmicthen{}
 
 \makeatletter
 \algdef{C}[IF]{IF}{ElsIf}[1]{%
 	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{red}Assume:}\ #1%
 }
+\algdef{C}[IF]{IF}{AndIf}[1]{%
+	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{green}and Show:}\ #1%
+}
+\pretocmd{\AndIf}{\algpx@endCodeCommand}{}{}
 \makeatother
 
 \ExplSyntaxOn
@@ -38,6 +52,15 @@
     \bool_set_false:N \g_JustEndedShow_bool
   } {}
   \If{#1}
+  \__set_labelref:nn { #2 } { #3 }
+    #4
+  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } { \EndIf } {}
+  \bool_set_false:N \g_JustEndedAsmp_bool
+  \bool_set_true:N \g_JustEndedShow_bool
+}
+
+\NewDocumentCommand { \AndShow } { m O{} D(){} m } {
+  \AndIf{#1}
   \__set_labelref:nn { #2 } { #3 }
     #4
   \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } { \EndIf } {}
