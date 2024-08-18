@@ -1,5 +1,13 @@
 \usepackage[beginComment={\ \makebox[2em]{\dotfill} by~}, italicComments=false, rightComments=false]{algpseudocodex}
 
+\SetupKeyvalOptions{%
+	family=fpw,%
+	prefix=fpw@%
+}
+\DeclareStringOption[green]{showColor}
+\DeclareStringOption[red]{asmpColor}
+\ProcessLocalKeyvalOptions*
+
 \makeatletter
 \renewcommand{\algpx@commentFormat}[1]{%
 	\ifbool{algpx@italicComments}{%
@@ -8,19 +16,17 @@
 		\footnotesize{\textcolor{\algpx@commentColor}{#1}}%
 	}%
 }
-\makeatother
 
 % \tikzset{algpxIndentLine/.style={draw=black}}
 
-\algrenewcommand\algorithmicif{\texttt{\color{green}Show:}}
+\algrenewcommand\algorithmicif{\texttt{\color{\fpw@showColor}Show:}}
 \algrenewcommand\algorithmicthen{}
 
-\makeatletter
 \algdef{C}[IF]{IF}{ElsIf}[1]{%
-	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{red}Assume:}\ #1%
+	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@asmpColor}Assume:}\ #1%
 }
 \algdef{C}[IF]{IF}{AndIf}[1]{%
-	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{green}and Show:}\ #1%
+	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@showColor}and Show:}\ #1%
 }
 \pretocmd{\AndIf}{\algpx@endCodeCommand}{}{}
 \makeatother
