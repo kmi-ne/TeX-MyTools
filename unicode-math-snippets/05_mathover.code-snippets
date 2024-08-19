@@ -1,0 +1,34 @@
+// Part 05 of unicode-math-snippets, containg all \mathover type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "023B4": {
+        "scope": "latex",
+        "prefix": "/overbracket",
+        "body": "⎴",
+        "description": [
+            "⎴",
+            "top square bracket",
+            "\r"
+        ]
+    },
+    "023DC": {
+        "scope": "latex",
+        "prefix": "/overparen",
+        "body": "⏜",
+        "description": [
+            "⏜",
+            "top parenthesis (mathematical use)",
+            "\r"
+        ]
+    },
+    "023DE": {
+        "scope": "latex",
+        "prefix": "/overbrace",
+        "body": "⏞",
+        "description": [
+            "⏞",
+            "top curly bracket (mathematical use)",
+            "\r"
+        ]
+    }
+}

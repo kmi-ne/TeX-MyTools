@@ -1,0 +1,4554 @@
+// Part 11 of unicode-math-snippets, containg all \mathord type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "00023": {
+        "scope": "latex",
+        "prefix": "/mathoctothorpe",
+        "body": "#",
+        "description": [
+            "#",
+            "number sign",
+            "\r"
+        ]
+    },
+    "00024": {
+        "scope": "latex",
+        "prefix": "/mathdollar",
+        "body": "$",
+        "description": [
+            "$",
+            "dollar sign",
+            "\r"
+        ]
+    },
+    "00025": {
+        "scope": "latex",
+        "prefix": "/mathpercent",
+        "body": "%",
+        "description": [
+            "%",
+            "percent sign",
+            "\r"
+        ]
+    },
+    "00026": {
+        "scope": "latex",
+        "prefix": "/mathampersand",
+        "body": "&",
+        "description": [
+            "&",
+            "ampersand",
+            "\r"
+        ]
+    },
+    "0002E": {
+        "scope": "latex",
+        "prefix": "/mathperiod",
+        "body": ".",
+        "description": [
+            ".",
+            "full stop, period",
+            "\r"
+        ]
+    },
+    "0002F": {
+        "scope": "latex",
+        "prefix": "/mathslash",
+        "body": "/",
+        "description": [
+            "/",
+            "solidus",
+            "\r"
+        ]
+    },
+    "0003F": {
+        "scope": "latex",
+        "prefix": "/mathquestion",
+        "body": "?",
+        "description": [
+            "?",
+            "question mark",
+            "\r"
+        ]
+    },
+    "00040": {
+        "scope": "latex",
+        "prefix": "/mathatsign",
+        "body": "@",
+        "description": [
+            "@",
+            "commercial at",
+            "\r"
+        ]
+    },
+    "0005C": {
+        "scope": "latex",
+        "prefix": "/backslash",
+        "body": "\\",
+        "description": [
+            "\\",
+            "reverse solidus",
+            "\r"
+        ]
+    },
+    "000A3": {
+        "scope": "latex",
+        "prefix": "/mathsterling",
+        "body": "£",
+        "description": [
+            "£",
+            "pound sign",
+            "\r"
+        ]
+    },
+    "000A5": {
+        "scope": "latex",
+        "prefix": "/mathyen",
+        "body": "¥",
+        "description": [
+            "¥",
+            "yen sign",
+            "\r"
+        ]
+    },
+    "000A7": {
+        "scope": "latex",
+        "prefix": "/mathsection",
+        "body": "§",
+        "description": [
+            "§",
+            "section symbol",
+            "\r"
+        ]
+    },
+    "000AC": {
+        "scope": "latex",
+        "prefix": ["/neg", "/lnot"],
+        "body": "¬",
+        "description": [
+            "¬",
+            "/neg /lnot not sign",
+            "\r"
+        ]
+    },
+    "000B6": {
+        "scope": "latex",
+        "prefix": "/mathparagraph",
+        "body": "¶",
+        "description": [
+            "¶",
+            "paragraph symbol",
+            "\r"
+        ]
+    },
+    "001B5": {
+        "scope": "latex",
+        "prefix": "/Zbar",
+        "body": "Ƶ",
+        "description": [
+            "Ƶ",
+            "impedance (latin capital letter z with stroke)",
+            "\r"
+        ]
+    },
+    "003F6": {
+        "scope": "latex",
+        "prefix": "/upbackepsilon",
+        "body": "϶",
+        "description": [
+            "϶",
+            "greek reversed lunate epsilon symbol",
+            "\r"
+        ]
+    },
+    "02015": {
+        "scope": "latex",
+        "prefix": "/horizbar",
+        "body": "―",
+        "description": [
+            "―",
+            "horizontal bar",
+            "\r"
+        ]
+    },
+    "02017": {
+        "scope": "latex",
+        "prefix": "/twolowline",
+        "body": "‗",
+        "description": [
+            "‗",
+            "double low line (spacing)",
+            "\r"
+        ]
+    },
+    "02025": {
+        "scope": "latex",
+        "prefix": "/enleadertwodots",
+        "body": "‥",
+        "description": [
+            "‥",
+            "double baseline dot (en leader)",
+            "\r"
+        ]
+    },
+    "02026": {
+        "scope": "latex",
+        "prefix": "/unicodeellipsis",
+        "body": "…",
+        "description": [
+            "…",
+            "ellipsis (horizontal)",
+            "\r"
+        ]
+    },
+    "02032": {
+        "scope": "latex",
+        "prefix": "/prime",
+        "body": "′",
+        "description": [
+            "′",
+            "prime or minute, not superscripted",
+            "\r"
+        ]
+    },
+    "02033": {
+        "scope": "latex",
+        "prefix": "/dprime",
+        "body": "″",
+        "description": [
+            "″",
+            "double prime or second, not superscripted",
+            "\r"
+        ]
+    },
+    "02034": {
+        "scope": "latex",
+        "prefix": "/trprime",
+        "body": "‴",
+        "description": [
+            "‴",
+            "triple prime (not superscripted)",
+            "\r"
+        ]
+    },
+    "02035": {
+        "scope": "latex",
+        "prefix": "/backprime",
+        "body": "‵",
+        "description": [
+            "‵",
+            "reverse prime, not superscripted",
+            "\r"
+        ]
+    },
+    "02036": {
+        "scope": "latex",
+        "prefix": "/backdprime",
+        "body": "‶",
+        "description": [
+            "‶",
+            "double reverse prime, not superscripted",
+            "\r"
+        ]
+    },
+    "02037": {
+        "scope": "latex",
+        "prefix": "/backtrprime",
+        "body": "‷",
+        "description": [
+            "‷",
+            "triple reverse prime, not superscripted",
+            "\r"
+        ]
+    },
+    "02038": {
+        "scope": "latex",
+        "prefix": "/caretinsert",
+        "body": "‸",
+        "description": [
+            "‸",
+            "caret (insertion mark)",
+            "\r"
+        ]
+    },
+    "0203C": {
+        "scope": "latex",
+        "prefix": "/Exclam",
+        "body": "‼",
+        "description": [
+            "‼",
+            "double exclamation mark",
+            "\r"
+        ]
+    },
+    "02043": {
+        "scope": "latex",
+        "prefix": "/hyphenbullet",
+        "body": "⁃",
+        "description": [
+            "⁃",
+            "rectangle, filled (hyphen bullet)",
+            "\r"
+        ]
+    },
+    "02047": {
+        "scope": "latex",
+        "prefix": "/Question",
+        "body": "⁇",
+        "description": [
+            "⁇",
+            "double question mark",
+            "\r"
+        ]
+    },
+    "02057": {
+        "scope": "latex",
+        "prefix": "/qprime",
+        "body": "⁗",
+        "description": [
+            "⁗",
+            "quadruple prime, not superscripted",
+            "\r"
+        ]
+    },
+    "020AC": {
+        "scope": "latex",
+        "prefix": "/euro",
+        "body": "€",
+        "description": [
+            "€",
+            "euro sign",
+            "\r"
+        ]
+    },
+    "020DD": {
+        "scope": "latex",
+        "prefix": "/enclosecircle",
+        "body": "⃝",
+        "description": [
+            "⃝",
+            "combining enclosing circle",
+            "\r"
+        ]
+    },
+    "020DE": {
+        "scope": "latex",
+        "prefix": "/enclosesquare",
+        "body": "⃞",
+        "description": [
+            "⃞",
+            "combining enclosing square",
+            "\r"
+        ]
+    },
+    "020DF": {
+        "scope": "latex",
+        "prefix": "/enclosediamond",
+        "body": "⃟",
+        "description": [
+            "⃟",
+            "combining enclosing diamond",
+            "\r"
+        ]
+    },
+    "020E4": {
+        "scope": "latex",
+        "prefix": "/enclosetriangle",
+        "body": "⃤",
+        "description": [
+            "⃤",
+            "combining enclosing upward pointing triangle",
+            "\r"
+        ]
+    },
+    "02107": {
+        "scope": "latex",
+        "prefix": "/Eulerconst",
+        "body": "ℇ",
+        "description": [
+            "ℇ",
+            "euler constant",
+            "\r"
+        ]
+    },
+    "0210E": {
+        "scope": "latex",
+        "prefix": "/Planckconst",
+        "body": "ℎ",
+        "description": [
+            "ℎ",
+            "planck constant",
+            "\r"
+        ]
+    },
+    "02127": {
+        "scope": "latex",
+        "prefix": "/mho",
+        "body": "℧",
+        "description": [
+            "℧",
+            "conductance",
+            "\r"
+        ]
+    },
+    "02132": {
+        "scope": "latex",
+        "prefix": "/Finv",
+        "body": "Ⅎ",
+        "description": [
+            "Ⅎ",
+            "turned capital f",
+            "\r"
+        ]
+    },
+    "0213C": {
+        "scope": "latex",
+        "prefix": "/Bbbpi",
+        "body": "ℼ",
+        "description": [
+            "ℼ",
+            "double-struck small pi",
+            "\r"
+        ]
+    },
+    "02141": {
+        "scope": "latex",
+        "prefix": "/Game",
+        "body": "⅁",
+        "description": [
+            "⅁",
+            "turned sans-serif capital g",
+            "\r"
+        ]
+    },
+    "02142": {
+        "scope": "latex",
+        "prefix": "/sansLturned",
+        "body": "⅂",
+        "description": [
+            "⅂",
+            "turned sans-serif capital l",
+            "\r"
+        ]
+    },
+    "02143": {
+        "scope": "latex",
+        "prefix": "/sansLmirrored",
+        "body": "⅃",
+        "description": [
+            "⅃",
+            "reversed sans-serif capital l",
+            "\r"
+        ]
+    },
+    "02144": {
+        "scope": "latex",
+        "prefix": "/Yup",
+        "body": "⅄",
+        "description": [
+            "⅄",
+            "turned sans-serif capital y",
+            "\r"
+        ]
+    },
+    "02145": {
+        "scope": "latex",
+        "prefix": "/mitBbbD",
+        "body": "ⅅ",
+        "description": [
+            "ⅅ",
+            "double-struck italic capital d",
+            "\r"
+        ]
+    },
+    "02146": {
+        "scope": "latex",
+        "prefix": "/mitBbbd",
+        "body": "ⅆ",
+        "description": [
+            "ⅆ",
+            "double-struck italic small d",
+            "\r"
+        ]
+    },
+    "02147": {
+        "scope": "latex",
+        "prefix": "/mitBbbe",
+        "body": "ⅇ",
+        "description": [
+            "ⅇ",
+            "double-struck italic small e",
+            "\r"
+        ]
+    },
+    "02148": {
+        "scope": "latex",
+        "prefix": "/mitBbbi",
+        "body": "ⅈ",
+        "description": [
+            "ⅈ",
+            "double-struck italic small i",
+            "\r"
+        ]
+    },
+    "02149": {
+        "scope": "latex",
+        "prefix": "/mitBbbj",
+        "body": "ⅉ",
+        "description": [
+            "ⅉ",
+            "double-struck italic small j",
+            "\r"
+        ]
+    },
+    "0214A": {
+        "scope": "latex",
+        "prefix": "/PropertyLine",
+        "body": "⅊",
+        "description": [
+            "⅊",
+            "property line",
+            "\r"
+        ]
+    },
+    "021A8": {
+        "scope": "latex",
+        "prefix": "/updownarrowbar",
+        "body": "↨",
+        "description": [
+            "↨",
+            "up down arrow with base (perpendicular)",
+            "\r"
+        ]
+    },
+    "021B4": {
+        "scope": "latex",
+        "prefix": "/linefeed",
+        "body": "↴",
+        "description": [
+            "↴",
+            "rightwards arrow with corner downwards",
+            "\r"
+        ]
+    },
+    "021B5": {
+        "scope": "latex",
+        "prefix": "/carriagereturn",
+        "body": "↵",
+        "description": [
+            "↵",
+            "downwards arrow with corner leftward = carriage return",
+            "\r"
+        ]
+    },
+    "021B8": {
+        "scope": "latex",
+        "prefix": "/barovernorthwestarrow",
+        "body": "↸",
+        "description": [
+            "↸",
+            "north west arrow to long bar",
+            "\r"
+        ]
+    },
+    "021B9": {
+        "scope": "latex",
+        "prefix": "/barleftarrowrightarrowbar",
+        "body": "↹",
+        "description": [
+            "↹",
+            "leftwards arrow to bar over rightwards arrow to bar",
+            "\r"
+        ]
+    },
+    "021BA": {
+        "scope": "latex",
+        "prefix": "/acwopencirclearrow",
+        "body": "↺",
+        "description": [
+            "↺",
+            "anticlockwise open circle arrow",
+            "\r"
+        ]
+    },
+    "021BB": {
+        "scope": "latex",
+        "prefix": "/cwopencirclearrow",
+        "body": "↻",
+        "description": [
+            "↻",
+            "clockwise open circle arrow",
+            "\r"
+        ]
+    },
+    "021DE": {
+        "scope": "latex",
+        "prefix": "/nHuparrow",
+        "body": "⇞",
+        "description": [
+            "⇞",
+            "upwards arrow with double stroke",
+            "\r"
+        ]
+    },
+    "021DF": {
+        "scope": "latex",
+        "prefix": "/nHdownarrow",
+        "body": "⇟",
+        "description": [
+            "⇟",
+            "downwards arrow with double stroke",
+            "\r"
+        ]
+    },
+    "021E0": {
+        "scope": "latex",
+        "prefix": "/leftdasharrow",
+        "body": "⇠",
+        "description": [
+            "⇠",
+            "leftwards dashed arrow",
+            "\r"
+        ]
+    },
+    "021E1": {
+        "scope": "latex",
+        "prefix": "/updasharrow",
+        "body": "⇡",
+        "description": [
+            "⇡",
+            "upwards dashed arrow",
+            "\r"
+        ]
+    },
+    "021E2": {
+        "scope": "latex",
+        "prefix": "/rightdasharrow",
+        "body": "⇢",
+        "description": [
+            "⇢",
+            "rightwards dashed arrow",
+            "\r"
+        ]
+    },
+    "021E3": {
+        "scope": "latex",
+        "prefix": "/downdasharrow",
+        "body": "⇣",
+        "description": [
+            "⇣",
+            "downwards dashed arrow",
+            "\r"
+        ]
+    },
+    "021E6": {
+        "scope": "latex",
+        "prefix": "/leftwhitearrow",
+        "body": "⇦",
+        "description": [
+            "⇦",
+            "leftwards white arrow",
+            "\r"
+        ]
+    },
+    "021E7": {
+        "scope": "latex",
+        "prefix": "/upwhitearrow",
+        "body": "⇧",
+        "description": [
+            "⇧",
+            "upwards white arrow",
+            "\r"
+        ]
+    },
+    "021E8": {
+        "scope": "latex",
+        "prefix": "/rightwhitearrow",
+        "body": "⇨",
+        "description": [
+            "⇨",
+            "rightwards white arrow",
+            "\r"
+        ]
+    },
+    "021E9": {
+        "scope": "latex",
+        "prefix": "/downwhitearrow",
+        "body": "⇩",
+        "description": [
+            "⇩",
+            "downwards white arrow",
+            "\r"
+        ]
+    },
+    "021EA": {
+        "scope": "latex",
+        "prefix": "/whitearrowupfrombar",
+        "body": "⇪",
+        "description": [
+            "⇪",
+            "upwards white arrow from bar",
+            "\r"
+        ]
+    },
+    "02200": {
+        "scope": "latex",
+        "prefix": "/forall",
+        "body": "∀",
+        "description": [
+            "∀",
+            "for all",
+            "\r"
+        ]
+    },
+    "02201": {
+        "scope": "latex",
+        "prefix": "/complement",
+        "body": "∁",
+        "description": [
+            "∁",
+            "complement sign",
+            "\r"
+        ]
+    },
+    "02203": {
+        "scope": "latex",
+        "prefix": "/exists",
+        "body": "∃",
+        "description": [
+            "∃",
+            "at least one exists",
+            "\r"
+        ]
+    },
+    "02204": {
+        "scope": "latex",
+        "prefix": "/nexists",
+        "body": "∄",
+        "description": [
+            "∄",
+            "negated exists",
+            "\r"
+        ]
+    },
+    "02205": {
+        "scope": "latex",
+        "prefix": "/varnothing",
+        "body": "∅",
+        "description": [
+            "∅",
+            "circle, slash",
+            "\r"
+        ]
+    },
+    "02206": {
+        "scope": "latex",
+        "prefix": "/increment",
+        "body": "∆",
+        "description": [
+            "∆",
+            "laplacian (delta; nabla\\string^2)",
+            "\r"
+        ]
+    },
+    "0220E": {
+        "scope": "latex",
+        "prefix": "/QED",
+        "body": "∎",
+        "description": [
+            "∎",
+            "end of proof",
+            "\r"
+        ]
+    },
+    "0221A": {
+        "scope": "latex",
+        "prefix": "/surd",
+        "body": "√",
+        "description": [
+            "√",
+            "radical",
+            "\r"
+        ]
+    },
+    "0221E": {
+        "scope": "latex",
+        "prefix": "/infty",
+        "body": "∞",
+        "description": [
+            "∞",
+            "infinity",
+            "\r"
+        ]
+    },
+    "0221F": {
+        "scope": "latex",
+        "prefix": "/rightangle",
+        "body": "∟",
+        "description": [
+            "∟",
+            "right (90 degree) angle",
+            "\r"
+        ]
+    },
+    "02220": {
+        "scope": "latex",
+        "prefix": "/angle",
+        "body": "∠",
+        "description": [
+            "∠",
+            "angle",
+            "\r"
+        ]
+    },
+    "02221": {
+        "scope": "latex",
+        "prefix": "/measuredangle",
+        "body": "∡",
+        "description": [
+            "∡",
+            "angle-measured",
+            "\r"
+        ]
+    },
+    "02222": {
+        "scope": "latex",
+        "prefix": "/sphericalangle",
+        "body": "∢",
+        "description": [
+            "∢",
+            "angle-spherical",
+            "\r"
+        ]
+    },
+    "02234": {
+        "scope": "latex",
+        "prefix": "/therefore",
+        "body": "∴",
+        "description": [
+            "∴",
+            "therefore",
+            "\r"
+        ]
+    },
+    "02235": {
+        "scope": "latex",
+        "prefix": "/because",
+        "body": "∵",
+        "description": [
+            "∵",
+            "because",
+            "\r"
+        ]
+    },
+    "0223F": {
+        "scope": "latex",
+        "prefix": "/sinewave",
+        "body": "∿",
+        "description": [
+            "∿",
+            "sine wave",
+            "\r"
+        ]
+    },
+    "022A4": {
+        "scope": "latex",
+        "prefix": "/top",
+        "body": "⊤",
+        "description": [
+            "⊤",
+            "top",
+            "\r"
+        ]
+    },
+    "022A5": {
+        "scope": "latex",
+        "prefix": "/bot",
+        "body": "⊥",
+        "description": [
+            "⊥",
+            "bottom",
+            "\r"
+        ]
+    },
+    "022B9": {
+        "scope": "latex",
+        "prefix": "/hermitmatrix",
+        "body": "⊹",
+        "description": [
+            "⊹",
+            "hermitian conjugate matrix",
+            "\r"
+        ]
+    },
+    "022BE": {
+        "scope": "latex",
+        "prefix": "/measuredrightangle",
+        "body": "⊾",
+        "description": [
+            "⊾",
+            "right angle-measured [with arc]",
+            "\r"
+        ]
+    },
+    "022BF": {
+        "scope": "latex",
+        "prefix": "/varlrtriangle",
+        "body": "⊿",
+        "description": [
+            "⊿",
+            "right triangle",
+            "\r"
+        ]
+    },
+    "022EF": {
+        "scope": "latex",
+        "prefix": "/unicodecdots",
+        "body": "⋯",
+        "description": [
+            "⋯",
+            "three dots, centered",
+            "\r"
+        ]
+    },
+    "02300": {
+        "scope": "latex",
+        "prefix": "/diameter",
+        "body": "⌀",
+        "description": [
+            "⌀",
+            "diameter sign",
+            "\r"
+        ]
+    },
+    "02302": {
+        "scope": "latex",
+        "prefix": "/house",
+        "body": "⌂",
+        "description": [
+            "⌂",
+            "house",
+            "\r"
+        ]
+    },
+    "02310": {
+        "scope": "latex",
+        "prefix": "/invnot",
+        "body": "⌐",
+        "description": [
+            "⌐",
+            "reverse not",
+            "\r"
+        ]
+    },
+    "02311": {
+        "scope": "latex",
+        "prefix": "/sqlozenge",
+        "body": "⌑",
+        "description": [
+            "⌑",
+            "square lozenge",
+            "\r"
+        ]
+    },
+    "02312": {
+        "scope": "latex",
+        "prefix": "/profline",
+        "body": "⌒",
+        "description": [
+            "⌒",
+            "profile of a line",
+            "\r"
+        ]
+    },
+    "02313": {
+        "scope": "latex",
+        "prefix": "/profsurf",
+        "body": "⌓",
+        "description": [
+            "⌓",
+            "profile of a surface",
+            "\r"
+        ]
+    },
+    "02317": {
+        "scope": "latex",
+        "prefix": "/viewdata",
+        "body": "⌗",
+        "description": [
+            "⌗",
+            "viewdata square",
+            "\r"
+        ]
+    },
+    "02319": {
+        "scope": "latex",
+        "prefix": "/turnednot",
+        "body": "⌙",
+        "description": [
+            "⌙",
+            "turned not sign",
+            "\r"
+        ]
+    },
+    "02320": {
+        "scope": "latex",
+        "prefix": "/inttop",
+        "body": "⌠",
+        "description": [
+            "⌠",
+            "top half integral",
+            "\r"
+        ]
+    },
+    "02321": {
+        "scope": "latex",
+        "prefix": "/intbottom",
+        "body": "⌡",
+        "description": [
+            "⌡",
+            "bottom half integral",
+            "\r"
+        ]
+    },
+    "0232C": {
+        "scope": "latex",
+        "prefix": "/varhexagonlrbonds",
+        "body": "⌬",
+        "description": [
+            "⌬",
+            "six carbon ring, corner down, double bonds lower right etc",
+            "\r"
+        ]
+    },
+    "02332": {
+        "scope": "latex",
+        "prefix": "/conictaper",
+        "body": "⌲",
+        "description": [
+            "⌲",
+            "conical taper ",
+            "\r"
+        ]
+    },
+    "02336": {
+        "scope": "latex",
+        "prefix": "/topbot",
+        "body": "⌶",
+        "description": [
+            "⌶",
+            "top and bottom",
+            "\r"
+        ]
+    },
+    "02340": {
+        "scope": "latex",
+        "prefix": "/APLnotbackslash",
+        "body": "⍀",
+        "description": [
+            "⍀",
+            "apl functional symbol backslash bar",
+            "\r"
+        ]
+    },
+    "02353": {
+        "scope": "latex",
+        "prefix": "/APLboxupcaret",
+        "body": "⍓",
+        "description": [
+            "⍓",
+            "boxed up caret",
+            "\r"
+        ]
+    },
+    "02370": {
+        "scope": "latex",
+        "prefix": "/APLboxquestion",
+        "body": "⍰",
+        "description": [
+            "⍰",
+            "boxed question mark",
+            "\r"
+        ]
+    },
+    "0237C": {
+        "scope": "latex",
+        "prefix": "/rangledownzigzagarrow",
+        "body": "⍼",
+        "description": [
+            "⍼",
+            "right angle with downwards zigzag arrow",
+            "\r"
+        ]
+    },
+    "02394": {
+        "scope": "latex",
+        "prefix": "/hexagon",
+        "body": "⎔",
+        "description": [
+            "⎔",
+            "horizontal benzene ring [hexagon flat open]",
+            "\r"
+        ]
+    },
+    "0239B": {
+        "scope": "latex",
+        "prefix": "/lparenuend",
+        "body": "⎛",
+        "description": [
+            "⎛",
+            "left parenthesis upper hook",
+            "\r"
+        ]
+    },
+    "0239C": {
+        "scope": "latex",
+        "prefix": "/lparenextender",
+        "body": "⎜",
+        "description": [
+            "⎜",
+            "left parenthesis extension",
+            "\r"
+        ]
+    },
+    "0239D": {
+        "scope": "latex",
+        "prefix": "/lparenlend",
+        "body": "⎝",
+        "description": [
+            "⎝",
+            "left parenthesis lower hook",
+            "\r"
+        ]
+    },
+    "0239E": {
+        "scope": "latex",
+        "prefix": "/rparenuend",
+        "body": "⎞",
+        "description": [
+            "⎞",
+            "right parenthesis upper hook",
+            "\r"
+        ]
+    },
+    "0239F": {
+        "scope": "latex",
+        "prefix": "/rparenextender",
+        "body": "⎟",
+        "description": [
+            "⎟",
+            "right parenthesis extension",
+            "\r"
+        ]
+    },
+    "023A0": {
+        "scope": "latex",
+        "prefix": "/rparenlend",
+        "body": "⎠",
+        "description": [
+            "⎠",
+            "right parenthesis lower hook",
+            "\r"
+        ]
+    },
+    "023A1": {
+        "scope": "latex",
+        "prefix": "/lbrackuend",
+        "body": "⎡",
+        "description": [
+            "⎡",
+            "left square bracket upper corner",
+            "\r"
+        ]
+    },
+    "023A2": {
+        "scope": "latex",
+        "prefix": "/lbrackextender",
+        "body": "⎢",
+        "description": [
+            "⎢",
+            "left square bracket extension",
+            "\r"
+        ]
+    },
+    "023A3": {
+        "scope": "latex",
+        "prefix": "/lbracklend",
+        "body": "⎣",
+        "description": [
+            "⎣",
+            "left square bracket lower corner",
+            "\r"
+        ]
+    },
+    "023A4": {
+        "scope": "latex",
+        "prefix": "/rbrackuend",
+        "body": "⎤",
+        "description": [
+            "⎤",
+            "right square bracket upper corner",
+            "\r"
+        ]
+    },
+    "023A5": {
+        "scope": "latex",
+        "prefix": "/rbrackextender",
+        "body": "⎥",
+        "description": [
+            "⎥",
+            "right square bracket extension",
+            "\r"
+        ]
+    },
+    "023A6": {
+        "scope": "latex",
+        "prefix": "/rbracklend",
+        "body": "⎦",
+        "description": [
+            "⎦",
+            "right square bracket lower corner",
+            "\r"
+        ]
+    },
+    "023A7": {
+        "scope": "latex",
+        "prefix": "/lbraceuend",
+        "body": "⎧",
+        "description": [
+            "⎧",
+            "left curly bracket upper hook",
+            "\r"
+        ]
+    },
+    "023A8": {
+        "scope": "latex",
+        "prefix": "/lbracemid",
+        "body": "⎨",
+        "description": [
+            "⎨",
+            "left curly bracket middle piece",
+            "\r"
+        ]
+    },
+    "023A9": {
+        "scope": "latex",
+        "prefix": "/lbracelend",
+        "body": "⎩",
+        "description": [
+            "⎩",
+            "left curly bracket lower hook",
+            "\r"
+        ]
+    },
+    "023AA": {
+        "scope": "latex",
+        "prefix": "/vbraceextender",
+        "body": "⎪",
+        "description": [
+            "⎪",
+            "curly bracket extension",
+            "\r"
+        ]
+    },
+    "023AB": {
+        "scope": "latex",
+        "prefix": "/rbraceuend",
+        "body": "⎫",
+        "description": [
+            "⎫",
+            "right curly bracket upper hook",
+            "\r"
+        ]
+    },
+    "023AC": {
+        "scope": "latex",
+        "prefix": "/rbracemid",
+        "body": "⎬",
+        "description": [
+            "⎬",
+            "right curly bracket middle piece",
+            "\r"
+        ]
+    },
+    "023AD": {
+        "scope": "latex",
+        "prefix": "/rbracelend",
+        "body": "⎭",
+        "description": [
+            "⎭",
+            "right curly bracket lower hook",
+            "\r"
+        ]
+    },
+    "023AE": {
+        "scope": "latex",
+        "prefix": "/intextender",
+        "body": "⎮",
+        "description": [
+            "⎮",
+            "integral extension",
+            "\r"
+        ]
+    },
+    "023AF": {
+        "scope": "latex",
+        "prefix": "/harrowextender",
+        "body": "⎯",
+        "description": [
+            "⎯",
+            "horizontal line extension (used to extend arrows)",
+            "\r"
+        ]
+    },
+    "023B2": {
+        "scope": "latex",
+        "prefix": "/sumtop",
+        "body": "⎲",
+        "description": [
+            "⎲",
+            "summation top",
+            "\r"
+        ]
+    },
+    "023B3": {
+        "scope": "latex",
+        "prefix": "/sumbottom",
+        "body": "⎳",
+        "description": [
+            "⎳",
+            "summation bottom",
+            "\r"
+        ]
+    },
+    "023B6": {
+        "scope": "latex",
+        "prefix": "/bbrktbrk",
+        "body": "⎶",
+        "description": [
+            "⎶",
+            "bottom square bracket over top square bracket",
+            "\r"
+        ]
+    },
+    "023B7": {
+        "scope": "latex",
+        "prefix": "/sqrtbottom",
+        "body": "⎷",
+        "description": [
+            "⎷",
+            "radical symbol bottom",
+            "\r"
+        ]
+    },
+    "023B8": {
+        "scope": "latex",
+        "prefix": "/lvboxline",
+        "body": "⎸",
+        "description": [
+            "⎸",
+            "left vertical box line",
+            "\r"
+        ]
+    },
+    "023B9": {
+        "scope": "latex",
+        "prefix": "/rvboxline",
+        "body": "⎹",
+        "description": [
+            "⎹",
+            "right vertical box line",
+            "\r"
+        ]
+    },
+    "023CE": {
+        "scope": "latex",
+        "prefix": "/varcarriagereturn",
+        "body": "⏎",
+        "description": [
+            "⏎",
+            "return symbol",
+            "\r"
+        ]
+    },
+    "023E0": {
+        "scope": "latex",
+        "prefix": "/obrbrak",
+        "body": "⏠",
+        "description": [
+            "⏠",
+            "top tortoise shell bracket (mathematical use)",
+            "\r"
+        ]
+    },
+    "023E1": {
+        "scope": "latex",
+        "prefix": "/ubrbrak",
+        "body": "⏡",
+        "description": [
+            "⏡",
+            "bottom tortoise shell bracket (mathematical use)",
+            "\r"
+        ]
+    },
+    "023E2": {
+        "scope": "latex",
+        "prefix": "/trapezium",
+        "body": "⏢",
+        "description": [
+            "⏢",
+            "white trapezium",
+            "\r"
+        ]
+    },
+    "023E3": {
+        "scope": "latex",
+        "prefix": "/benzenr",
+        "body": "⏣",
+        "description": [
+            "⏣",
+            "benzene ring with circle",
+            "\r"
+        ]
+    },
+    "023E4": {
+        "scope": "latex",
+        "prefix": "/strns",
+        "body": "⏤",
+        "description": [
+            "⏤",
+            "straightness",
+            "\r"
+        ]
+    },
+    "023E5": {
+        "scope": "latex",
+        "prefix": "/fltns",
+        "body": "⏥",
+        "description": [
+            "⏥",
+            "flatness",
+            "\r"
+        ]
+    },
+    "023E6": {
+        "scope": "latex",
+        "prefix": "/accurrent",
+        "body": "⏦",
+        "description": [
+            "⏦",
+            "ac current",
+            "\r"
+        ]
+    },
+    "023E7": {
+        "scope": "latex",
+        "prefix": "/elinters",
+        "body": "⏧",
+        "description": [
+            "⏧",
+            "electrical intersection",
+            "\r"
+        ]
+    },
+    "02422": {
+        "scope": "latex",
+        "prefix": "/blanksymbol",
+        "body": "␢",
+        "description": [
+            "␢",
+            "blank symbol",
+            "\r"
+        ]
+    },
+    "02423": {
+        "scope": "latex",
+        "prefix": "/mathvisiblespace",
+        "body": "␣",
+        "description": [
+            "␣",
+            "open box",
+            "\r"
+        ]
+    },
+    "02506": {
+        "scope": "latex",
+        "prefix": "/bdtriplevdash",
+        "body": "┆",
+        "description": [
+            "┆",
+            "doubly broken vert",
+            "\r"
+        ]
+    },
+    "02580": {
+        "scope": "latex",
+        "prefix": "/blockuphalf",
+        "body": "▀",
+        "description": [
+            "▀",
+            "upper half block",
+            "\r"
+        ]
+    },
+    "02584": {
+        "scope": "latex",
+        "prefix": "/blocklowhalf",
+        "body": "▄",
+        "description": [
+            "▄",
+            "lower half block",
+            "\r"
+        ]
+    },
+    "02588": {
+        "scope": "latex",
+        "prefix": "/blockfull",
+        "body": "█",
+        "description": [
+            "█",
+            "full block",
+            "\r"
+        ]
+    },
+    "0258C": {
+        "scope": "latex",
+        "prefix": "/blocklefthalf",
+        "body": "▌",
+        "description": [
+            "▌",
+            "left half block",
+            "\r"
+        ]
+    },
+    "02590": {
+        "scope": "latex",
+        "prefix": "/blockrighthalf",
+        "body": "▐",
+        "description": [
+            "▐",
+            "right half block",
+            "\r"
+        ]
+    },
+    "02591": {
+        "scope": "latex",
+        "prefix": "/blockqtrshaded",
+        "body": "░",
+        "description": [
+            "░",
+            "25\\% shaded block",
+            "\r"
+        ]
+    },
+    "02592": {
+        "scope": "latex",
+        "prefix": "/blockhalfshaded",
+        "body": "▒",
+        "description": [
+            "▒",
+            "50\\% shaded block",
+            "\r"
+        ]
+    },
+    "02593": {
+        "scope": "latex",
+        "prefix": "/blockthreeqtrshaded",
+        "body": "▓",
+        "description": [
+            "▓",
+            "75\\% shaded block",
+            "\r"
+        ]
+    },
+    "025A0": {
+        "scope": "latex",
+        "prefix": "/mdlgblksquare",
+        "body": "■",
+        "description": [
+            "■",
+            "square, filled",
+            "\r"
+        ]
+    },
+    "025A1": {
+        "scope": "latex",
+        "prefix": "/mdlgwhtsquare",
+        "body": "□",
+        "description": [
+            "□",
+            "square, open",
+            "\r"
+        ]
+    },
+    "025A2": {
+        "scope": "latex",
+        "prefix": "/squoval",
+        "body": "▢",
+        "description": [
+            "▢",
+            "white square with rounded corners",
+            "\r"
+        ]
+    },
+    "025A3": {
+        "scope": "latex",
+        "prefix": "/blackinwhitesquare",
+        "body": "▣",
+        "description": [
+            "▣",
+            "white square containing black small square",
+            "\r"
+        ]
+    },
+    "025A4": {
+        "scope": "latex",
+        "prefix": "/squarehfill",
+        "body": "▤",
+        "description": [
+            "▤",
+            "square, horizontal rule filled",
+            "\r"
+        ]
+    },
+    "025A5": {
+        "scope": "latex",
+        "prefix": "/squarevfill",
+        "body": "▥",
+        "description": [
+            "▥",
+            "square, vertical rule filled",
+            "\r"
+        ]
+    },
+    "025A6": {
+        "scope": "latex",
+        "prefix": "/squarehvfill",
+        "body": "▦",
+        "description": [
+            "▦",
+            "square with orthogonal crosshatch fill",
+            "\r"
+        ]
+    },
+    "025A7": {
+        "scope": "latex",
+        "prefix": "/squarenwsefill",
+        "body": "▧",
+        "description": [
+            "▧",
+            "square, nw-to-se rule filled",
+            "\r"
+        ]
+    },
+    "025A8": {
+        "scope": "latex",
+        "prefix": "/squareneswfill",
+        "body": "▨",
+        "description": [
+            "▨",
+            "square, ne-to-sw rule filled",
+            "\r"
+        ]
+    },
+    "025A9": {
+        "scope": "latex",
+        "prefix": "/squarecrossfill",
+        "body": "▩",
+        "description": [
+            "▩",
+            "square with diagonal crosshatch fill",
+            "\r"
+        ]
+    },
+    "025AA": {
+        "scope": "latex",
+        "prefix": ["/smblksquare", "/blacksquare"],
+        "body": "▪",
+        "description": [
+            "▪",
+            "/blacksquare - sq bullet, filled",
+            "\r"
+        ]
+    },
+    "025AB": {
+        "scope": "latex",
+        "prefix": "/smwhtsquare",
+        "body": "▫",
+        "description": [
+            "▫",
+            "white small square",
+            "\r"
+        ]
+    },
+    "025AC": {
+        "scope": "latex",
+        "prefix": "/hrectangleblack",
+        "body": "▬",
+        "description": [
+            "▬",
+            "black rectangle",
+            "\r"
+        ]
+    },
+    "025AD": {
+        "scope": "latex",
+        "prefix": "/hrectangle",
+        "body": "▭",
+        "description": [
+            "▭",
+            "horizontal rectangle, open",
+            "\r"
+        ]
+    },
+    "025AE": {
+        "scope": "latex",
+        "prefix": "/vrectangleblack",
+        "body": "▮",
+        "description": [
+            "▮",
+            "black vertical rectangle",
+            "\r"
+        ]
+    },
+    "025AF": {
+        "scope": "latex",
+        "prefix": "/vrectangle",
+        "body": "▯",
+        "description": [
+            "▯",
+            "rectangle, white (vertical)",
+            "\r"
+        ]
+    },
+    "025B0": {
+        "scope": "latex",
+        "prefix": "/parallelogramblack",
+        "body": "▰",
+        "description": [
+            "▰",
+            "black parallelogram",
+            "\r"
+        ]
+    },
+    "025B1": {
+        "scope": "latex",
+        "prefix": "/parallelogram",
+        "body": "▱",
+        "description": [
+            "▱",
+            "parallelogram, open",
+            "\r"
+        ]
+    },
+    "025B2": {
+        "scope": "latex",
+        "prefix": "/bigblacktriangleup",
+        "body": "▲",
+        "description": [
+            "▲",
+            "black up-pointing triangle",
+            "\r"
+        ]
+    },
+    "025B4": {
+        "scope": "latex",
+        "prefix": "/blacktriangle",
+        "body": "▴",
+        "description": [
+            "▴",
+            "up triangle, filled",
+            "\r"
+        ]
+    },
+    "025B6": {
+        "scope": "latex",
+        "prefix": "/blacktriangleright",
+        "body": "▶",
+        "description": [
+            "▶",
+            "(large) right triangle, filled",
+            "\r"
+        ]
+    },
+    "025B8": {
+        "scope": "latex",
+        "prefix": "/smallblacktriangleright",
+        "body": "▸",
+        "description": [
+            "▸",
+            "right triangle, filled",
+            "\r"
+        ]
+    },
+    "025B9": {
+        "scope": "latex",
+        "prefix": "/smalltriangleright",
+        "body": "▹",
+        "description": [
+            "▹",
+            "right triangle, open",
+            "\r"
+        ]
+    },
+    "025BA": {
+        "scope": "latex",
+        "prefix": "/blackpointerright",
+        "body": "►",
+        "description": [
+            "►",
+            "black right-pointing pointer",
+            "\r"
+        ]
+    },
+    "025BB": {
+        "scope": "latex",
+        "prefix": "/whitepointerright",
+        "body": "▻",
+        "description": [
+            "▻",
+            "white right-pointing pointer",
+            "\r"
+        ]
+    },
+    "025BC": {
+        "scope": "latex",
+        "prefix": "/bigblacktriangledown",
+        "body": "▼",
+        "description": [
+            "▼",
+            "big down triangle, filled",
+            "\r"
+        ]
+    },
+    "025BD": {
+        "scope": "latex",
+        "prefix": "/bigtriangledown",
+        "body": "▽",
+        "description": [
+            "▽",
+            "big down triangle, open",
+            "\r"
+        ]
+    },
+    "025BE": {
+        "scope": "latex",
+        "prefix": "/blacktriangledown",
+        "body": "▾",
+        "description": [
+            "▾",
+            "down triangle, filled",
+            "\r"
+        ]
+    },
+    "025BF": {
+        "scope": "latex",
+        "prefix": "/triangledown",
+        "body": "▿",
+        "description": [
+            "▿",
+            "down triangle, open",
+            "\r"
+        ]
+    },
+    "025C0": {
+        "scope": "latex",
+        "prefix": "/blacktriangleleft",
+        "body": "◀",
+        "description": [
+            "◀",
+            "(large) left triangle, filled",
+            "\r"
+        ]
+    },
+    "025C2": {
+        "scope": "latex",
+        "prefix": "/smallblacktriangleleft",
+        "body": "◂",
+        "description": [
+            "◂",
+            "left triangle, filled",
+            "\r"
+        ]
+    },
+    "025C3": {
+        "scope": "latex",
+        "prefix": "/smalltriangleleft",
+        "body": "◃",
+        "description": [
+            "◃",
+            "left triangle, open",
+            "\r"
+        ]
+    },
+    "025C4": {
+        "scope": "latex",
+        "prefix": "/blackpointerleft",
+        "body": "◄",
+        "description": [
+            "◄",
+            "black left-pointing pointer",
+            "\r"
+        ]
+    },
+    "025C5": {
+        "scope": "latex",
+        "prefix": "/whitepointerleft",
+        "body": "◅",
+        "description": [
+            "◅",
+            "white left-pointing pointer",
+            "\r"
+        ]
+    },
+    "025C6": {
+        "scope": "latex",
+        "prefix": "/mdlgblkdiamond",
+        "body": "◆",
+        "description": [
+            "◆",
+            "black diamond",
+            "\r"
+        ]
+    },
+    "025C7": {
+        "scope": "latex",
+        "prefix": "/mdlgwhtdiamond",
+        "body": "◇",
+        "description": [
+            "◇",
+            "white diamond; diamond, open",
+            "\r"
+        ]
+    },
+    "025C8": {
+        "scope": "latex",
+        "prefix": "/blackinwhitediamond",
+        "body": "◈",
+        "description": [
+            "◈",
+            "white diamond containing black small diamond",
+            "\r"
+        ]
+    },
+    "025C9": {
+        "scope": "latex",
+        "prefix": "/fisheye",
+        "body": "◉",
+        "description": [
+            "◉",
+            "fisheye",
+            "\r"
+        ]
+    },
+    "025CA": {
+        "scope": "latex",
+        "prefix": "/mdlgwhtlozenge",
+        "body": "◊",
+        "description": [
+            "◊",
+            "lozenge or total mark",
+            "\r"
+        ]
+    },
+    "025CC": {
+        "scope": "latex",
+        "prefix": "/dottedcircle",
+        "body": "◌",
+        "description": [
+            "◌",
+            "dotted circle",
+            "\r"
+        ]
+    },
+    "025CD": {
+        "scope": "latex",
+        "prefix": "/circlevertfill",
+        "body": "◍",
+        "description": [
+            "◍",
+            "circle with vertical fill",
+            "\r"
+        ]
+    },
+    "025CE": {
+        "scope": "latex",
+        "prefix": "/bullseye",
+        "body": "◎",
+        "description": [
+            "◎",
+            "bullseye",
+            "\r"
+        ]
+    },
+    "025CF": {
+        "scope": "latex",
+        "prefix": "/mdlgblkcircle",
+        "body": "●",
+        "description": [
+            "●",
+            "circle, filled",
+            "\r"
+        ]
+    },
+    "025D0": {
+        "scope": "latex",
+        "prefix": "/circlelefthalfblack",
+        "body": "◐",
+        "description": [
+            "◐",
+            "circle, filled left half [harvey ball]",
+            "\r"
+        ]
+    },
+    "025D1": {
+        "scope": "latex",
+        "prefix": "/circlerighthalfblack",
+        "body": "◑",
+        "description": [
+            "◑",
+            "circle, filled right half",
+            "\r"
+        ]
+    },
+    "025D2": {
+        "scope": "latex",
+        "prefix": "/circlebottomhalfblack",
+        "body": "◒",
+        "description": [
+            "◒",
+            "circle, filled bottom half",
+            "\r"
+        ]
+    },
+    "025D3": {
+        "scope": "latex",
+        "prefix": "/circletophalfblack",
+        "body": "◓",
+        "description": [
+            "◓",
+            "circle, filled top half",
+            "\r"
+        ]
+    },
+    "025D4": {
+        "scope": "latex",
+        "prefix": "/circleurquadblack",
+        "body": "◔",
+        "description": [
+            "◔",
+            "circle with upper right quadrant black",
+            "\r"
+        ]
+    },
+    "025D5": {
+        "scope": "latex",
+        "prefix": "/blackcircleulquadwhite",
+        "body": "◕",
+        "description": [
+            "◕",
+            "circle with all but upper left quadrant black",
+            "\r"
+        ]
+    },
+    "025D6": {
+        "scope": "latex",
+        "prefix": "/blacklefthalfcircle",
+        "body": "◖",
+        "description": [
+            "◖",
+            "left half black circle",
+            "\r"
+        ]
+    },
+    "025D7": {
+        "scope": "latex",
+        "prefix": "/blackrighthalfcircle",
+        "body": "◗",
+        "description": [
+            "◗",
+            "right half black circle",
+            "\r"
+        ]
+    },
+    "025D8": {
+        "scope": "latex",
+        "prefix": "/inversebullet",
+        "body": "◘",
+        "description": [
+            "◘",
+            "inverse bullet ",
+            "\r"
+        ]
+    },
+    "025D9": {
+        "scope": "latex",
+        "prefix": "/inversewhitecircle",
+        "body": "◙",
+        "description": [
+            "◙",
+            "inverse white circle",
+            "\r"
+        ]
+    },
+    "025DA": {
+        "scope": "latex",
+        "prefix": "/invwhiteupperhalfcircle",
+        "body": "◚",
+        "description": [
+            "◚",
+            "upper half inverse white circle",
+            "\r"
+        ]
+    },
+    "025DB": {
+        "scope": "latex",
+        "prefix": "/invwhitelowerhalfcircle",
+        "body": "◛",
+        "description": [
+            "◛",
+            "lower half inverse white circle",
+            "\r"
+        ]
+    },
+    "025DC": {
+        "scope": "latex",
+        "prefix": "/ularc",
+        "body": "◜",
+        "description": [
+            "◜",
+            "upper left quadrant circular arc",
+            "\r"
+        ]
+    },
+    "025DD": {
+        "scope": "latex",
+        "prefix": "/urarc",
+        "body": "◝",
+        "description": [
+            "◝",
+            "upper right quadrant circular arc",
+            "\r"
+        ]
+    },
+    "025DE": {
+        "scope": "latex",
+        "prefix": "/lrarc",
+        "body": "◞",
+        "description": [
+            "◞",
+            "lower right quadrant circular arc",
+            "\r"
+        ]
+    },
+    "025DF": {
+        "scope": "latex",
+        "prefix": "/llarc",
+        "body": "◟",
+        "description": [
+            "◟",
+            "lower left quadrant circular arc",
+            "\r"
+        ]
+    },
+    "025E0": {
+        "scope": "latex",
+        "prefix": "/topsemicircle",
+        "body": "◠",
+        "description": [
+            "◠",
+            "upper half circle",
+            "\r"
+        ]
+    },
+    "025E1": {
+        "scope": "latex",
+        "prefix": "/botsemicircle",
+        "body": "◡",
+        "description": [
+            "◡",
+            "lower half circle",
+            "\r"
+        ]
+    },
+    "025E2": {
+        "scope": "latex",
+        "prefix": "/lrblacktriangle",
+        "body": "◢",
+        "description": [
+            "◢",
+            "lower right triangle, filled",
+            "\r"
+        ]
+    },
+    "025E3": {
+        "scope": "latex",
+        "prefix": "/llblacktriangle",
+        "body": "◣",
+        "description": [
+            "◣",
+            "lower left triangle, filled",
+            "\r"
+        ]
+    },
+    "025E4": {
+        "scope": "latex",
+        "prefix": "/ulblacktriangle",
+        "body": "◤",
+        "description": [
+            "◤",
+            "upper left triangle, filled",
+            "\r"
+        ]
+    },
+    "025E5": {
+        "scope": "latex",
+        "prefix": "/urblacktriangle",
+        "body": "◥",
+        "description": [
+            "◥",
+            "upper right triangle, filled",
+            "\r"
+        ]
+    },
+    "025E6": {
+        "scope": "latex",
+        "prefix": "/smwhtcircle",
+        "body": "◦",
+        "description": [
+            "◦",
+            "white bullet",
+            "\r"
+        ]
+    },
+    "025E7": {
+        "scope": "latex",
+        "prefix": "/squareleftblack",
+        "body": "◧",
+        "description": [
+            "◧",
+            "square, filled left half",
+            "\r"
+        ]
+    },
+    "025E8": {
+        "scope": "latex",
+        "prefix": "/squarerightblack",
+        "body": "◨",
+        "description": [
+            "◨",
+            "square, filled right half",
+            "\r"
+        ]
+    },
+    "025E9": {
+        "scope": "latex",
+        "prefix": "/squareulblack",
+        "body": "◩",
+        "description": [
+            "◩",
+            "square, filled top left corner",
+            "\r"
+        ]
+    },
+    "025EA": {
+        "scope": "latex",
+        "prefix": "/squarelrblack",
+        "body": "◪",
+        "description": [
+            "◪",
+            "square, filled bottom right corner",
+            "\r"
+        ]
+    },
+    "025EC": {
+        "scope": "latex",
+        "prefix": "/trianglecdot",
+        "body": "◬",
+        "description": [
+            "◬",
+            "triangle with centered dot",
+            "\r"
+        ]
+    },
+    "025ED": {
+        "scope": "latex",
+        "prefix": "/triangleleftblack",
+        "body": "◭",
+        "description": [
+            "◭",
+            "up-pointing triangle with left half black",
+            "\r"
+        ]
+    },
+    "025EE": {
+        "scope": "latex",
+        "prefix": "/trianglerightblack",
+        "body": "◮",
+        "description": [
+            "◮",
+            "up-pointing triangle with right half black",
+            "\r"
+        ]
+    },
+    "025EF": {
+        "scope": "latex",
+        "prefix": "/lgwhtcircle",
+        "body": "◯",
+        "description": [
+            "◯",
+            "large circle",
+            "\r"
+        ]
+    },
+    "025F0": {
+        "scope": "latex",
+        "prefix": "/squareulquad",
+        "body": "◰",
+        "description": [
+            "◰",
+            "white square with upper left quadrant",
+            "\r"
+        ]
+    },
+    "025F1": {
+        "scope": "latex",
+        "prefix": "/squarellquad",
+        "body": "◱",
+        "description": [
+            "◱",
+            "white square with lower left quadrant",
+            "\r"
+        ]
+    },
+    "025F2": {
+        "scope": "latex",
+        "prefix": "/squarelrquad",
+        "body": "◲",
+        "description": [
+            "◲",
+            "white square with lower right quadrant",
+            "\r"
+        ]
+    },
+    "025F3": {
+        "scope": "latex",
+        "prefix": "/squareurquad",
+        "body": "◳",
+        "description": [
+            "◳",
+            "white square with upper right quadrant",
+            "\r"
+        ]
+    },
+    "025F4": {
+        "scope": "latex",
+        "prefix": "/circleulquad",
+        "body": "◴",
+        "description": [
+            "◴",
+            "white circle with upper left quadrant",
+            "\r"
+        ]
+    },
+    "025F5": {
+        "scope": "latex",
+        "prefix": "/circlellquad",
+        "body": "◵",
+        "description": [
+            "◵",
+            "white circle with lower left quadrant",
+            "\r"
+        ]
+    },
+    "025F6": {
+        "scope": "latex",
+        "prefix": "/circlelrquad",
+        "body": "◶",
+        "description": [
+            "◶",
+            "white circle with lower right quadrant",
+            "\r"
+        ]
+    },
+    "025F7": {
+        "scope": "latex",
+        "prefix": "/circleurquad",
+        "body": "◷",
+        "description": [
+            "◷",
+            "white circle with upper right quadrant",
+            "\r"
+        ]
+    },
+    "025F8": {
+        "scope": "latex",
+        "prefix": "/ultriangle",
+        "body": "◸",
+        "description": [
+            "◸",
+            "upper left triangle",
+            "\r"
+        ]
+    },
+    "025F9": {
+        "scope": "latex",
+        "prefix": "/urtriangle",
+        "body": "◹",
+        "description": [
+            "◹",
+            "upper right triangle",
+            "\r"
+        ]
+    },
+    "025FA": {
+        "scope": "latex",
+        "prefix": "/lltriangle",
+        "body": "◺",
+        "description": [
+            "◺",
+            "lower left triangle",
+            "\r"
+        ]
+    },
+    "025FB": {
+        "scope": "latex",
+        "prefix": "/mdwhtsquare",
+        "body": "◻",
+        "description": [
+            "◻",
+            "white medium square",
+            "\r"
+        ]
+    },
+    "025FC": {
+        "scope": "latex",
+        "prefix": "/mdblksquare",
+        "body": "◼",
+        "description": [
+            "◼",
+            "black medium square",
+            "\r"
+        ]
+    },
+    "025FD": {
+        "scope": "latex",
+        "prefix": "/mdsmwhtsquare",
+        "body": "◽",
+        "description": [
+            "◽",
+            "white medium small square",
+            "\r"
+        ]
+    },
+    "025FE": {
+        "scope": "latex",
+        "prefix": "/mdsmblksquare",
+        "body": "◾",
+        "description": [
+            "◾",
+            "black medium small square",
+            "\r"
+        ]
+    },
+    "025FF": {
+        "scope": "latex",
+        "prefix": "/lrtriangle",
+        "body": "◿",
+        "description": [
+            "◿",
+            "lower right triangle",
+            "\r"
+        ]
+    },
+    "02605": {
+        "scope": "latex",
+        "prefix": "/bigstar",
+        "body": "★",
+        "description": [
+            "★",
+            "star, filled",
+            "\r"
+        ]
+    },
+    "02606": {
+        "scope": "latex",
+        "prefix": "/bigwhitestar",
+        "body": "☆",
+        "description": [
+            "☆",
+            "star, open",
+            "\r"
+        ]
+    },
+    "02609": {
+        "scope": "latex",
+        "prefix": "/astrosun",
+        "body": "☉",
+        "description": [
+            "☉",
+            "sun",
+            "\r"
+        ]
+    },
+    "02621": {
+        "scope": "latex",
+        "prefix": "/danger",
+        "body": "☡",
+        "description": [
+            "☡",
+            "dangerous bend (caution sign)",
+            "\r"
+        ]
+    },
+    "0263B": {
+        "scope": "latex",
+        "prefix": "/blacksmiley",
+        "body": "☻",
+        "description": [
+            "☻",
+            "black smiling face",
+            "\r"
+        ]
+    },
+    "0263C": {
+        "scope": "latex",
+        "prefix": "/sun",
+        "body": "☼",
+        "description": [
+            "☼",
+            "white sun with rays",
+            "\r"
+        ]
+    },
+    "0263D": {
+        "scope": "latex",
+        "prefix": "/rightmoon",
+        "body": "☽",
+        "description": [
+            "☽",
+            "first quarter moon",
+            "\r"
+        ]
+    },
+    "0263E": {
+        "scope": "latex",
+        "prefix": "/leftmoon",
+        "body": "☾",
+        "description": [
+            "☾",
+            "last quarter moon",
+            "\r"
+        ]
+    },
+    "02640": {
+        "scope": "latex",
+        "prefix": "/female",
+        "body": "♀",
+        "description": [
+            "♀",
+            "venus, female",
+            "\r"
+        ]
+    },
+    "02642": {
+        "scope": "latex",
+        "prefix": "/male",
+        "body": "♂",
+        "description": [
+            "♂",
+            "mars, male",
+            "\r"
+        ]
+    },
+    "02660": {
+        "scope": "latex",
+        "prefix": "/spadesuit",
+        "body": "♠",
+        "description": [
+            "♠",
+            "spades suit symbol",
+            "\r"
+        ]
+    },
+    "02661": {
+        "scope": "latex",
+        "prefix": "/heartsuit",
+        "body": "♡",
+        "description": [
+            "♡",
+            "heart suit symbol",
+            "\r"
+        ]
+    },
+    "02662": {
+        "scope": "latex",
+        "prefix": "/diamondsuit",
+        "body": "♢",
+        "description": [
+            "♢",
+            "diamond suit symbol",
+            "\r"
+        ]
+    },
+    "02663": {
+        "scope": "latex",
+        "prefix": "/clubsuit",
+        "body": "♣",
+        "description": [
+            "♣",
+            "club suit symbol",
+            "\r"
+        ]
+    },
+    "02664": {
+        "scope": "latex",
+        "prefix": "/varspadesuit",
+        "body": "♤",
+        "description": [
+            "♤",
+            "spade, white (card suit)",
+            "\r"
+        ]
+    },
+    "02665": {
+        "scope": "latex",
+        "prefix": "/varheartsuit",
+        "body": "♥",
+        "description": [
+            "♥",
+            "filled heart (card suit)",
+            "\r"
+        ]
+    },
+    "02666": {
+        "scope": "latex",
+        "prefix": "/vardiamondsuit",
+        "body": "♦",
+        "description": [
+            "♦",
+            "filled diamond (card suit)",
+            "\r"
+        ]
+    },
+    "02667": {
+        "scope": "latex",
+        "prefix": "/varclubsuit",
+        "body": "♧",
+        "description": [
+            "♧",
+            "club, white (card suit)",
+            "\r"
+        ]
+    },
+    "02669": {
+        "scope": "latex",
+        "prefix": "/quarternote",
+        "body": "♩",
+        "description": [
+            "♩",
+            "music note (sung text sign)",
+            "\r"
+        ]
+    },
+    "0266A": {
+        "scope": "latex",
+        "prefix": "/eighthnote",
+        "body": "♪",
+        "description": [
+            "♪",
+            "eighth note",
+            "\r"
+        ]
+    },
+    "0266B": {
+        "scope": "latex",
+        "prefix": "/twonotes",
+        "body": "♫",
+        "description": [
+            "♫",
+            "beamed eighth notes",
+            "\r"
+        ]
+    },
+    "0266D": {
+        "scope": "latex",
+        "prefix": "/flat",
+        "body": "♭",
+        "description": [
+            "♭",
+            "musical flat",
+            "\r"
+        ]
+    },
+    "0266E": {
+        "scope": "latex",
+        "prefix": "/natural",
+        "body": "♮",
+        "description": [
+            "♮",
+            "music natural",
+            "\r"
+        ]
+    },
+    "0266F": {
+        "scope": "latex",
+        "prefix": "/sharp",
+        "body": "♯",
+        "description": [
+            "♯",
+            "musical sharp",
+            "\r"
+        ]
+    },
+    "0267E": {
+        "scope": "latex",
+        "prefix": "/acidfree",
+        "body": "♾",
+        "description": [
+            "♾",
+            "permanent paper sign",
+            "\r"
+        ]
+    },
+    "02680": {
+        "scope": "latex",
+        "prefix": "/dicei",
+        "body": "⚀",
+        "description": [
+            "⚀",
+            "die face-1",
+            "\r"
+        ]
+    },
+    "02681": {
+        "scope": "latex",
+        "prefix": "/diceii",
+        "body": "⚁",
+        "description": [
+            "⚁",
+            "die face-2",
+            "\r"
+        ]
+    },
+    "02682": {
+        "scope": "latex",
+        "prefix": "/diceiii",
+        "body": "⚂",
+        "description": [
+            "⚂",
+            "die face-3",
+            "\r"
+        ]
+    },
+    "02683": {
+        "scope": "latex",
+        "prefix": "/diceiv",
+        "body": "⚃",
+        "description": [
+            "⚃",
+            "die face-4",
+            "\r"
+        ]
+    },
+    "02684": {
+        "scope": "latex",
+        "prefix": "/dicev",
+        "body": "⚄",
+        "description": [
+            "⚄",
+            "die face-5",
+            "\r"
+        ]
+    },
+    "02685": {
+        "scope": "latex",
+        "prefix": "/dicevi",
+        "body": "⚅",
+        "description": [
+            "⚅",
+            "die face-6",
+            "\r"
+        ]
+    },
+    "02686": {
+        "scope": "latex",
+        "prefix": "/circledrightdot",
+        "body": "⚆",
+        "description": [
+            "⚆",
+            "white circle with dot right",
+            "\r"
+        ]
+    },
+    "02687": {
+        "scope": "latex",
+        "prefix": "/circledtwodots",
+        "body": "⚇",
+        "description": [
+            "⚇",
+            "white circle with two dots",
+            "\r"
+        ]
+    },
+    "02688": {
+        "scope": "latex",
+        "prefix": "/blackcircledrightdot",
+        "body": "⚈",
+        "description": [
+            "⚈",
+            "black circle with white dot right",
+            "\r"
+        ]
+    },
+    "02689": {
+        "scope": "latex",
+        "prefix": "/blackcircledtwodots",
+        "body": "⚉",
+        "description": [
+            "⚉",
+            "black circle with two white dots",
+            "\r"
+        ]
+    },
+    "026A5": {
+        "scope": "latex",
+        "prefix": "/Hermaphrodite",
+        "body": "⚥",
+        "description": [
+            "⚥",
+            "male and female sign",
+            "\r"
+        ]
+    },
+    "026AA": {
+        "scope": "latex",
+        "prefix": "/mdwhtcircle",
+        "body": "⚪",
+        "description": [
+            "⚪",
+            "medium white circle",
+            "\r"
+        ]
+    },
+    "026AB": {
+        "scope": "latex",
+        "prefix": "/mdblkcircle",
+        "body": "⚫",
+        "description": [
+            "⚫",
+            "medium black circle",
+            "\r"
+        ]
+    },
+    "026AC": {
+        "scope": "latex",
+        "prefix": "/mdsmwhtcircle",
+        "body": "⚬",
+        "description": [
+            "⚬",
+            "medium small white circle",
+            "\r"
+        ]
+    },
+    "026B2": {
+        "scope": "latex",
+        "prefix": "/neuter",
+        "body": "⚲",
+        "description": [
+            "⚲",
+            "neuter",
+            "\r"
+        ]
+    },
+    "02713": {
+        "scope": "latex",
+        "prefix": "/checkmark",
+        "body": "✓",
+        "description": [
+            "✓",
+            "tick, check mark",
+            "\r"
+        ]
+    },
+    "02720": {
+        "scope": "latex",
+        "prefix": "/maltese",
+        "body": "✠",
+        "description": [
+            "✠",
+            "maltese cross",
+            "\r"
+        ]
+    },
+    "0272A": {
+        "scope": "latex",
+        "prefix": "/circledstar",
+        "body": "✪",
+        "description": [
+            "✪",
+            "circled white star",
+            "\r"
+        ]
+    },
+    "02736": {
+        "scope": "latex",
+        "prefix": "/varstar",
+        "body": "✶",
+        "description": [
+            "✶",
+            "six pointed black star",
+            "\r"
+        ]
+    },
+    "0273D": {
+        "scope": "latex",
+        "prefix": "/dingasterisk",
+        "body": "✽",
+        "description": [
+            "✽",
+            "heavy teardrop-spoked asterisk",
+            "\r"
+        ]
+    },
+    "0279B": {
+        "scope": "latex",
+        "prefix": "/draftingarrow",
+        "body": "➛",
+        "description": [
+            "➛",
+            "right arrow with bold head (drafting)",
+            "\r"
+        ]
+    },
+    "027C0": {
+        "scope": "latex",
+        "prefix": "/threedangle",
+        "body": "⟀",
+        "description": [
+            "⟀",
+            "three dimensional angle",
+            "\r"
+        ]
+    },
+    "027C1": {
+        "scope": "latex",
+        "prefix": "/whiteinwhitetriangle",
+        "body": "⟁",
+        "description": [
+            "⟁",
+            "white triangle containing small white triangle",
+            "\r"
+        ]
+    },
+    "027C3": {
+        "scope": "latex",
+        "prefix": "/subsetcirc",
+        "body": "⟃",
+        "description": [
+            "⟃",
+            "open subset",
+            "\r"
+        ]
+    },
+    "027C4": {
+        "scope": "latex",
+        "prefix": "/supsetcirc",
+        "body": "⟄",
+        "description": [
+            "⟄",
+            "open superset",
+            "\r"
+        ]
+    },
+    "027CB": {
+        "scope": "latex",
+        "prefix": "/diagup",
+        "body": "⟋",
+        "description": [
+            "⟋",
+            "mathematical rising diagonal",
+            "\r"
+        ]
+    },
+    "027CD": {
+        "scope": "latex",
+        "prefix": "/diagdown",
+        "body": "⟍",
+        "description": [
+            "⟍",
+            "mathematical falling diagonal",
+            "\r"
+        ]
+    },
+    "027D0": {
+        "scope": "latex",
+        "prefix": "/diamondcdot",
+        "body": "⟐",
+        "description": [
+            "⟐",
+            "white diamond with centred dot",
+            "\r"
+        ]
+    },
+    "0292B": {
+        "scope": "latex",
+        "prefix": "/rdiagovfdiag",
+        "body": "⤫",
+        "description": [
+            "⤫",
+            "rising diagonal crossing falling diagonal",
+            "\r"
+        ]
+    },
+    "0292C": {
+        "scope": "latex",
+        "prefix": "/fdiagovrdiag",
+        "body": "⤬",
+        "description": [
+            "⤬",
+            "falling diagonal crossing rising diagonal",
+            "\r"
+        ]
+    },
+    "0292D": {
+        "scope": "latex",
+        "prefix": "/seovnearrow",
+        "body": "⤭",
+        "description": [
+            "⤭",
+            "south east arrow crossing north east arrow",
+            "\r"
+        ]
+    },
+    "0292E": {
+        "scope": "latex",
+        "prefix": "/neovsearrow",
+        "body": "⤮",
+        "description": [
+            "⤮",
+            "north east arrow crossing south east arrow",
+            "\r"
+        ]
+    },
+    "0292F": {
+        "scope": "latex",
+        "prefix": "/fdiagovnearrow",
+        "body": "⤯",
+        "description": [
+            "⤯",
+            "falling diagonal crossing north east arrow",
+            "\r"
+        ]
+    },
+    "02930": {
+        "scope": "latex",
+        "prefix": "/rdiagovsearrow",
+        "body": "⤰",
+        "description": [
+            "⤰",
+            "rising diagonal crossing south east arrow",
+            "\r"
+        ]
+    },
+    "02931": {
+        "scope": "latex",
+        "prefix": "/neovnwarrow",
+        "body": "⤱",
+        "description": [
+            "⤱",
+            "north east arrow crossing north west arrow",
+            "\r"
+        ]
+    },
+    "02932": {
+        "scope": "latex",
+        "prefix": "/nwovnearrow",
+        "body": "⤲",
+        "description": [
+            "⤲",
+            "north west arrow crossing north east arrow",
+            "\r"
+        ]
+    },
+    "02934": {
+        "scope": "latex",
+        "prefix": "/uprightcurvearrow",
+        "body": "⤴",
+        "description": [
+            "⤴",
+            "arrow pointing rightwards then curving upwards",
+            "\r"
+        ]
+    },
+    "02935": {
+        "scope": "latex",
+        "prefix": "/downrightcurvedarrow",
+        "body": "⤵",
+        "description": [
+            "⤵",
+            "arrow pointing rightwards then curving downwards",
+            "\r"
+        ]
+    },
+    "02981": {
+        "scope": "latex",
+        "prefix": "/mdsmblkcircle",
+        "body": "⦁",
+        "description": [
+            "⦁",
+            "z notation spot",
+            "\r"
+        ]
+    },
+    "02999": {
+        "scope": "latex",
+        "prefix": "/fourvdots",
+        "body": "⦙",
+        "description": [
+            "⦙",
+            "dotted fence",
+            "\r"
+        ]
+    },
+    "0299A": {
+        "scope": "latex",
+        "prefix": "/vzigzag",
+        "body": "⦚",
+        "description": [
+            "⦚",
+            "vertical zigzag line",
+            "\r"
+        ]
+    },
+    "0299B": {
+        "scope": "latex",
+        "prefix": "/measuredangleleft",
+        "body": "⦛",
+        "description": [
+            "⦛",
+            "measured angle opening left",
+            "\r"
+        ]
+    },
+    "0299C": {
+        "scope": "latex",
+        "prefix": "/rightanglesqr",
+        "body": "⦜",
+        "description": [
+            "⦜",
+            "right angle variant with square",
+            "\r"
+        ]
+    },
+    "0299D": {
+        "scope": "latex",
+        "prefix": "/rightanglemdot",
+        "body": "⦝",
+        "description": [
+            "⦝",
+            "measured right angle with dot",
+            "\r"
+        ]
+    },
+    "0299E": {
+        "scope": "latex",
+        "prefix": "/angles",
+        "body": "⦞",
+        "description": [
+            "⦞",
+            "angle with s inside",
+            "\r"
+        ]
+    },
+    "0299F": {
+        "scope": "latex",
+        "prefix": "/angdnr",
+        "body": "⦟",
+        "description": [
+            "⦟",
+            "acute angle",
+            "\r"
+        ]
+    },
+    "029A0": {
+        "scope": "latex",
+        "prefix": "/gtlpar",
+        "body": "⦠",
+        "description": [
+            "⦠",
+            "spherical angle opening left",
+            "\r"
+        ]
+    },
+    "029A1": {
+        "scope": "latex",
+        "prefix": "/sphericalangleup",
+        "body": "⦡",
+        "description": [
+            "⦡",
+            "spherical angle opening up",
+            "\r"
+        ]
+    },
+    "029A2": {
+        "scope": "latex",
+        "prefix": "/turnangle",
+        "body": "⦢",
+        "description": [
+            "⦢",
+            "turned angle",
+            "\r"
+        ]
+    },
+    "029A3": {
+        "scope": "latex",
+        "prefix": "/revangle",
+        "body": "⦣",
+        "description": [
+            "⦣",
+            "reversed angle",
+            "\r"
+        ]
+    },
+    "029A4": {
+        "scope": "latex",
+        "prefix": "/angleubar",
+        "body": "⦤",
+        "description": [
+            "⦤",
+            "angle with underbar",
+            "\r"
+        ]
+    },
+    "029A5": {
+        "scope": "latex",
+        "prefix": "/revangleubar",
+        "body": "⦥",
+        "description": [
+            "⦥",
+            "reversed angle with underbar",
+            "\r"
+        ]
+    },
+    "029A6": {
+        "scope": "latex",
+        "prefix": "/wideangledown",
+        "body": "⦦",
+        "description": [
+            "⦦",
+            "oblique angle opening up",
+            "\r"
+        ]
+    },
+    "029A7": {
+        "scope": "latex",
+        "prefix": "/wideangleup",
+        "body": "⦧",
+        "description": [
+            "⦧",
+            "oblique angle opening down",
+            "\r"
+        ]
+    },
+    "029A8": {
+        "scope": "latex",
+        "prefix": "/measanglerutone",
+        "body": "⦨",
+        "description": [
+            "⦨",
+            "measured angle with open arm ending in arrow pointing up and right",
+            "\r"
+        ]
+    },
+    "029A9": {
+        "scope": "latex",
+        "prefix": "/measanglelutonw",
+        "body": "⦩",
+        "description": [
+            "⦩",
+            "measured angle with open arm ending in arrow pointing up and left",
+            "\r"
+        ]
+    },
+    "029AA": {
+        "scope": "latex",
+        "prefix": "/measanglerdtose",
+        "body": "⦪",
+        "description": [
+            "⦪",
+            "measured angle with open arm ending in arrow pointing down and right",
+            "\r"
+        ]
+    },
+    "029AB": {
+        "scope": "latex",
+        "prefix": "/measangleldtosw",
+        "body": "⦫",
+        "description": [
+            "⦫",
+            "measured angle with open arm ending in arrow pointing down and left",
+            "\r"
+        ]
+    },
+    "029AC": {
+        "scope": "latex",
+        "prefix": "/measangleurtone",
+        "body": "⦬",
+        "description": [
+            "⦬",
+            "measured angle with open arm ending in arrow pointing right and up",
+            "\r"
+        ]
+    },
+    "029AD": {
+        "scope": "latex",
+        "prefix": "/measangleultonw",
+        "body": "⦭",
+        "description": [
+            "⦭",
+            "measured angle with open arm ending in arrow pointing left and up",
+            "\r"
+        ]
+    },
+    "029AE": {
+        "scope": "latex",
+        "prefix": "/measangledrtose",
+        "body": "⦮",
+        "description": [
+            "⦮",
+            "measured angle with open arm ending in arrow pointing right and down",
+            "\r"
+        ]
+    },
+    "029AF": {
+        "scope": "latex",
+        "prefix": "/measangledltosw",
+        "body": "⦯",
+        "description": [
+            "⦯",
+            "measured angle with open arm ending in arrow pointing left and down",
+            "\r"
+        ]
+    },
+    "029B0": {
+        "scope": "latex",
+        "prefix": "/revemptyset",
+        "body": "⦰",
+        "description": [
+            "⦰",
+            "reversed empty set",
+            "\r"
+        ]
+    },
+    "029B1": {
+        "scope": "latex",
+        "prefix": "/emptysetobar",
+        "body": "⦱",
+        "description": [
+            "⦱",
+            "empty set with overbar",
+            "\r"
+        ]
+    },
+    "029B2": {
+        "scope": "latex",
+        "prefix": "/emptysetocirc",
+        "body": "⦲",
+        "description": [
+            "⦲",
+            "empty set with small circle above",
+            "\r"
+        ]
+    },
+    "029B3": {
+        "scope": "latex",
+        "prefix": "/emptysetoarr",
+        "body": "⦳",
+        "description": [
+            "⦳",
+            "empty set with right arrow above",
+            "\r"
+        ]
+    },
+    "029B4": {
+        "scope": "latex",
+        "prefix": "/emptysetoarrl",
+        "body": "⦴",
+        "description": [
+            "⦴",
+            "empty set with left arrow above",
+            "\r"
+        ]
+    },
+    "029BA": {
+        "scope": "latex",
+        "prefix": "/obot",
+        "body": "⦺",
+        "description": [
+            "⦺",
+            "circle divided by horizontal bar and top half divided by vertical bar",
+            "\r"
+        ]
+    },
+    "029BB": {
+        "scope": "latex",
+        "prefix": "/olcross",
+        "body": "⦻",
+        "description": [
+            "⦻",
+            "circle with superimposed x",
+            "\r"
+        ]
+    },
+    "029BC": {
+        "scope": "latex",
+        "prefix": "/odotslashdot",
+        "body": "⦼",
+        "description": [
+            "⦼",
+            "circled anticlockwise-rotated division sign",
+            "\r"
+        ]
+    },
+    "029BD": {
+        "scope": "latex",
+        "prefix": "/uparrowoncircle",
+        "body": "⦽",
+        "description": [
+            "⦽",
+            "up arrow through circle",
+            "\r"
+        ]
+    },
+    "029BE": {
+        "scope": "latex",
+        "prefix": "/circledwhitebullet",
+        "body": "⦾",
+        "description": [
+            "⦾",
+            "circled white bullet",
+            "\r"
+        ]
+    },
+    "029BF": {
+        "scope": "latex",
+        "prefix": "/circledbullet",
+        "body": "⦿",
+        "description": [
+            "⦿",
+            "circled bullet",
+            "\r"
+        ]
+    },
+    "029C2": {
+        "scope": "latex",
+        "prefix": "/cirscir",
+        "body": "⧂",
+        "description": [
+            "⧂",
+            "circle with small circle to the right",
+            "\r"
+        ]
+    },
+    "029C3": {
+        "scope": "latex",
+        "prefix": "/cirE",
+        "body": "⧃",
+        "description": [
+            "⧃",
+            "circle with two horizontal strokes to the right",
+            "\r"
+        ]
+    },
+    "029C9": {
+        "scope": "latex",
+        "prefix": "/boxonbox",
+        "body": "⧉",
+        "description": [
+            "⧉",
+            "two joined squares",
+            "\r"
+        ]
+    },
+    "029CA": {
+        "scope": "latex",
+        "prefix": "/triangleodot",
+        "body": "⧊",
+        "description": [
+            "⧊",
+            "triangle with dot above",
+            "\r"
+        ]
+    },
+    "029CB": {
+        "scope": "latex",
+        "prefix": "/triangleubar",
+        "body": "⧋",
+        "description": [
+            "⧋",
+            "triangle with underbar",
+            "\r"
+        ]
+    },
+    "029CC": {
+        "scope": "latex",
+        "prefix": "/triangles",
+        "body": "⧌",
+        "description": [
+            "⧌",
+            "s in triangle",
+            "\r"
+        ]
+    },
+    "029DC": {
+        "scope": "latex",
+        "prefix": "/iinfin",
+        "body": "⧜",
+        "description": [
+            "⧜",
+            "incomplete infinity",
+            "\r"
+        ]
+    },
+    "029DD": {
+        "scope": "latex",
+        "prefix": "/tieinfty",
+        "body": "⧝",
+        "description": [
+            "⧝",
+            "tie over infinity",
+            "\r"
+        ]
+    },
+    "029DE": {
+        "scope": "latex",
+        "prefix": "/nvinfty",
+        "body": "⧞",
+        "description": [
+            "⧞",
+            "infinity negated with vertical bar",
+            "\r"
+        ]
+    },
+    "029E0": {
+        "scope": "latex",
+        "prefix": "/laplac",
+        "body": "⧠",
+        "description": [
+            "⧠",
+            "square with contoured outline",
+            "\r"
+        ]
+    },
+    "029E7": {
+        "scope": "latex",
+        "prefix": "/thermod",
+        "body": "⧧",
+        "description": [
+            "⧧",
+            "thermodynamic",
+            "\r"
+        ]
+    },
+    "029E8": {
+        "scope": "latex",
+        "prefix": "/downtriangleleftblack",
+        "body": "⧨",
+        "description": [
+            "⧨",
+            "down-pointing triangle with left half black",
+            "\r"
+        ]
+    },
+    "029E9": {
+        "scope": "latex",
+        "prefix": "/downtrianglerightblack",
+        "body": "⧩",
+        "description": [
+            "⧩",
+            "down-pointing triangle with right half black",
+            "\r"
+        ]
+    },
+    "029EA": {
+        "scope": "latex",
+        "prefix": "/blackdiamonddownarrow",
+        "body": "⧪",
+        "description": [
+            "⧪",
+            "black diamond with down arrow",
+            "\r"
+        ]
+    },
+    "029EC": {
+        "scope": "latex",
+        "prefix": "/circledownarrow",
+        "body": "⧬",
+        "description": [
+            "⧬",
+            "white circle with down arrow",
+            "\r"
+        ]
+    },
+    "029ED": {
+        "scope": "latex",
+        "prefix": "/blackcircledownarrow",
+        "body": "⧭",
+        "description": [
+            "⧭",
+            "black circle with down arrow",
+            "\r"
+        ]
+    },
+    "029EE": {
+        "scope": "latex",
+        "prefix": "/errbarsquare",
+        "body": "⧮",
+        "description": [
+            "⧮",
+            "error-barred white square",
+            "\r"
+        ]
+    },
+    "029EF": {
+        "scope": "latex",
+        "prefix": "/errbarblacksquare",
+        "body": "⧯",
+        "description": [
+            "⧯",
+            "error-barred black square",
+            "\r"
+        ]
+    },
+    "029F0": {
+        "scope": "latex",
+        "prefix": "/errbardiamond",
+        "body": "⧰",
+        "description": [
+            "⧰",
+            "error-barred white diamond",
+            "\r"
+        ]
+    },
+    "029F1": {
+        "scope": "latex",
+        "prefix": "/errbarblackdiamond",
+        "body": "⧱",
+        "description": [
+            "⧱",
+            "error-barred black diamond",
+            "\r"
+        ]
+    },
+    "029F2": {
+        "scope": "latex",
+        "prefix": "/errbarcircle",
+        "body": "⧲",
+        "description": [
+            "⧲",
+            "error-barred white circle",
+            "\r"
+        ]
+    },
+    "029F3": {
+        "scope": "latex",
+        "prefix": "/errbarblackcircle",
+        "body": "⧳",
+        "description": [
+            "⧳",
+            "error-barred black circle",
+            "\r"
+        ]
+    },
+    "02AE1": {
+        "scope": "latex",
+        "prefix": "/perps",
+        "body": "⫡",
+        "description": [
+            "⫡",
+            "perpendicular with s",
+            "\r"
+        ]
+    },
+    "02AF1": {
+        "scope": "latex",
+        "prefix": "/topcir",
+        "body": "⫱",
+        "description": [
+            "⫱",
+            "down tack with circle below",
+            "\r"
+        ]
+    },
+    "02B12": {
+        "scope": "latex",
+        "prefix": "/squaretopblack",
+        "body": "⬒",
+        "description": [
+            "⬒",
+            "square with top half black",
+            "\r"
+        ]
+    },
+    "02B13": {
+        "scope": "latex",
+        "prefix": "/squarebotblack",
+        "body": "⬓",
+        "description": [
+            "⬓",
+            "square with bottom half black",
+            "\r"
+        ]
+    },
+    "02B14": {
+        "scope": "latex",
+        "prefix": "/squareurblack",
+        "body": "⬔",
+        "description": [
+            "⬔",
+            "square with upper right diagonal half black",
+            "\r"
+        ]
+    },
+    "02B15": {
+        "scope": "latex",
+        "prefix": "/squarellblack",
+        "body": "⬕",
+        "description": [
+            "⬕",
+            "square with lower left diagonal half black",
+            "\r"
+        ]
+    },
+    "02B16": {
+        "scope": "latex",
+        "prefix": "/diamondleftblack",
+        "body": "⬖",
+        "description": [
+            "⬖",
+            "diamond with left half black",
+            "\r"
+        ]
+    },
+    "02B17": {
+        "scope": "latex",
+        "prefix": "/diamondrightblack",
+        "body": "⬗",
+        "description": [
+            "⬗",
+            "diamond with right half black",
+            "\r"
+        ]
+    },
+    "02B18": {
+        "scope": "latex",
+        "prefix": "/diamondtopblack",
+        "body": "⬘",
+        "description": [
+            "⬘",
+            "diamond with top half black",
+            "\r"
+        ]
+    },
+    "02B19": {
+        "scope": "latex",
+        "prefix": "/diamondbotblack",
+        "body": "⬙",
+        "description": [
+            "⬙",
+            "diamond with bottom half black",
+            "\r"
+        ]
+    },
+    "02B1A": {
+        "scope": "latex",
+        "prefix": "/dottedsquare",
+        "body": "⬚",
+        "description": [
+            "⬚",
+            "dotted square",
+            "\r"
+        ]
+    },
+    "02B1B": {
+        "scope": "latex",
+        "prefix": "/lgblksquare",
+        "body": "⬛",
+        "description": [
+            "⬛",
+            "black large square",
+            "\r"
+        ]
+    },
+    "02B1C": {
+        "scope": "latex",
+        "prefix": "/lgwhtsquare",
+        "body": "⬜",
+        "description": [
+            "⬜",
+            "white large square",
+            "\r"
+        ]
+    },
+    "02B1D": {
+        "scope": "latex",
+        "prefix": "/vysmblksquare",
+        "body": "⬝",
+        "description": [
+            "⬝",
+            "black very small square",
+            "\r"
+        ]
+    },
+    "02B1E": {
+        "scope": "latex",
+        "prefix": "/vysmwhtsquare",
+        "body": "⬞",
+        "description": [
+            "⬞",
+            "white very small square",
+            "\r"
+        ]
+    },
+    "02B1F": {
+        "scope": "latex",
+        "prefix": "/pentagonblack",
+        "body": "⬟",
+        "description": [
+            "⬟",
+            "black pentagon",
+            "\r"
+        ]
+    },
+    "02B20": {
+        "scope": "latex",
+        "prefix": "/pentagon",
+        "body": "⬠",
+        "description": [
+            "⬠",
+            "white pentagon",
+            "\r"
+        ]
+    },
+    "02B21": {
+        "scope": "latex",
+        "prefix": "/varhexagon",
+        "body": "⬡",
+        "description": [
+            "⬡",
+            "white hexagon",
+            "\r"
+        ]
+    },
+    "02B22": {
+        "scope": "latex",
+        "prefix": "/varhexagonblack",
+        "body": "⬢",
+        "description": [
+            "⬢",
+            "black hexagon",
+            "\r"
+        ]
+    },
+    "02B23": {
+        "scope": "latex",
+        "prefix": "/hexagonblack",
+        "body": "⬣",
+        "description": [
+            "⬣",
+            "horizontal black hexagon",
+            "\r"
+        ]
+    },
+    "02B24": {
+        "scope": "latex",
+        "prefix": "/lgblkcircle",
+        "body": "⬤",
+        "description": [
+            "⬤",
+            "black large circle",
+            "\r"
+        ]
+    },
+    "02B25": {
+        "scope": "latex",
+        "prefix": "/mdblkdiamond",
+        "body": "⬥",
+        "description": [
+            "⬥",
+            "black medium diamond",
+            "\r"
+        ]
+    },
+    "02B26": {
+        "scope": "latex",
+        "prefix": "/mdwhtdiamond",
+        "body": "⬦",
+        "description": [
+            "⬦",
+            "white medium diamond",
+            "\r"
+        ]
+    },
+    "02B27": {
+        "scope": "latex",
+        "prefix": "/mdblklozenge",
+        "body": "⬧",
+        "description": [
+            "⬧",
+            "black medium lozenge",
+            "\r"
+        ]
+    },
+    "02B28": {
+        "scope": "latex",
+        "prefix": "/mdwhtlozenge",
+        "body": "⬨",
+        "description": [
+            "⬨",
+            "white medium lozenge",
+            "\r"
+        ]
+    },
+    "02B29": {
+        "scope": "latex",
+        "prefix": "/smblkdiamond",
+        "body": "⬩",
+        "description": [
+            "⬩",
+            "black small diamond",
+            "\r"
+        ]
+    },
+    "02B2A": {
+        "scope": "latex",
+        "prefix": "/smblklozenge",
+        "body": "⬪",
+        "description": [
+            "⬪",
+            "black small lozenge",
+            "\r"
+        ]
+    },
+    "02B2B": {
+        "scope": "latex",
+        "prefix": "/smwhtlozenge",
+        "body": "⬫",
+        "description": [
+            "⬫",
+            "white small lozenge",
+            "\r"
+        ]
+    },
+    "02B2C": {
+        "scope": "latex",
+        "prefix": "/blkhorzoval",
+        "body": "⬬",
+        "description": [
+            "⬬",
+            "black horizontal ellipse",
+            "\r"
+        ]
+    },
+    "02B2D": {
+        "scope": "latex",
+        "prefix": "/whthorzoval",
+        "body": "⬭",
+        "description": [
+            "⬭",
+            "white horizontal ellipse",
+            "\r"
+        ]
+    },
+    "02B2E": {
+        "scope": "latex",
+        "prefix": "/blkvertoval",
+        "body": "⬮",
+        "description": [
+            "⬮",
+            "black vertical ellipse",
+            "\r"
+        ]
+    },
+    "02B2F": {
+        "scope": "latex",
+        "prefix": "/whtvertoval",
+        "body": "⬯",
+        "description": [
+            "⬯",
+            "white vertical ellipse",
+            "\r"
+        ]
+    },
+    "02B50": {
+        "scope": "latex",
+        "prefix": "/medwhitestar",
+        "body": "⭐",
+        "description": [
+            "⭐",
+            "white medium star",
+            "\r"
+        ]
+    },
+    "02B51": {
+        "scope": "latex",
+        "prefix": "/medblackstar",
+        "body": "⭑",
+        "description": [
+            "⭑",
+            "black medium star",
+            "\r"
+        ]
+    },
+    "02B52": {
+        "scope": "latex",
+        "prefix": "/smwhitestar",
+        "body": "⭒",
+        "description": [
+            "⭒",
+            "white small star",
+            "\r"
+        ]
+    },
+    "02B53": {
+        "scope": "latex",
+        "prefix": "/rightpentagonblack",
+        "body": "⭓",
+        "description": [
+            "⭓",
+            "black right-pointing pentagon",
+            "\r"
+        ]
+    },
+    "02B54": {
+        "scope": "latex",
+        "prefix": "/rightpentagon",
+        "body": "⭔",
+        "description": [
+            "⭔",
+            "white right-pointing pentagon",
+            "\r"
+        ]
+    },
+    "03012": {
+        "scope": "latex",
+        "prefix": "/postalmark",
+        "body": "〒",
+        "description": [
+            "〒",
+            "postal mark",
+            "\r"
+        ]
+    },
+    "03030": {
+        "scope": "latex",
+        "prefix": "/hzigzag",
+        "body": "〰",
+        "description": [
+            "〰",
+            "zigzag",
+            "\r"
+        ]
+    },
+    "1D7CE": {
+        "scope": "latex",
+        "prefix": "/mbfzero",
+        "body": "𝟎",
+        "description": [
+            "𝟎",
+            "mathematical bold digit 0",
+            "\r"
+        ]
+    },
+    "1D7CF": {
+        "scope": "latex",
+        "prefix": "/mbfone",
+        "body": "𝟏",
+        "description": [
+            "𝟏",
+            "mathematical bold digit 1",
+            "\r"
+        ]
+    },
+    "1D7D0": {
+        "scope": "latex",
+        "prefix": "/mbftwo",
+        "body": "𝟐",
+        "description": [
+            "𝟐",
+            "mathematical bold digit 2",
+            "\r"
+        ]
+    },
+    "1D7D1": {
+        "scope": "latex",
+        "prefix": "/mbfthree",
+        "body": "𝟑",
+        "description": [
+            "𝟑",
+            "mathematical bold digit 3",
+            "\r"
+        ]
+    },
+    "1D7D2": {
+        "scope": "latex",
+        "prefix": "/mbffour",
+        "body": "𝟒",
+        "description": [
+            "𝟒",
+            "mathematical bold digit 4",
+            "\r"
+        ]
+    },
+    "1D7D3": {
+        "scope": "latex",
+        "prefix": "/mbffive",
+        "body": "𝟓",
+        "description": [
+            "𝟓",
+            "mathematical bold digit 5",
+            "\r"
+        ]
+    },
+    "1D7D4": {
+        "scope": "latex",
+        "prefix": "/mbfsix",
+        "body": "𝟔",
+        "description": [
+            "𝟔",
+            "mathematical bold digit 6",
+            "\r"
+        ]
+    },
+    "1D7D5": {
+        "scope": "latex",
+        "prefix": "/mbfseven",
+        "body": "𝟕",
+        "description": [
+            "𝟕",
+            "mathematical bold digit 7",
+            "\r"
+        ]
+    },
+    "1D7D6": {
+        "scope": "latex",
+        "prefix": "/mbfeight",
+        "body": "𝟖",
+        "description": [
+            "𝟖",
+            "mathematical bold digit 8",
+            "\r"
+        ]
+    },
+    "1D7D7": {
+        "scope": "latex",
+        "prefix": "/mbfnine",
+        "body": "𝟗",
+        "description": [
+            "𝟗",
+            "mathematical bold digit 9",
+            "\r"
+        ]
+    },
+    "1D7D8": {
+        "scope": "latex",
+        "prefix": "/Bbbzero",
+        "body": "𝟘",
+        "description": [
+            "𝟘",
+            "mathematical double-struck digit 0",
+            "\r"
+        ]
+    },
+    "1D7D9": {
+        "scope": "latex",
+        "prefix": "/Bbbone",
+        "body": "𝟙",
+        "description": [
+            "𝟙",
+            "mathematical double-struck digit 1",
+            "\r"
+        ]
+    },
+    "1D7DA": {
+        "scope": "latex",
+        "prefix": "/Bbbtwo",
+        "body": "𝟚",
+        "description": [
+            "𝟚",
+            "mathematical double-struck digit 2",
+            "\r"
+        ]
+    },
+    "1D7DB": {
+        "scope": "latex",
+        "prefix": "/Bbbthree",
+        "body": "𝟛",
+        "description": [
+            "𝟛",
+            "mathematical double-struck digit 3",
+            "\r"
+        ]
+    },
+    "1D7DC": {
+        "scope": "latex",
+        "prefix": "/Bbbfour",
+        "body": "𝟜",
+        "description": [
+            "𝟜",
+            "mathematical double-struck digit 4",
+            "\r"
+        ]
+    },
+    "1D7DD": {
+        "scope": "latex",
+        "prefix": "/Bbbfive",
+        "body": "𝟝",
+        "description": [
+            "𝟝",
+            "mathematical double-struck digit 5",
+            "\r"
+        ]
+    },
+    "1D7DE": {
+        "scope": "latex",
+        "prefix": "/Bbbsix",
+        "body": "𝟞",
+        "description": [
+            "𝟞",
+            "mathematical double-struck digit 6",
+            "\r"
+        ]
+    },
+    "1D7DF": {
+        "scope": "latex",
+        "prefix": "/Bbbseven",
+        "body": "𝟟",
+        "description": [
+            "𝟟",
+            "mathematical double-struck digit 7",
+            "\r"
+        ]
+    },
+    "1D7E0": {
+        "scope": "latex",
+        "prefix": "/Bbbeight",
+        "body": "𝟠",
+        "description": [
+            "𝟠",
+            "mathematical double-struck digit 8",
+            "\r"
+        ]
+    },
+    "1D7E1": {
+        "scope": "latex",
+        "prefix": "/Bbbnine",
+        "body": "𝟡",
+        "description": [
+            "𝟡",
+            "mathematical double-struck digit 9",
+            "\r"
+        ]
+    },
+    "1D7E2": {
+        "scope": "latex",
+        "prefix": "/msanszero",
+        "body": "𝟢",
+        "description": [
+            "𝟢",
+            "mathematical sans-serif digit 0",
+            "\r"
+        ]
+    },
+    "1D7E3": {
+        "scope": "latex",
+        "prefix": "/msansone",
+        "body": "𝟣",
+        "description": [
+            "𝟣",
+            "mathematical sans-serif digit 1",
+            "\r"
+        ]
+    },
+    "1D7E4": {
+        "scope": "latex",
+        "prefix": "/msanstwo",
+        "body": "𝟤",
+        "description": [
+            "𝟤",
+            "mathematical sans-serif digit 2",
+            "\r"
+        ]
+    },
+    "1D7E5": {
+        "scope": "latex",
+        "prefix": "/msansthree",
+        "body": "𝟥",
+        "description": [
+            "𝟥",
+            "mathematical sans-serif digit 3",
+            "\r"
+        ]
+    },
+    "1D7E6": {
+        "scope": "latex",
+        "prefix": "/msansfour",
+        "body": "𝟦",
+        "description": [
+            "𝟦",
+            "mathematical sans-serif digit 4",
+            "\r"
+        ]
+    },
+    "1D7E7": {
+        "scope": "latex",
+        "prefix": "/msansfive",
+        "body": "𝟧",
+        "description": [
+            "𝟧",
+            "mathematical sans-serif digit 5",
+            "\r"
+        ]
+    },
+    "1D7E8": {
+        "scope": "latex",
+        "prefix": "/msanssix",
+        "body": "𝟨",
+        "description": [
+            "𝟨",
+            "mathematical sans-serif digit 6",
+            "\r"
+        ]
+    },
+    "1D7E9": {
+        "scope": "latex",
+        "prefix": "/msansseven",
+        "body": "𝟩",
+        "description": [
+            "𝟩",
+            "mathematical sans-serif digit 7",
+            "\r"
+        ]
+    },
+    "1D7EA": {
+        "scope": "latex",
+        "prefix": "/msanseight",
+        "body": "𝟪",
+        "description": [
+            "𝟪",
+            "mathematical sans-serif digit 8",
+            "\r"
+        ]
+    },
+    "1D7EB": {
+        "scope": "latex",
+        "prefix": "/msansnine",
+        "body": "𝟫",
+        "description": [
+            "𝟫",
+            "mathematical sans-serif digit 9",
+            "\r"
+        ]
+    },
+    "1D7EC": {
+        "scope": "latex",
+        "prefix": "/mbfsanszero",
+        "body": "𝟬",
+        "description": [
+            "𝟬",
+            "mathematical sans-serif bold digit 0",
+            "\r"
+        ]
+    },
+    "1D7ED": {
+        "scope": "latex",
+        "prefix": "/mbfsansone",
+        "body": "𝟭",
+        "description": [
+            "𝟭",
+            "mathematical sans-serif bold digit 1",
+            "\r"
+        ]
+    },
+    "1D7EE": {
+        "scope": "latex",
+        "prefix": "/mbfsanstwo",
+        "body": "𝟮",
+        "description": [
+            "𝟮",
+            "mathematical sans-serif bold digit 2",
+            "\r"
+        ]
+    },
+    "1D7EF": {
+        "scope": "latex",
+        "prefix": "/mbfsansthree",
+        "body": "𝟯",
+        "description": [
+            "𝟯",
+            "mathematical sans-serif bold digit 3",
+            "\r"
+        ]
+    },
+    "1D7F0": {
+        "scope": "latex",
+        "prefix": "/mbfsansfour",
+        "body": "𝟰",
+        "description": [
+            "𝟰",
+            "mathematical sans-serif bold digit 4",
+            "\r"
+        ]
+    },
+    "1D7F1": {
+        "scope": "latex",
+        "prefix": "/mbfsansfive",
+        "body": "𝟱",
+        "description": [
+            "𝟱",
+            "mathematical sans-serif bold digit 5",
+            "\r"
+        ]
+    },
+    "1D7F2": {
+        "scope": "latex",
+        "prefix": "/mbfsanssix",
+        "body": "𝟲",
+        "description": [
+            "𝟲",
+            "mathematical sans-serif bold digit 6",
+            "\r"
+        ]
+    },
+    "1D7F3": {
+        "scope": "latex",
+        "prefix": "/mbfsansseven",
+        "body": "𝟳",
+        "description": [
+            "𝟳",
+            "mathematical sans-serif bold digit 7",
+            "\r"
+        ]
+    },
+    "1D7F4": {
+        "scope": "latex",
+        "prefix": "/mbfsanseight",
+        "body": "𝟴",
+        "description": [
+            "𝟴",
+            "mathematical sans-serif bold digit 8",
+            "\r"
+        ]
+    },
+    "1D7F5": {
+        "scope": "latex",
+        "prefix": "/mbfsansnine",
+        "body": "𝟵",
+        "description": [
+            "𝟵",
+            "mathematical sans-serif bold digit 9",
+            "\r"
+        ]
+    },
+    "1D7F6": {
+        "scope": "latex",
+        "prefix": "/mttzero",
+        "body": "𝟶",
+        "description": [
+            "𝟶",
+            "mathematical monospace digit 0",
+            "\r"
+        ]
+    },
+    "1D7F7": {
+        "scope": "latex",
+        "prefix": "/mttone",
+        "body": "𝟷",
+        "description": [
+            "𝟷",
+            "mathematical monospace digit 1",
+            "\r"
+        ]
+    },
+    "1D7F8": {
+        "scope": "latex",
+        "prefix": "/mtttwo",
+        "body": "𝟸",
+        "description": [
+            "𝟸",
+            "mathematical monospace digit 2",
+            "\r"
+        ]
+    },
+    "1D7F9": {
+        "scope": "latex",
+        "prefix": "/mttthree",
+        "body": "𝟹",
+        "description": [
+            "𝟹",
+            "mathematical monospace digit 3",
+            "\r"
+        ]
+    },
+    "1D7FA": {
+        "scope": "latex",
+        "prefix": "/mttfour",
+        "body": "𝟺",
+        "description": [
+            "𝟺",
+            "mathematical monospace digit 4",
+            "\r"
+        ]
+    },
+    "1D7FB": {
+        "scope": "latex",
+        "prefix": "/mttfive",
+        "body": "𝟻",
+        "description": [
+            "𝟻",
+            "mathematical monospace digit 5",
+            "\r"
+        ]
+    },
+    "1D7FC": {
+        "scope": "latex",
+        "prefix": "/mttsix",
+        "body": "𝟼",
+        "description": [
+            "𝟼",
+            "mathematical monospace digit 6",
+            "\r"
+        ]
+    },
+    "1D7FD": {
+        "scope": "latex",
+        "prefix": "/mttseven",
+        "body": "𝟽",
+        "description": [
+            "𝟽",
+            "mathematical monospace digit 7",
+            "\r"
+        ]
+    },
+    "1D7FE": {
+        "scope": "latex",
+        "prefix": "/mtteight",
+        "body": "𝟾",
+        "description": [
+            "𝟾",
+            "mathematical monospace digit 8",
+            "\r"
+        ]
+    },
+    "1D7FF": {
+        "scope": "latex",
+        "prefix": "/mttnine",
+        "body": "𝟿",
+        "description": [
+            "𝟿",
+            "mathematical monospace digit 9",
+            "\r"
+        ]
+    }
+}

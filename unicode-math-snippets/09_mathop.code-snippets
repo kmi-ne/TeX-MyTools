@@ -1,0 +1,624 @@
+// Part 09 of unicode-math-snippets, containg all \mathop type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "02140": {
+        "scope": "latex",
+        "prefix": "/Bbbsum",
+        "body": "⅀",
+        "description": [
+            "⅀",
+            "double-struck n-ary summation",
+            "\r"
+        ]
+    },
+    "0220F": {
+        "scope": "latex",
+        "prefix": "/prod",
+        "body": "∏",
+        "description": [
+            "∏",
+            "product operator",
+            "\r"
+        ]
+    },
+    "02210": {
+        "scope": "latex",
+        "prefix": "/coprod",
+        "body": "∐",
+        "description": [
+            "∐",
+            "coproduct operator",
+            "\r"
+        ]
+    },
+    "02211": {
+        "scope": "latex",
+        "prefix": "/sum",
+        "body": "∑",
+        "description": [
+            "∑",
+            "summation operator",
+            "\r"
+        ]
+    },
+    "0222B": {
+        "scope": "latex",
+        "prefix": "/int",
+        "body": "∫",
+        "description": [
+            "∫",
+            "integral operator",
+            "\r"
+        ]
+    },
+    "0222C": {
+        "scope": "latex",
+        "prefix": "/iint",
+        "body": "∬",
+        "description": [
+            "∬",
+            "double integral operator",
+            "\r"
+        ]
+    },
+    "0222D": {
+        "scope": "latex",
+        "prefix": "/iiint",
+        "body": "∭",
+        "description": [
+            "∭",
+            "triple integral operator",
+            "\r"
+        ]
+    },
+    "0222E": {
+        "scope": "latex",
+        "prefix": "/oint",
+        "body": "∮",
+        "description": [
+            "∮",
+            "contour integral operator",
+            "\r"
+        ]
+    },
+    "0222F": {
+        "scope": "latex",
+        "prefix": "/oiint",
+        "body": "∯",
+        "description": [
+            "∯",
+            "double contour integral operator",
+            "\r"
+        ]
+    },
+    "02230": {
+        "scope": "latex",
+        "prefix": "/oiiint",
+        "body": "∰",
+        "description": [
+            "∰",
+            "triple contour integral operator",
+            "\r"
+        ]
+    },
+    "02231": {
+        "scope": "latex",
+        "prefix": "/intclockwise",
+        "body": "∱",
+        "description": [
+            "∱",
+            "clockwise integral",
+            "\r"
+        ]
+    },
+    "02232": {
+        "scope": "latex",
+        "prefix": "/varointclockwise",
+        "body": "∲",
+        "description": [
+            "∲",
+            "contour integral, clockwise",
+            "\r"
+        ]
+    },
+    "02233": {
+        "scope": "latex",
+        "prefix": "/ointctrclockwise",
+        "body": "∳",
+        "description": [
+            "∳",
+            "contour integral, anticlockwise",
+            "\r"
+        ]
+    },
+    "022C0": {
+        "scope": "latex",
+        "prefix": "/bigwedge",
+        "body": "⋀",
+        "description": [
+            "⋀",
+            "logical and operator",
+            "\r"
+        ]
+    },
+    "022C1": {
+        "scope": "latex",
+        "prefix": "/bigvee",
+        "body": "⋁",
+        "description": [
+            "⋁",
+            "logical or operator",
+            "\r"
+        ]
+    },
+    "022C2": {
+        "scope": "latex",
+        "prefix": "/bigcap",
+        "body": "⋂",
+        "description": [
+            "⋂",
+            "intersection operator",
+            "\r"
+        ]
+    },
+    "022C3": {
+        "scope": "latex",
+        "prefix": "/bigcup",
+        "body": "⋃",
+        "description": [
+            "⋃",
+            "union operator",
+            "\r"
+        ]
+    },
+    "027D5": {
+        "scope": "latex",
+        "prefix": "/leftouterjoin",
+        "body": "⟕",
+        "description": [
+            "⟕",
+            "left outer join",
+            "\r"
+        ]
+    },
+    "027D6": {
+        "scope": "latex",
+        "prefix": "/rightouterjoin",
+        "body": "⟖",
+        "description": [
+            "⟖",
+            "right outer join",
+            "\r"
+        ]
+    },
+    "027D7": {
+        "scope": "latex",
+        "prefix": "/fullouterjoin",
+        "body": "⟗",
+        "description": [
+            "⟗",
+            "full outer join",
+            "\r"
+        ]
+    },
+    "027D8": {
+        "scope": "latex",
+        "prefix": "/bigbot",
+        "body": "⟘",
+        "description": [
+            "⟘",
+            "large up tack",
+            "\r"
+        ]
+    },
+    "027D9": {
+        "scope": "latex",
+        "prefix": "/bigtop",
+        "body": "⟙",
+        "description": [
+            "⟙",
+            "large down tack",
+            "\r"
+        ]
+    },
+    "029F8": {
+        "scope": "latex",
+        "prefix": "/xsol",
+        "body": "⧸",
+        "description": [
+            "⧸",
+            "big solidus",
+            "\r"
+        ]
+    },
+    "029F9": {
+        "scope": "latex",
+        "prefix": "/xbsol",
+        "body": "⧹",
+        "description": [
+            "⧹",
+            "big reverse solidus",
+            "\r"
+        ]
+    },
+    "02A00": {
+        "scope": "latex",
+        "prefix": "/bigodot",
+        "body": "⨀",
+        "description": [
+            "⨀",
+            "n-ary circled dot operator",
+            "\r"
+        ]
+    },
+    "02A01": {
+        "scope": "latex",
+        "prefix": "/bigoplus",
+        "body": "⨁",
+        "description": [
+            "⨁",
+            "n-ary circled plus operator",
+            "\r"
+        ]
+    },
+    "02A02": {
+        "scope": "latex",
+        "prefix": "/bigotimes",
+        "body": "⨂",
+        "description": [
+            "⨂",
+            "n-ary circled times operator",
+            "\r"
+        ]
+    },
+    "02A03": {
+        "scope": "latex",
+        "prefix": "/bigcupdot",
+        "body": "⨃",
+        "description": [
+            "⨃",
+            "n-ary union operator with dot",
+            "\r"
+        ]
+    },
+    "02A04": {
+        "scope": "latex",
+        "prefix": "/biguplus",
+        "body": "⨄",
+        "description": [
+            "⨄",
+            "n-ary union operator with plus",
+            "\r"
+        ]
+    },
+    "02A05": {
+        "scope": "latex",
+        "prefix": "/bigsqcap",
+        "body": "⨅",
+        "description": [
+            "⨅",
+            "n-ary square intersection operator",
+            "\r"
+        ]
+    },
+    "02A06": {
+        "scope": "latex",
+        "prefix": "/bigsqcup",
+        "body": "⨆",
+        "description": [
+            "⨆",
+            "n-ary square union operator",
+            "\r"
+        ]
+    },
+    "02A07": {
+        "scope": "latex",
+        "prefix": "/conjquant",
+        "body": "⨇",
+        "description": [
+            "⨇",
+            "two logical and operator",
+            "\r"
+        ]
+    },
+    "02A08": {
+        "scope": "latex",
+        "prefix": "/disjquant",
+        "body": "⨈",
+        "description": [
+            "⨈",
+            "two logical or operator",
+            "\r"
+        ]
+    },
+    "02A09": {
+        "scope": "latex",
+        "prefix": "/bigtimes",
+        "body": "⨉",
+        "description": [
+            "⨉",
+            "n-ary times operator",
+            "\r"
+        ]
+    },
+    "02A0A": {
+        "scope": "latex",
+        "prefix": "/modtwosum",
+        "body": "⨊",
+        "description": [
+            "⨊",
+            "modulo two sum",
+            "\r"
+        ]
+    },
+    "02A0B": {
+        "scope": "latex",
+        "prefix": "/sumint",
+        "body": "⨋",
+        "description": [
+            "⨋",
+            "summation with integral",
+            "\r"
+        ]
+    },
+    "02A0C": {
+        "scope": "latex",
+        "prefix": "/iiiint",
+        "body": "⨌",
+        "description": [
+            "⨌",
+            "quadruple integral operator",
+            "\r"
+        ]
+    },
+    "02A0D": {
+        "scope": "latex",
+        "prefix": "/intbar",
+        "body": "⨍",
+        "description": [
+            "⨍",
+            "finite part integral",
+            "\r"
+        ]
+    },
+    "02A0E": {
+        "scope": "latex",
+        "prefix": "/intBar",
+        "body": "⨎",
+        "description": [
+            "⨎",
+            "integral with double stroke",
+            "\r"
+        ]
+    },
+    "02A0F": {
+        "scope": "latex",
+        "prefix": "/fint",
+        "body": "⨏",
+        "description": [
+            "⨏",
+            "integral average with slash",
+            "\r"
+        ]
+    },
+    "02A10": {
+        "scope": "latex",
+        "prefix": "/cirfnint",
+        "body": "⨐",
+        "description": [
+            "⨐",
+            "circulation function",
+            "\r"
+        ]
+    },
+    "02A11": {
+        "scope": "latex",
+        "prefix": "/awint",
+        "body": "⨑",
+        "description": [
+            "⨑",
+            "anticlockwise integration",
+            "\r"
+        ]
+    },
+    "02A12": {
+        "scope": "latex",
+        "prefix": "/rppolint",
+        "body": "⨒",
+        "description": [
+            "⨒",
+            "line integration with rectangular path around pole",
+            "\r"
+        ]
+    },
+    "02A13": {
+        "scope": "latex",
+        "prefix": "/scpolint",
+        "body": "⨓",
+        "description": [
+            "⨓",
+            "line integration with semicircular path around pole",
+            "\r"
+        ]
+    },
+    "02A14": {
+        "scope": "latex",
+        "prefix": "/npolint",
+        "body": "⨔",
+        "description": [
+            "⨔",
+            "line integration not including the pole",
+            "\r"
+        ]
+    },
+    "02A15": {
+        "scope": "latex",
+        "prefix": "/pointint",
+        "body": "⨕",
+        "description": [
+            "⨕",
+            "integral around a point operator",
+            "\r"
+        ]
+    },
+    "02A16": {
+        "scope": "latex",
+        "prefix": "/sqint",
+        "body": "⨖",
+        "description": [
+            "⨖",
+            "quaternion integral operator",
+            "\r"
+        ]
+    },
+    "02A17": {
+        "scope": "latex",
+        "prefix": "/intlarhk",
+        "body": "⨗",
+        "description": [
+            "⨗",
+            "integral with leftwards arrow with hook",
+            "\r"
+        ]
+    },
+    "02A18": {
+        "scope": "latex",
+        "prefix": "/intx",
+        "body": "⨘",
+        "description": [
+            "⨘",
+            "integral with times sign",
+            "\r"
+        ]
+    },
+    "02A19": {
+        "scope": "latex",
+        "prefix": "/intcap",
+        "body": "⨙",
+        "description": [
+            "⨙",
+            "integral with intersection",
+            "\r"
+        ]
+    },
+    "02A1A": {
+        "scope": "latex",
+        "prefix": "/intcup",
+        "body": "⨚",
+        "description": [
+            "⨚",
+            "integral with union",
+            "\r"
+        ]
+    },
+    "02A1B": {
+        "scope": "latex",
+        "prefix": "/upint",
+        "body": "⨛",
+        "description": [
+            "⨛",
+            "integral with overbar",
+            "\r"
+        ]
+    },
+    "02A1C": {
+        "scope": "latex",
+        "prefix": "/lowint",
+        "body": "⨜",
+        "description": [
+            "⨜",
+            "integral with underbar",
+            "\r"
+        ]
+    },
+    "02A1D": {
+        "scope": "latex",
+        "prefix": "/Join",
+        "body": "⨝",
+        "description": [
+            "⨝",
+            "join",
+            "\r"
+        ]
+    },
+    "02A1E": {
+        "scope": "latex",
+        "prefix": "/bigtriangleleft",
+        "body": "⨞",
+        "description": [
+            "⨞",
+            "large left triangle operator",
+            "\r"
+        ]
+    },
+    "02A1F": {
+        "scope": "latex",
+        "prefix": "/zcmp",
+        "body": "⨟",
+        "description": [
+            "⨟",
+            "z notation schema composition",
+            "\r"
+        ]
+    },
+    "02A20": {
+        "scope": "latex",
+        "prefix": "/zpipe",
+        "body": "⨠",
+        "description": [
+            "⨠",
+            "z notation schema piping",
+            "\r"
+        ]
+    },
+    "02A21": {
+        "scope": "latex",
+        "prefix": "/zproject",
+        "body": "⨡",
+        "description": [
+            "⨡",
+            "z notation schema projection",
+            "\r"
+        ]
+    },
+    "02AFC": {
+        "scope": "latex",
+        "prefix": "/biginterleave",
+        "body": "⫼",
+        "description": [
+            "⫼",
+            "large triple vertical bar operator",
+            "\r"
+        ]
+    },
+    "02AFF": {
+        "scope": "latex",
+        "prefix": "/bigtalloblong",
+        "body": "⫿",
+        "description": [
+            "⫿",
+            "n-ary white vertical bar",
+            "\r"
+        ]
+    },
+    "1EEF0": {
+        "scope": "latex",
+        "prefix": "/arabicmaj",
+        "body": "𞻰",
+        "description": [
+            "𞻰",
+            "arabic mathematical operator meem with hah with tatweel",
+            "\r"
+        ]
+    },
+    "1EEF1": {
+        "scope": "latex",
+        "prefix": "/arabichad",
+        "body": "𞻱",
+        "description": [
+            "𞻱",
+            "arabic mathematical operator hah with dal",
+            "\r"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+// Part 03 of unicode-math-snippets, containg all \mathfence type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "0007C": {
+        "scope": "latex",
+        "prefix": "/vert",
+        "body": "|",
+        "description": [
+            "|",
+            "vertical bar",
+            "\r"
+        ]
+    },
+    "02016": {
+        "scope": "latex",
+        "prefix": "/Vert",
+        "body": "‖",
+        "description": [
+            "‖",
+            "double vertical bar",
+            "\r"
+        ]
+    },
+    "02980": {
+        "scope": "latex",
+        "prefix": "/Vvert",
+        "body": "⦀",
+        "description": [
+            "⦀",
+            "triple vertical bar delimiter",
+            "\r"
+        ]
+    }
+}

@@ -1,0 +1,254 @@
+// Part 07 of unicode-math-snippets, containg all \mathaccent type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "00300": {
+        "scope": "latex",
+        "prefix": "/grave",
+        "body": "̀",
+        "description": [
+            "̀",
+            "grave accent",
+            "\r"
+        ]
+    },
+    "00301": {
+        "scope": "latex",
+        "prefix": "/acute",
+        "body": "́",
+        "description": [
+            "́",
+            "acute accent",
+            "\r"
+        ]
+    },
+    "00302": {
+        "scope": "latex",
+        "prefix": "/hat",
+        "body": "̂",
+        "description": [
+            "̂",
+            "circumflex accent",
+            "\r"
+        ]
+    },
+    "00303": {
+        "scope": "latex",
+        "prefix": "/tilde",
+        "body": "̃",
+        "description": [
+            "̃",
+            "tilde",
+            "\r"
+        ]
+    },
+    "00304": {
+        "scope": "latex",
+        "prefix": "/bar",
+        "body": "̄",
+        "description": [
+            "̄",
+            "macron",
+            "\r"
+        ]
+    },
+    "00305": {
+        "scope": "latex",
+        "prefix": "/overbar",
+        "body": "̅",
+        "description": [
+            "̅",
+            "overbar embellishment",
+            "\r"
+        ]
+    },
+    "00306": {
+        "scope": "latex",
+        "prefix": "/breve",
+        "body": "̆",
+        "description": [
+            "̆",
+            "breve",
+            "\r"
+        ]
+    },
+    "00307": {
+        "scope": "latex",
+        "prefix": "/dot",
+        "body": "̇",
+        "description": [
+            "̇",
+            "dot above",
+            "\r"
+        ]
+    },
+    "00308": {
+        "scope": "latex",
+        "prefix": "/ddot",
+        "body": "̈",
+        "description": [
+            "̈",
+            "dieresis",
+            "\r"
+        ]
+    },
+    "00309": {
+        "scope": "latex",
+        "prefix": "/ovhook",
+        "body": "̉",
+        "description": [
+            "̉",
+            "combining hook above",
+            "\r"
+        ]
+    },
+    "0030A": {
+        "scope": "latex",
+        "prefix": "/ocirc",
+        "body": "̊",
+        "description": [
+            "̊",
+            "ring",
+            "\r"
+        ]
+    },
+    "0030C": {
+        "scope": "latex",
+        "prefix": "/check",
+        "body": "̌",
+        "description": [
+            "̌",
+            "caron",
+            "\r"
+        ]
+    },
+    "00310": {
+        "scope": "latex",
+        "prefix": "/candra",
+        "body": "̐",
+        "description": [
+            "̐",
+            "candrabindu (non-spacing)",
+            "\r"
+        ]
+    },
+    "00312": {
+        "scope": "latex",
+        "prefix": "/oturnedcomma",
+        "body": "̒",
+        "description": [
+            "̒",
+            "combining turned comma above",
+            "\r"
+        ]
+    },
+    "00315": {
+        "scope": "latex",
+        "prefix": "/ocommatopright",
+        "body": "̕",
+        "description": [
+            "̕",
+            "combining comma above right",
+            "\r"
+        ]
+    },
+    "0031A": {
+        "scope": "latex",
+        "prefix": "/droang",
+        "body": "̚",
+        "description": [
+            "̚",
+            "left angle above (non-spacing)",
+            "\r"
+        ]
+    },
+    "020D0": {
+        "scope": "latex",
+        "prefix": "/leftharpoonaccent",
+        "body": "⃐",
+        "description": [
+            "⃐",
+            "combining left harpoon above",
+            "\r"
+        ]
+    },
+    "020D1": {
+        "scope": "latex",
+        "prefix": "/rightharpoonaccent",
+        "body": "⃑",
+        "description": [
+            "⃑",
+            "combining right harpoon above",
+            "\r"
+        ]
+    },
+    "020D2": {
+        "scope": "latex",
+        "prefix": "/vertoverlay",
+        "body": "⃒",
+        "description": [
+            "⃒",
+            "combining long vertical line overlay",
+            "\r"
+        ]
+    },
+    "020D7": {
+        "scope": "latex",
+        "prefix": "/vec",
+        "body": "⃗",
+        "description": [
+            "⃗",
+            "combining right arrow above",
+            "\r"
+        ]
+    },
+    "020DB": {
+        "scope": "latex",
+        "prefix": "/dddot",
+        "body": "⃛",
+        "description": [
+            "⃛",
+            "combining three dots above",
+            "\r"
+        ]
+    },
+    "020DC": {
+        "scope": "latex",
+        "prefix": "/ddddot",
+        "body": "⃜",
+        "description": [
+            "⃜",
+            "combining four dots above",
+            "\r"
+        ]
+    },
+    "020E7": {
+        "scope": "latex",
+        "prefix": "/annuity",
+        "body": "⃧",
+        "description": [
+            "⃧",
+            "combining annuity symbol",
+            "\r"
+        ]
+    },
+    "020E9": {
+        "scope": "latex",
+        "prefix": "/widebridgeabove",
+        "body": "⃩",
+        "description": [
+            "⃩",
+            "combining wide bridge above",
+            "\r"
+        ]
+    },
+    "020F0": {
+        "scope": "latex",
+        "prefix": "/asteraccent",
+        "body": "⃰",
+        "description": [
+            "⃰",
+            "combining asterisk above",
+            "\r"
+        ]
+    }
+}

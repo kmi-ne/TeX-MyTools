@@ -1,0 +1,34 @@
+// Part 04 of unicode-math-snippets, containg all \mathpunct type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "0002C": {
+        "scope": "latex",
+        "prefix": "/mathcomma",
+        "body": ",",
+        "description": [
+            ",",
+            "comma",
+            "\r"
+        ]
+    },
+    "0003A": {
+        "scope": "latex",
+        "prefix": "/mathcolon",
+        "body": ":",
+        "description": [
+            ":",
+            "colon",
+            "\r"
+        ]
+    },
+    "0003B": {
+        "scope": "latex",
+        "prefix": "/mathsemicolon",
+        "body": ";",
+        "description": [
+            ";",
+            "semicolon p:",
+            "\r"
+        ]
+    }
+}

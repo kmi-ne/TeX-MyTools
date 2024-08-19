@@ -1,0 +1,304 @@
+// Part 02 of unicode-math-snippets, containg all \mathclose type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "00021": {
+        "scope": "latex",
+        "prefix": "/mathexclam",
+        "body": "!",
+        "description": [
+            "!",
+            "exclamation mark",
+            "\r"
+        ]
+    },
+    "00029": {
+        "scope": "latex",
+        "prefix": "/rparen",
+        "body": ")",
+        "description": [
+            ")",
+            "right parenthesis",
+            "\r"
+        ]
+    },
+    "0005D": {
+        "scope": "latex",
+        "prefix": "/rbrack",
+        "body": "]",
+        "description": [
+            "]",
+            "right square bracket",
+            "\r"
+        ]
+    },
+    "0007D": {
+        "scope": "latex",
+        "prefix": "/rbrace",
+        "body": "}",
+        "description": [
+            "}",
+            "right curly bracket",
+            "\r"
+        ]
+    },
+    "02309": {
+        "scope": "latex",
+        "prefix": "/rceil",
+        "body": "⌉",
+        "description": [
+            "⌉",
+            "right ceiling",
+            "\r"
+        ]
+    },
+    "0230B": {
+        "scope": "latex",
+        "prefix": "/rfloor",
+        "body": "⌋",
+        "description": [
+            "⌋",
+            "right floor",
+            "\r"
+        ]
+    },
+    "0231D": {
+        "scope": "latex",
+        "prefix": "/urcorner",
+        "body": "⌝",
+        "description": [
+            "⌝",
+            "upper right corner",
+            "\r"
+        ]
+    },
+    "0231F": {
+        "scope": "latex",
+        "prefix": "/lrcorner",
+        "body": "⌟",
+        "description": [
+            "⌟",
+            "lower right corner",
+            "\r"
+        ]
+    },
+    "023B1": {
+        "scope": "latex",
+        "prefix": "/rmoustache",
+        "body": "⎱",
+        "description": [
+            "⎱",
+            "upper right or lower left curly bracket section",
+            "\r"
+        ]
+    },
+    "02773": {
+        "scope": "latex",
+        "prefix": "/rbrbrak",
+        "body": "❳",
+        "description": [
+            "❳",
+            "light right tortoise shell bracket ornament",
+            "\r"
+        ]
+    },
+    "027C6": {
+        "scope": "latex",
+        "prefix": "/rbag",
+        "body": "⟆",
+        "description": [
+            "⟆",
+            "right s-shaped bag delimiter",
+            "\r"
+        ]
+    },
+    "027E7": {
+        "scope": "latex",
+        "prefix": "/rBrack",
+        "body": "⟧",
+        "description": [
+            "⟧",
+            "mathematical right white square bracket",
+            "\r"
+        ]
+    },
+    "027E9": {
+        "scope": "latex",
+        "prefix": "/rangle",
+        "body": "⟩",
+        "description": [
+            "⟩",
+            "mathematical right angle bracket",
+            "\r"
+        ]
+    },
+    "027EB": {
+        "scope": "latex",
+        "prefix": "/rAngle",
+        "body": "⟫",
+        "description": [
+            "⟫",
+            "mathematical right double angle bracket",
+            "\r"
+        ]
+    },
+    "027ED": {
+        "scope": "latex",
+        "prefix": "/Rbrbrak",
+        "body": "⟭",
+        "description": [
+            "⟭",
+            "mathematical right white tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "027EF": {
+        "scope": "latex",
+        "prefix": "/rgroup",
+        "body": "⟯",
+        "description": [
+            "⟯",
+            "mathematical right flattened parenthesis",
+            "\r"
+        ]
+    },
+    "02984": {
+        "scope": "latex",
+        "prefix": "/rBrace",
+        "body": "⦄",
+        "description": [
+            "⦄",
+            "right white curly bracket",
+            "\r"
+        ]
+    },
+    "02986": {
+        "scope": "latex",
+        "prefix": "/rParen",
+        "body": "⦆",
+        "description": [
+            "⦆",
+            "right white parenthesis",
+            "\r"
+        ]
+    },
+    "02988": {
+        "scope": "latex",
+        "prefix": "/rrparenthesis",
+        "body": "⦈",
+        "description": [
+            "⦈",
+            "z notation right image bracket",
+            "\r"
+        ]
+    },
+    "0298A": {
+        "scope": "latex",
+        "prefix": "/rrangle",
+        "body": "⦊",
+        "description": [
+            "⦊",
+            "z notation right binding bracket",
+            "\r"
+        ]
+    },
+    "0298C": {
+        "scope": "latex",
+        "prefix": "/rbrackubar",
+        "body": "⦌",
+        "description": [
+            "⦌",
+            "right square bracket with underbar",
+            "\r"
+        ]
+    },
+    "0298E": {
+        "scope": "latex",
+        "prefix": "/rbracklrtick",
+        "body": "⦎",
+        "description": [
+            "⦎",
+            "right square bracket with tick in bottom corner",
+            "\r"
+        ]
+    },
+    "02990": {
+        "scope": "latex",
+        "prefix": "/rbrackurtick",
+        "body": "⦐",
+        "description": [
+            "⦐",
+            "right square bracket with tick in top corner",
+            "\r"
+        ]
+    },
+    "02992": {
+        "scope": "latex",
+        "prefix": "/rangledot",
+        "body": "⦒",
+        "description": [
+            "⦒",
+            "right angle bracket with dot",
+            "\r"
+        ]
+    },
+    "02994": {
+        "scope": "latex",
+        "prefix": "/rparengtr",
+        "body": "⦔",
+        "description": [
+            "⦔",
+            "right arc greater-than bracket",
+            "\r"
+        ]
+    },
+    "02996": {
+        "scope": "latex",
+        "prefix": "/Rparenless",
+        "body": "⦖",
+        "description": [
+            "⦖",
+            "double right arc less-than bracket",
+            "\r"
+        ]
+    },
+    "02998": {
+        "scope": "latex",
+        "prefix": "/rblkbrbrak",
+        "body": "⦘",
+        "description": [
+            "⦘",
+            "right black tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "029D9": {
+        "scope": "latex",
+        "prefix": "/rvzigzag",
+        "body": "⧙",
+        "description": [
+            "⧙",
+            "right wiggly fence",
+            "\r"
+        ]
+    },
+    "029DB": {
+        "scope": "latex",
+        "prefix": "/Rvzigzag",
+        "body": "⧛",
+        "description": [
+            "⧛",
+            "right double wiggly fence",
+            "\r"
+        ]
+    },
+    "029FD": {
+        "scope": "latex",
+        "prefix": "/rcurvyangle",
+        "body": "⧽",
+        "description": [
+            "⧽",
+            "right pointing curved angle bracket",
+            "\r"
+        ]
+    }
+}

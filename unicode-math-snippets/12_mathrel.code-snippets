@@ -1,0 +1,5924 @@
+// Part 12 of unicode-math-snippets, containg all \mathrel type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "0003C": {
+        "scope": "latex",
+        "prefix": "/less",
+        "body": "<",
+        "description": [
+            "<",
+            "less-than sign r:",
+            "\r"
+        ]
+    },
+    "0003D": {
+        "scope": "latex",
+        "prefix": "/equal",
+        "body": "=",
+        "description": [
+            "=",
+            "equals sign r:",
+            "\r"
+        ]
+    },
+    "0003E": {
+        "scope": "latex",
+        "prefix": "/greater",
+        "body": ">",
+        "description": [
+            ">",
+            "greater-than sign r:",
+            "\r"
+        ]
+    },
+    "02050": {
+        "scope": "latex",
+        "prefix": "/closure",
+        "body": "⁐",
+        "description": [
+            "⁐",
+            "close up",
+            "\r"
+        ]
+    },
+    "02190": {
+        "scope": "latex",
+        "prefix": ["/leftarrow", "/gets"],
+        "body": "←",
+        "description": [
+            "←",
+            "/leftarrow /gets a: leftward arrow",
+            "\r"
+        ]
+    },
+    "02191": {
+        "scope": "latex",
+        "prefix": "/uparrow",
+        "body": "↑",
+        "description": [
+            "↑",
+            "upward arrow",
+            "\r"
+        ]
+    },
+    "02192": {
+        "scope": "latex",
+        "prefix": ["/rightarrow", "/to"],
+        "body": "→",
+        "description": [
+            "→",
+            "/rightarrow /to a: rightward arrow",
+            "\r"
+        ]
+    },
+    "02193": {
+        "scope": "latex",
+        "prefix": "/downarrow",
+        "body": "↓",
+        "description": [
+            "↓",
+            "downward arrow",
+            "\r"
+        ]
+    },
+    "02194": {
+        "scope": "latex",
+        "prefix": "/leftrightarrow",
+        "body": "↔",
+        "description": [
+            "↔",
+            "left and right arrow",
+            "\r"
+        ]
+    },
+    "02195": {
+        "scope": "latex",
+        "prefix": "/updownarrow",
+        "body": "↕",
+        "description": [
+            "↕",
+            "up and down arrow",
+            "\r"
+        ]
+    },
+    "02196": {
+        "scope": "latex",
+        "prefix": "/nwarrow",
+        "body": "↖",
+        "description": [
+            "↖",
+            "nw pointing arrow",
+            "\r"
+        ]
+    },
+    "02197": {
+        "scope": "latex",
+        "prefix": "/nearrow",
+        "body": "↗",
+        "description": [
+            "↗",
+            "ne pointing arrow",
+            "\r"
+        ]
+    },
+    "02198": {
+        "scope": "latex",
+        "prefix": "/searrow",
+        "body": "↘",
+        "description": [
+            "↘",
+            "se pointing arrow",
+            "\r"
+        ]
+    },
+    "02199": {
+        "scope": "latex",
+        "prefix": "/swarrow",
+        "body": "↙",
+        "description": [
+            "↙",
+            "sw pointing arrow",
+            "\r"
+        ]
+    },
+    "0219A": {
+        "scope": "latex",
+        "prefix": "/nleftarrow",
+        "body": "↚",
+        "description": [
+            "↚",
+            "not left arrow",
+            "\r"
+        ]
+    },
+    "0219B": {
+        "scope": "latex",
+        "prefix": "/nrightarrow",
+        "body": "↛",
+        "description": [
+            "↛",
+            "not right arrow",
+            "\r"
+        ]
+    },
+    "0219C": {
+        "scope": "latex",
+        "prefix": "/leftwavearrow",
+        "body": "↜",
+        "description": [
+            "↜",
+            "left arrow-wavy",
+            "\r"
+        ]
+    },
+    "0219D": {
+        "scope": "latex",
+        "prefix": "/rightwavearrow",
+        "body": "↝",
+        "description": [
+            "↝",
+            "right arrow-wavy",
+            "\r"
+        ]
+    },
+    "0219E": {
+        "scope": "latex",
+        "prefix": "/twoheadleftarrow",
+        "body": "↞",
+        "description": [
+            "↞",
+            "left two-headed arrow",
+            "\r"
+        ]
+    },
+    "0219F": {
+        "scope": "latex",
+        "prefix": "/twoheaduparrow",
+        "body": "↟",
+        "description": [
+            "↟",
+            "up two-headed arrow",
+            "\r"
+        ]
+    },
+    "021A0": {
+        "scope": "latex",
+        "prefix": "/twoheadrightarrow",
+        "body": "↠",
+        "description": [
+            "↠",
+            "right two-headed arrow",
+            "\r"
+        ]
+    },
+    "021A1": {
+        "scope": "latex",
+        "prefix": "/twoheaddownarrow",
+        "body": "↡",
+        "description": [
+            "↡",
+            "down two-headed arrow",
+            "\r"
+        ]
+    },
+    "021A2": {
+        "scope": "latex",
+        "prefix": "/leftarrowtail",
+        "body": "↢",
+        "description": [
+            "↢",
+            "left arrow-tailed",
+            "\r"
+        ]
+    },
+    "021A3": {
+        "scope": "latex",
+        "prefix": "/rightarrowtail",
+        "body": "↣",
+        "description": [
+            "↣",
+            "right arrow-tailed",
+            "\r"
+        ]
+    },
+    "021A4": {
+        "scope": "latex",
+        "prefix": "/mapsfrom",
+        "body": "↤",
+        "description": [
+            "↤",
+            "maps to, leftward",
+            "\r"
+        ]
+    },
+    "021A5": {
+        "scope": "latex",
+        "prefix": "/mapsup",
+        "body": "↥",
+        "description": [
+            "↥",
+            "maps to, upward",
+            "\r"
+        ]
+    },
+    "021A6": {
+        "scope": "latex",
+        "prefix": "/mapsto",
+        "body": "↦",
+        "description": [
+            "↦",
+            "maps to, rightward",
+            "\r"
+        ]
+    },
+    "021A7": {
+        "scope": "latex",
+        "prefix": "/mapsdown",
+        "body": "↧",
+        "description": [
+            "↧",
+            "maps to, downward",
+            "\r"
+        ]
+    },
+    "021A9": {
+        "scope": "latex",
+        "prefix": "/hookleftarrow",
+        "body": "↩",
+        "description": [
+            "↩",
+            "left arrow-hooked",
+            "\r"
+        ]
+    },
+    "021AA": {
+        "scope": "latex",
+        "prefix": "/hookrightarrow",
+        "body": "↪",
+        "description": [
+            "↪",
+            "right arrow-hooked",
+            "\r"
+        ]
+    },
+    "021AB": {
+        "scope": "latex",
+        "prefix": "/looparrowleft",
+        "body": "↫",
+        "description": [
+            "↫",
+            "left arrow-looped",
+            "\r"
+        ]
+    },
+    "021AC": {
+        "scope": "latex",
+        "prefix": "/looparrowright",
+        "body": "↬",
+        "description": [
+            "↬",
+            "right arrow-looped",
+            "\r"
+        ]
+    },
+    "021AD": {
+        "scope": "latex",
+        "prefix": "/leftrightsquigarrow",
+        "body": "↭",
+        "description": [
+            "↭",
+            "left and right arr-wavy",
+            "\r"
+        ]
+    },
+    "021AE": {
+        "scope": "latex",
+        "prefix": "/nleftrightarrow",
+        "body": "↮",
+        "description": [
+            "↮",
+            "not left and right arrow",
+            "\r"
+        ]
+    },
+    "021AF": {
+        "scope": "latex",
+        "prefix": "/downzigzagarrow",
+        "body": "↯",
+        "description": [
+            "↯",
+            "downwards zigzag arrow",
+            "\r"
+        ]
+    },
+    "021B0": {
+        "scope": "latex",
+        "prefix": ["/Lsh", "/lsh"],
+        "body": "↰",
+        "description": [
+            "↰",
+            "/lsh a:",
+            "\r"
+        ]
+    },
+    "021B1": {
+        "scope": "latex",
+        "prefix": ["/Rsh", "/rsh"],
+        "body": "↱",
+        "description": [
+            "↱",
+            "/rsh a:",
+            "\r"
+        ]
+    },
+    "021B2": {
+        "scope": "latex",
+        "prefix": "/Ldsh",
+        "body": "↲",
+        "description": [
+            "↲",
+            "left down angled arrow",
+            "\r"
+        ]
+    },
+    "021B3": {
+        "scope": "latex",
+        "prefix": "/Rdsh",
+        "body": "↳",
+        "description": [
+            "↳",
+            "right down angled arrow",
+            "\r"
+        ]
+    },
+    "021B6": {
+        "scope": "latex",
+        "prefix": "/curvearrowleft",
+        "body": "↶",
+        "description": [
+            "↶",
+            "left curved arrow",
+            "\r"
+        ]
+    },
+    "021B7": {
+        "scope": "latex",
+        "prefix": "/curvearrowright",
+        "body": "↷",
+        "description": [
+            "↷",
+            "right curved arrow",
+            "\r"
+        ]
+    },
+    "021BC": {
+        "scope": "latex",
+        "prefix": "/leftharpoonup",
+        "body": "↼",
+        "description": [
+            "↼",
+            "left harpoon-up",
+            "\r"
+        ]
+    },
+    "021BD": {
+        "scope": "latex",
+        "prefix": "/leftharpoondown",
+        "body": "↽",
+        "description": [
+            "↽",
+            "left harpoon-down",
+            "\r"
+        ]
+    },
+    "021BE": {
+        "scope": "latex",
+        "prefix": ["/upharpoonright", "/restriction"],
+        "body": "↾",
+        "description": [
+            "↾",
+            "/upharpoonright /restriction a: up harpoon-right",
+            "\r"
+        ]
+    },
+    "021BF": {
+        "scope": "latex",
+        "prefix": "/upharpoonleft",
+        "body": "↿",
+        "description": [
+            "↿",
+            "up harpoon-left",
+            "\r"
+        ]
+    },
+    "021C0": {
+        "scope": "latex",
+        "prefix": "/rightharpoonup",
+        "body": "⇀",
+        "description": [
+            "⇀",
+            "right harpoon-up",
+            "\r"
+        ]
+    },
+    "021C1": {
+        "scope": "latex",
+        "prefix": "/rightharpoondown",
+        "body": "⇁",
+        "description": [
+            "⇁",
+            "right harpoon-down",
+            "\r"
+        ]
+    },
+    "021C2": {
+        "scope": "latex",
+        "prefix": "/downharpoonright",
+        "body": "⇂",
+        "description": [
+            "⇂",
+            "down harpoon-right",
+            "\r"
+        ]
+    },
+    "021C3": {
+        "scope": "latex",
+        "prefix": "/downharpoonleft",
+        "body": "⇃",
+        "description": [
+            "⇃",
+            "down harpoon-left",
+            "\r"
+        ]
+    },
+    "021C4": {
+        "scope": "latex",
+        "prefix": "/rightleftarrows",
+        "body": "⇄",
+        "description": [
+            "⇄",
+            "right arrow over left arrow",
+            "\r"
+        ]
+    },
+    "021C5": {
+        "scope": "latex",
+        "prefix": "/updownarrows",
+        "body": "⇅",
+        "description": [
+            "⇅",
+            "up arrow, down arrow",
+            "\r"
+        ]
+    },
+    "021C6": {
+        "scope": "latex",
+        "prefix": "/leftrightarrows",
+        "body": "⇆",
+        "description": [
+            "⇆",
+            "left arrow over right arrow",
+            "\r"
+        ]
+    },
+    "021C7": {
+        "scope": "latex",
+        "prefix": "/leftleftarrows",
+        "body": "⇇",
+        "description": [
+            "⇇",
+            "two left arrows",
+            "\r"
+        ]
+    },
+    "021C8": {
+        "scope": "latex",
+        "prefix": "/upuparrows",
+        "body": "⇈",
+        "description": [
+            "⇈",
+            "two up arrows",
+            "\r"
+        ]
+    },
+    "021C9": {
+        "scope": "latex",
+        "prefix": "/rightrightarrows",
+        "body": "⇉",
+        "description": [
+            "⇉",
+            "two right arrows",
+            "\r"
+        ]
+    },
+    "021CA": {
+        "scope": "latex",
+        "prefix": "/downdownarrows",
+        "body": "⇊",
+        "description": [
+            "⇊",
+            "two down arrows",
+            "\r"
+        ]
+    },
+    "021CB": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoons",
+        "body": "⇋",
+        "description": [
+            "⇋",
+            "left harpoon over right",
+            "\r"
+        ]
+    },
+    "021CC": {
+        "scope": "latex",
+        "prefix": "/rightleftharpoons",
+        "body": "⇌",
+        "description": [
+            "⇌",
+            "right harpoon over left",
+            "\r"
+        ]
+    },
+    "021CD": {
+        "scope": "latex",
+        "prefix": "/nLeftarrow",
+        "body": "⇍",
+        "description": [
+            "⇍",
+            "not implied by",
+            "\r"
+        ]
+    },
+    "021CE": {
+        "scope": "latex",
+        "prefix": "/nLeftrightarrow",
+        "body": "⇎",
+        "description": [
+            "⇎",
+            "not left and right double arrows",
+            "\r"
+        ]
+    },
+    "021CF": {
+        "scope": "latex",
+        "prefix": "/nRightarrow",
+        "body": "⇏",
+        "description": [
+            "⇏",
+            "not implies",
+            "\r"
+        ]
+    },
+    "021D0": {
+        "scope": "latex",
+        "prefix": "/Leftarrow",
+        "body": "⇐",
+        "description": [
+            "⇐",
+            "is implied by",
+            "\r"
+        ]
+    },
+    "021D1": {
+        "scope": "latex",
+        "prefix": "/Uparrow",
+        "body": "⇑",
+        "description": [
+            "⇑",
+            "up double arrow",
+            "\r"
+        ]
+    },
+    "021D2": {
+        "scope": "latex",
+        "prefix": "/Rightarrow",
+        "body": "⇒",
+        "description": [
+            "⇒",
+            "implies",
+            "\r"
+        ]
+    },
+    "021D3": {
+        "scope": "latex",
+        "prefix": "/Downarrow",
+        "body": "⇓",
+        "description": [
+            "⇓",
+            "down double arrow",
+            "\r"
+        ]
+    },
+    "021D4": {
+        "scope": "latex",
+        "prefix": "/Leftrightarrow",
+        "body": "⇔",
+        "description": [
+            "⇔",
+            "left and right double arrow",
+            "\r"
+        ]
+    },
+    "021D5": {
+        "scope": "latex",
+        "prefix": "/Updownarrow",
+        "body": "⇕",
+        "description": [
+            "⇕",
+            "up and down double arrow",
+            "\r"
+        ]
+    },
+    "021D6": {
+        "scope": "latex",
+        "prefix": "/Nwarrow",
+        "body": "⇖",
+        "description": [
+            "⇖",
+            "nw pointing double arrow",
+            "\r"
+        ]
+    },
+    "021D7": {
+        "scope": "latex",
+        "prefix": "/Nearrow",
+        "body": "⇗",
+        "description": [
+            "⇗",
+            "ne pointing double arrow",
+            "\r"
+        ]
+    },
+    "021D8": {
+        "scope": "latex",
+        "prefix": "/Searrow",
+        "body": "⇘",
+        "description": [
+            "⇘",
+            "se pointing double arrow",
+            "\r"
+        ]
+    },
+    "021D9": {
+        "scope": "latex",
+        "prefix": "/Swarrow",
+        "body": "⇙",
+        "description": [
+            "⇙",
+            "sw pointing double arrow",
+            "\r"
+        ]
+    },
+    "021DA": {
+        "scope": "latex",
+        "prefix": "/Lleftarrow",
+        "body": "⇚",
+        "description": [
+            "⇚",
+            "left triple arrow",
+            "\r"
+        ]
+    },
+    "021DB": {
+        "scope": "latex",
+        "prefix": "/Rrightarrow",
+        "body": "⇛",
+        "description": [
+            "⇛",
+            "right triple arrow",
+            "\r"
+        ]
+    },
+    "021DC": {
+        "scope": "latex",
+        "prefix": "/leftsquigarrow",
+        "body": "⇜",
+        "description": [
+            "⇜",
+            "leftwards squiggle arrow",
+            "\r"
+        ]
+    },
+    "021DD": {
+        "scope": "latex",
+        "prefix": "/rightsquigarrow",
+        "body": "⇝",
+        "description": [
+            "⇝",
+            "rightwards squiggle arrow",
+            "\r"
+        ]
+    },
+    "021E4": {
+        "scope": "latex",
+        "prefix": "/barleftarrow",
+        "body": "⇤",
+        "description": [
+            "⇤",
+            "leftwards arrow to bar",
+            "\r"
+        ]
+    },
+    "021E5": {
+        "scope": "latex",
+        "prefix": "/rightarrowbar",
+        "body": "⇥",
+        "description": [
+            "⇥",
+            "rightwards arrow to bar",
+            "\r"
+        ]
+    },
+    "021F4": {
+        "scope": "latex",
+        "prefix": "/circleonrightarrow",
+        "body": "⇴",
+        "description": [
+            "⇴",
+            "right arrow with small circle",
+            "\r"
+        ]
+    },
+    "021F5": {
+        "scope": "latex",
+        "prefix": "/downuparrows",
+        "body": "⇵",
+        "description": [
+            "⇵",
+            "downwards arrow leftwards of upwards arrow",
+            "\r"
+        ]
+    },
+    "021F6": {
+        "scope": "latex",
+        "prefix": "/rightthreearrows",
+        "body": "⇶",
+        "description": [
+            "⇶",
+            "three rightwards arrows",
+            "\r"
+        ]
+    },
+    "021F7": {
+        "scope": "latex",
+        "prefix": "/nvleftarrow",
+        "body": "⇷",
+        "description": [
+            "⇷",
+            "leftwards arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "021F8": {
+        "scope": "latex",
+        "prefix": "/nvrightarrow",
+        "body": "⇸",
+        "description": [
+            "⇸",
+            "rightwards arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "021F9": {
+        "scope": "latex",
+        "prefix": "/nvleftrightarrow",
+        "body": "⇹",
+        "description": [
+            "⇹",
+            "left right arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "021FA": {
+        "scope": "latex",
+        "prefix": "/nVleftarrow",
+        "body": "⇺",
+        "description": [
+            "⇺",
+            "leftwards arrow with double vertical stroke",
+            "\r"
+        ]
+    },
+    "021FB": {
+        "scope": "latex",
+        "prefix": "/nVrightarrow",
+        "body": "⇻",
+        "description": [
+            "⇻",
+            "rightwards arrow with double vertical stroke",
+            "\r"
+        ]
+    },
+    "021FC": {
+        "scope": "latex",
+        "prefix": "/nVleftrightarrow",
+        "body": "⇼",
+        "description": [
+            "⇼",
+            "left right arrow with double vertical stroke",
+            "\r"
+        ]
+    },
+    "021FD": {
+        "scope": "latex",
+        "prefix": "/leftarrowtriangle",
+        "body": "⇽",
+        "description": [
+            "⇽",
+            "leftwards open-headed arrow",
+            "\r"
+        ]
+    },
+    "021FE": {
+        "scope": "latex",
+        "prefix": "/rightarrowtriangle",
+        "body": "⇾",
+        "description": [
+            "⇾",
+            "rightwards open-headed arrow",
+            "\r"
+        ]
+    },
+    "021FF": {
+        "scope": "latex",
+        "prefix": "/leftrightarrowtriangle",
+        "body": "⇿",
+        "description": [
+            "⇿",
+            "left right open-headed arrow",
+            "\r"
+        ]
+    },
+    "02208": {
+        "scope": "latex",
+        "prefix": "/in",
+        "body": "∈",
+        "description": [
+            "∈",
+            "set membership, variant",
+            "\r"
+        ]
+    },
+    "02209": {
+        "scope": "latex",
+        "prefix": "/notin",
+        "body": "∉",
+        "description": [
+            "∉",
+            "negated set membership",
+            "\r"
+        ]
+    },
+    "0220A": {
+        "scope": "latex",
+        "prefix": "/smallin",
+        "body": "∊",
+        "description": [
+            "∊",
+            "set membership (small set membership)",
+            "\r"
+        ]
+    },
+    "0220B": {
+        "scope": "latex",
+        "prefix": "/ni",
+        "body": "∋",
+        "description": [
+            "∋",
+            "contains, variant",
+            "\r"
+        ]
+    },
+    "0220C": {
+        "scope": "latex",
+        "prefix": "/nni",
+        "body": "∌",
+        "description": [
+            "∌",
+            "negated contains, variant",
+            "\r"
+        ]
+    },
+    "0220D": {
+        "scope": "latex",
+        "prefix": ["/smallni", "/ni*", "/owns"],
+        "body": "∍",
+        "description": [
+            "∍",
+            "/ni /owns r: contains (small contains as member)",
+            "\r"
+        ]
+    },
+    "0221D": {
+        "scope": "latex",
+        "prefix": "/propto",
+        "body": "∝",
+        "description": [
+            "∝",
+            "is proportional to",
+            "\r"
+        ]
+    },
+    "02223": {
+        "scope": "latex",
+        "prefix": "/mid",
+        "body": "∣",
+        "description": [
+            "∣",
+            "/mid r:",
+            "\r"
+        ]
+    },
+    "02224": {
+        "scope": "latex",
+        "prefix": "/nmid",
+        "body": "∤",
+        "description": [
+            "∤",
+            "negated mid",
+            "\r"
+        ]
+    },
+    "02225": {
+        "scope": "latex",
+        "prefix": "/parallel",
+        "body": "∥",
+        "description": [
+            "∥",
+            "parallel",
+            "\r"
+        ]
+    },
+    "02226": {
+        "scope": "latex",
+        "prefix": "/nparallel",
+        "body": "∦",
+        "description": [
+            "∦",
+            "not parallel",
+            "\r"
+        ]
+    },
+    "02236": {
+        "scope": "latex",
+        "prefix": "/mathratio",
+        "body": "∶",
+        "description": [
+            "∶",
+            "ratio",
+            "\r"
+        ]
+    },
+    "02237": {
+        "scope": "latex",
+        "prefix": "/Colon",
+        "body": "∷",
+        "description": [
+            "∷",
+            "two colons",
+            "\r"
+        ]
+    },
+    "02239": {
+        "scope": "latex",
+        "prefix": "/dashcolon",
+        "body": "∹",
+        "description": [
+            "∹",
+            "excess (-:)",
+            "\r"
+        ]
+    },
+    "0223A": {
+        "scope": "latex",
+        "prefix": "/dotsminusdots",
+        "body": "∺",
+        "description": [
+            "∺",
+            "minus with four dots, geometric properties",
+            "\r"
+        ]
+    },
+    "0223B": {
+        "scope": "latex",
+        "prefix": "/kernelcontraction",
+        "body": "∻",
+        "description": [
+            "∻",
+            "homothetic",
+            "\r"
+        ]
+    },
+    "0223C": {
+        "scope": "latex",
+        "prefix": "/sim",
+        "body": "∼",
+        "description": [
+            "∼",
+            "similar",
+            "\r"
+        ]
+    },
+    "0223D": {
+        "scope": "latex",
+        "prefix": "/backsim",
+        "body": "∽",
+        "description": [
+            "∽",
+            "reverse similar",
+            "\r"
+        ]
+    },
+    "02241": {
+        "scope": "latex",
+        "prefix": "/nsim",
+        "body": "≁",
+        "description": [
+            "≁",
+            "not similar",
+            "\r"
+        ]
+    },
+    "02242": {
+        "scope": "latex",
+        "prefix": "/eqsim",
+        "body": "≂",
+        "description": [
+            "≂",
+            "equals, similar",
+            "\r"
+        ]
+    },
+    "02243": {
+        "scope": "latex",
+        "prefix": "/sime",
+        "body": "≃",
+        "description": [
+            "≃",
+            "similar, equals (alias)",
+            "\r"
+        ]
+    },
+    "02244": {
+        "scope": "latex",
+        "prefix": "/nsimeq",
+        "body": "≄",
+        "description": [
+            "≄",
+            "not similar, equals (alias)",
+            "\r"
+        ]
+    },
+    "02245": {
+        "scope": "latex",
+        "prefix": "/cong",
+        "body": "≅",
+        "description": [
+            "≅",
+            "congruent with",
+            "\r"
+        ]
+    },
+    "02246": {
+        "scope": "latex",
+        "prefix": "/simneqq",
+        "body": "≆",
+        "description": [
+            "≆",
+            "similar, not equals [vert only for 9573 entity]",
+            "\r"
+        ]
+    },
+    "02247": {
+        "scope": "latex",
+        "prefix": "/ncong",
+        "body": "≇",
+        "description": [
+            "≇",
+            "not congruent with",
+            "\r"
+        ]
+    },
+    "02248": {
+        "scope": "latex",
+        "prefix": "/approx",
+        "body": "≈",
+        "description": [
+            "≈",
+            "approximate",
+            "\r"
+        ]
+    },
+    "02249": {
+        "scope": "latex",
+        "prefix": "/napprox",
+        "body": "≉",
+        "description": [
+            "≉",
+            "not approximate",
+            "\r"
+        ]
+    },
+    "0224A": {
+        "scope": "latex",
+        "prefix": "/approxeq",
+        "body": "≊",
+        "description": [
+            "≊",
+            "approximate, equals",
+            "\r"
+        ]
+    },
+    "0224B": {
+        "scope": "latex",
+        "prefix": "/approxident",
+        "body": "≋",
+        "description": [
+            "≋",
+            "approximately identical to",
+            "\r"
+        ]
+    },
+    "0224C": {
+        "scope": "latex",
+        "prefix": "/backcong",
+        "body": "≌",
+        "description": [
+            "≌",
+            "all equal to",
+            "\r"
+        ]
+    },
+    "0224D": {
+        "scope": "latex",
+        "prefix": "/asymp",
+        "body": "≍",
+        "description": [
+            "≍",
+            "asymptotically equal to",
+            "\r"
+        ]
+    },
+    "0224E": {
+        "scope": "latex",
+        "prefix": "/Bumpeq",
+        "body": "≎",
+        "description": [
+            "≎",
+            "bumpy equals",
+            "\r"
+        ]
+    },
+    "0224F": {
+        "scope": "latex",
+        "prefix": "/bumpeq",
+        "body": "≏",
+        "description": [
+            "≏",
+            "bumpy equals, equals",
+            "\r"
+        ]
+    },
+    "02250": {
+        "scope": "latex",
+        "prefix": "/doteq",
+        "body": "≐",
+        "description": [
+            "≐",
+            "equals, single dot above",
+            "\r"
+        ]
+    },
+    "02251": {
+        "scope": "latex",
+        "prefix": ["/Doteq", "/doteqdot", "/doteq*"],
+        "body": "≑",
+        "description": [
+            "≑",
+            "/doteqdot /doteq r: equals, even dots",
+            "\r"
+        ]
+    },
+    "02252": {
+        "scope": "latex",
+        "prefix": "/fallingdotseq",
+        "body": "≒",
+        "description": [
+            "≒",
+            "equals, falling dots",
+            "\r"
+        ]
+    },
+    "02253": {
+        "scope": "latex",
+        "prefix": "/risingdotseq",
+        "body": "≓",
+        "description": [
+            "≓",
+            "equals, rising dots",
+            "\r"
+        ]
+    },
+    "02254": {
+        "scope": "latex",
+        "prefix": "/coloneq",
+        "body": "≔",
+        "description": [
+            "≔",
+            "colon, equals",
+            "\r"
+        ]
+    },
+    "02255": {
+        "scope": "latex",
+        "prefix": "/eqcolon",
+        "body": "≕",
+        "description": [
+            "≕",
+            "equals, colon",
+            "\r"
+        ]
+    },
+    "02256": {
+        "scope": "latex",
+        "prefix": "/eqcirc",
+        "body": "≖",
+        "description": [
+            "≖",
+            "circle on equals sign",
+            "\r"
+        ]
+    },
+    "02257": {
+        "scope": "latex",
+        "prefix": "/circeq",
+        "body": "≗",
+        "description": [
+            "≗",
+            "circle, equals",
+            "\r"
+        ]
+    },
+    "02258": {
+        "scope": "latex",
+        "prefix": "/arceq",
+        "body": "≘",
+        "description": [
+            "≘",
+            "arc, equals; corresponds to",
+            "\r"
+        ]
+    },
+    "02259": {
+        "scope": "latex",
+        "prefix": "/wedgeq",
+        "body": "≙",
+        "description": [
+            "≙",
+            "corresponds to (wedge, equals)",
+            "\r"
+        ]
+    },
+    "0225A": {
+        "scope": "latex",
+        "prefix": "/veeeq",
+        "body": "≚",
+        "description": [
+            "≚",
+            "logical or, equals",
+            "\r"
+        ]
+    },
+    "0225B": {
+        "scope": "latex",
+        "prefix": "/stareq",
+        "body": "≛",
+        "description": [
+            "≛",
+            "star equals",
+            "\r"
+        ]
+    },
+    "0225C": {
+        "scope": "latex",
+        "prefix": "/triangleq",
+        "body": "≜",
+        "description": [
+            "≜",
+            "triangle, equals",
+            "\r"
+        ]
+    },
+    "0225D": {
+        "scope": "latex",
+        "prefix": "/eqdef",
+        "body": "≝",
+        "description": [
+            "≝",
+            "equals by definition",
+            "\r"
+        ]
+    },
+    "0225E": {
+        "scope": "latex",
+        "prefix": "/measeq",
+        "body": "≞",
+        "description": [
+            "≞",
+            "measured by (m over equals)",
+            "\r"
+        ]
+    },
+    "0225F": {
+        "scope": "latex",
+        "prefix": "/questeq",
+        "body": "≟",
+        "description": [
+            "≟",
+            "equal with questionmark",
+            "\r"
+        ]
+    },
+    "02260": {
+        "scope": "latex",
+        "prefix": ["/ne", "/neq"],
+        "body": "≠",
+        "description": [
+            "≠",
+            "/ne /neq r: not equal",
+            "\r"
+        ]
+    },
+    "02261": {
+        "scope": "latex",
+        "prefix": "/equiv",
+        "body": "≡",
+        "description": [
+            "≡",
+            "identical with",
+            "\r"
+        ]
+    },
+    "02262": {
+        "scope": "latex",
+        "prefix": "/nequiv",
+        "body": "≢",
+        "description": [
+            "≢",
+            "not identical with",
+            "\r"
+        ]
+    },
+    "02263": {
+        "scope": "latex",
+        "prefix": "/Equiv",
+        "body": "≣",
+        "description": [
+            "≣",
+            "strict equivalence (4 lines)",
+            "\r"
+        ]
+    },
+    "02264": {
+        "scope": "latex",
+        "prefix": ["/leq", "/le"],
+        "body": "≤",
+        "description": [
+            "≤",
+            "/leq /le r: less-than-or-equal",
+            "\r"
+        ]
+    },
+    "02265": {
+        "scope": "latex",
+        "prefix": ["/geq", "/ge"],
+        "body": "≥",
+        "description": [
+            "≥",
+            "/geq /ge r: greater-than-or-equal",
+            "\r"
+        ]
+    },
+    "02266": {
+        "scope": "latex",
+        "prefix": "/leqq",
+        "body": "≦",
+        "description": [
+            "≦",
+            "less, double equals",
+            "\r"
+        ]
+    },
+    "02267": {
+        "scope": "latex",
+        "prefix": "/geqq",
+        "body": "≧",
+        "description": [
+            "≧",
+            "greater, double equals",
+            "\r"
+        ]
+    },
+    "02268": {
+        "scope": "latex",
+        "prefix": "/lneqq",
+        "body": "≨",
+        "description": [
+            "≨",
+            "less, not double equals",
+            "\r"
+        ]
+    },
+    "02269": {
+        "scope": "latex",
+        "prefix": "/gneqq",
+        "body": "≩",
+        "description": [
+            "≩",
+            "greater, not double equals",
+            "\r"
+        ]
+    },
+    "0226A": {
+        "scope": "latex",
+        "prefix": "/ll",
+        "body": "≪",
+        "description": [
+            "≪",
+            "much less than, type 2",
+            "\r"
+        ]
+    },
+    "0226B": {
+        "scope": "latex",
+        "prefix": "/gg",
+        "body": "≫",
+        "description": [
+            "≫",
+            "much greater than, type 2",
+            "\r"
+        ]
+    },
+    "0226C": {
+        "scope": "latex",
+        "prefix": "/between",
+        "body": "≬",
+        "description": [
+            "≬",
+            "between",
+            "\r"
+        ]
+    },
+    "0226D": {
+        "scope": "latex",
+        "prefix": "/nasymp",
+        "body": "≭",
+        "description": [
+            "≭",
+            "not asymptotically equal to",
+            "\r"
+        ]
+    },
+    "0226E": {
+        "scope": "latex",
+        "prefix": "/nless",
+        "body": "≮",
+        "description": [
+            "≮",
+            "not less-than",
+            "\r"
+        ]
+    },
+    "0226F": {
+        "scope": "latex",
+        "prefix": "/ngtr",
+        "body": "≯",
+        "description": [
+            "≯",
+            "not greater-than",
+            "\r"
+        ]
+    },
+    "02270": {
+        "scope": "latex",
+        "prefix": "/nleq",
+        "body": "≰",
+        "description": [
+            "≰",
+            "not less-than-or-equal",
+            "\r"
+        ]
+    },
+    "02271": {
+        "scope": "latex",
+        "prefix": "/ngeq",
+        "body": "≱",
+        "description": [
+            "≱",
+            "not greater-than-or-equal",
+            "\r"
+        ]
+    },
+    "02272": {
+        "scope": "latex",
+        "prefix": "/lesssim",
+        "body": "≲",
+        "description": [
+            "≲",
+            "less, similar",
+            "\r"
+        ]
+    },
+    "02273": {
+        "scope": "latex",
+        "prefix": "/gtrsim",
+        "body": "≳",
+        "description": [
+            "≳",
+            "greater, similar",
+            "\r"
+        ]
+    },
+    "02274": {
+        "scope": "latex",
+        "prefix": "/nlesssim",
+        "body": "≴",
+        "description": [
+            "≴",
+            "not less, similar",
+            "\r"
+        ]
+    },
+    "02275": {
+        "scope": "latex",
+        "prefix": "/ngtrsim",
+        "body": "≵",
+        "description": [
+            "≵",
+            "not greater, similar",
+            "\r"
+        ]
+    },
+    "02276": {
+        "scope": "latex",
+        "prefix": "/lessgtr",
+        "body": "≶",
+        "description": [
+            "≶",
+            "less, greater",
+            "\r"
+        ]
+    },
+    "02277": {
+        "scope": "latex",
+        "prefix": "/gtrless",
+        "body": "≷",
+        "description": [
+            "≷",
+            "greater, less",
+            "\r"
+        ]
+    },
+    "02278": {
+        "scope": "latex",
+        "prefix": "/nlessgtr",
+        "body": "≸",
+        "description": [
+            "≸",
+            "not less, greater",
+            "\r"
+        ]
+    },
+    "02279": {
+        "scope": "latex",
+        "prefix": "/ngtrless",
+        "body": "≹",
+        "description": [
+            "≹",
+            "not greater, less",
+            "\r"
+        ]
+    },
+    "0227A": {
+        "scope": "latex",
+        "prefix": "/prec",
+        "body": "≺",
+        "description": [
+            "≺",
+            "precedes",
+            "\r"
+        ]
+    },
+    "0227B": {
+        "scope": "latex",
+        "prefix": "/succ",
+        "body": "≻",
+        "description": [
+            "≻",
+            "succeeds",
+            "\r"
+        ]
+    },
+    "0227C": {
+        "scope": "latex",
+        "prefix": "/preccurlyeq",
+        "body": "≼",
+        "description": [
+            "≼",
+            "precedes, curly equals",
+            "\r"
+        ]
+    },
+    "0227D": {
+        "scope": "latex",
+        "prefix": "/succcurlyeq",
+        "body": "≽",
+        "description": [
+            "≽",
+            "succeeds, curly equals",
+            "\r"
+        ]
+    },
+    "0227E": {
+        "scope": "latex",
+        "prefix": "/precsim",
+        "body": "≾",
+        "description": [
+            "≾",
+            "precedes, similar",
+            "\r"
+        ]
+    },
+    "0227F": {
+        "scope": "latex",
+        "prefix": "/succsim",
+        "body": "≿",
+        "description": [
+            "≿",
+            "succeeds, similar",
+            "\r"
+        ]
+    },
+    "02280": {
+        "scope": "latex",
+        "prefix": "/nprec",
+        "body": "⊀",
+        "description": [
+            "⊀",
+            "not precedes",
+            "\r"
+        ]
+    },
+    "02281": {
+        "scope": "latex",
+        "prefix": "/nsucc",
+        "body": "⊁",
+        "description": [
+            "⊁",
+            "not succeeds",
+            "\r"
+        ]
+    },
+    "02282": {
+        "scope": "latex",
+        "prefix": "/subset",
+        "body": "⊂",
+        "description": [
+            "⊂",
+            "subset or is implied by",
+            "\r"
+        ]
+    },
+    "02283": {
+        "scope": "latex",
+        "prefix": "/supset",
+        "body": "⊃",
+        "description": [
+            "⊃",
+            "superset or implies",
+            "\r"
+        ]
+    },
+    "02284": {
+        "scope": "latex",
+        "prefix": "/nsubset",
+        "body": "⊄",
+        "description": [
+            "⊄",
+            "not subset, variant [slash negation]",
+            "\r"
+        ]
+    },
+    "02285": {
+        "scope": "latex",
+        "prefix": "/nsupset",
+        "body": "⊅",
+        "description": [
+            "⊅",
+            "not superset, variant [slash negation]",
+            "\r"
+        ]
+    },
+    "02286": {
+        "scope": "latex",
+        "prefix": "/subseteq",
+        "body": "⊆",
+        "description": [
+            "⊆",
+            "subset, equals",
+            "\r"
+        ]
+    },
+    "02287": {
+        "scope": "latex",
+        "prefix": "/supseteq",
+        "body": "⊇",
+        "description": [
+            "⊇",
+            "superset, equals",
+            "\r"
+        ]
+    },
+    "02288": {
+        "scope": "latex",
+        "prefix": "/nsubseteq",
+        "body": "⊈",
+        "description": [
+            "⊈",
+            "not subset, equals",
+            "\r"
+        ]
+    },
+    "02289": {
+        "scope": "latex",
+        "prefix": "/nsupseteq",
+        "body": "⊉",
+        "description": [
+            "⊉",
+            "not superset, equals",
+            "\r"
+        ]
+    },
+    "0228A": {
+        "scope": "latex",
+        "prefix": "/subsetneq",
+        "body": "⊊",
+        "description": [
+            "⊊",
+            "subset, not equals",
+            "\r"
+        ]
+    },
+    "0228B": {
+        "scope": "latex",
+        "prefix": "/supsetneq",
+        "body": "⊋",
+        "description": [
+            "⊋",
+            "superset, not equals",
+            "\r"
+        ]
+    },
+    "0228F": {
+        "scope": "latex",
+        "prefix": "/sqsubset",
+        "body": "⊏",
+        "description": [
+            "⊏",
+            "square subset",
+            "\r"
+        ]
+    },
+    "02290": {
+        "scope": "latex",
+        "prefix": "/sqsupset",
+        "body": "⊐",
+        "description": [
+            "⊐",
+            "square superset",
+            "\r"
+        ]
+    },
+    "02291": {
+        "scope": "latex",
+        "prefix": "/sqsubseteq",
+        "body": "⊑",
+        "description": [
+            "⊑",
+            "square subset, equals",
+            "\r"
+        ]
+    },
+    "02292": {
+        "scope": "latex",
+        "prefix": "/sqsupseteq",
+        "body": "⊒",
+        "description": [
+            "⊒",
+            "square superset, equals",
+            "\r"
+        ]
+    },
+    "022A2": {
+        "scope": "latex",
+        "prefix": "/vdash",
+        "body": "⊢",
+        "description": [
+            "⊢",
+            "vertical, dash",
+            "\r"
+        ]
+    },
+    "022A3": {
+        "scope": "latex",
+        "prefix": "/dashv",
+        "body": "⊣",
+        "description": [
+            "⊣",
+            "dash, vertical",
+            "\r"
+        ]
+    },
+    "022A6": {
+        "scope": "latex",
+        "prefix": "/assert",
+        "body": "⊦",
+        "description": [
+            "⊦",
+            "assertion (vertical, short dash)",
+            "\r"
+        ]
+    },
+    "022A7": {
+        "scope": "latex",
+        "prefix": "/models",
+        "body": "⊧",
+        "description": [
+            "⊧",
+            "models (vertical, short double dash)",
+            "\r"
+        ]
+    },
+    "022A8": {
+        "scope": "latex",
+        "prefix": "/vDash",
+        "body": "⊨",
+        "description": [
+            "⊨",
+            "vertical, double dash",
+            "\r"
+        ]
+    },
+    "022A9": {
+        "scope": "latex",
+        "prefix": "/Vdash",
+        "body": "⊩",
+        "description": [
+            "⊩",
+            "double vertical, dash",
+            "\r"
+        ]
+    },
+    "022AA": {
+        "scope": "latex",
+        "prefix": "/Vvdash",
+        "body": "⊪",
+        "description": [
+            "⊪",
+            "triple vertical, dash",
+            "\r"
+        ]
+    },
+    "022AB": {
+        "scope": "latex",
+        "prefix": "/VDash",
+        "body": "⊫",
+        "description": [
+            "⊫",
+            "double vert, double dash",
+            "\r"
+        ]
+    },
+    "022AC": {
+        "scope": "latex",
+        "prefix": "/nvdash",
+        "body": "⊬",
+        "description": [
+            "⊬",
+            "not vertical, dash",
+            "\r"
+        ]
+    },
+    "022AD": {
+        "scope": "latex",
+        "prefix": "/nvDash",
+        "body": "⊭",
+        "description": [
+            "⊭",
+            "not vertical, double dash",
+            "\r"
+        ]
+    },
+    "022AE": {
+        "scope": "latex",
+        "prefix": "/nVdash",
+        "body": "⊮",
+        "description": [
+            "⊮",
+            "not double vertical, dash",
+            "\r"
+        ]
+    },
+    "022AF": {
+        "scope": "latex",
+        "prefix": "/nVDash",
+        "body": "⊯",
+        "description": [
+            "⊯",
+            "not double vert, double dash",
+            "\r"
+        ]
+    },
+    "022B0": {
+        "scope": "latex",
+        "prefix": "/prurel",
+        "body": "⊰",
+        "description": [
+            "⊰",
+            "element precedes under relation",
+            "\r"
+        ]
+    },
+    "022B1": {
+        "scope": "latex",
+        "prefix": "/scurel",
+        "body": "⊱",
+        "description": [
+            "⊱",
+            "succeeds under relation",
+            "\r"
+        ]
+    },
+    "022B2": {
+        "scope": "latex",
+        "prefix": "/vartriangleleft",
+        "body": "⊲",
+        "description": [
+            "⊲",
+            "left triangle, open, variant",
+            "\r"
+        ]
+    },
+    "022B3": {
+        "scope": "latex",
+        "prefix": "/vartriangleright",
+        "body": "⊳",
+        "description": [
+            "⊳",
+            "right triangle, open, variant",
+            "\r"
+        ]
+    },
+    "022B4": {
+        "scope": "latex",
+        "prefix": "/trianglelefteq",
+        "body": "⊴",
+        "description": [
+            "⊴",
+            "left triangle, equals",
+            "\r"
+        ]
+    },
+    "022B5": {
+        "scope": "latex",
+        "prefix": "/trianglerighteq",
+        "body": "⊵",
+        "description": [
+            "⊵",
+            "right triangle, equals",
+            "\r"
+        ]
+    },
+    "022B6": {
+        "scope": "latex",
+        "prefix": "/origof",
+        "body": "⊶",
+        "description": [
+            "⊶",
+            "original of",
+            "\r"
+        ]
+    },
+    "022B7": {
+        "scope": "latex",
+        "prefix": "/imageof",
+        "body": "⊷",
+        "description": [
+            "⊷",
+            "image of",
+            "\r"
+        ]
+    },
+    "022B8": {
+        "scope": "latex",
+        "prefix": "/multimap",
+        "body": "⊸",
+        "description": [
+            "⊸",
+            "/multimap a:",
+            "\r"
+        ]
+    },
+    "022C8": {
+        "scope": "latex",
+        "prefix": "/bowtie",
+        "body": "⋈",
+        "description": [
+            "⋈",
+            "bowtie",
+            "\r"
+        ]
+    },
+    "022CD": {
+        "scope": "latex",
+        "prefix": "/backsimeq",
+        "body": "⋍",
+        "description": [
+            "⋍",
+            "reverse similar, equals",
+            "\r"
+        ]
+    },
+    "022D0": {
+        "scope": "latex",
+        "prefix": "/Subset",
+        "body": "⋐",
+        "description": [
+            "⋐",
+            "double subset",
+            "\r"
+        ]
+    },
+    "022D1": {
+        "scope": "latex",
+        "prefix": "/Supset",
+        "body": "⋑",
+        "description": [
+            "⋑",
+            "double superset",
+            "\r"
+        ]
+    },
+    "022D4": {
+        "scope": "latex",
+        "prefix": "/pitchfork",
+        "body": "⋔",
+        "description": [
+            "⋔",
+            "pitchfork",
+            "\r"
+        ]
+    },
+    "022D5": {
+        "scope": "latex",
+        "prefix": "/equalparallel",
+        "body": "⋕",
+        "description": [
+            "⋕",
+            "parallel, equal; equal or parallel",
+            "\r"
+        ]
+    },
+    "022D6": {
+        "scope": "latex",
+        "prefix": "/lessdot",
+        "body": "⋖",
+        "description": [
+            "⋖",
+            "less than, with dot",
+            "\r"
+        ]
+    },
+    "022D7": {
+        "scope": "latex",
+        "prefix": "/gtrdot",
+        "body": "⋗",
+        "description": [
+            "⋗",
+            "greater than, with dot",
+            "\r"
+        ]
+    },
+    "022D8": {
+        "scope": "latex",
+        "prefix": ["/lll", "/ll*", "/llless"],
+        "body": "⋘",
+        "description": [
+            "⋘",
+            "/ll /lll /llless r: triple less-than",
+            "\r"
+        ]
+    },
+    "022D9": {
+        "scope": "latex",
+        "prefix": ["/ggg", "/gg", "/gggtr"],
+        "body": "⋙",
+        "description": [
+            "⋙",
+            "/ggg /gg /gggtr r: triple greater-than",
+            "\r"
+        ]
+    },
+    "022DA": {
+        "scope": "latex",
+        "prefix": "/lesseqgtr",
+        "body": "⋚",
+        "description": [
+            "⋚",
+            "less, equals, greater",
+            "\r"
+        ]
+    },
+    "022DB": {
+        "scope": "latex",
+        "prefix": "/gtreqless",
+        "body": "⋛",
+        "description": [
+            "⋛",
+            "greater, equals, less",
+            "\r"
+        ]
+    },
+    "022DC": {
+        "scope": "latex",
+        "prefix": "/eqless",
+        "body": "⋜",
+        "description": [
+            "⋜",
+            "equal-or-less",
+            "\r"
+        ]
+    },
+    "022DD": {
+        "scope": "latex",
+        "prefix": "/eqgtr",
+        "body": "⋝",
+        "description": [
+            "⋝",
+            "equal-or-greater",
+            "\r"
+        ]
+    },
+    "022DE": {
+        "scope": "latex",
+        "prefix": "/curlyeqprec",
+        "body": "⋞",
+        "description": [
+            "⋞",
+            "curly equals, precedes",
+            "\r"
+        ]
+    },
+    "022DF": {
+        "scope": "latex",
+        "prefix": "/curlyeqsucc",
+        "body": "⋟",
+        "description": [
+            "⋟",
+            "curly equals, succeeds",
+            "\r"
+        ]
+    },
+    "022E0": {
+        "scope": "latex",
+        "prefix": "/npreccurlyeq",
+        "body": "⋠",
+        "description": [
+            "⋠",
+            "not precedes, curly equals",
+            "\r"
+        ]
+    },
+    "022E1": {
+        "scope": "latex",
+        "prefix": "/nsucccurlyeq",
+        "body": "⋡",
+        "description": [
+            "⋡",
+            "not succeeds, curly equals",
+            "\r"
+        ]
+    },
+    "022E2": {
+        "scope": "latex",
+        "prefix": "/nsqsubseteq",
+        "body": "⋢",
+        "description": [
+            "⋢",
+            "not, square subset, equals",
+            "\r"
+        ]
+    },
+    "022E3": {
+        "scope": "latex",
+        "prefix": "/nsqsupseteq",
+        "body": "⋣",
+        "description": [
+            "⋣",
+            "not, square superset, equals",
+            "\r"
+        ]
+    },
+    "022E4": {
+        "scope": "latex",
+        "prefix": "/sqsubsetneq",
+        "body": "⋤",
+        "description": [
+            "⋤",
+            "square subset, not equals",
+            "\r"
+        ]
+    },
+    "022E5": {
+        "scope": "latex",
+        "prefix": "/sqsupsetneq",
+        "body": "⋥",
+        "description": [
+            "⋥",
+            "square superset, not equals",
+            "\r"
+        ]
+    },
+    "022E6": {
+        "scope": "latex",
+        "prefix": "/lnsim",
+        "body": "⋦",
+        "description": [
+            "⋦",
+            "less, not similar",
+            "\r"
+        ]
+    },
+    "022E7": {
+        "scope": "latex",
+        "prefix": "/gnsim",
+        "body": "⋧",
+        "description": [
+            "⋧",
+            "greater, not similar",
+            "\r"
+        ]
+    },
+    "022E8": {
+        "scope": "latex",
+        "prefix": "/precnsim",
+        "body": "⋨",
+        "description": [
+            "⋨",
+            "precedes, not similar",
+            "\r"
+        ]
+    },
+    "022E9": {
+        "scope": "latex",
+        "prefix": "/succnsim",
+        "body": "⋩",
+        "description": [
+            "⋩",
+            "succeeds, not similar",
+            "\r"
+        ]
+    },
+    "022EA": {
+        "scope": "latex",
+        "prefix": "/nvartriangleleft",
+        "body": "⋪",
+        "description": [
+            "⋪",
+            "not left triangle",
+            "\r"
+        ]
+    },
+    "022EB": {
+        "scope": "latex",
+        "prefix": "/nvartriangleright",
+        "body": "⋫",
+        "description": [
+            "⋫",
+            "not right triangle",
+            "\r"
+        ]
+    },
+    "022EC": {
+        "scope": "latex",
+        "prefix": "/ntrianglelefteq",
+        "body": "⋬",
+        "description": [
+            "⋬",
+            "not left triangle, equals",
+            "\r"
+        ]
+    },
+    "022ED": {
+        "scope": "latex",
+        "prefix": "/ntrianglerighteq",
+        "body": "⋭",
+        "description": [
+            "⋭",
+            "not right triangle, equals",
+            "\r"
+        ]
+    },
+    "022EE": {
+        "scope": "latex",
+        "prefix": "/vdots",
+        "body": "⋮",
+        "description": [
+            "⋮",
+            "vertical ellipsis",
+            "\r"
+        ]
+    },
+    "022F0": {
+        "scope": "latex",
+        "prefix": "/adots",
+        "body": "⋰",
+        "description": [
+            "⋰",
+            "three dots, ascending",
+            "\r"
+        ]
+    },
+    "022F1": {
+        "scope": "latex",
+        "prefix": "/ddots",
+        "body": "⋱",
+        "description": [
+            "⋱",
+            "three dots, descending",
+            "\r"
+        ]
+    },
+    "022F2": {
+        "scope": "latex",
+        "prefix": "/disin",
+        "body": "⋲",
+        "description": [
+            "⋲",
+            "element of with long horizontal stroke",
+            "\r"
+        ]
+    },
+    "022F3": {
+        "scope": "latex",
+        "prefix": "/varisins",
+        "body": "⋳",
+        "description": [
+            "⋳",
+            "element of with vertical bar at end of horizontal stroke",
+            "\r"
+        ]
+    },
+    "022F4": {
+        "scope": "latex",
+        "prefix": "/isins",
+        "body": "⋴",
+        "description": [
+            "⋴",
+            "small element of with vertical bar at end of horizontal stroke",
+            "\r"
+        ]
+    },
+    "022F5": {
+        "scope": "latex",
+        "prefix": "/isindot",
+        "body": "⋵",
+        "description": [
+            "⋵",
+            "element of with dot above",
+            "\r"
+        ]
+    },
+    "022F6": {
+        "scope": "latex",
+        "prefix": "/varisinobar",
+        "body": "⋶",
+        "description": [
+            "⋶",
+            "element of with overbar",
+            "\r"
+        ]
+    },
+    "022F7": {
+        "scope": "latex",
+        "prefix": "/isinobar",
+        "body": "⋷",
+        "description": [
+            "⋷",
+            "small element of with overbar",
+            "\r"
+        ]
+    },
+    "022F8": {
+        "scope": "latex",
+        "prefix": "/isinvb",
+        "body": "⋸",
+        "description": [
+            "⋸",
+            "element of with underbar",
+            "\r"
+        ]
+    },
+    "022F9": {
+        "scope": "latex",
+        "prefix": "/isinE",
+        "body": "⋹",
+        "description": [
+            "⋹",
+            "element of with two horizontal strokes",
+            "\r"
+        ]
+    },
+    "022FA": {
+        "scope": "latex",
+        "prefix": "/nisd",
+        "body": "⋺",
+        "description": [
+            "⋺",
+            "contains with long horizontal stroke",
+            "\r"
+        ]
+    },
+    "022FB": {
+        "scope": "latex",
+        "prefix": "/varnis",
+        "body": "⋻",
+        "description": [
+            "⋻",
+            "contains with vertical bar at end of horizontal stroke",
+            "\r"
+        ]
+    },
+    "022FC": {
+        "scope": "latex",
+        "prefix": "/nis",
+        "body": "⋼",
+        "description": [
+            "⋼",
+            "small contains with vertical bar at end of horizontal stroke",
+            "\r"
+        ]
+    },
+    "022FD": {
+        "scope": "latex",
+        "prefix": "/varniobar",
+        "body": "⋽",
+        "description": [
+            "⋽",
+            "contains with overbar",
+            "\r"
+        ]
+    },
+    "022FE": {
+        "scope": "latex",
+        "prefix": "/niobar",
+        "body": "⋾",
+        "description": [
+            "⋾",
+            "small contains with overbar",
+            "\r"
+        ]
+    },
+    "022FF": {
+        "scope": "latex",
+        "prefix": "/bagmember",
+        "body": "⋿",
+        "description": [
+            "⋿",
+            "z notation bag membership",
+            "\r"
+        ]
+    },
+    "02322": {
+        "scope": "latex",
+        "prefix": "/frown",
+        "body": "⌢",
+        "description": [
+            "⌢",
+            "down curve",
+            "\r"
+        ]
+    },
+    "02323": {
+        "scope": "latex",
+        "prefix": "/smile",
+        "body": "⌣",
+        "description": [
+            "⌣",
+            "up curve",
+            "\r"
+        ]
+    },
+    "0233F": {
+        "scope": "latex",
+        "prefix": "/APLnotslash",
+        "body": "⌿",
+        "description": [
+            "⌿",
+            "solidus, bar through (apl functional symbol slash bar)",
+            "\r"
+        ]
+    },
+    "025B5": {
+        "scope": "latex",
+        "prefix": ["/vartriangle", "/triangle"],
+        "body": "▵",
+        "description": [
+            "▵",
+            "/triangle - up triangle, open",
+            "\r"
+        ]
+    },
+    "027C2": {
+        "scope": "latex",
+        "prefix": "/perp",
+        "body": "⟂",
+        "description": [
+            "⟂",
+            "perpendicular",
+            "\r"
+        ]
+    },
+    "027C8": {
+        "scope": "latex",
+        "prefix": "/bsolhsub",
+        "body": "⟈",
+        "description": [
+            "⟈",
+            "reverse solidus preceding subset",
+            "\r"
+        ]
+    },
+    "027C9": {
+        "scope": "latex",
+        "prefix": "/suphsol",
+        "body": "⟉",
+        "description": [
+            "⟉",
+            "superset preceding solidus",
+            "\r"
+        ]
+    },
+    "027D2": {
+        "scope": "latex",
+        "prefix": "/upin",
+        "body": "⟒",
+        "description": [
+            "⟒",
+            "element of opening upwards",
+            "\r"
+        ]
+    },
+    "027D3": {
+        "scope": "latex",
+        "prefix": "/pullback",
+        "body": "⟓",
+        "description": [
+            "⟓",
+            "lower right corner with dot",
+            "\r"
+        ]
+    },
+    "027D4": {
+        "scope": "latex",
+        "prefix": "/pushout",
+        "body": "⟔",
+        "description": [
+            "⟔",
+            "upper left corner with dot",
+            "\r"
+        ]
+    },
+    "027DA": {
+        "scope": "latex",
+        "prefix": "/DashVDash",
+        "body": "⟚",
+        "description": [
+            "⟚",
+            "left and right double turnstile",
+            "\r"
+        ]
+    },
+    "027DB": {
+        "scope": "latex",
+        "prefix": "/dashVdash",
+        "body": "⟛",
+        "description": [
+            "⟛",
+            "left and right tack",
+            "\r"
+        ]
+    },
+    "027DC": {
+        "scope": "latex",
+        "prefix": "/multimapinv",
+        "body": "⟜",
+        "description": [
+            "⟜",
+            "left multimap",
+            "\r"
+        ]
+    },
+    "027DD": {
+        "scope": "latex",
+        "prefix": "/vlongdash",
+        "body": "⟝",
+        "description": [
+            "⟝",
+            "long left tack",
+            "\r"
+        ]
+    },
+    "027DE": {
+        "scope": "latex",
+        "prefix": "/longdashv",
+        "body": "⟞",
+        "description": [
+            "⟞",
+            "long right tack",
+            "\r"
+        ]
+    },
+    "027DF": {
+        "scope": "latex",
+        "prefix": "/cirbot",
+        "body": "⟟",
+        "description": [
+            "⟟",
+            "up tack with circle above",
+            "\r"
+        ]
+    },
+    "027F0": {
+        "scope": "latex",
+        "prefix": "/UUparrow",
+        "body": "⟰",
+        "description": [
+            "⟰",
+            "upwards quadruple arrow",
+            "\r"
+        ]
+    },
+    "027F1": {
+        "scope": "latex",
+        "prefix": "/DDownarrow",
+        "body": "⟱",
+        "description": [
+            "⟱",
+            "downwards quadruple arrow",
+            "\r"
+        ]
+    },
+    "027F2": {
+        "scope": "latex",
+        "prefix": "/acwgapcirclearrow",
+        "body": "⟲",
+        "description": [
+            "⟲",
+            "anticlockwise gapped circle arrow",
+            "\r"
+        ]
+    },
+    "027F3": {
+        "scope": "latex",
+        "prefix": "/cwgapcirclearrow",
+        "body": "⟳",
+        "description": [
+            "⟳",
+            "clockwise gapped circle arrow",
+            "\r"
+        ]
+    },
+    "027F4": {
+        "scope": "latex",
+        "prefix": "/rightarrowonoplus",
+        "body": "⟴",
+        "description": [
+            "⟴",
+            "right arrow with circled plus",
+            "\r"
+        ]
+    },
+    "027F5": {
+        "scope": "latex",
+        "prefix": "/longleftarrow",
+        "body": "⟵",
+        "description": [
+            "⟵",
+            "long leftwards arrow",
+            "\r"
+        ]
+    },
+    "027F6": {
+        "scope": "latex",
+        "prefix": "/longrightarrow",
+        "body": "⟶",
+        "description": [
+            "⟶",
+            "long rightwards arrow",
+            "\r"
+        ]
+    },
+    "027F7": {
+        "scope": "latex",
+        "prefix": "/longleftrightarrow",
+        "body": "⟷",
+        "description": [
+            "⟷",
+            "long left right arrow",
+            "\r"
+        ]
+    },
+    "027F8": {
+        "scope": "latex",
+        "prefix": "/Longleftarrow",
+        "body": "⟸",
+        "description": [
+            "⟸",
+            "long leftwards double arrow",
+            "\r"
+        ]
+    },
+    "027F9": {
+        "scope": "latex",
+        "prefix": "/Longrightarrow",
+        "body": "⟹",
+        "description": [
+            "⟹",
+            "long rightwards double arrow",
+            "\r"
+        ]
+    },
+    "027FA": {
+        "scope": "latex",
+        "prefix": "/Longleftrightarrow",
+        "body": "⟺",
+        "description": [
+            "⟺",
+            "long left right double arrow",
+            "\r"
+        ]
+    },
+    "027FB": {
+        "scope": "latex",
+        "prefix": "/longmapsfrom",
+        "body": "⟻",
+        "description": [
+            "⟻",
+            "long leftwards arrow from bar",
+            "\r"
+        ]
+    },
+    "027FC": {
+        "scope": "latex",
+        "prefix": "/longmapsto",
+        "body": "⟼",
+        "description": [
+            "⟼",
+            "long rightwards arrow from bar",
+            "\r"
+        ]
+    },
+    "027FD": {
+        "scope": "latex",
+        "prefix": "/Longmapsfrom",
+        "body": "⟽",
+        "description": [
+            "⟽",
+            "long leftwards double arrow from bar",
+            "\r"
+        ]
+    },
+    "027FE": {
+        "scope": "latex",
+        "prefix": "/Longmapsto",
+        "body": "⟾",
+        "description": [
+            "⟾",
+            "long rightwards double arrow from bar",
+            "\r"
+        ]
+    },
+    "027FF": {
+        "scope": "latex",
+        "prefix": "/longrightsquigarrow",
+        "body": "⟿",
+        "description": [
+            "⟿",
+            "long rightwards squiggle arrow",
+            "\r"
+        ]
+    },
+    "02900": {
+        "scope": "latex",
+        "prefix": "/nvtwoheadrightarrow",
+        "body": "⤀",
+        "description": [
+            "⤀",
+            "rightwards two-headed arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "02901": {
+        "scope": "latex",
+        "prefix": "/nVtwoheadrightarrow",
+        "body": "⤁",
+        "description": [
+            "⤁",
+            "rightwards two-headed arrow with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02902": {
+        "scope": "latex",
+        "prefix": "/nvLeftarrow",
+        "body": "⤂",
+        "description": [
+            "⤂",
+            "leftwards double arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "02903": {
+        "scope": "latex",
+        "prefix": "/nvRightarrow",
+        "body": "⤃",
+        "description": [
+            "⤃",
+            "rightwards double arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "02904": {
+        "scope": "latex",
+        "prefix": "/nvLeftrightarrow",
+        "body": "⤄",
+        "description": [
+            "⤄",
+            "left right double arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "02905": {
+        "scope": "latex",
+        "prefix": "/twoheadmapsto",
+        "body": "⤅",
+        "description": [
+            "⤅",
+            "rightwards two-headed arrow from bar",
+            "\r"
+        ]
+    },
+    "02906": {
+        "scope": "latex",
+        "prefix": "/Mapsfrom",
+        "body": "⤆",
+        "description": [
+            "⤆",
+            "leftwards double arrow from bar",
+            "\r"
+        ]
+    },
+    "02907": {
+        "scope": "latex",
+        "prefix": "/Mapsto",
+        "body": "⤇",
+        "description": [
+            "⤇",
+            "rightwards double arrow from bar",
+            "\r"
+        ]
+    },
+    "02908": {
+        "scope": "latex",
+        "prefix": "/downarrowbarred",
+        "body": "⤈",
+        "description": [
+            "⤈",
+            "downwards arrow with horizontal stroke",
+            "\r"
+        ]
+    },
+    "02909": {
+        "scope": "latex",
+        "prefix": "/uparrowbarred",
+        "body": "⤉",
+        "description": [
+            "⤉",
+            "upwards arrow with horizontal stroke",
+            "\r"
+        ]
+    },
+    "0290A": {
+        "scope": "latex",
+        "prefix": "/Uuparrow",
+        "body": "⤊",
+        "description": [
+            "⤊",
+            "upwards triple arrow",
+            "\r"
+        ]
+    },
+    "0290B": {
+        "scope": "latex",
+        "prefix": "/Ddownarrow",
+        "body": "⤋",
+        "description": [
+            "⤋",
+            "downwards triple arrow",
+            "\r"
+        ]
+    },
+    "0290C": {
+        "scope": "latex",
+        "prefix": "/leftbkarrow",
+        "body": "⤌",
+        "description": [
+            "⤌",
+            "leftwards double dash arrow",
+            "\r"
+        ]
+    },
+    "0290D": {
+        "scope": "latex",
+        "prefix": "/rightbkarrow",
+        "body": "⤍",
+        "description": [
+            "⤍",
+            "rightwards double dash arrow",
+            "\r"
+        ]
+    },
+    "0290E": {
+        "scope": "latex",
+        "prefix": "/leftdbkarrow",
+        "body": "⤎",
+        "description": [
+            "⤎",
+            "leftwards triple dash arrow",
+            "\r"
+        ]
+    },
+    "0290F": {
+        "scope": "latex",
+        "prefix": "/dbkarrow",
+        "body": "⤏",
+        "description": [
+            "⤏",
+            "rightwards triple dash arrow",
+            "\r"
+        ]
+    },
+    "02910": {
+        "scope": "latex",
+        "prefix": "/drbkarrow",
+        "body": "⤐",
+        "description": [
+            "⤐",
+            "rightwards two-headed triple dash arrow",
+            "\r"
+        ]
+    },
+    "02911": {
+        "scope": "latex",
+        "prefix": "/rightdotarrow",
+        "body": "⤑",
+        "description": [
+            "⤑",
+            "rightwards arrow with dotted stem",
+            "\r"
+        ]
+    },
+    "02912": {
+        "scope": "latex",
+        "prefix": "/baruparrow",
+        "body": "⤒",
+        "description": [
+            "⤒",
+            "upwards arrow to bar",
+            "\r"
+        ]
+    },
+    "02913": {
+        "scope": "latex",
+        "prefix": "/downarrowbar",
+        "body": "⤓",
+        "description": [
+            "⤓",
+            "downwards arrow to bar",
+            "\r"
+        ]
+    },
+    "02914": {
+        "scope": "latex",
+        "prefix": "/nvrightarrowtail",
+        "body": "⤔",
+        "description": [
+            "⤔",
+            "rightwards arrow with tail with vertical stroke",
+            "\r"
+        ]
+    },
+    "02915": {
+        "scope": "latex",
+        "prefix": "/nVrightarrowtail",
+        "body": "⤕",
+        "description": [
+            "⤕",
+            "rightwards arrow with tail with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02916": {
+        "scope": "latex",
+        "prefix": "/twoheadrightarrowtail",
+        "body": "⤖",
+        "description": [
+            "⤖",
+            "rightwards two-headed arrow with tail",
+            "\r"
+        ]
+    },
+    "02917": {
+        "scope": "latex",
+        "prefix": "/nvtwoheadrightarrowtail",
+        "body": "⤗",
+        "description": [
+            "⤗",
+            "rightwards two-headed arrow with tail with vertical stroke",
+            "\r"
+        ]
+    },
+    "02918": {
+        "scope": "latex",
+        "prefix": "/nVtwoheadrightarrowtail",
+        "body": "⤘",
+        "description": [
+            "⤘",
+            "rightwards two-headed arrow with tail with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02919": {
+        "scope": "latex",
+        "prefix": "/lefttail",
+        "body": "⤙",
+        "description": [
+            "⤙",
+            "leftwards arrow-tail",
+            "\r"
+        ]
+    },
+    "0291A": {
+        "scope": "latex",
+        "prefix": "/righttail",
+        "body": "⤚",
+        "description": [
+            "⤚",
+            "rightwards arrow-tail",
+            "\r"
+        ]
+    },
+    "0291B": {
+        "scope": "latex",
+        "prefix": "/leftdbltail",
+        "body": "⤛",
+        "description": [
+            "⤛",
+            "leftwards double arrow-tail",
+            "\r"
+        ]
+    },
+    "0291C": {
+        "scope": "latex",
+        "prefix": "/rightdbltail",
+        "body": "⤜",
+        "description": [
+            "⤜",
+            "rightwards double arrow-tail",
+            "\r"
+        ]
+    },
+    "0291D": {
+        "scope": "latex",
+        "prefix": "/diamondleftarrow",
+        "body": "⤝",
+        "description": [
+            "⤝",
+            "leftwards arrow to black diamond",
+            "\r"
+        ]
+    },
+    "0291E": {
+        "scope": "latex",
+        "prefix": "/rightarrowdiamond",
+        "body": "⤞",
+        "description": [
+            "⤞",
+            "rightwards arrow to black diamond",
+            "\r"
+        ]
+    },
+    "0291F": {
+        "scope": "latex",
+        "prefix": "/diamondleftarrowbar",
+        "body": "⤟",
+        "description": [
+            "⤟",
+            "leftwards arrow from bar to black diamond",
+            "\r"
+        ]
+    },
+    "02920": {
+        "scope": "latex",
+        "prefix": "/barrightarrowdiamond",
+        "body": "⤠",
+        "description": [
+            "⤠",
+            "rightwards arrow from bar to black diamond",
+            "\r"
+        ]
+    },
+    "02921": {
+        "scope": "latex",
+        "prefix": "/nwsearrow",
+        "body": "⤡",
+        "description": [
+            "⤡",
+            "north west and south east arrow",
+            "\r"
+        ]
+    },
+    "02922": {
+        "scope": "latex",
+        "prefix": "/neswarrow",
+        "body": "⤢",
+        "description": [
+            "⤢",
+            "north east and south west arrow",
+            "\r"
+        ]
+    },
+    "02923": {
+        "scope": "latex",
+        "prefix": "/hknwarrow",
+        "body": "⤣",
+        "description": [
+            "⤣",
+            "north west arrow with hook",
+            "\r"
+        ]
+    },
+    "02924": {
+        "scope": "latex",
+        "prefix": "/hknearrow",
+        "body": "⤤",
+        "description": [
+            "⤤",
+            "north east arrow with hook",
+            "\r"
+        ]
+    },
+    "02925": {
+        "scope": "latex",
+        "prefix": "/hksearrow",
+        "body": "⤥",
+        "description": [
+            "⤥",
+            "south east arrow with hook",
+            "\r"
+        ]
+    },
+    "02926": {
+        "scope": "latex",
+        "prefix": "/hkswarrow",
+        "body": "⤦",
+        "description": [
+            "⤦",
+            "south west arrow with hook",
+            "\r"
+        ]
+    },
+    "02927": {
+        "scope": "latex",
+        "prefix": "/tona",
+        "body": "⤧",
+        "description": [
+            "⤧",
+            "north west arrow and north east arrow",
+            "\r"
+        ]
+    },
+    "02928": {
+        "scope": "latex",
+        "prefix": "/toea",
+        "body": "⤨",
+        "description": [
+            "⤨",
+            "north east arrow and south east arrow",
+            "\r"
+        ]
+    },
+    "02929": {
+        "scope": "latex",
+        "prefix": "/tosa",
+        "body": "⤩",
+        "description": [
+            "⤩",
+            "south east arrow and south west arrow",
+            "\r"
+        ]
+    },
+    "0292A": {
+        "scope": "latex",
+        "prefix": "/towa",
+        "body": "⤪",
+        "description": [
+            "⤪",
+            "south west arrow and north west arrow",
+            "\r"
+        ]
+    },
+    "02933": {
+        "scope": "latex",
+        "prefix": "/rightcurvedarrow",
+        "body": "⤳",
+        "description": [
+            "⤳",
+            "wave arrow pointing directly right",
+            "\r"
+        ]
+    },
+    "02936": {
+        "scope": "latex",
+        "prefix": "/leftdowncurvedarrow",
+        "body": "⤶",
+        "description": [
+            "⤶",
+            "arrow pointing downwards then curving leftwards",
+            "\r"
+        ]
+    },
+    "02937": {
+        "scope": "latex",
+        "prefix": "/rightdowncurvedarrow",
+        "body": "⤷",
+        "description": [
+            "⤷",
+            "arrow pointing downwards then curving rightwards",
+            "\r"
+        ]
+    },
+    "02938": {
+        "scope": "latex",
+        "prefix": "/cwrightarcarrow",
+        "body": "⤸",
+        "description": [
+            "⤸",
+            "right-side arc clockwise arrow",
+            "\r"
+        ]
+    },
+    "02939": {
+        "scope": "latex",
+        "prefix": "/acwleftarcarrow",
+        "body": "⤹",
+        "description": [
+            "⤹",
+            "left-side arc anticlockwise arrow",
+            "\r"
+        ]
+    },
+    "0293A": {
+        "scope": "latex",
+        "prefix": "/acwoverarcarrow",
+        "body": "⤺",
+        "description": [
+            "⤺",
+            "top arc anticlockwise arrow",
+            "\r"
+        ]
+    },
+    "0293B": {
+        "scope": "latex",
+        "prefix": "/acwunderarcarrow",
+        "body": "⤻",
+        "description": [
+            "⤻",
+            "bottom arc anticlockwise arrow",
+            "\r"
+        ]
+    },
+    "0293C": {
+        "scope": "latex",
+        "prefix": "/curvearrowrightminus",
+        "body": "⤼",
+        "description": [
+            "⤼",
+            "top arc clockwise arrow with minus",
+            "\r"
+        ]
+    },
+    "0293D": {
+        "scope": "latex",
+        "prefix": "/curvearrowleftplus",
+        "body": "⤽",
+        "description": [
+            "⤽",
+            "top arc anticlockwise arrow with plus",
+            "\r"
+        ]
+    },
+    "0293E": {
+        "scope": "latex",
+        "prefix": "/cwundercurvearrow",
+        "body": "⤾",
+        "description": [
+            "⤾",
+            "lower right semicircular clockwise arrow",
+            "\r"
+        ]
+    },
+    "0293F": {
+        "scope": "latex",
+        "prefix": "/ccwundercurvearrow",
+        "body": "⤿",
+        "description": [
+            "⤿",
+            "lower left semicircular anticlockwise arrow",
+            "\r"
+        ]
+    },
+    "02940": {
+        "scope": "latex",
+        "prefix": "/acwcirclearrow",
+        "body": "⥀",
+        "description": [
+            "⥀",
+            "anticlockwise closed circle arrow",
+            "\r"
+        ]
+    },
+    "02941": {
+        "scope": "latex",
+        "prefix": "/cwcirclearrow",
+        "body": "⥁",
+        "description": [
+            "⥁",
+            "clockwise closed circle arrow",
+            "\r"
+        ]
+    },
+    "02942": {
+        "scope": "latex",
+        "prefix": "/rightarrowshortleftarrow",
+        "body": "⥂",
+        "description": [
+            "⥂",
+            "rightwards arrow above short leftwards arrow",
+            "\r"
+        ]
+    },
+    "02943": {
+        "scope": "latex",
+        "prefix": "/leftarrowshortrightarrow",
+        "body": "⥃",
+        "description": [
+            "⥃",
+            "leftwards arrow above short rightwards arrow",
+            "\r"
+        ]
+    },
+    "02944": {
+        "scope": "latex",
+        "prefix": "/shortrightarrowleftarrow",
+        "body": "⥄",
+        "description": [
+            "⥄",
+            "short rightwards arrow above leftwards arrow",
+            "\r"
+        ]
+    },
+    "02945": {
+        "scope": "latex",
+        "prefix": "/rightarrowplus",
+        "body": "⥅",
+        "description": [
+            "⥅",
+            "rightwards arrow with plus below",
+            "\r"
+        ]
+    },
+    "02946": {
+        "scope": "latex",
+        "prefix": "/leftarrowplus",
+        "body": "⥆",
+        "description": [
+            "⥆",
+            "leftwards arrow with plus below",
+            "\r"
+        ]
+    },
+    "02947": {
+        "scope": "latex",
+        "prefix": "/rightarrowx",
+        "body": "⥇",
+        "description": [
+            "⥇",
+            "rightwards arrow through x",
+            "\r"
+        ]
+    },
+    "02948": {
+        "scope": "latex",
+        "prefix": "/leftrightarrowcircle",
+        "body": "⥈",
+        "description": [
+            "⥈",
+            "left right arrow through small circle",
+            "\r"
+        ]
+    },
+    "02949": {
+        "scope": "latex",
+        "prefix": "/twoheaduparrowcircle",
+        "body": "⥉",
+        "description": [
+            "⥉",
+            "upwards two-headed arrow from small circle",
+            "\r"
+        ]
+    },
+    "0294A": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoonupdown",
+        "body": "⥊",
+        "description": [
+            "⥊",
+            "left barb up right barb down harpoon",
+            "\r"
+        ]
+    },
+    "0294B": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoondownup",
+        "body": "⥋",
+        "description": [
+            "⥋",
+            "left barb down right barb up harpoon",
+            "\r"
+        ]
+    },
+    "0294C": {
+        "scope": "latex",
+        "prefix": "/updownharpoonrightleft",
+        "body": "⥌",
+        "description": [
+            "⥌",
+            "up barb right down barb left harpoon",
+            "\r"
+        ]
+    },
+    "0294D": {
+        "scope": "latex",
+        "prefix": "/updownharpoonleftright",
+        "body": "⥍",
+        "description": [
+            "⥍",
+            "up barb left down barb right harpoon",
+            "\r"
+        ]
+    },
+    "0294E": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoonupup",
+        "body": "⥎",
+        "description": [
+            "⥎",
+            "left barb up right barb up harpoon",
+            "\r"
+        ]
+    },
+    "0294F": {
+        "scope": "latex",
+        "prefix": "/updownharpoonrightright",
+        "body": "⥏",
+        "description": [
+            "⥏",
+            "up barb right down barb right harpoon",
+            "\r"
+        ]
+    },
+    "02950": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoondowndown",
+        "body": "⥐",
+        "description": [
+            "⥐",
+            "left barb down right barb down harpoon",
+            "\r"
+        ]
+    },
+    "02951": {
+        "scope": "latex",
+        "prefix": "/updownharpoonleftleft",
+        "body": "⥑",
+        "description": [
+            "⥑",
+            "up barb left down barb left harpoon",
+            "\r"
+        ]
+    },
+    "02952": {
+        "scope": "latex",
+        "prefix": "/barleftharpoonup",
+        "body": "⥒",
+        "description": [
+            "⥒",
+            "leftwards harpoon with barb up to bar",
+            "\r"
+        ]
+    },
+    "02953": {
+        "scope": "latex",
+        "prefix": "/rightharpoonupbar",
+        "body": "⥓",
+        "description": [
+            "⥓",
+            "rightwards harpoon with barb up to bar",
+            "\r"
+        ]
+    },
+    "02954": {
+        "scope": "latex",
+        "prefix": "/barupharpoonright",
+        "body": "⥔",
+        "description": [
+            "⥔",
+            "upwards harpoon with barb right to bar",
+            "\r"
+        ]
+    },
+    "02955": {
+        "scope": "latex",
+        "prefix": "/downharpoonrightbar",
+        "body": "⥕",
+        "description": [
+            "⥕",
+            "downwards harpoon with barb right to bar",
+            "\r"
+        ]
+    },
+    "02956": {
+        "scope": "latex",
+        "prefix": "/barleftharpoondown",
+        "body": "⥖",
+        "description": [
+            "⥖",
+            "leftwards harpoon with barb down to bar",
+            "\r"
+        ]
+    },
+    "02957": {
+        "scope": "latex",
+        "prefix": "/rightharpoondownbar",
+        "body": "⥗",
+        "description": [
+            "⥗",
+            "rightwards harpoon with barb down to bar",
+            "\r"
+        ]
+    },
+    "02958": {
+        "scope": "latex",
+        "prefix": "/barupharpoonleft",
+        "body": "⥘",
+        "description": [
+            "⥘",
+            "upwards harpoon with barb left to bar",
+            "\r"
+        ]
+    },
+    "02959": {
+        "scope": "latex",
+        "prefix": "/downharpoonleftbar",
+        "body": "⥙",
+        "description": [
+            "⥙",
+            "downwards harpoon with barb left to bar",
+            "\r"
+        ]
+    },
+    "0295A": {
+        "scope": "latex",
+        "prefix": "/leftharpoonupbar",
+        "body": "⥚",
+        "description": [
+            "⥚",
+            "leftwards harpoon with barb up from bar",
+            "\r"
+        ]
+    },
+    "0295B": {
+        "scope": "latex",
+        "prefix": "/barrightharpoonup",
+        "body": "⥛",
+        "description": [
+            "⥛",
+            "rightwards harpoon with barb up from bar",
+            "\r"
+        ]
+    },
+    "0295C": {
+        "scope": "latex",
+        "prefix": "/upharpoonrightbar",
+        "body": "⥜",
+        "description": [
+            "⥜",
+            "upwards harpoon with barb right from bar",
+            "\r"
+        ]
+    },
+    "0295D": {
+        "scope": "latex",
+        "prefix": "/bardownharpoonright",
+        "body": "⥝",
+        "description": [
+            "⥝",
+            "downwards harpoon with barb right from bar",
+            "\r"
+        ]
+    },
+    "0295E": {
+        "scope": "latex",
+        "prefix": "/leftharpoondownbar",
+        "body": "⥞",
+        "description": [
+            "⥞",
+            "leftwards harpoon with barb down from bar",
+            "\r"
+        ]
+    },
+    "0295F": {
+        "scope": "latex",
+        "prefix": "/barrightharpoondown",
+        "body": "⥟",
+        "description": [
+            "⥟",
+            "rightwards harpoon with barb down from bar",
+            "\r"
+        ]
+    },
+    "02960": {
+        "scope": "latex",
+        "prefix": "/upharpoonleftbar",
+        "body": "⥠",
+        "description": [
+            "⥠",
+            "upwards harpoon with barb left from bar",
+            "\r"
+        ]
+    },
+    "02961": {
+        "scope": "latex",
+        "prefix": "/bardownharpoonleft",
+        "body": "⥡",
+        "description": [
+            "⥡",
+            "downwards harpoon with barb left from bar",
+            "\r"
+        ]
+    },
+    "02962": {
+        "scope": "latex",
+        "prefix": "/leftharpoonsupdown",
+        "body": "⥢",
+        "description": [
+            "⥢",
+            "leftwards harpoon with barb up above leftwards harpoon with barb down",
+            "\r"
+        ]
+    },
+    "02963": {
+        "scope": "latex",
+        "prefix": "/upharpoonsleftright",
+        "body": "⥣",
+        "description": [
+            "⥣",
+            "upwards harpoon with barb left beside upwards harpoon with barb right",
+            "\r"
+        ]
+    },
+    "02964": {
+        "scope": "latex",
+        "prefix": "/rightharpoonsupdown",
+        "body": "⥤",
+        "description": [
+            "⥤",
+            "rightwards harpoon with barb up above rightwards harpoon with barb down",
+            "\r"
+        ]
+    },
+    "02965": {
+        "scope": "latex",
+        "prefix": "/downharpoonsleftright",
+        "body": "⥥",
+        "description": [
+            "⥥",
+            "downwards harpoon with barb left beside downwards harpoon with barb right",
+            "\r"
+        ]
+    },
+    "02966": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoonsup",
+        "body": "⥦",
+        "description": [
+            "⥦",
+            "leftwards harpoon with barb up above rightwards harpoon with barb up",
+            "\r"
+        ]
+    },
+    "02967": {
+        "scope": "latex",
+        "prefix": "/leftrightharpoonsdown",
+        "body": "⥧",
+        "description": [
+            "⥧",
+            "leftwards harpoon with barb down above rightwards harpoon with barb down",
+            "\r"
+        ]
+    },
+    "02968": {
+        "scope": "latex",
+        "prefix": "/rightleftharpoonsup",
+        "body": "⥨",
+        "description": [
+            "⥨",
+            "rightwards harpoon with barb up above leftwards harpoon with barb up",
+            "\r"
+        ]
+    },
+    "02969": {
+        "scope": "latex",
+        "prefix": "/rightleftharpoonsdown",
+        "body": "⥩",
+        "description": [
+            "⥩",
+            "rightwards harpoon with barb down above leftwards harpoon with barb down",
+            "\r"
+        ]
+    },
+    "0296A": {
+        "scope": "latex",
+        "prefix": "/leftharpoonupdash",
+        "body": "⥪",
+        "description": [
+            "⥪",
+            "leftwards harpoon with barb up above long dash",
+            "\r"
+        ]
+    },
+    "0296B": {
+        "scope": "latex",
+        "prefix": "/dashleftharpoondown",
+        "body": "⥫",
+        "description": [
+            "⥫",
+            "leftwards harpoon with barb down below long dash",
+            "\r"
+        ]
+    },
+    "0296C": {
+        "scope": "latex",
+        "prefix": "/rightharpoonupdash",
+        "body": "⥬",
+        "description": [
+            "⥬",
+            "rightwards harpoon with barb up above long dash",
+            "\r"
+        ]
+    },
+    "0296D": {
+        "scope": "latex",
+        "prefix": "/dashrightharpoondown",
+        "body": "⥭",
+        "description": [
+            "⥭",
+            "rightwards harpoon with barb down below long dash",
+            "\r"
+        ]
+    },
+    "0296E": {
+        "scope": "latex",
+        "prefix": "/updownharpoonsleftright",
+        "body": "⥮",
+        "description": [
+            "⥮",
+            "upwards harpoon with barb left beside downwards harpoon with barb right",
+            "\r"
+        ]
+    },
+    "0296F": {
+        "scope": "latex",
+        "prefix": "/downupharpoonsleftright",
+        "body": "⥯",
+        "description": [
+            "⥯",
+            "downwards harpoon with barb left beside upwards harpoon with barb right",
+            "\r"
+        ]
+    },
+    "02970": {
+        "scope": "latex",
+        "prefix": "/rightimply",
+        "body": "⥰",
+        "description": [
+            "⥰",
+            "right double arrow with rounded head",
+            "\r"
+        ]
+    },
+    "02971": {
+        "scope": "latex",
+        "prefix": "/equalrightarrow",
+        "body": "⥱",
+        "description": [
+            "⥱",
+            "equals sign above rightwards arrow",
+            "\r"
+        ]
+    },
+    "02972": {
+        "scope": "latex",
+        "prefix": "/similarrightarrow",
+        "body": "⥲",
+        "description": [
+            "⥲",
+            "tilde operator above rightwards arrow",
+            "\r"
+        ]
+    },
+    "02973": {
+        "scope": "latex",
+        "prefix": "/leftarrowsimilar",
+        "body": "⥳",
+        "description": [
+            "⥳",
+            "leftwards arrow above tilde operator",
+            "\r"
+        ]
+    },
+    "02974": {
+        "scope": "latex",
+        "prefix": "/rightarrowsimilar",
+        "body": "⥴",
+        "description": [
+            "⥴",
+            "rightwards arrow above tilde operator",
+            "\r"
+        ]
+    },
+    "02975": {
+        "scope": "latex",
+        "prefix": "/rightarrowapprox",
+        "body": "⥵",
+        "description": [
+            "⥵",
+            "rightwards arrow above almost equal to",
+            "\r"
+        ]
+    },
+    "02976": {
+        "scope": "latex",
+        "prefix": "/ltlarr",
+        "body": "⥶",
+        "description": [
+            "⥶",
+            "less-than above leftwards arrow",
+            "\r"
+        ]
+    },
+    "02977": {
+        "scope": "latex",
+        "prefix": "/leftarrowless",
+        "body": "⥷",
+        "description": [
+            "⥷",
+            "leftwards arrow through less-than",
+            "\r"
+        ]
+    },
+    "02978": {
+        "scope": "latex",
+        "prefix": "/gtrarr",
+        "body": "⥸",
+        "description": [
+            "⥸",
+            "greater-than above rightwards arrow",
+            "\r"
+        ]
+    },
+    "02979": {
+        "scope": "latex",
+        "prefix": "/subrarr",
+        "body": "⥹",
+        "description": [
+            "⥹",
+            "subset above rightwards arrow",
+            "\r"
+        ]
+    },
+    "0297A": {
+        "scope": "latex",
+        "prefix": "/leftarrowsubset",
+        "body": "⥺",
+        "description": [
+            "⥺",
+            "leftwards arrow through subset",
+            "\r"
+        ]
+    },
+    "0297B": {
+        "scope": "latex",
+        "prefix": "/suplarr",
+        "body": "⥻",
+        "description": [
+            "⥻",
+            "superset above leftwards arrow",
+            "\r"
+        ]
+    },
+    "0297C": {
+        "scope": "latex",
+        "prefix": "/leftfishtail",
+        "body": "⥼",
+        "description": [
+            "⥼",
+            "left fish tail",
+            "\r"
+        ]
+    },
+    "0297D": {
+        "scope": "latex",
+        "prefix": "/rightfishtail",
+        "body": "⥽",
+        "description": [
+            "⥽",
+            "right fish tail",
+            "\r"
+        ]
+    },
+    "0297E": {
+        "scope": "latex",
+        "prefix": "/upfishtail",
+        "body": "⥾",
+        "description": [
+            "⥾",
+            "up fish tail",
+            "\r"
+        ]
+    },
+    "0297F": {
+        "scope": "latex",
+        "prefix": "/downfishtail",
+        "body": "⥿",
+        "description": [
+            "⥿",
+            "down fish tail",
+            "\r"
+        ]
+    },
+    "02982": {
+        "scope": "latex",
+        "prefix": "/typecolon",
+        "body": "⦂",
+        "description": [
+            "⦂",
+            "z notation type colon",
+            "\r"
+        ]
+    },
+    "029CE": {
+        "scope": "latex",
+        "prefix": "/rtriltri",
+        "body": "⧎",
+        "description": [
+            "⧎",
+            "right triangle above left triangle",
+            "\r"
+        ]
+    },
+    "029CF": {
+        "scope": "latex",
+        "prefix": "/ltrivb",
+        "body": "⧏",
+        "description": [
+            "⧏",
+            "left triangle beside vertical bar",
+            "\r"
+        ]
+    },
+    "029D0": {
+        "scope": "latex",
+        "prefix": "/vbrtri",
+        "body": "⧐",
+        "description": [
+            "⧐",
+            "vertical bar beside right triangle",
+            "\r"
+        ]
+    },
+    "029D1": {
+        "scope": "latex",
+        "prefix": "/lfbowtie",
+        "body": "⧑",
+        "description": [
+            "⧑",
+            "left black bowtie",
+            "\r"
+        ]
+    },
+    "029D2": {
+        "scope": "latex",
+        "prefix": "/rfbowtie",
+        "body": "⧒",
+        "description": [
+            "⧒",
+            "right black bowtie",
+            "\r"
+        ]
+    },
+    "029D3": {
+        "scope": "latex",
+        "prefix": "/fbowtie",
+        "body": "⧓",
+        "description": [
+            "⧓",
+            "black bowtie",
+            "\r"
+        ]
+    },
+    "029D4": {
+        "scope": "latex",
+        "prefix": "/lftimes",
+        "body": "⧔",
+        "description": [
+            "⧔",
+            "left black times",
+            "\r"
+        ]
+    },
+    "029D5": {
+        "scope": "latex",
+        "prefix": "/rftimes",
+        "body": "⧕",
+        "description": [
+            "⧕",
+            "right black times",
+            "\r"
+        ]
+    },
+    "029DF": {
+        "scope": "latex",
+        "prefix": "/dualmap",
+        "body": "⧟",
+        "description": [
+            "⧟",
+            "double-ended multimap",
+            "\r"
+        ]
+    },
+    "029E1": {
+        "scope": "latex",
+        "prefix": "/lrtriangleeq",
+        "body": "⧡",
+        "description": [
+            "⧡",
+            "increases as",
+            "\r"
+        ]
+    },
+    "029E3": {
+        "scope": "latex",
+        "prefix": "/eparsl",
+        "body": "⧣",
+        "description": [
+            "⧣",
+            "equals sign and slanted parallel",
+            "\r"
+        ]
+    },
+    "029E4": {
+        "scope": "latex",
+        "prefix": "/smeparsl",
+        "body": "⧤",
+        "description": [
+            "⧤",
+            "equals sign and slanted parallel with tilde above",
+            "\r"
+        ]
+    },
+    "029E5": {
+        "scope": "latex",
+        "prefix": "/eqvparsl",
+        "body": "⧥",
+        "description": [
+            "⧥",
+            "identical to and slanted parallel",
+            "\r"
+        ]
+    },
+    "029E6": {
+        "scope": "latex",
+        "prefix": "/gleichstark",
+        "body": "⧦",
+        "description": [
+            "⧦",
+            "gleich stark",
+            "\r"
+        ]
+    },
+    "029F4": {
+        "scope": "latex",
+        "prefix": "/ruledelayed",
+        "body": "⧴",
+        "description": [
+            "⧴",
+            "rule-delayed",
+            "\r"
+        ]
+    },
+    "02A59": {
+        "scope": "latex",
+        "prefix": "/veeonwedge",
+        "body": "⩙",
+        "description": [
+            "⩙",
+            "logical or overlapping logical and",
+            "\r"
+        ]
+    },
+    "02A66": {
+        "scope": "latex",
+        "prefix": "/eqdot",
+        "body": "⩦",
+        "description": [
+            "⩦",
+            "equals sign with dot below",
+            "\r"
+        ]
+    },
+    "02A67": {
+        "scope": "latex",
+        "prefix": "/dotequiv",
+        "body": "⩧",
+        "description": [
+            "⩧",
+            "identical with dot above",
+            "\r"
+        ]
+    },
+    "02A68": {
+        "scope": "latex",
+        "prefix": "/equivVert",
+        "body": "⩨",
+        "description": [
+            "⩨",
+            "triple horizontal bar with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02A69": {
+        "scope": "latex",
+        "prefix": "/equivVvert",
+        "body": "⩩",
+        "description": [
+            "⩩",
+            "triple horizontal bar with triple vertical stroke",
+            "\r"
+        ]
+    },
+    "02A6A": {
+        "scope": "latex",
+        "prefix": "/dotsim",
+        "body": "⩪",
+        "description": [
+            "⩪",
+            "tilde operator with dot above",
+            "\r"
+        ]
+    },
+    "02A6B": {
+        "scope": "latex",
+        "prefix": "/simrdots",
+        "body": "⩫",
+        "description": [
+            "⩫",
+            "tilde operator with rising dots",
+            "\r"
+        ]
+    },
+    "02A6C": {
+        "scope": "latex",
+        "prefix": "/simminussim",
+        "body": "⩬",
+        "description": [
+            "⩬",
+            "similar minus similar",
+            "\r"
+        ]
+    },
+    "02A6D": {
+        "scope": "latex",
+        "prefix": "/congdot",
+        "body": "⩭",
+        "description": [
+            "⩭",
+            "congruent with dot above",
+            "\r"
+        ]
+    },
+    "02A6E": {
+        "scope": "latex",
+        "prefix": "/asteq",
+        "body": "⩮",
+        "description": [
+            "⩮",
+            "equals with asterisk",
+            "\r"
+        ]
+    },
+    "02A6F": {
+        "scope": "latex",
+        "prefix": "/hatapprox",
+        "body": "⩯",
+        "description": [
+            "⩯",
+            "almost equal to with circumflex accent",
+            "\r"
+        ]
+    },
+    "02A70": {
+        "scope": "latex",
+        "prefix": "/approxeqq",
+        "body": "⩰",
+        "description": [
+            "⩰",
+            "approximately equal or equal to",
+            "\r"
+        ]
+    },
+    "02A73": {
+        "scope": "latex",
+        "prefix": "/eqqsim",
+        "body": "⩳",
+        "description": [
+            "⩳",
+            "equals sign above tilde operator",
+            "\r"
+        ]
+    },
+    "02A74": {
+        "scope": "latex",
+        "prefix": "/Coloneq",
+        "body": "⩴",
+        "description": [
+            "⩴",
+            "double colon equal",
+            "\r"
+        ]
+    },
+    "02A75": {
+        "scope": "latex",
+        "prefix": "/eqeq",
+        "body": "⩵",
+        "description": [
+            "⩵",
+            "two consecutive equals signs",
+            "\r"
+        ]
+    },
+    "02A76": {
+        "scope": "latex",
+        "prefix": "/eqeqeq",
+        "body": "⩶",
+        "description": [
+            "⩶",
+            "three consecutive equals signs",
+            "\r"
+        ]
+    },
+    "02A77": {
+        "scope": "latex",
+        "prefix": "/ddotseq",
+        "body": "⩷",
+        "description": [
+            "⩷",
+            "equals sign with two dots above and two dots below",
+            "\r"
+        ]
+    },
+    "02A78": {
+        "scope": "latex",
+        "prefix": "/equivDD",
+        "body": "⩸",
+        "description": [
+            "⩸",
+            "equivalent with four dots above",
+            "\r"
+        ]
+    },
+    "02A79": {
+        "scope": "latex",
+        "prefix": "/ltcir",
+        "body": "⩹",
+        "description": [
+            "⩹",
+            "less-than with circle inside",
+            "\r"
+        ]
+    },
+    "02A7A": {
+        "scope": "latex",
+        "prefix": "/gtcir",
+        "body": "⩺",
+        "description": [
+            "⩺",
+            "greater-than with circle inside",
+            "\r"
+        ]
+    },
+    "02A7B": {
+        "scope": "latex",
+        "prefix": "/ltquest",
+        "body": "⩻",
+        "description": [
+            "⩻",
+            "less-than with question mark above",
+            "\r"
+        ]
+    },
+    "02A7C": {
+        "scope": "latex",
+        "prefix": "/gtquest",
+        "body": "⩼",
+        "description": [
+            "⩼",
+            "greater-than with question mark above",
+            "\r"
+        ]
+    },
+    "02A7D": {
+        "scope": "latex",
+        "prefix": "/leqslant",
+        "body": "⩽",
+        "description": [
+            "⩽",
+            "less-than or slanted equal to",
+            "\r"
+        ]
+    },
+    "02A7E": {
+        "scope": "latex",
+        "prefix": "/geqslant",
+        "body": "⩾",
+        "description": [
+            "⩾",
+            "greater-than or slanted equal to",
+            "\r"
+        ]
+    },
+    "02A7F": {
+        "scope": "latex",
+        "prefix": "/lesdot",
+        "body": "⩿",
+        "description": [
+            "⩿",
+            "less-than or slanted equal to with dot inside",
+            "\r"
+        ]
+    },
+    "02A80": {
+        "scope": "latex",
+        "prefix": "/gesdot",
+        "body": "⪀",
+        "description": [
+            "⪀",
+            "greater-than or slanted equal to with dot inside",
+            "\r"
+        ]
+    },
+    "02A81": {
+        "scope": "latex",
+        "prefix": "/lesdoto",
+        "body": "⪁",
+        "description": [
+            "⪁",
+            "less-than or slanted equal to with dot above",
+            "\r"
+        ]
+    },
+    "02A82": {
+        "scope": "latex",
+        "prefix": "/gesdoto",
+        "body": "⪂",
+        "description": [
+            "⪂",
+            "greater-than or slanted equal to with dot above",
+            "\r"
+        ]
+    },
+    "02A83": {
+        "scope": "latex",
+        "prefix": "/lesdotor",
+        "body": "⪃",
+        "description": [
+            "⪃",
+            "less-than or slanted equal to with dot above right",
+            "\r"
+        ]
+    },
+    "02A84": {
+        "scope": "latex",
+        "prefix": "/gesdotol",
+        "body": "⪄",
+        "description": [
+            "⪄",
+            "greater-than or slanted equal to with dot above left",
+            "\r"
+        ]
+    },
+    "02A85": {
+        "scope": "latex",
+        "prefix": "/lessapprox",
+        "body": "⪅",
+        "description": [
+            "⪅",
+            "less-than or approximate",
+            "\r"
+        ]
+    },
+    "02A86": {
+        "scope": "latex",
+        "prefix": "/gtrapprox",
+        "body": "⪆",
+        "description": [
+            "⪆",
+            "greater-than or approximate",
+            "\r"
+        ]
+    },
+    "02A87": {
+        "scope": "latex",
+        "prefix": "/lneq",
+        "body": "⪇",
+        "description": [
+            "⪇",
+            "less-than and single-line not equal to",
+            "\r"
+        ]
+    },
+    "02A88": {
+        "scope": "latex",
+        "prefix": "/gneq",
+        "body": "⪈",
+        "description": [
+            "⪈",
+            "greater-than and single-line not equal to",
+            "\r"
+        ]
+    },
+    "02A89": {
+        "scope": "latex",
+        "prefix": "/lnapprox",
+        "body": "⪉",
+        "description": [
+            "⪉",
+            "less-than and not approximate",
+            "\r"
+        ]
+    },
+    "02A8A": {
+        "scope": "latex",
+        "prefix": "/gnapprox",
+        "body": "⪊",
+        "description": [
+            "⪊",
+            "greater-than and not approximate",
+            "\r"
+        ]
+    },
+    "02A8B": {
+        "scope": "latex",
+        "prefix": "/lesseqqgtr",
+        "body": "⪋",
+        "description": [
+            "⪋",
+            "less-than above double-line equal above greater-than",
+            "\r"
+        ]
+    },
+    "02A8C": {
+        "scope": "latex",
+        "prefix": "/gtreqqless",
+        "body": "⪌",
+        "description": [
+            "⪌",
+            "greater-than above double-line equal above less-than",
+            "\r"
+        ]
+    },
+    "02A8D": {
+        "scope": "latex",
+        "prefix": "/lsime",
+        "body": "⪍",
+        "description": [
+            "⪍",
+            "less-than above similar or equal",
+            "\r"
+        ]
+    },
+    "02A8E": {
+        "scope": "latex",
+        "prefix": "/gsime",
+        "body": "⪎",
+        "description": [
+            "⪎",
+            "greater-than above similar or equal",
+            "\r"
+        ]
+    },
+    "02A8F": {
+        "scope": "latex",
+        "prefix": "/lsimg",
+        "body": "⪏",
+        "description": [
+            "⪏",
+            "less-than above similar above greater-than",
+            "\r"
+        ]
+    },
+    "02A90": {
+        "scope": "latex",
+        "prefix": "/gsiml",
+        "body": "⪐",
+        "description": [
+            "⪐",
+            "greater-than above similar above less-than",
+            "\r"
+        ]
+    },
+    "02A91": {
+        "scope": "latex",
+        "prefix": "/lgE",
+        "body": "⪑",
+        "description": [
+            "⪑",
+            "less-than above greater-than above double-line equal",
+            "\r"
+        ]
+    },
+    "02A92": {
+        "scope": "latex",
+        "prefix": "/glE",
+        "body": "⪒",
+        "description": [
+            "⪒",
+            "greater-than above less-than above double-line equal",
+            "\r"
+        ]
+    },
+    "02A93": {
+        "scope": "latex",
+        "prefix": "/lesges",
+        "body": "⪓",
+        "description": [
+            "⪓",
+            "less-than above slanted equal above greater-than above slanted equal",
+            "\r"
+        ]
+    },
+    "02A94": {
+        "scope": "latex",
+        "prefix": "/gesles",
+        "body": "⪔",
+        "description": [
+            "⪔",
+            "greater-than above slanted equal above less-than above slanted equal",
+            "\r"
+        ]
+    },
+    "02A95": {
+        "scope": "latex",
+        "prefix": "/eqslantless",
+        "body": "⪕",
+        "description": [
+            "⪕",
+            "slanted equal to or less-than",
+            "\r"
+        ]
+    },
+    "02A96": {
+        "scope": "latex",
+        "prefix": "/eqslantgtr",
+        "body": "⪖",
+        "description": [
+            "⪖",
+            "slanted equal to or greater-than",
+            "\r"
+        ]
+    },
+    "02A97": {
+        "scope": "latex",
+        "prefix": "/elsdot",
+        "body": "⪗",
+        "description": [
+            "⪗",
+            "slanted equal to or less-than with dot inside",
+            "\r"
+        ]
+    },
+    "02A98": {
+        "scope": "latex",
+        "prefix": "/egsdot",
+        "body": "⪘",
+        "description": [
+            "⪘",
+            "slanted equal to or greater-than with dot inside",
+            "\r"
+        ]
+    },
+    "02A99": {
+        "scope": "latex",
+        "prefix": "/eqqless",
+        "body": "⪙",
+        "description": [
+            "⪙",
+            "double-line equal to or less-than",
+            "\r"
+        ]
+    },
+    "02A9A": {
+        "scope": "latex",
+        "prefix": "/eqqgtr",
+        "body": "⪚",
+        "description": [
+            "⪚",
+            "double-line equal to or greater-than",
+            "\r"
+        ]
+    },
+    "02A9B": {
+        "scope": "latex",
+        "prefix": "/eqqslantless",
+        "body": "⪛",
+        "description": [
+            "⪛",
+            "double-line slanted equal to or less-than",
+            "\r"
+        ]
+    },
+    "02A9C": {
+        "scope": "latex",
+        "prefix": "/eqqslantgtr",
+        "body": "⪜",
+        "description": [
+            "⪜",
+            "double-line slanted equal to or greater-than",
+            "\r"
+        ]
+    },
+    "02A9D": {
+        "scope": "latex",
+        "prefix": "/simless",
+        "body": "⪝",
+        "description": [
+            "⪝",
+            "similar or less-than",
+            "\r"
+        ]
+    },
+    "02A9E": {
+        "scope": "latex",
+        "prefix": "/simgtr",
+        "body": "⪞",
+        "description": [
+            "⪞",
+            "similar or greater-than",
+            "\r"
+        ]
+    },
+    "02A9F": {
+        "scope": "latex",
+        "prefix": "/simlE",
+        "body": "⪟",
+        "description": [
+            "⪟",
+            "similar above less-than above equals sign",
+            "\r"
+        ]
+    },
+    "02AA0": {
+        "scope": "latex",
+        "prefix": "/simgE",
+        "body": "⪠",
+        "description": [
+            "⪠",
+            "similar above greater-than above equals sign",
+            "\r"
+        ]
+    },
+    "02AA1": {
+        "scope": "latex",
+        "prefix": "/Lt",
+        "body": "⪡",
+        "description": [
+            "⪡",
+            "double nested less-than",
+            "\r"
+        ]
+    },
+    "02AA2": {
+        "scope": "latex",
+        "prefix": "/Gt",
+        "body": "⪢",
+        "description": [
+            "⪢",
+            "double nested greater-than",
+            "\r"
+        ]
+    },
+    "02AA3": {
+        "scope": "latex",
+        "prefix": "/partialmeetcontraction",
+        "body": "⪣",
+        "description": [
+            "⪣",
+            "double less-than with underbar",
+            "\r"
+        ]
+    },
+    "02AA4": {
+        "scope": "latex",
+        "prefix": "/glj",
+        "body": "⪤",
+        "description": [
+            "⪤",
+            "greater-than overlapping less-than",
+            "\r"
+        ]
+    },
+    "02AA5": {
+        "scope": "latex",
+        "prefix": "/gla",
+        "body": "⪥",
+        "description": [
+            "⪥",
+            "greater-than beside less-than",
+            "\r"
+        ]
+    },
+    "02AA6": {
+        "scope": "latex",
+        "prefix": "/ltcc",
+        "body": "⪦",
+        "description": [
+            "⪦",
+            "less-than closed by curve",
+            "\r"
+        ]
+    },
+    "02AA7": {
+        "scope": "latex",
+        "prefix": "/gtcc",
+        "body": "⪧",
+        "description": [
+            "⪧",
+            "greater-than closed by curve",
+            "\r"
+        ]
+    },
+    "02AA8": {
+        "scope": "latex",
+        "prefix": "/lescc",
+        "body": "⪨",
+        "description": [
+            "⪨",
+            "less-than closed by curve above slanted equal",
+            "\r"
+        ]
+    },
+    "02AA9": {
+        "scope": "latex",
+        "prefix": "/gescc",
+        "body": "⪩",
+        "description": [
+            "⪩",
+            "greater-than closed by curve above slanted equal",
+            "\r"
+        ]
+    },
+    "02AAA": {
+        "scope": "latex",
+        "prefix": "/smt",
+        "body": "⪪",
+        "description": [
+            "⪪",
+            "smaller than",
+            "\r"
+        ]
+    },
+    "02AAB": {
+        "scope": "latex",
+        "prefix": "/lat",
+        "body": "⪫",
+        "description": [
+            "⪫",
+            "larger than",
+            "\r"
+        ]
+    },
+    "02AAC": {
+        "scope": "latex",
+        "prefix": "/smte",
+        "body": "⪬",
+        "description": [
+            "⪬",
+            "smaller than or equal to",
+            "\r"
+        ]
+    },
+    "02AAD": {
+        "scope": "latex",
+        "prefix": "/late",
+        "body": "⪭",
+        "description": [
+            "⪭",
+            "larger than or equal to",
+            "\r"
+        ]
+    },
+    "02AAE": {
+        "scope": "latex",
+        "prefix": "/bumpeqq",
+        "body": "⪮",
+        "description": [
+            "⪮",
+            "equals sign with bumpy above",
+            "\r"
+        ]
+    },
+    "02AAF": {
+        "scope": "latex",
+        "prefix": "/preceq",
+        "body": "⪯",
+        "description": [
+            "⪯",
+            "precedes above single-line equals sign",
+            "\r"
+        ]
+    },
+    "02AB0": {
+        "scope": "latex",
+        "prefix": "/succeq",
+        "body": "⪰",
+        "description": [
+            "⪰",
+            "succeeds above single-line equals sign",
+            "\r"
+        ]
+    },
+    "02AB1": {
+        "scope": "latex",
+        "prefix": "/precneq",
+        "body": "⪱",
+        "description": [
+            "⪱",
+            "precedes above single-line not equal to",
+            "\r"
+        ]
+    },
+    "02AB2": {
+        "scope": "latex",
+        "prefix": "/succneq",
+        "body": "⪲",
+        "description": [
+            "⪲",
+            "succeeds above single-line not equal to",
+            "\r"
+        ]
+    },
+    "02AB3": {
+        "scope": "latex",
+        "prefix": "/preceqq",
+        "body": "⪳",
+        "description": [
+            "⪳",
+            "precedes above equals sign",
+            "\r"
+        ]
+    },
+    "02AB4": {
+        "scope": "latex",
+        "prefix": "/succeqq",
+        "body": "⪴",
+        "description": [
+            "⪴",
+            "succeeds above equals sign",
+            "\r"
+        ]
+    },
+    "02AB5": {
+        "scope": "latex",
+        "prefix": "/precneqq",
+        "body": "⪵",
+        "description": [
+            "⪵",
+            "precedes above not equal to",
+            "\r"
+        ]
+    },
+    "02AB6": {
+        "scope": "latex",
+        "prefix": "/succneqq",
+        "body": "⪶",
+        "description": [
+            "⪶",
+            "succeeds above not equal to",
+            "\r"
+        ]
+    },
+    "02AB7": {
+        "scope": "latex",
+        "prefix": "/precapprox",
+        "body": "⪷",
+        "description": [
+            "⪷",
+            "precedes above almost equal to",
+            "\r"
+        ]
+    },
+    "02AB8": {
+        "scope": "latex",
+        "prefix": "/succapprox",
+        "body": "⪸",
+        "description": [
+            "⪸",
+            "succeeds above almost equal to",
+            "\r"
+        ]
+    },
+    "02AB9": {
+        "scope": "latex",
+        "prefix": "/precnapprox",
+        "body": "⪹",
+        "description": [
+            "⪹",
+            "precedes above not almost equal to",
+            "\r"
+        ]
+    },
+    "02ABA": {
+        "scope": "latex",
+        "prefix": "/succnapprox",
+        "body": "⪺",
+        "description": [
+            "⪺",
+            "succeeds above not almost equal to",
+            "\r"
+        ]
+    },
+    "02ABB": {
+        "scope": "latex",
+        "prefix": "/Prec",
+        "body": "⪻",
+        "description": [
+            "⪻",
+            "double precedes",
+            "\r"
+        ]
+    },
+    "02ABC": {
+        "scope": "latex",
+        "prefix": "/Succ",
+        "body": "⪼",
+        "description": [
+            "⪼",
+            "double succeeds",
+            "\r"
+        ]
+    },
+    "02ABD": {
+        "scope": "latex",
+        "prefix": "/subsetdot",
+        "body": "⪽",
+        "description": [
+            "⪽",
+            "subset with dot",
+            "\r"
+        ]
+    },
+    "02ABE": {
+        "scope": "latex",
+        "prefix": "/supsetdot",
+        "body": "⪾",
+        "description": [
+            "⪾",
+            "superset with dot",
+            "\r"
+        ]
+    },
+    "02ABF": {
+        "scope": "latex",
+        "prefix": "/subsetplus",
+        "body": "⪿",
+        "description": [
+            "⪿",
+            "subset with plus sign below",
+            "\r"
+        ]
+    },
+    "02AC0": {
+        "scope": "latex",
+        "prefix": "/supsetplus",
+        "body": "⫀",
+        "description": [
+            "⫀",
+            "superset with plus sign below",
+            "\r"
+        ]
+    },
+    "02AC1": {
+        "scope": "latex",
+        "prefix": "/submult",
+        "body": "⫁",
+        "description": [
+            "⫁",
+            "subset with multiplication sign below",
+            "\r"
+        ]
+    },
+    "02AC2": {
+        "scope": "latex",
+        "prefix": "/supmult",
+        "body": "⫂",
+        "description": [
+            "⫂",
+            "superset with multiplication sign below",
+            "\r"
+        ]
+    },
+    "02AC3": {
+        "scope": "latex",
+        "prefix": "/subedot",
+        "body": "⫃",
+        "description": [
+            "⫃",
+            "subset of or equal to with dot above",
+            "\r"
+        ]
+    },
+    "02AC4": {
+        "scope": "latex",
+        "prefix": "/supedot",
+        "body": "⫄",
+        "description": [
+            "⫄",
+            "superset of or equal to with dot above",
+            "\r"
+        ]
+    },
+    "02AC5": {
+        "scope": "latex",
+        "prefix": "/subseteqq",
+        "body": "⫅",
+        "description": [
+            "⫅",
+            "subset of above equals sign",
+            "\r"
+        ]
+    },
+    "02AC6": {
+        "scope": "latex",
+        "prefix": "/supseteqq",
+        "body": "⫆",
+        "description": [
+            "⫆",
+            "superset of above equals sign",
+            "\r"
+        ]
+    },
+    "02AC7": {
+        "scope": "latex",
+        "prefix": "/subsim",
+        "body": "⫇",
+        "description": [
+            "⫇",
+            "subset of above tilde operator",
+            "\r"
+        ]
+    },
+    "02AC8": {
+        "scope": "latex",
+        "prefix": "/supsim",
+        "body": "⫈",
+        "description": [
+            "⫈",
+            "superset of above tilde operator",
+            "\r"
+        ]
+    },
+    "02AC9": {
+        "scope": "latex",
+        "prefix": "/subsetapprox",
+        "body": "⫉",
+        "description": [
+            "⫉",
+            "subset of above almost equal to",
+            "\r"
+        ]
+    },
+    "02ACA": {
+        "scope": "latex",
+        "prefix": "/supsetapprox",
+        "body": "⫊",
+        "description": [
+            "⫊",
+            "superset of above almost equal to",
+            "\r"
+        ]
+    },
+    "02ACB": {
+        "scope": "latex",
+        "prefix": "/subsetneqq",
+        "body": "⫋",
+        "description": [
+            "⫋",
+            "subset of above not equal to",
+            "\r"
+        ]
+    },
+    "02ACC": {
+        "scope": "latex",
+        "prefix": "/supsetneqq",
+        "body": "⫌",
+        "description": [
+            "⫌",
+            "superset of above not equal to",
+            "\r"
+        ]
+    },
+    "02ACD": {
+        "scope": "latex",
+        "prefix": "/lsqhook",
+        "body": "⫍",
+        "description": [
+            "⫍",
+            "square left open box operator",
+            "\r"
+        ]
+    },
+    "02ACE": {
+        "scope": "latex",
+        "prefix": "/rsqhook",
+        "body": "⫎",
+        "description": [
+            "⫎",
+            "square right open box operator",
+            "\r"
+        ]
+    },
+    "02ACF": {
+        "scope": "latex",
+        "prefix": "/csub",
+        "body": "⫏",
+        "description": [
+            "⫏",
+            "closed subset",
+            "\r"
+        ]
+    },
+    "02AD0": {
+        "scope": "latex",
+        "prefix": "/csup",
+        "body": "⫐",
+        "description": [
+            "⫐",
+            "closed superset",
+            "\r"
+        ]
+    },
+    "02AD1": {
+        "scope": "latex",
+        "prefix": "/csube",
+        "body": "⫑",
+        "description": [
+            "⫑",
+            "closed subset or equal to",
+            "\r"
+        ]
+    },
+    "02AD2": {
+        "scope": "latex",
+        "prefix": "/csupe",
+        "body": "⫒",
+        "description": [
+            "⫒",
+            "closed superset or equal to",
+            "\r"
+        ]
+    },
+    "02AD3": {
+        "scope": "latex",
+        "prefix": "/subsup",
+        "body": "⫓",
+        "description": [
+            "⫓",
+            "subset above superset",
+            "\r"
+        ]
+    },
+    "02AD4": {
+        "scope": "latex",
+        "prefix": "/supsub",
+        "body": "⫔",
+        "description": [
+            "⫔",
+            "superset above subset",
+            "\r"
+        ]
+    },
+    "02AD5": {
+        "scope": "latex",
+        "prefix": "/subsub",
+        "body": "⫕",
+        "description": [
+            "⫕",
+            "subset above subset",
+            "\r"
+        ]
+    },
+    "02AD6": {
+        "scope": "latex",
+        "prefix": "/supsup",
+        "body": "⫖",
+        "description": [
+            "⫖",
+            "superset above superset",
+            "\r"
+        ]
+    },
+    "02AD7": {
+        "scope": "latex",
+        "prefix": "/suphsub",
+        "body": "⫗",
+        "description": [
+            "⫗",
+            "superset beside subset",
+            "\r"
+        ]
+    },
+    "02AD8": {
+        "scope": "latex",
+        "prefix": "/supdsub",
+        "body": "⫘",
+        "description": [
+            "⫘",
+            "superset beside and joined by dash with subset",
+            "\r"
+        ]
+    },
+    "02AD9": {
+        "scope": "latex",
+        "prefix": "/forkv",
+        "body": "⫙",
+        "description": [
+            "⫙",
+            "element of opening downwards",
+            "\r"
+        ]
+    },
+    "02ADA": {
+        "scope": "latex",
+        "prefix": "/topfork",
+        "body": "⫚",
+        "description": [
+            "⫚",
+            "pitchfork with tee top",
+            "\r"
+        ]
+    },
+    "02ADB": {
+        "scope": "latex",
+        "prefix": "/mlcp",
+        "body": "⫛",
+        "description": [
+            "⫛",
+            "transversal intersection",
+            "\r"
+        ]
+    },
+    "02ADC": {
+        "scope": "latex",
+        "prefix": "/forks",
+        "body": "⫝̸",
+        "description": [
+            "⫝̸",
+            "forking",
+            "\r"
+        ]
+    },
+    "02ADD": {
+        "scope": "latex",
+        "prefix": "/forksnot",
+        "body": "⫝",
+        "description": [
+            "⫝",
+            "nonforking",
+            "\r"
+        ]
+    },
+    "02ADE": {
+        "scope": "latex",
+        "prefix": "/shortlefttack",
+        "body": "⫞",
+        "description": [
+            "⫞",
+            "short left tack",
+            "\r"
+        ]
+    },
+    "02ADF": {
+        "scope": "latex",
+        "prefix": "/shortdowntack",
+        "body": "⫟",
+        "description": [
+            "⫟",
+            "short down tack",
+            "\r"
+        ]
+    },
+    "02AE0": {
+        "scope": "latex",
+        "prefix": "/shortuptack",
+        "body": "⫠",
+        "description": [
+            "⫠",
+            "short up tack",
+            "\r"
+        ]
+    },
+    "02AE2": {
+        "scope": "latex",
+        "prefix": "/vDdash",
+        "body": "⫢",
+        "description": [
+            "⫢",
+            "vertical bar triple right turnstile",
+            "\r"
+        ]
+    },
+    "02AE3": {
+        "scope": "latex",
+        "prefix": "/dashV",
+        "body": "⫣",
+        "description": [
+            "⫣",
+            "double vertical bar left turnstile",
+            "\r"
+        ]
+    },
+    "02AE4": {
+        "scope": "latex",
+        "prefix": "/Dashv",
+        "body": "⫤",
+        "description": [
+            "⫤",
+            "vertical bar double left turnstile",
+            "\r"
+        ]
+    },
+    "02AE5": {
+        "scope": "latex",
+        "prefix": "/DashV",
+        "body": "⫥",
+        "description": [
+            "⫥",
+            "double vertical bar double left turnstile",
+            "\r"
+        ]
+    },
+    "02AE6": {
+        "scope": "latex",
+        "prefix": "/varVdash",
+        "body": "⫦",
+        "description": [
+            "⫦",
+            "long dash from left member of double vertical",
+            "\r"
+        ]
+    },
+    "02AE7": {
+        "scope": "latex",
+        "prefix": "/Barv",
+        "body": "⫧",
+        "description": [
+            "⫧",
+            "short down tack with overbar",
+            "\r"
+        ]
+    },
+    "02AE8": {
+        "scope": "latex",
+        "prefix": "/vBar",
+        "body": "⫨",
+        "description": [
+            "⫨",
+            "short up tack with underbar",
+            "\r"
+        ]
+    },
+    "02AE9": {
+        "scope": "latex",
+        "prefix": "/vBarv",
+        "body": "⫩",
+        "description": [
+            "⫩",
+            "short up tack above short down tack",
+            "\r"
+        ]
+    },
+    "02AEA": {
+        "scope": "latex",
+        "prefix": "/barV",
+        "body": "⫪",
+        "description": [
+            "⫪",
+            "double down tack",
+            "\r"
+        ]
+    },
+    "02AEB": {
+        "scope": "latex",
+        "prefix": "/Vbar",
+        "body": "⫫",
+        "description": [
+            "⫫",
+            "double up tack",
+            "\r"
+        ]
+    },
+    "02AEC": {
+        "scope": "latex",
+        "prefix": "/Not",
+        "body": "⫬",
+        "description": [
+            "⫬",
+            "double stroke not sign",
+            "\r"
+        ]
+    },
+    "02AED": {
+        "scope": "latex",
+        "prefix": "/bNot",
+        "body": "⫭",
+        "description": [
+            "⫭",
+            "reversed double stroke not sign",
+            "\r"
+        ]
+    },
+    "02AEE": {
+        "scope": "latex",
+        "prefix": "/revnmid",
+        "body": "⫮",
+        "description": [
+            "⫮",
+            "does not divide with reversed negation slash",
+            "\r"
+        ]
+    },
+    "02AEF": {
+        "scope": "latex",
+        "prefix": "/cirmid",
+        "body": "⫯",
+        "description": [
+            "⫯",
+            "vertical line with circle above",
+            "\r"
+        ]
+    },
+    "02AF0": {
+        "scope": "latex",
+        "prefix": "/midcir",
+        "body": "⫰",
+        "description": [
+            "⫰",
+            "vertical line with circle below",
+            "\r"
+        ]
+    },
+    "02AF2": {
+        "scope": "latex",
+        "prefix": "/nhpar",
+        "body": "⫲",
+        "description": [
+            "⫲",
+            "parallel with horizontal stroke",
+            "\r"
+        ]
+    },
+    "02AF3": {
+        "scope": "latex",
+        "prefix": "/parsim",
+        "body": "⫳",
+        "description": [
+            "⫳",
+            "parallel with tilde operator",
+            "\r"
+        ]
+    },
+    "02AF7": {
+        "scope": "latex",
+        "prefix": "/lllnest",
+        "body": "⫷",
+        "description": [
+            "⫷",
+            "stacked very much less-than",
+            "\r"
+        ]
+    },
+    "02AF8": {
+        "scope": "latex",
+        "prefix": "/gggnest",
+        "body": "⫸",
+        "description": [
+            "⫸",
+            "stacked very much greater-than",
+            "\r"
+        ]
+    },
+    "02AF9": {
+        "scope": "latex",
+        "prefix": "/leqqslant",
+        "body": "⫹",
+        "description": [
+            "⫹",
+            "double-line slanted less-than or equal to",
+            "\r"
+        ]
+    },
+    "02AFA": {
+        "scope": "latex",
+        "prefix": "/geqqslant",
+        "body": "⫺",
+        "description": [
+            "⫺",
+            "double-line slanted greater-than or equal to",
+            "\r"
+        ]
+    },
+    "02B30": {
+        "scope": "latex",
+        "prefix": "/circleonleftarrow",
+        "body": "⬰",
+        "description": [
+            "⬰",
+            "left arrow with small circle",
+            "\r"
+        ]
+    },
+    "02B31": {
+        "scope": "latex",
+        "prefix": "/leftthreearrows",
+        "body": "⬱",
+        "description": [
+            "⬱",
+            "three leftwards arrows",
+            "\r"
+        ]
+    },
+    "02B32": {
+        "scope": "latex",
+        "prefix": "/leftarrowonoplus",
+        "body": "⬲",
+        "description": [
+            "⬲",
+            "left arrow with circled plus",
+            "\r"
+        ]
+    },
+    "02B33": {
+        "scope": "latex",
+        "prefix": "/longleftsquigarrow",
+        "body": "⬳",
+        "description": [
+            "⬳",
+            "long leftwards squiggle arrow",
+            "\r"
+        ]
+    },
+    "02B34": {
+        "scope": "latex",
+        "prefix": "/nvtwoheadleftarrow",
+        "body": "⬴",
+        "description": [
+            "⬴",
+            "leftwards two-headed arrow with vertical stroke",
+            "\r"
+        ]
+    },
+    "02B35": {
+        "scope": "latex",
+        "prefix": "/nVtwoheadleftarrow",
+        "body": "⬵",
+        "description": [
+            "⬵",
+            "leftwards two-headed arrow with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02B36": {
+        "scope": "latex",
+        "prefix": "/twoheadmapsfrom",
+        "body": "⬶",
+        "description": [
+            "⬶",
+            "leftwards two-headed arrow from bar",
+            "\r"
+        ]
+    },
+    "02B37": {
+        "scope": "latex",
+        "prefix": "/twoheadleftdbkarrow",
+        "body": "⬷",
+        "description": [
+            "⬷",
+            "leftwards two-headed triple-dash arrow",
+            "\r"
+        ]
+    },
+    "02B38": {
+        "scope": "latex",
+        "prefix": "/leftdotarrow",
+        "body": "⬸",
+        "description": [
+            "⬸",
+            "leftwards arrow with dotted stem",
+            "\r"
+        ]
+    },
+    "02B39": {
+        "scope": "latex",
+        "prefix": "/nvleftarrowtail",
+        "body": "⬹",
+        "description": [
+            "⬹",
+            "leftwards arrow with tail with vertical stroke",
+            "\r"
+        ]
+    },
+    "02B3A": {
+        "scope": "latex",
+        "prefix": "/nVleftarrowtail",
+        "body": "⬺",
+        "description": [
+            "⬺",
+            "leftwards arrow with tail with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02B3B": {
+        "scope": "latex",
+        "prefix": "/twoheadleftarrowtail",
+        "body": "⬻",
+        "description": [
+            "⬻",
+            "leftwards two-headed arrow with tail",
+            "\r"
+        ]
+    },
+    "02B3C": {
+        "scope": "latex",
+        "prefix": "/nvtwoheadleftarrowtail",
+        "body": "⬼",
+        "description": [
+            "⬼",
+            "leftwards two-headed arrow with tail with vertical stroke",
+            "\r"
+        ]
+    },
+    "02B3D": {
+        "scope": "latex",
+        "prefix": "/nVtwoheadleftarrowtail",
+        "body": "⬽",
+        "description": [
+            "⬽",
+            "leftwards two-headed arrow with tail with double vertical stroke",
+            "\r"
+        ]
+    },
+    "02B3E": {
+        "scope": "latex",
+        "prefix": "/leftarrowx",
+        "body": "⬾",
+        "description": [
+            "⬾",
+            "leftwards arrow through x",
+            "\r"
+        ]
+    },
+    "02B3F": {
+        "scope": "latex",
+        "prefix": "/leftcurvedarrow",
+        "body": "⬿",
+        "description": [
+            "⬿",
+            "wave arrow pointing directly left",
+            "\r"
+        ]
+    },
+    "02B40": {
+        "scope": "latex",
+        "prefix": "/equalleftarrow",
+        "body": "⭀",
+        "description": [
+            "⭀",
+            "equals sign above leftwards arrow",
+            "\r"
+        ]
+    },
+    "02B41": {
+        "scope": "latex",
+        "prefix": "/bsimilarleftarrow",
+        "body": "⭁",
+        "description": [
+            "⭁",
+            "reverse tilde operator above leftwards arrow",
+            "\r"
+        ]
+    },
+    "02B42": {
+        "scope": "latex",
+        "prefix": "/leftarrowbackapprox",
+        "body": "⭂",
+        "description": [
+            "⭂",
+            "leftwards arrow above reverse almost equal to",
+            "\r"
+        ]
+    },
+    "02B43": {
+        "scope": "latex",
+        "prefix": "/rightarrowgtr",
+        "body": "⭃",
+        "description": [
+            "⭃",
+            "rightwards arrow through greater-than",
+            "\r"
+        ]
+    },
+    "02B44": {
+        "scope": "latex",
+        "prefix": "/rightarrowsupset",
+        "body": "⭄",
+        "description": [
+            "⭄",
+            "rightwards arrow through subset",
+            "\r"
+        ]
+    },
+    "02B45": {
+        "scope": "latex",
+        "prefix": "/LLeftarrow",
+        "body": "⭅",
+        "description": [
+            "⭅",
+            "leftwards quadruple arrow",
+            "\r"
+        ]
+    },
+    "02B46": {
+        "scope": "latex",
+        "prefix": "/RRightarrow",
+        "body": "⭆",
+        "description": [
+            "⭆",
+            "rightwards quadruple arrow",
+            "\r"
+        ]
+    },
+    "02B47": {
+        "scope": "latex",
+        "prefix": "/bsimilarrightarrow",
+        "body": "⭇",
+        "description": [
+            "⭇",
+            "reverse tilde operator above rightwards arrow",
+            "\r"
+        ]
+    },
+    "02B48": {
+        "scope": "latex",
+        "prefix": "/rightarrowbackapprox",
+        "body": "⭈",
+        "description": [
+            "⭈",
+            "rightwards arrow above reverse almost equal to",
+            "\r"
+        ]
+    },
+    "02B49": {
+        "scope": "latex",
+        "prefix": "/similarleftarrow",
+        "body": "⭉",
+        "description": [
+            "⭉",
+            "tilde operator above leftwards arrow",
+            "\r"
+        ]
+    },
+    "02B4A": {
+        "scope": "latex",
+        "prefix": "/leftarrowapprox",
+        "body": "⭊",
+        "description": [
+            "⭊",
+            "leftwards arrow above almost equal to",
+            "\r"
+        ]
+    },
+    "02B4B": {
+        "scope": "latex",
+        "prefix": "/leftarrowbsimilar",
+        "body": "⭋",
+        "description": [
+            "⭋",
+            "leftwards arrow above reverse tilde operator",
+            "\r"
+        ]
+    },
+    "02B4C": {
+        "scope": "latex",
+        "prefix": "/rightarrowbsimilar",
+        "body": "⭌",
+        "description": [
+            "⭌",
+            "righttwards arrow above reverse tilde operator",
+            "\r"
+        ]
+    }
+}

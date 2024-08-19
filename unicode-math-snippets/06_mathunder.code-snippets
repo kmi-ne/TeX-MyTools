@@ -1,0 +1,34 @@
+// Part 06 of unicode-math-snippets, containg all \mathunder type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "023B5": {
+        "scope": "latex",
+        "prefix": "/underbracket",
+        "body": "⎵",
+        "description": [
+            "⎵",
+            "bottom square bracket",
+            "\r"
+        ]
+    },
+    "023DD": {
+        "scope": "latex",
+        "prefix": "/underparen",
+        "body": "⏝",
+        "description": [
+            "⏝",
+            "bottom parenthesis (mathematical use)",
+            "\r"
+        ]
+    },
+    "023DF": {
+        "scope": "latex",
+        "prefix": "/underbrace",
+        "body": "⏟",
+        "description": [
+            "⏟",
+            "bottom curly bracket (mathematical use)",
+            "\r"
+        ]
+    }
+}

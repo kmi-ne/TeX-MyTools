@@ -1,0 +1,334 @@
+// Part 01 of unicode-math-snippets, containg all \mathopen type macros.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+{
+    "00028": {
+        "scope": "latex",
+        "prefix": "/lparen",
+        "body": "(",
+        "description": [
+            "(",
+            "left parenthesis",
+            "\r"
+        ]
+    },
+    "0005B": {
+        "scope": "latex",
+        "prefix": "/lbrack",
+        "body": "[",
+        "description": [
+            "[",
+            "left square bracket",
+            "\r"
+        ]
+    },
+    "0007B": {
+        "scope": "latex",
+        "prefix": "/lbrace",
+        "body": "{",
+        "description": [
+            "{",
+            "left curly bracket",
+            "\r"
+        ]
+    },
+    "0221A": {
+        "scope": "latex",
+        "prefix": "/sqrt",
+        "body": "√",
+        "description": [
+            "√",
+            "radical",
+            "\r"
+        ]
+    },
+    "0221B": {
+        "scope": "latex",
+        "prefix": "/cuberoot",
+        "body": "∛",
+        "description": [
+            "∛",
+            "cube root",
+            "\r"
+        ]
+    },
+    "0221C": {
+        "scope": "latex",
+        "prefix": "/fourthroot",
+        "body": "∜",
+        "description": [
+            "∜",
+            "fourth root",
+            "\r"
+        ]
+    },
+    "02308": {
+        "scope": "latex",
+        "prefix": "/lceil",
+        "body": "⌈",
+        "description": [
+            "⌈",
+            "left ceiling",
+            "\r"
+        ]
+    },
+    "0230A": {
+        "scope": "latex",
+        "prefix": "/lfloor",
+        "body": "⌊",
+        "description": [
+            "⌊",
+            "left floor",
+            "\r"
+        ]
+    },
+    "0231C": {
+        "scope": "latex",
+        "prefix": "/ulcorner",
+        "body": "⌜",
+        "description": [
+            "⌜",
+            "upper left corner",
+            "\r"
+        ]
+    },
+    "0231E": {
+        "scope": "latex",
+        "prefix": "/llcorner",
+        "body": "⌞",
+        "description": [
+            "⌞",
+            "lower left corner",
+            "\r"
+        ]
+    },
+    "023B0": {
+        "scope": "latex",
+        "prefix": "/lmoustache",
+        "body": "⎰",
+        "description": [
+            "⎰",
+            "upper left or lower right curly bracket section",
+            "\r"
+        ]
+    },
+    "02772": {
+        "scope": "latex",
+        "prefix": "/lbrbrak",
+        "body": "❲",
+        "description": [
+            "❲",
+            "light left tortoise shell bracket ornament",
+            "\r"
+        ]
+    },
+    "027C5": {
+        "scope": "latex",
+        "prefix": "/lbag",
+        "body": "⟅",
+        "description": [
+            "⟅",
+            "left s-shaped bag delimiter",
+            "\r"
+        ]
+    },
+    "027CC": {
+        "scope": "latex",
+        "prefix": "/longdivision",
+        "body": "⟌",
+        "description": [
+            "⟌",
+            "long division",
+            "\r"
+        ]
+    },
+    "027E6": {
+        "scope": "latex",
+        "prefix": "/lBrack",
+        "body": "⟦",
+        "description": [
+            "⟦",
+            "mathematical left white square bracket",
+            "\r"
+        ]
+    },
+    "027E8": {
+        "scope": "latex",
+        "prefix": "/langle",
+        "body": "⟨",
+        "description": [
+            "⟨",
+            "mathematical left angle bracket",
+            "\r"
+        ]
+    },
+    "027EA": {
+        "scope": "latex",
+        "prefix": "/lAngle",
+        "body": "⟪",
+        "description": [
+            "⟪",
+            "mathematical left double angle bracket",
+            "\r"
+        ]
+    },
+    "027EC": {
+        "scope": "latex",
+        "prefix": "/Lbrbrak",
+        "body": "⟬",
+        "description": [
+            "⟬",
+            "mathematical left white tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "027EE": {
+        "scope": "latex",
+        "prefix": "/lgroup",
+        "body": "⟮",
+        "description": [
+            "⟮",
+            "mathematical left flattened parenthesis",
+            "\r"
+        ]
+    },
+    "02983": {
+        "scope": "latex",
+        "prefix": "/lBrace",
+        "body": "⦃",
+        "description": [
+            "⦃",
+            "left white curly bracket",
+            "\r"
+        ]
+    },
+    "02985": {
+        "scope": "latex",
+        "prefix": "/lParen",
+        "body": "⦅",
+        "description": [
+            "⦅",
+            "left white parenthesis",
+            "\r"
+        ]
+    },
+    "02987": {
+        "scope": "latex",
+        "prefix": "/llparenthesis",
+        "body": "⦇",
+        "description": [
+            "⦇",
+            "z notation left image bracket",
+            "\r"
+        ]
+    },
+    "02989": {
+        "scope": "latex",
+        "prefix": "/llangle",
+        "body": "⦉",
+        "description": [
+            "⦉",
+            "z notation left binding bracket",
+            "\r"
+        ]
+    },
+    "0298B": {
+        "scope": "latex",
+        "prefix": "/lbrackubar",
+        "body": "⦋",
+        "description": [
+            "⦋",
+            "left square bracket with underbar",
+            "\r"
+        ]
+    },
+    "0298D": {
+        "scope": "latex",
+        "prefix": "/lbrackultick",
+        "body": "⦍",
+        "description": [
+            "⦍",
+            "left square bracket with tick in top corner",
+            "\r"
+        ]
+    },
+    "0298F": {
+        "scope": "latex",
+        "prefix": "/lbracklltick",
+        "body": "⦏",
+        "description": [
+            "⦏",
+            "left square bracket with tick in bottom corner",
+            "\r"
+        ]
+    },
+    "02991": {
+        "scope": "latex",
+        "prefix": "/langledot",
+        "body": "⦑",
+        "description": [
+            "⦑",
+            "left angle bracket with dot",
+            "\r"
+        ]
+    },
+    "02993": {
+        "scope": "latex",
+        "prefix": "/lparenless",
+        "body": "⦓",
+        "description": [
+            "⦓",
+            "left arc less-than bracket",
+            "\r"
+        ]
+    },
+    "02995": {
+        "scope": "latex",
+        "prefix": "/Lparengtr",
+        "body": "⦕",
+        "description": [
+            "⦕",
+            "double left arc greater-than bracket",
+            "\r"
+        ]
+    },
+    "02997": {
+        "scope": "latex",
+        "prefix": "/lblkbrbrak",
+        "body": "⦗",
+        "description": [
+            "⦗",
+            "left black tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "029D8": {
+        "scope": "latex",
+        "prefix": "/lvzigzag",
+        "body": "⧘",
+        "description": [
+            "⧘",
+            "left wiggly fence",
+            "\r"
+        ]
+    },
+    "029DA": {
+        "scope": "latex",
+        "prefix": "/Lvzigzag",
+        "body": "⧚",
+        "description": [
+            "⧚",
+            "left double wiggly fence",
+            "\r"
+        ]
+    },
+    "029FC": {
+        "scope": "latex",
+        "prefix": "/lcurvyangle",
+        "body": "⧼",
+        "description": [
+            "⧼",
+            "left pointing curved angle bracket",
+            "\r"
+        ]
+    }
+}
