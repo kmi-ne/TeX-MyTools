@@ -747,7 +747,7 @@
         "body": "∆",
         "description": [
             "∆",
-            "laplacian (delta; nabla\\string^2)",
+            "laplacian (delta; nabla^2)",
             "\r"
         ]
     },
@@ -1537,7 +1537,7 @@
         "body": "░",
         "description": [
             "░",
-            "25\\% shaded block",
+            "25% shaded block",
             "\r"
         ]
     },
@@ -1547,7 +1547,7 @@
         "body": "▒",
         "description": [
             "▒",
-            "50\\% shaded block",
+            "50% shaded block",
             "\r"
         ]
     },
@@ -1557,7 +1557,7 @@
         "body": "▓",
         "description": [
             "▓",
-            "75\\% shaded block",
+            "75% shaded block",
             "\r"
         ]
     },
