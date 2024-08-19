@@ -35,7 +35,7 @@
     "0007B": {
         "scope": "latex",
         "prefix": "/lbrace",
-        "body": "{",
+        "body": "\\{",
         "description": [
             "{",
             "left curly bracket",
@@ -385,7 +385,7 @@
     "0007D": {
         "scope": "latex",
         "prefix": "/rbrace",
-        "body": "}",
+        "body": "\\}",
         "description": [
             "}",
             "right curly bracket",
@@ -3495,7 +3495,7 @@
     "00023": {
         "scope": "latex",
         "prefix": "/mathoctothorpe",
-        "body": "#",
+        "body": "\\#",
         "description": [
             "#",
             "number sign",
@@ -3505,7 +3505,7 @@
     "00024": {
         "scope": "latex",
         "prefix": "/mathdollar",
-        "body": "$",
+        "body": "\\$",
         "description": [
             "$",
             "dollar sign",
@@ -3515,7 +3515,7 @@
     "00025": {
         "scope": "latex",
         "prefix": "/mathpercent",
-        "body": "%",
+        "body": "\\%",
         "description": [
             "%",
             "percent sign",
@@ -3525,7 +3525,7 @@
     "00026": {
         "scope": "latex",
         "prefix": "/mathampersand",
-        "body": "&",
+        "body": "\\&",
         "description": [
             "&",
             "ampersand",
@@ -3572,16 +3572,16 @@
             "\r"
         ]
     },
-    "0005C": {
-        "scope": "latex",
-        "prefix": "/backslash",
-        "body": "\\",
-        "description": [
-            "\\",
-            "reverse solidus",
-            "\r"
-        ]
-    },
+    // "0005C": {
+    //     "scope": "latex",
+    //     "prefix": "/backslash",
+    //     "body": "\\",
+    //     "description": [
+    //         "\\",
+    //         "reverse solidus",
+    //         "\r"
+    //     ]
+    // },
     "000A3": {
         "scope": "latex",
         "prefix": "/mathsterling",

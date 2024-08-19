@@ -34,7 +34,7 @@
     "0007D": {
         "scope": "latex",
         "prefix": "/rbrace",
-        "body": "}",
+        "body": "\\}",
         "description": [
             "}",
             "right curly bracket",

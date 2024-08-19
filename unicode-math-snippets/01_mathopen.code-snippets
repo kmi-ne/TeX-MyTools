@@ -24,7 +24,7 @@
     "0007B": {
         "scope": "latex",
         "prefix": "/lbrace",
-        "body": "{",
+        "body": "\\{",
         "description": [
             "{",
             "left curly bracket",

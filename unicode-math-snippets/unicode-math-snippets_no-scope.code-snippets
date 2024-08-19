@@ -32,7 +32,7 @@
     },
     "0007B": {
         "prefix": "/lbrace",
-        "body": "{",
+        "body": "\\{",
         "description": [
             "{",
             "left curly bracket",
@@ -348,7 +348,7 @@
     },
     "0007D": {
         "prefix": "/rbrace",
-        "body": "}",
+        "body": "\\}",
         "description": [
             "}",
             "right curly bracket",
@@ -3156,7 +3156,7 @@
 // 
     "00023": {
         "prefix": "/mathoctothorpe",
-        "body": "#",
+        "body": "\\#",
         "description": [
             "#",
             "number sign",
@@ -3165,7 +3165,7 @@
     },
     "00024": {
         "prefix": "/mathdollar",
-        "body": "$",
+        "body": "\\$",
         "description": [
             "$",
             "dollar sign",
@@ -3174,7 +3174,7 @@
     },
     "00025": {
         "prefix": "/mathpercent",
-        "body": "%",
+        "body": "\\%",
         "description": [
             "%",
             "percent sign",
@@ -3183,7 +3183,7 @@
     },
     "00026": {
         "prefix": "/mathampersand",
-        "body": "&",
+        "body": "\\&",
         "description": [
             "&",
             "ampersand",
@@ -3226,15 +3226,15 @@
             "\r"
         ]
     },
-    "0005C": {
-        "prefix": "/backslash",
-        "body": "\\",
-        "description": [
-            "\\",
-            "reverse solidus",
-            "\r"
-        ]
-    },
+    // "0005C": {
+    //     "prefix": "/backslash",
+    //     "body": "\\",
+    //     "description": [
+    //         "\\",
+    //         "reverse solidus",
+    //         "\r"
+    //     ]
+    // },
     "000A3": {
         "prefix": "/mathsterling",
         "body": "£",
