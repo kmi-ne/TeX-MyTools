@@ -1,8 +1,8 @@
 \usepackage[beginComment={\ \makebox[2em]{\dotfill} by~}, italicComments=false, rightComments=false]{algpseudocodex}
 
 \SetupKeyvalOptions{%
-	family=fpw,%
-	prefix=fpw@%
+  family=fpw,%
+  prefix=fpw@%
 }
 \DeclareStringOption[green]{showColor}
 \DeclareStringOption[red]{asmpColor}
@@ -10,11 +10,11 @@
 
 \makeatletter
 \renewcommand{\algpx@commentFormat}[1]{%
-	\ifbool{algpx@italicComments}{%
-		\footnotesize{\textit{\textcolor{\algpx@commentColor}{#1}}}%
-	}{%
-		\footnotesize{\textcolor{\algpx@commentColor}{#1}}%
-	}%
+  \ifbool{algpx@italicComments}{%
+    \footnotesize{\textit{\textcolor{\algpx@commentColor}{#1}}}%
+  }{%
+    \footnotesize{\textcolor{\algpx@commentColor}{#1}}%
+  }%
 }
 
 % \tikzset{algpxIndentLine/.style={draw=black}}
@@ -23,16 +23,16 @@
 \algrenewcommand\algorithmicthen{}
 
 \algdef{C}[IF]{IF}{ElsIf}[1]{%
-	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@asmpColor}Assume:}\ #1%
+  \algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@asmpColor}Assume:}\ #1%
 }
 \algdef{C}[IF]{IF}{AndIf}[1]{%
-	\algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@showColor}and Show:}\ #1%
+  \algpx@startCodeCommand\algpx@endIndent[1]\texttt{\color{\fpw@showColor}and Show:}\ #1%
 }
 \pretocmd{\AndIf}{\algpx@endCodeCommand}{}{}
 
 
 \long\def\cana@extract#1#2#3#4#5{\unexpanded{#3}}
-\newcommand\doubleref[1]{%
+\newcommand{\doubleref}[1]{%
   \@ifundefined{r@#1}{\relax}{%
     \edef\cana@temp{%
       \expandafter\expandafter\expandafter\cana@extract\csname r@#1\endcsname
@@ -41,8 +41,8 @@
 \makeatother
 
 \ExplSyntaxOn
-\bool_set_false:N \g_JustEndedAsmp_bool
-\bool_set_false:N \g_JustEndedShow_bool
+\bool_set_false:N \__my_JustEndedAsmp_bool
+\bool_set_false:N \__my_JustEndedShow_bool
 \cs_new:Npn \__set_labelref:nn #1#2 {
   \tl_if_empty:nTF { #1 } {} { \label{#1} }
   \clist_if_empty:nTF { #2 } {} {
@@ -61,45 +61,45 @@
   }
 }
 \NewDocumentCommand { \Show } { m O{} D(){} m } {
-  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } {
+  \bool_lazy_any:nTF { {\__my_JustEndedAsmp_bool} {\__my_JustEndedShow_bool} } {
     \EndIf
-    \bool_set_false:N \g_JustEndedAsmp_bool
-    \bool_set_false:N \g_JustEndedShow_bool
+    \bool_set_false:N \__my_JustEndedAsmp_bool
+    \bool_set_false:N \__my_JustEndedShow_bool
   } {}
   \If{#1}
   \__set_labelref:nn { #2 } { #3 }
     #4
-  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } { \EndIf } {}
-  \bool_set_false:N \g_JustEndedAsmp_bool
-  \bool_set_true:N \g_JustEndedShow_bool
+  \bool_lazy_any:nTF { {\__my_JustEndedAsmp_bool} {\__my_JustEndedShow_bool} } { \EndIf } {}
+  \bool_set_false:N \__my_JustEndedAsmp_bool
+  \bool_set_true:N \__my_JustEndedShow_bool
 }
 
 \NewDocumentCommand { \AndShow } { m O{} D(){} m } {
   \AndIf{#1}
   \__set_labelref:nn { #2 } { #3 }
     #4
-  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } { \EndIf } {}
-  \bool_set_false:N \g_JustEndedAsmp_bool
-  \bool_set_true:N \g_JustEndedShow_bool
+  \bool_lazy_any:nTF { {\__my_JustEndedAsmp_bool} {\__my_JustEndedShow_bool} } { \EndIf } {}
+  \bool_set_false:N \__my_JustEndedAsmp_bool
+  \bool_set_true:N \__my_JustEndedShow_bool
 }
 
 \NewDocumentCommand { \Assume } { m O{} } {
   \ElsIf{#1}
   \tl_if_empty:nTF { #2 } {} { \label{#2} }
-  \bool_set_true:N \g_JustEndedAsmp_bool
-  \bool_set_false:N \g_JustEndedShow_bool
+  \bool_set_true:N \__my_JustEndedAsmp_bool
+  \bool_set_false:N \__my_JustEndedShow_bool
 }
 
 \NewDocumentCommand { \step } { m O{} D(){} } {
-  \bool_lazy_any:nTF { {\g_JustEndedAsmp_bool} {\g_JustEndedShow_bool} } {
+  \bool_lazy_any:nTF { {\__my_JustEndedAsmp_bool} {\__my_JustEndedShow_bool} } {
     \EndIf
-    \bool_set_false:N \g_JustEndedAsmp_bool
-    \bool_set_false:N \g_JustEndedShow_bool
+    \bool_set_false:N \__my_JustEndedAsmp_bool
+    \bool_set_false:N \__my_JustEndedShow_bool
   } {}
   \State #1
   \__set_labelref:nn { #2 } { #3 }
-  \bool_set_false:N \g_JustEndedAsmp_bool
-  \bool_set_false:N \g_JustEndedShow_bool
+  \bool_set_false:N \__my_JustEndedAsmp_bool
+  \bool_set_false:N \__my_JustEndedShow_bool
 }
 \ExplSyntaxOff
 
