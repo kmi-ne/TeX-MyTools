@@ -1,5 +1,5 @@
 // Part 05 of unicode-math-snippets, containg all \mathover type macros.
-// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
     "023B4": {
         "scope": "latex",

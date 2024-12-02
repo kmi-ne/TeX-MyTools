@@ -1,5 +1,5 @@
 // Part 11 of unicode-math-snippets, containg all \mathord type macros.
-// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
     "00023": {
         "scope": "latex",

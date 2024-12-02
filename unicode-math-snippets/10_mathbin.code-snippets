@@ -1,5 +1,5 @@
 // Part 10 of unicode-math-snippets, containg all \mathbin type macros.
-// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
     "0002B": {
         "scope": "latex",

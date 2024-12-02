@@ -1,5 +1,5 @@
 // Part 08 of unicode-math-snippets, containg all \mathbotaccent type macros.
-// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in IntelliSense.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
     "020E8": {
         "scope": "latex",
