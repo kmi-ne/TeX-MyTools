@@ -1,0 +1,6493 @@
+// Additional snippets.
+// All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
+{
+    "00028+00029": {
+        "prefix": "/lrparen",
+        "body": "($1)",
+        "description": [
+            "( )",
+            "left parenthesis + right parenthesis",
+            "\r"
+        ]
+    },
+    "0005B+0005D": {
+        "prefix": "/lrbrack",
+        "body": "[$1]",
+        "description": [
+            "[ ]",
+            "left square bracket + right square bracket",
+            "\r"
+        ]
+    },
+    "0007B+0007D": {
+        "prefix": "/lrbrace",
+        "body": "{$1}",
+        "description": [
+            "{ }",
+            "left curly bracket + right curly bracket",
+            "\r"
+        ]
+    },
+    "02308+02309": {
+        "prefix": "/lrceil",
+        "body": "⌈$1⌉",
+        "description": [
+            "⌈ ⌉",
+            "left ceiling + right ceiling",
+            "\r"
+        ]
+    },
+    "0230A+0230B": {
+        "prefix": "/lrfloor",
+        "body": "⌊$1⌋",
+        "description": [
+            "⌊ ⌋",
+            "left floor + right floor",
+            "\r"
+        ]
+    },
+    "0231C+0231D": {
+        "prefix": "/ulrcorner",
+        "body": "⌜$1⌝",
+        "description": [
+            "⌜ ⌝",
+            "upper left corner + upper right corner",
+            "\r"
+        ]
+    },
+    "0231E+0231F": {
+        "prefix": "/llrcorner",
+        "body": "⌞$1⌟",
+        "description": [
+            "⌞ ⌟",
+            "lower left corner + lower right corner",
+            "\r"
+        ]
+    },
+    "023B0+023B1": {
+        "prefix": "/lrmoustache",
+        "body": "⎰$1⎱",
+        "description": [
+            "⎰ ⎱",
+            "upper left or lower right curly bracket section + upper right or lower left curly bracket section",
+            "\r"
+        ]
+    },
+    "02772+02773": {
+        "prefix": "/lrbrbrak",
+        "body": "❲$1❳",
+        "description": [
+            "❲ ❳",
+            "light left tortoise shell bracket ornament + light right tortoise shell bracket ornament",
+            "\r"
+        ]
+    },
+    "027C5+027C6": {
+        "prefix": "/lrbag",
+        "body": "⟅$1⟆",
+        "description": [
+            "⟅ ⟆",
+            "left s-shaped bag delimiter + right s-shaped bag delimiter",
+            "\r"
+        ]
+    },
+    "027E6+027E7": {
+        "prefix": "/lrBrack",
+        "body": "⟦$1⟧",
+        "description": [
+            "⟦  ⟧",
+            "mathematical left white square bracket + mathematical right white square bracket",
+            "\r"
+        ]
+    },
+    "027E8+027E9": {
+        "prefix": "/lrangle",
+        "body": "⟨$1⟩",
+        "description": [
+            "⟨ ⟩",
+            "mathematical left angle bracket + mathematical right angle bracket",
+            "\r"
+        ]
+    },
+    "027EA+027EB": {
+        "prefix": "/lrAngle",
+        "body": "⟪$1⟫",
+        "description": [
+            "⟪ ⟫",
+            "mathematical left double angle bracket + mathematical right double angle bracket",
+            "\r"
+        ]
+    },
+    "027EC+027ED": {
+        "prefix": "/LRbrbrak",
+        "body": "⟬$1⟭",
+        "description": [
+            "⟬ ⟭",
+            "mathematical left white tortoise shell bracket + mathematical right white tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "027EE+027EF": {
+        "prefix": "/lrgroup",
+        "body": "⟮$1⟯",
+        "description": [
+            "⟮ ⟯",
+            "mathematical left flattened parenthesis + mathematical right flattened parenthesis",
+            "\r"
+        ]
+    },
+    "02983+02984": {
+        "prefix": "/lrBrace",
+        "body": "⦃$1⦄",
+        "description": [
+            "⦃ ⦄",
+            "left white curly bracket + right white curly bracket",
+            "\r"
+        ]
+    },
+    "02985+02986": {
+        "prefix": "/lrParen",
+        "body": "⦅$1⦆",
+        "description": [
+            "⦅ ⦆",
+            "left white parenthesis + right white parenthesis",
+            "\r"
+        ]
+    },
+    "02987+02988": {
+        "prefix": "/llrrparenthesis",
+        "body": "⦇$1⦈",
+        "description": [
+            "⦇⦈",
+            "z notation left image bracket + z notation right image bracket",
+            "\r"
+        ]
+    },
+    "02989+0298A": {
+        "prefix": "/llrrangle",
+        "body": "⦉$1⦊",
+        "description": [
+            "⦉ ⦊",
+            "z notation left binding bracket + z notation right binding bracket",
+            "\r"
+        ]
+    },
+    "0298B+0298C": {
+        "prefix": "/lrbrackubar",
+        "body": "⦋$1⦌",
+        "description": [
+            "⦋ ⦌",
+            "left square bracket with underbar + right square bracket with underbar",
+            "\r"
+        ]
+    },
+    "0298D+0298E": {
+        "prefix": "/lrbrackultick",
+        "body": "⦍$1⦎",
+        "description": [
+            "⦍ ⦎",
+            "left square bracket with tick in top corner + right square bracket with tick in bottom corner",
+            "\r"
+        ]
+    },
+    "0298F+02990": {
+        "prefix": "/lrbracklltick",
+        "body": "⦏$1⦐",
+        "description": [
+            "⦏ ⦐",
+            "left square bracket with tick in bottom corner + right square bracket with tick in top corner",
+            "\r"
+        ]
+    },
+    "02991+02992": {
+        "prefix": "/lrangledot",
+        "body": "⦑$1⦒",
+        "description": [
+            "⦑ ⦒",
+            "left angle bracket with dot + right angle bracket with dot",
+            "\r"
+        ]
+    },
+    "02993+02994": {
+        "prefix": "/lrparenlessgtr",
+        "body": "⦓$1⦔",
+        "description": [
+            "⦓ ⦔",
+            "left arc less-than bracket + right arc greater-than bracket",
+            "\r"
+        ]
+    },
+    "02995+02996": {
+        "prefix": "/LRparengtrless",
+        "body": "⦕$1⦖",
+        "description": [
+            "⦕ ⦖",
+            "double left arc greater-than bracket + double right arc less-than bracket",
+            "\r"
+        ]
+    },
+    "02997+02998": {
+        "prefix": "/lrblkbrbrak",
+        "body": "⦗$1⦘",
+        "description": [
+            "⦗⦘",
+            "left black tortoise shell bracket + right black tortoise shell bracket",
+            "\r"
+        ]
+    },
+    "029D8+029D9": {
+        "prefix": "/lrvzigzag",
+        "body": "⧘$1⧙",
+        "description": [
+            "⧘ ⧙",
+            "left wiggly fence + right wiggly fence",
+            "\r"
+        ]
+    },
+    "029DA+029DB": {
+        "prefix": "/LRvzigzag",
+        "body": "⧚$1⧛",
+        "description": [
+            "⧚ ⧛",
+            "left double wiggly fence + right double wiggly fence",
+            "\r"
+        ]
+    },
+    "029FC+029FD": {
+        "prefix": "/lrcurvyangle",
+        "body": "⧼$1⧽",
+        "description": [
+            "⧼ ⧽",
+            "left pointing curved angle bracket + right pointing curved angle bracket",
+            "\r"
+        ]
+    },
+    "0007C+0007C": {
+        "prefix": ["/verts", "/abs"],
+        "body": "|$1|",
+        "description": [
+            "| |",
+            "vertical bar + vertical bar",
+            "\r"
+        ]
+    },
+    "02016+02016": {
+        "prefix": ["/Verts", "/norm"],
+        "body": "‖$1‖",
+        "description": [
+            "‖ ‖",
+            "double vertical bar + double vertical bar",
+            "\r"
+        ]
+    },
+    "02980+02980": {
+        "prefix": "/Vverts",
+        "body": "⦀$1⦀",
+        "description": [
+            "⦀ ⦀",
+            "triple vertical bar delimiter + triple vertical bar delimiter",
+            "\r"
+        ]
+    },
+    "1D7CE*": {
+        "prefix": "/B0",
+        "body": "𝟎",
+        "description": [
+            "𝟎",
+            "mathematical bold digit 0",
+            "\r"
+        ]
+    },
+    "1D7CF*": {
+        "prefix": "/B1",
+        "body": "𝟏",
+        "description": [
+            "𝟏",
+            "mathematical bold digit 1",
+            "\r"
+        ]
+    },
+    "1D7D0*": {
+        "prefix": "/B2",
+        "body": "𝟐",
+        "description": [
+            "𝟐",
+            "mathematical bold digit 2",
+            "\r"
+        ]
+    },
+    "1D7D1*": {
+        "prefix": "/B3",
+        "body": "𝟑",
+        "description": [
+            "𝟑",
+            "mathematical bold digit 3",
+            "\r"
+        ]
+    },
+    "1D7D2*": {
+        "prefix": "/B4",
+        "body": "𝟒",
+        "description": [
+            "𝟒",
+            "mathematical bold digit 4",
+            "\r"
+        ]
+    },
+    "1D7D3*": {
+        "prefix": "/B5",
+        "body": "𝟓",
+        "description": [
+            "𝟓",
+            "mathematical bold digit 5",
+            "\r"
+        ]
+    },
+    "1D7D4*": {
+        "prefix": "/B6",
+        "body": "𝟔",
+        "description": [
+            "𝟔",
+            "mathematical bold digit 6",
+            "\r"
+        ]
+    },
+    "1D7D5*": {
+        "prefix": "/B7",
+        "body": "𝟕",
+        "description": [
+            "𝟕",
+            "mathematical bold digit 7",
+            "\r"
+        ]
+    },
+    "1D7D6*": {
+        "prefix": "/B8",
+        "body": "𝟖",
+        "description": [
+            "𝟖",
+            "mathematical bold digit 8",
+            "\r"
+        ]
+    },
+    "1D7D7*": {
+        "prefix": "/B9",
+        "body": "𝟗",
+        "description": [
+            "𝟗",
+            "mathematical bold digit 9",
+            "\r"
+        ]
+    },
+    "1D7D8*": {
+        "prefix": "/bb0",
+        "body": "𝟘",
+        "description": [
+            "𝟘",
+            "mathematical double-struck digit 0",
+            "\r"
+        ]
+    },
+    "1D7D9*": {
+        "prefix": "/bb1",
+        "body": "𝟙",
+        "description": [
+            "𝟙",
+            "mathematical double-struck digit 1",
+            "\r"
+        ]
+    },
+    "1D7DA*": {
+        "prefix": "/bb2",
+        "body": "𝟚",
+        "description": [
+            "𝟚",
+            "mathematical double-struck digit 2",
+            "\r"
+        ]
+    },
+    "1D7DB*": {
+        "prefix": "/bb3",
+        "body": "𝟛",
+        "description": [
+            "𝟛",
+            "mathematical double-struck digit 3",
+            "\r"
+        ]
+    },
+    "1D7DC*": {
+        "prefix": "/bb4",
+        "body": "𝟜",
+        "description": [
+            "𝟜",
+            "mathematical double-struck digit 4",
+            "\r"
+        ]
+    },
+    "1D7DD*": {
+        "prefix": "/bb5",
+        "body": "𝟝",
+        "description": [
+            "𝟝",
+            "mathematical double-struck digit 5",
+            "\r"
+        ]
+    },
+    "1D7DE*": {
+        "prefix": "/bb6",
+        "body": "𝟞",
+        "description": [
+            "𝟞",
+            "mathematical double-struck digit 6",
+            "\r"
+        ]
+    },
+    "1D7DF*": {
+        "prefix": "/bb7",
+        "body": "𝟟",
+        "description": [
+            "𝟟",
+            "mathematical double-struck digit 7",
+            "\r"
+        ]
+    },
+    "1D7E0*": {
+        "prefix": "/bb8",
+        "body": "𝟠",
+        "description": [
+            "𝟠",
+            "mathematical double-struck digit 8",
+            "\r"
+        ]
+    },
+    "1D7E1*": {
+        "prefix": "/bb9",
+        "body": "𝟡",
+        "description": [
+            "𝟡",
+            "mathematical double-struck digit 9",
+            "\r"
+        ]
+    },
+    "1D7E2*": {
+        "prefix": "/S0",
+        "body": "𝟢",
+        "description": [
+            "𝟢",
+            "mathematical sans-serif digit 0",
+            "\r"
+        ]
+    },
+    "1D7E3*": {
+        "prefix": "/S1",
+        "body": "𝟣",
+        "description": [
+            "𝟣",
+            "mathematical sans-serif digit 1",
+            "\r"
+        ]
+    },
+    "1D7E4*": {
+        "prefix": "/S2",
+        "body": "𝟤",
+        "description": [
+            "𝟤",
+            "mathematical sans-serif digit 2",
+            "\r"
+        ]
+    },
+    "1D7E5*": {
+        "prefix": "/S3",
+        "body": "𝟥",
+        "description": [
+            "𝟥",
+            "mathematical sans-serif digit 3",
+            "\r"
+        ]
+    },
+    "1D7E6*": {
+        "prefix": "/S4",
+        "body": "𝟦",
+        "description": [
+            "𝟦",
+            "mathematical sans-serif digit 4",
+            "\r"
+        ]
+    },
+    "1D7E7*": {
+        "prefix": "/S5",
+        "body": "𝟧",
+        "description": [
+            "𝟧",
+            "mathematical sans-serif digit 5",
+            "\r"
+        ]
+    },
+    "1D7E8*": {
+        "prefix": "/S6",
+        "body": "𝟨",
+        "description": [
+            "𝟨",
+            "mathematical sans-serif digit 6",
+            "\r"
+        ]
+    },
+    "1D7E9*": {
+        "prefix": "/S7",
+        "body": "𝟩",
+        "description": [
+            "𝟩",
+            "mathematical sans-serif digit 7",
+            "\r"
+        ]
+    },
+    "1D7EA*": {
+        "prefix": "/S8",
+        "body": "𝟪",
+        "description": [
+            "𝟪",
+            "mathematical sans-serif digit 8",
+            "\r"
+        ]
+    },
+    "1D7EB*": {
+        "prefix": "/S9",
+        "body": "𝟫",
+        "description": [
+            "𝟫",
+            "mathematical sans-serif digit 9",
+            "\r"
+        ]
+    },
+    "1D7EC*": {
+        "prefix": "/BS0",
+        "body": "𝟬",
+        "description": [
+            "𝟬",
+            "mathematical sans-serif bold digit 0",
+            "\r"
+        ]
+    },
+    "1D7ED*": {
+        "prefix": "/BS1",
+        "body": "𝟭",
+        "description": [
+            "𝟭",
+            "mathematical sans-serif bold digit 1",
+            "\r"
+        ]
+    },
+    "1D7EE*": {
+        "prefix": "/BS2",
+        "body": "𝟮",
+        "description": [
+            "𝟮",
+            "mathematical sans-serif bold digit 2",
+            "\r"
+        ]
+    },
+    "1D7EF*": {
+        "prefix": "/BS3",
+        "body": "𝟯",
+        "description": [
+            "𝟯",
+            "mathematical sans-serif bold digit 3",
+            "\r"
+        ]
+    },
+    "1D7F0*": {
+        "prefix": "/BS4",
+        "body": "𝟰",
+        "description": [
+            "𝟰",
+            "mathematical sans-serif bold digit 4",
+            "\r"
+        ]
+    },
+    "1D7F1*": {
+        "prefix": "/BS5",
+        "body": "𝟱",
+        "description": [
+            "𝟱",
+            "mathematical sans-serif bold digit 5",
+            "\r"
+        ]
+    },
+    "1D7F2*": {
+        "prefix": "/BS6",
+        "body": "𝟲",
+        "description": [
+            "𝟲",
+            "mathematical sans-serif bold digit 6",
+            "\r"
+        ]
+    },
+    "1D7F3*": {
+        "prefix": "/BS7",
+        "body": "𝟳",
+        "description": [
+            "𝟳",
+            "mathematical sans-serif bold digit 7",
+            "\r"
+        ]
+    },
+    "1D7F4*": {
+        "prefix": "/BS8",
+        "body": "𝟴",
+        "description": [
+            "𝟴",
+            "mathematical sans-serif bold digit 8",
+            "\r"
+        ]
+    },
+    "1D7F5*": {
+        "prefix": "/BS9",
+        "body": "𝟵",
+        "description": [
+            "𝟵",
+            "mathematical sans-serif bold digit 9",
+            "\r"
+        ]
+    },
+    "1D7F6*": {
+        "prefix": "/tt0",
+        "body": "𝟶",
+        "description": [
+            "𝟶",
+            "mathematical monospace digit 0",
+            "\r"
+        ]
+    },
+    "1D7F7*": {
+        "prefix": "/tt1",
+        "body": "𝟷",
+        "description": [
+            "𝟷",
+            "mathematical monospace digit 1",
+            "\r"
+        ]
+    },
+    "1D7F8*": {
+        "prefix": "/tt2",
+        "body": "𝟸",
+        "description": [
+            "𝟸",
+            "mathematical monospace digit 2",
+            "\r"
+        ]
+    },
+    "1D7F9*": {
+        "prefix": "/tt3",
+        "body": "𝟹",
+        "description": [
+            "𝟹",
+            "mathematical monospace digit 3",
+            "\r"
+        ]
+    },
+    "1D7FA*": {
+        "prefix": "/tt4",
+        "body": "𝟺",
+        "description": [
+            "𝟺",
+            "mathematical monospace digit 4",
+            "\r"
+        ]
+    },
+    "1D7FB*": {
+        "prefix": "/tt5",
+        "body": "𝟻",
+        "description": [
+            "𝟻",
+            "mathematical monospace digit 5",
+            "\r"
+        ]
+    },
+    "1D7FC*": {
+        "prefix": "/tt6",
+        "body": "𝟼",
+        "description": [
+            "𝟼",
+            "mathematical monospace digit 6",
+            "\r"
+        ]
+    },
+    "1D7FD*": {
+        "prefix": "/tt7",
+        "body": "𝟽",
+        "description": [
+            "𝟽",
+            "mathematical monospace digit 7",
+            "\r"
+        ]
+    },
+    "1D7FE*": {
+        "prefix": "/tt8",
+        "body": "𝟾",
+        "description": [
+            "𝟾",
+            "mathematical monospace digit 8",
+            "\r"
+        ]
+    },
+    "1D7FF*": {
+        "prefix": "/tt9",
+        "body": "𝟿",
+        "description": [
+            "𝟿",
+            "mathematical monospace digit 9",
+            "\r"
+        ]
+    },
+    "000F0*": {
+        "prefix": "eth",
+        "body": "ð",
+        "description": [
+            "ð",
+            "eth",
+            "\r"
+        ]
+    },
+    "02102*": {
+        "prefix": "/bbC",
+        "body": "ℂ",
+        "description": [
+            "ℂ",
+            "/bbb c, open face c",
+            "\r"
+        ]
+    },
+    "0210B*": {
+        "prefix": "/scrH",
+        "body": "ℋ",
+        "description": [
+            "ℋ",
+            "hamiltonian (script capital h)",
+            "\r"
+        ]
+    },
+    "0210D*": {
+        "prefix": "/bbH",
+        "body": "ℍ",
+        "description": [
+            "ℍ",
+            "/bbb h, open face h",
+            "\r"
+        ]
+    },
+    "0210F*": {
+        "prefix": "/hbar",
+        "body": "ℏ",
+        "description": [
+            "ℏ",
+            "/hslash - variant planck's over 2pi",
+            "\r"
+        ]
+    },
+    "02112*": {
+        "prefix": "/scrL",
+        "body": "ℒ",
+        "description": [
+            "ℒ",
+            "lagrangian (script capital l)",
+            "\r"
+        ]
+    },
+    "02115*": {
+        "prefix": "/bbN",
+        "body": "ℕ",
+        "description": [
+            "ℕ",
+            "/bbb n, open face n",
+            "\r"
+        ]
+    },
+    "02119*": {
+        "prefix": "/bbP",
+        "body": "ℙ",
+        "description": [
+            "ℙ",
+            "/bbb p, open face p",
+            "\r"
+        ]
+    },
+    "0211A*": {
+        "prefix": "/bbQ",
+        "body": "ℚ",
+        "description": [
+            "ℚ",
+            "/bbb q, open face q",
+            "\r"
+        ]
+    },
+    "0211D*": {
+        "prefix": "/bbR",
+        "body": "ℝ",
+        "description": [
+            "ℝ",
+            "/bbb r, open face r",
+            "\r"
+        ]
+    },
+    "02124*": {
+        "prefix": "/bbZ",
+        "body": "ℤ",
+        "description": [
+            "ℤ",
+            "/bbb z, open face z",
+            "\r"
+        ]
+    },
+    "0212C*": {
+        "prefix": "/scrB",
+        "body": "ℬ",
+        "description": [
+            "ℬ",
+            "bernoulli function (script capital b)",
+            "\r"
+        ]
+    },
+    "0212D*": {
+        "prefix": "/frC",
+        "body": "ℭ",
+        "description": [
+            "ℭ",
+            "black-letter capital c",
+            "\r"
+        ]
+    },
+    "02133*": {
+        "prefix": "/scrM",
+        "body": "ℳ",
+        "description": [
+            "ℳ",
+            "physics m-matrix (script capital m)",
+            "\r"
+        ]
+    },
+    "02134*": {
+        "prefix": "/scro",
+        "body": "ℴ",
+        "description": [
+            "ℴ",
+            "order of (script small o)",
+            "\r"
+        ]
+    },
+    "0213D*": {
+        "prefix": "/bbgamma",
+        "body": "ℽ",
+        "description": [
+            "ℽ",
+            "double-struck small gamma",
+            "\r"
+        ]
+    },
+    "0213E*": {
+        "prefix": "/bbGamma",
+        "body": "ℾ",
+        "description": [
+            "ℾ",
+            "double-struck capital gamma",
+            "\r"
+        ]
+    },
+    "0213F*": {
+        "prefix": "/bbPi",
+        "body": "ℿ",
+        "description": [
+            "ℿ",
+            "double-struck capital pi",
+            "\r"
+        ]
+    },
+    "1D400*": {
+        "prefix": "/BA",
+        "body": "𝐀",
+        "description": [
+            "𝐀",
+            "mathematical bold capital a",
+            "\r"
+        ]
+    },
+    "1D401*": {
+        "prefix": "/BB",
+        "body": "𝐁",
+        "description": [
+            "𝐁",
+            "mathematical bold capital b",
+            "\r"
+        ]
+    },
+    "1D402*": {
+        "prefix": "/BC",
+        "body": "𝐂",
+        "description": [
+            "𝐂",
+            "mathematical bold capital c",
+            "\r"
+        ]
+    },
+    "1D403*": {
+        "prefix": "/BD",
+        "body": "𝐃",
+        "description": [
+            "𝐃",
+            "mathematical bold capital d",
+            "\r"
+        ]
+    },
+    "1D404*": {
+        "prefix": "/BE",
+        "body": "𝐄",
+        "description": [
+            "𝐄",
+            "mathematical bold capital e",
+            "\r"
+        ]
+    },
+    "1D405*": {
+        "prefix": "/BF",
+        "body": "𝐅",
+        "description": [
+            "𝐅",
+            "mathematical bold capital f",
+            "\r"
+        ]
+    },
+    "1D406*": {
+        "prefix": "/BG",
+        "body": "𝐆",
+        "description": [
+            "𝐆",
+            "mathematical bold capital g",
+            "\r"
+        ]
+    },
+    "1D407*": {
+        "prefix": "/BH",
+        "body": "𝐇",
+        "description": [
+            "𝐇",
+            "mathematical bold capital h",
+            "\r"
+        ]
+    },
+    "1D408*": {
+        "prefix": "/BI",
+        "body": "𝐈",
+        "description": [
+            "𝐈",
+            "mathematical bold capital i",
+            "\r"
+        ]
+    },
+    "1D409*": {
+        "prefix": "/BJ",
+        "body": "𝐉",
+        "description": [
+            "𝐉",
+            "mathematical bold capital j",
+            "\r"
+        ]
+    },
+    "1D40A*": {
+        "prefix": "/BK",
+        "body": "𝐊",
+        "description": [
+            "𝐊",
+            "mathematical bold capital k",
+            "\r"
+        ]
+    },
+    "1D40B*": {
+        "prefix": "/BL",
+        "body": "𝐋",
+        "description": [
+            "𝐋",
+            "mathematical bold capital l",
+            "\r"
+        ]
+    },
+    "1D40C*": {
+        "prefix": "/BM",
+        "body": "𝐌",
+        "description": [
+            "𝐌",
+            "mathematical bold capital m",
+            "\r"
+        ]
+    },
+    "1D40D*": {
+        "prefix": "/BN",
+        "body": "𝐍",
+        "description": [
+            "𝐍",
+            "mathematical bold capital n",
+            "\r"
+        ]
+    },
+    "1D40E*": {
+        "prefix": "/BO",
+        "body": "𝐎",
+        "description": [
+            "𝐎",
+            "mathematical bold capital o",
+            "\r"
+        ]
+    },
+    "1D40F*": {
+        "prefix": "/BP",
+        "body": "𝐏",
+        "description": [
+            "𝐏",
+            "mathematical bold capital p",
+            "\r"
+        ]
+    },
+    "1D410*": {
+        "prefix": "/BQ",
+        "body": "𝐐",
+        "description": [
+            "𝐐",
+            "mathematical bold capital q",
+            "\r"
+        ]
+    },
+    "1D411*": {
+        "prefix": "/BR",
+        "body": "𝐑",
+        "description": [
+            "𝐑",
+            "mathematical bold capital r",
+            "\r"
+        ]
+    },
+    "1D412*": {
+        "prefix": "/BS",
+        "body": "𝐒",
+        "description": [
+            "𝐒",
+            "mathematical bold capital s",
+            "\r"
+        ]
+    },
+    "1D413*": {
+        "prefix": "/BT",
+        "body": "𝐓",
+        "description": [
+            "𝐓",
+            "mathematical bold capital t",
+            "\r"
+        ]
+    },
+    "1D414*": {
+        "prefix": "/BU",
+        "body": "𝐔",
+        "description": [
+            "𝐔",
+            "mathematical bold capital u",
+            "\r"
+        ]
+    },
+    "1D415*": {
+        "prefix": "/BV",
+        "body": "𝐕",
+        "description": [
+            "𝐕",
+            "mathematical bold capital v",
+            "\r"
+        ]
+    },
+    "1D416*": {
+        "prefix": "/BW",
+        "body": "𝐖",
+        "description": [
+            "𝐖",
+            "mathematical bold capital w",
+            "\r"
+        ]
+    },
+    "1D417*": {
+        "prefix": "/BX",
+        "body": "𝐗",
+        "description": [
+            "𝐗",
+            "mathematical bold capital x",
+            "\r"
+        ]
+    },
+    "1D418*": {
+        "prefix": "/BY",
+        "body": "𝐘",
+        "description": [
+            "𝐘",
+            "mathematical bold capital y",
+            "\r"
+        ]
+    },
+    "1D419*": {
+        "prefix": "/BZ",
+        "body": "𝐙",
+        "description": [
+            "𝐙",
+            "mathematical bold capital z",
+            "\r"
+        ]
+    },
+    "1D41A*": {
+        "prefix": "/Ba",
+        "body": "𝐚",
+        "description": [
+            "𝐚",
+            "mathematical bold small a",
+            "\r"
+        ]
+    },
+    "1D41B*": {
+        "prefix": "/Bb",
+        "body": "𝐛",
+        "description": [
+            "𝐛",
+            "mathematical bold small b",
+            "\r"
+        ]
+    },
+    "1D41C*": {
+        "prefix": "/Bc",
+        "body": "𝐜",
+        "description": [
+            "𝐜",
+            "mathematical bold small c",
+            "\r"
+        ]
+    },
+    "1D41D*": {
+        "prefix": "/Bd",
+        "body": "𝐝",
+        "description": [
+            "𝐝",
+            "mathematical bold small d",
+            "\r"
+        ]
+    },
+    "1D41E*": {
+        "prefix": "/Be",
+        "body": "𝐞",
+        "description": [
+            "𝐞",
+            "mathematical bold small e",
+            "\r"
+        ]
+    },
+    "1D41F*": {
+        "prefix": "/Bf",
+        "body": "𝐟",
+        "description": [
+            "𝐟",
+            "mathematical bold small f",
+            "\r"
+        ]
+    },
+    "1D420*": {
+        "prefix": "/Bg",
+        "body": "𝐠",
+        "description": [
+            "𝐠",
+            "mathematical bold small g",
+            "\r"
+        ]
+    },
+    "1D421*": {
+        "prefix": "/Bh",
+        "body": "𝐡",
+        "description": [
+            "𝐡",
+            "mathematical bold small h",
+            "\r"
+        ]
+    },
+    "1D422*": {
+        "prefix": "/Bi",
+        "body": "𝐢",
+        "description": [
+            "𝐢",
+            "mathematical bold small i",
+            "\r"
+        ]
+    },
+    "1D423*": {
+        "prefix": "/Bj",
+        "body": "𝐣",
+        "description": [
+            "𝐣",
+            "mathematical bold small j",
+            "\r"
+        ]
+    },
+    "1D424*": {
+        "prefix": "/Bk",
+        "body": "𝐤",
+        "description": [
+            "𝐤",
+            "mathematical bold small k",
+            "\r"
+        ]
+    },
+    "1D425*": {
+        "prefix": "/Bl",
+        "body": "𝐥",
+        "description": [
+            "𝐥",
+            "mathematical bold small l",
+            "\r"
+        ]
+    },
+    "1D426*": {
+        "prefix": "/Bm",
+        "body": "𝐦",
+        "description": [
+            "𝐦",
+            "mathematical bold small m",
+            "\r"
+        ]
+    },
+    "1D427*": {
+        "prefix": "/Bn",
+        "body": "𝐧",
+        "description": [
+            "𝐧",
+            "mathematical bold small n",
+            "\r"
+        ]
+    },
+    "1D428*": {
+        "prefix": "/Bo",
+        "body": "𝐨",
+        "description": [
+            "𝐨",
+            "mathematical bold small o",
+            "\r"
+        ]
+    },
+    "1D429*": {
+        "prefix": "/Bp",
+        "body": "𝐩",
+        "description": [
+            "𝐩",
+            "mathematical bold small p",
+            "\r"
+        ]
+    },
+    "1D42A*": {
+        "prefix": "/Bq",
+        "body": "𝐪",
+        "description": [
+            "𝐪",
+            "mathematical bold small q",
+            "\r"
+        ]
+    },
+    "1D42B*": {
+        "prefix": "/Br",
+        "body": "𝐫",
+        "description": [
+            "𝐫",
+            "mathematical bold small r",
+            "\r"
+        ]
+    },
+    "1D42C*": {
+        "prefix": "/Bs",
+        "body": "𝐬",
+        "description": [
+            "𝐬",
+            "mathematical bold small s",
+            "\r"
+        ]
+    },
+    "1D42D*": {
+        "prefix": "/Bt",
+        "body": "𝐭",
+        "description": [
+            "𝐭",
+            "mathematical bold small t",
+            "\r"
+        ]
+    },
+    "1D42E*": {
+        "prefix": "/Bu",
+        "body": "𝐮",
+        "description": [
+            "𝐮",
+            "mathematical bold small u",
+            "\r"
+        ]
+    },
+    "1D42F*": {
+        "prefix": "/Bv",
+        "body": "𝐯",
+        "description": [
+            "𝐯",
+            "mathematical bold small v",
+            "\r"
+        ]
+    },
+    "1D430*": {
+        "prefix": "/Bw",
+        "body": "𝐰",
+        "description": [
+            "𝐰",
+            "mathematical bold small w",
+            "\r"
+        ]
+    },
+    "1D431*": {
+        "prefix": "/Bx",
+        "body": "𝐱",
+        "description": [
+            "𝐱",
+            "mathematical bold small x",
+            "\r"
+        ]
+    },
+    "1D432*": {
+        "prefix": "/By",
+        "body": "𝐲",
+        "description": [
+            "𝐲",
+            "mathematical bold small y",
+            "\r"
+        ]
+    },
+    "1D433*": {
+        "prefix": "/Bz",
+        "body": "𝐳",
+        "description": [
+            "𝐳",
+            "mathematical bold small z",
+            "\r"
+        ]
+    },
+    "1D49C*": {
+        "prefix": "/scrA",
+        "body": "𝒜",
+        "description": [
+            "𝒜",
+            "mathematical script capital a",
+            "\r"
+        ]
+    },
+    "1D49E*": {
+        "prefix": "/scrC",
+        "body": "𝒞",
+        "description": [
+            "𝒞",
+            "mathematical script capital c",
+            "\r"
+        ]
+    },
+    "1D49F*": {
+        "prefix": "/scrD",
+        "body": "𝒟",
+        "description": [
+            "𝒟",
+            "mathematical script capital d",
+            "\r"
+        ]
+    },
+    "1D4A2*": {
+        "prefix": "/scrG",
+        "body": "𝒢",
+        "description": [
+            "𝒢",
+            "mathematical script capital g",
+            "\r"
+        ]
+    },
+    "1D4A5*": {
+        "prefix": "/scrJ",
+        "body": "𝒥",
+        "description": [
+            "𝒥",
+            "mathematical script capital j",
+            "\r"
+        ]
+    },
+    "1D4A6*": {
+        "prefix": "/scrK",
+        "body": "𝒦",
+        "description": [
+            "𝒦",
+            "mathematical script capital k",
+            "\r"
+        ]
+    },
+    "1D4A9*": {
+        "prefix": "/scrN",
+        "body": "𝒩",
+        "description": [
+            "𝒩",
+            "mathematical script capital n",
+            "\r"
+        ]
+    },
+    "1D4AA*": {
+        "prefix": "/scrO",
+        "body": "𝒪",
+        "description": [
+            "𝒪",
+            "mathematical script capital o",
+            "\r"
+        ]
+    },
+    "1D4AB*": {
+        "prefix": "/scrP",
+        "body": "𝒫",
+        "description": [
+            "𝒫",
+            "mathematical script capital p",
+            "\r"
+        ]
+    },
+    "1D4AC*": {
+        "prefix": "/scrQ",
+        "body": "𝒬",
+        "description": [
+            "𝒬",
+            "mathematical script capital q",
+            "\r"
+        ]
+    },
+    "1D4AE*": {
+        "prefix": "/scrS",
+        "body": "𝒮",
+        "description": [
+            "𝒮",
+            "mathematical script capital s",
+            "\r"
+        ]
+    },
+    "1D4AF*": {
+        "prefix": "/scrT",
+        "body": "𝒯",
+        "description": [
+            "𝒯",
+            "mathematical script capital t",
+            "\r"
+        ]
+    },
+    "1D4B0*": {
+        "prefix": "/scrU",
+        "body": "𝒰",
+        "description": [
+            "𝒰",
+            "mathematical script capital u",
+            "\r"
+        ]
+    },
+    "1D4B1*": {
+        "prefix": "/scrV",
+        "body": "𝒱",
+        "description": [
+            "𝒱",
+            "mathematical script capital v",
+            "\r"
+        ]
+    },
+    "1D4B2*": {
+        "prefix": "/scrW",
+        "body": "𝒲",
+        "description": [
+            "𝒲",
+            "mathematical script capital w",
+            "\r"
+        ]
+    },
+    "1D4B3*": {
+        "prefix": "/scrX",
+        "body": "𝒳",
+        "description": [
+            "𝒳",
+            "mathematical script capital x",
+            "\r"
+        ]
+    },
+    "1D4B4*": {
+        "prefix": "/scrY",
+        "body": "𝒴",
+        "description": [
+            "𝒴",
+            "mathematical script capital y",
+            "\r"
+        ]
+    },
+    "1D4B5*": {
+        "prefix": "/scrZ",
+        "body": "𝒵",
+        "description": [
+            "𝒵",
+            "mathematical script capital z",
+            "\r"
+        ]
+    },
+    "1D4B6*": {
+        "prefix": "/scra",
+        "body": "𝒶",
+        "description": [
+            "𝒶",
+            "mathematical script small a",
+            "\r"
+        ]
+    },
+    "1D4B7*": {
+        "prefix": "/scrb",
+        "body": "𝒷",
+        "description": [
+            "𝒷",
+            "mathematical script small b",
+            "\r"
+        ]
+    },
+    "1D4B8*": {
+        "prefix": "/scrc",
+        "body": "𝒸",
+        "description": [
+            "𝒸",
+            "mathematical script small c",
+            "\r"
+        ]
+    },
+    "1D4B9*": {
+        "prefix": "/scrd",
+        "body": "𝒹",
+        "description": [
+            "𝒹",
+            "mathematical script small d",
+            "\r"
+        ]
+    },
+    "1D4BB*": {
+        "prefix": "/scrf",
+        "body": "𝒻",
+        "description": [
+            "𝒻",
+            "mathematical script small f",
+            "\r"
+        ]
+    },
+    "1D4BD*": {
+        "prefix": "/scrh",
+        "body": "𝒽",
+        "description": [
+            "𝒽",
+            "mathematical script small h",
+            "\r"
+        ]
+    },
+    "1D4BE*": {
+        "prefix": "/scri",
+        "body": "𝒾",
+        "description": [
+            "𝒾",
+            "mathematical script small i",
+            "\r"
+        ]
+    },
+    "1D4BF*": {
+        "prefix": "/scrj",
+        "body": "𝒿",
+        "description": [
+            "𝒿",
+            "mathematical script small j",
+            "\r"
+        ]
+    },
+    "1D4C0*": {
+        "prefix": "/scrk",
+        "body": "𝓀",
+        "description": [
+            "𝓀",
+            "mathematical script small k",
+            "\r"
+        ]
+    },
+    "1D4C1*": {
+        "prefix": "/scrl",
+        "body": "𝓁",
+        "description": [
+            "𝓁",
+            "mathematical script small l",
+            "\r"
+        ]
+    },
+    "1D4C2*": {
+        "prefix": "/scrm",
+        "body": "𝓂",
+        "description": [
+            "𝓂",
+            "mathematical script small m",
+            "\r"
+        ]
+    },
+    "1D4C3*": {
+        "prefix": "/scrn",
+        "body": "𝓃",
+        "description": [
+            "𝓃",
+            "mathematical script small n",
+            "\r"
+        ]
+    },
+    "1D4C5*": {
+        "prefix": "/scrp",
+        "body": "𝓅",
+        "description": [
+            "𝓅",
+            "mathematical script small p",
+            "\r"
+        ]
+    },
+    "1D4C6*": {
+        "prefix": "/scrq",
+        "body": "𝓆",
+        "description": [
+            "𝓆",
+            "mathematical script small q",
+            "\r"
+        ]
+    },
+    "1D4C7*": {
+        "prefix": "/scrr",
+        "body": "𝓇",
+        "description": [
+            "𝓇",
+            "mathematical script small r",
+            "\r"
+        ]
+    },
+    "1D4C8*": {
+        "prefix": "/scrs",
+        "body": "𝓈",
+        "description": [
+            "𝓈",
+            "mathematical script small s",
+            "\r"
+        ]
+    },
+    "1D4C9*": {
+        "prefix": "/scrt",
+        "body": "𝓉",
+        "description": [
+            "𝓉",
+            "mathematical script small t",
+            "\r"
+        ]
+    },
+    "1D4CA*": {
+        "prefix": "/scru",
+        "body": "𝓊",
+        "description": [
+            "𝓊",
+            "mathematical script small u",
+            "\r"
+        ]
+    },
+    "1D4CB*": {
+        "prefix": "/scrv",
+        "body": "𝓋",
+        "description": [
+            "𝓋",
+            "mathematical script small v",
+            "\r"
+        ]
+    },
+    "1D4CC*": {
+        "prefix": "/scrw",
+        "body": "𝓌",
+        "description": [
+            "𝓌",
+            "mathematical script small w",
+            "\r"
+        ]
+    },
+    "1D4CD*": {
+        "prefix": "/scrx",
+        "body": "𝓍",
+        "description": [
+            "𝓍",
+            "mathematical script small x",
+            "\r"
+        ]
+    },
+    "1D4CE*": {
+        "prefix": "/scry",
+        "body": "𝓎",
+        "description": [
+            "𝓎",
+            "mathematical script small y",
+            "\r"
+        ]
+    },
+    "1D4CF*": {
+        "prefix": "/scrz",
+        "body": "𝓏",
+        "description": [
+            "𝓏",
+            "mathematical script small z",
+            "\r"
+        ]
+    },
+    "1D4D0*": {
+        "prefix": "/BscrA",
+        "body": "𝓐",
+        "description": [
+            "𝓐",
+            "mathematical bold script capital a",
+            "\r"
+        ]
+    },
+    "1D4D1*": {
+        "prefix": "/BscrB",
+        "body": "𝓑",
+        "description": [
+            "𝓑",
+            "mathematical bold script capital b",
+            "\r"
+        ]
+    },
+    "1D4D2*": {
+        "prefix": "/BscrC",
+        "body": "𝓒",
+        "description": [
+            "𝓒",
+            "mathematical bold script capital c",
+            "\r"
+        ]
+    },
+    "1D4D3*": {
+        "prefix": "/BscrD",
+        "body": "𝓓",
+        "description": [
+            "𝓓",
+            "mathematical bold script capital d",
+            "\r"
+        ]
+    },
+    "1D4D4*": {
+        "prefix": "/BscrE",
+        "body": "𝓔",
+        "description": [
+            "𝓔",
+            "mathematical bold script capital e",
+            "\r"
+        ]
+    },
+    "1D4D5*": {
+        "prefix": "/BscrF",
+        "body": "𝓕",
+        "description": [
+            "𝓕",
+            "mathematical bold script capital f",
+            "\r"
+        ]
+    },
+    "1D4D6*": {
+        "prefix": "/BscrG",
+        "body": "𝓖",
+        "description": [
+            "𝓖",
+            "mathematical bold script capital g",
+            "\r"
+        ]
+    },
+    "1D4D7*": {
+        "prefix": "/BscrH",
+        "body": "𝓗",
+        "description": [
+            "𝓗",
+            "mathematical bold script capital h",
+            "\r"
+        ]
+    },
+    "1D4D8*": {
+        "prefix": "/BscrI",
+        "body": "𝓘",
+        "description": [
+            "𝓘",
+            "mathematical bold script capital i",
+            "\r"
+        ]
+    },
+    "1D4D9*": {
+        "prefix": "/BscrJ",
+        "body": "𝓙",
+        "description": [
+            "𝓙",
+            "mathematical bold script capital j",
+            "\r"
+        ]
+    },
+    "1D4DA*": {
+        "prefix": "/BscrK",
+        "body": "𝓚",
+        "description": [
+            "𝓚",
+            "mathematical bold script capital k",
+            "\r"
+        ]
+    },
+    "1D4DB*": {
+        "prefix": "/BscrL",
+        "body": "𝓛",
+        "description": [
+            "𝓛",
+            "mathematical bold script capital l",
+            "\r"
+        ]
+    },
+    "1D4DC*": {
+        "prefix": "/BscrM",
+        "body": "𝓜",
+        "description": [
+            "𝓜",
+            "mathematical bold script capital m",
+            "\r"
+        ]
+    },
+    "1D4DD*": {
+        "prefix": "/BscrN",
+        "body": "𝓝",
+        "description": [
+            "𝓝",
+            "mathematical bold script capital n",
+            "\r"
+        ]
+    },
+    "1D4DE*": {
+        "prefix": "/BscrO",
+        "body": "𝓞",
+        "description": [
+            "𝓞",
+            "mathematical bold script capital o",
+            "\r"
+        ]
+    },
+    "1D4DF*": {
+        "prefix": "/BscrP",
+        "body": "𝓟",
+        "description": [
+            "𝓟",
+            "mathematical bold script capital p",
+            "\r"
+        ]
+    },
+    "1D4E0*": {
+        "prefix": "/BscrQ",
+        "body": "𝓠",
+        "description": [
+            "𝓠",
+            "mathematical bold script capital q",
+            "\r"
+        ]
+    },
+    "1D4E1*": {
+        "prefix": "/BscrR",
+        "body": "𝓡",
+        "description": [
+            "𝓡",
+            "mathematical bold script capital r",
+            "\r"
+        ]
+    },
+    "1D4E2*": {
+        "prefix": "/BscrS",
+        "body": "𝓢",
+        "description": [
+            "𝓢",
+            "mathematical bold script capital s",
+            "\r"
+        ]
+    },
+    "1D4E3*": {
+        "prefix": "/BscrT",
+        "body": "𝓣",
+        "description": [
+            "𝓣",
+            "mathematical bold script capital t",
+            "\r"
+        ]
+    },
+    "1D4E4*": {
+        "prefix": "/BscrU",
+        "body": "𝓤",
+        "description": [
+            "𝓤",
+            "mathematical bold script capital u",
+            "\r"
+        ]
+    },
+    "1D4E5*": {
+        "prefix": "/BscrV",
+        "body": "𝓥",
+        "description": [
+            "𝓥",
+            "mathematical bold script capital v",
+            "\r"
+        ]
+    },
+    "1D4E6*": {
+        "prefix": "/BscrW",
+        "body": "𝓦",
+        "description": [
+            "𝓦",
+            "mathematical bold script capital w",
+            "\r"
+        ]
+    },
+    "1D4E7*": {
+        "prefix": "/BscrX",
+        "body": "𝓧",
+        "description": [
+            "𝓧",
+            "mathematical bold script capital x",
+            "\r"
+        ]
+    },
+    "1D4E8*": {
+        "prefix": "/BscrY",
+        "body": "𝓨",
+        "description": [
+            "𝓨",
+            "mathematical bold script capital y",
+            "\r"
+        ]
+    },
+    "1D4E9*": {
+        "prefix": "/BscrZ",
+        "body": "𝓩",
+        "description": [
+            "𝓩",
+            "mathematical bold script capital z",
+            "\r"
+        ]
+    },
+    "1D4EA*": {
+        "prefix": "/Bscra",
+        "body": "𝓪",
+        "description": [
+            "𝓪",
+            "mathematical bold script small a",
+            "\r"
+        ]
+    },
+    "1D4EB*": {
+        "prefix": "/Bscrb",
+        "body": "𝓫",
+        "description": [
+            "𝓫",
+            "mathematical bold script small b",
+            "\r"
+        ]
+    },
+    "1D4EC*": {
+        "prefix": "/Bscrc",
+        "body": "𝓬",
+        "description": [
+            "𝓬",
+            "mathematical bold script small c",
+            "\r"
+        ]
+    },
+    "1D4ED*": {
+        "prefix": "/Bscrd",
+        "body": "𝓭",
+        "description": [
+            "𝓭",
+            "mathematical bold script small d",
+            "\r"
+        ]
+    },
+    "1D4EE*": {
+        "prefix": "/Bscre",
+        "body": "𝓮",
+        "description": [
+            "𝓮",
+            "mathematical bold script small e",
+            "\r"
+        ]
+    },
+    "1D4EF*": {
+        "prefix": "/Bscrf",
+        "body": "𝓯",
+        "description": [
+            "𝓯",
+            "mathematical bold script small f",
+            "\r"
+        ]
+    },
+    "1D4F0*": {
+        "prefix": "/Bscrg",
+        "body": "𝓰",
+        "description": [
+            "𝓰",
+            "mathematical bold script small g",
+            "\r"
+        ]
+    },
+    "1D4F1*": {
+        "prefix": "/Bscrh",
+        "body": "𝓱",
+        "description": [
+            "𝓱",
+            "mathematical bold script small h",
+            "\r"
+        ]
+    },
+    "1D4F2*": {
+        "prefix": "/Bscri",
+        "body": "𝓲",
+        "description": [
+            "𝓲",
+            "mathematical bold script small i",
+            "\r"
+        ]
+    },
+    "1D4F3*": {
+        "prefix": "/Bscrj",
+        "body": "𝓳",
+        "description": [
+            "𝓳",
+            "mathematical bold script small j",
+            "\r"
+        ]
+    },
+    "1D4F4*": {
+        "prefix": "/Bscrk",
+        "body": "𝓴",
+        "description": [
+            "𝓴",
+            "mathematical bold script small k",
+            "\r"
+        ]
+    },
+    "1D4F5*": {
+        "prefix": "/Bscrl",
+        "body": "𝓵",
+        "description": [
+            "𝓵",
+            "mathematical bold script small l",
+            "\r"
+        ]
+    },
+    "1D4F6*": {
+        "prefix": "/Bscrm",
+        "body": "𝓶",
+        "description": [
+            "𝓶",
+            "mathematical bold script small m",
+            "\r"
+        ]
+    },
+    "1D4F7*": {
+        "prefix": "/Bscrn",
+        "body": "𝓷",
+        "description": [
+            "𝓷",
+            "mathematical bold script small n",
+            "\r"
+        ]
+    },
+    "1D4F8*": {
+        "prefix": "/Bscro",
+        "body": "𝓸",
+        "description": [
+            "𝓸",
+            "mathematical bold script small o",
+            "\r"
+        ]
+    },
+    "1D4F9*": {
+        "prefix": "/Bscrp",
+        "body": "𝓹",
+        "description": [
+            "𝓹",
+            "mathematical bold script small p",
+            "\r"
+        ]
+    },
+    "1D4FA*": {
+        "prefix": "/Bscrq",
+        "body": "𝓺",
+        "description": [
+            "𝓺",
+            "mathematical bold script small q",
+            "\r"
+        ]
+    },
+    "1D4FB*": {
+        "prefix": "/Bscrr",
+        "body": "𝓻",
+        "description": [
+            "𝓻",
+            "mathematical bold script small r",
+            "\r"
+        ]
+    },
+    "1D4FC*": {
+        "prefix": "/Bscrs",
+        "body": "𝓼",
+        "description": [
+            "𝓼",
+            "mathematical bold script small s",
+            "\r"
+        ]
+    },
+    "1D4FD*": {
+        "prefix": "/Bscrt",
+        "body": "𝓽",
+        "description": [
+            "𝓽",
+            "mathematical bold script small t",
+            "\r"
+        ]
+    },
+    "1D4FE*": {
+        "prefix": "/Bscru",
+        "body": "𝓾",
+        "description": [
+            "𝓾",
+            "mathematical bold script small u",
+            "\r"
+        ]
+    },
+    "1D4FF*": {
+        "prefix": "/Bscrv",
+        "body": "𝓿",
+        "description": [
+            "𝓿",
+            "mathematical bold script small v",
+            "\r"
+        ]
+    },
+    "1D500*": {
+        "prefix": "/Bscrw",
+        "body": "𝔀",
+        "description": [
+            "𝔀",
+            "mathematical bold script small w",
+            "\r"
+        ]
+    },
+    "1D501*": {
+        "prefix": "/Bscrx",
+        "body": "𝔁",
+        "description": [
+            "𝔁",
+            "mathematical bold script small x",
+            "\r"
+        ]
+    },
+    "1D502*": {
+        "prefix": "/Bscry",
+        "body": "𝔂",
+        "description": [
+            "𝔂",
+            "mathematical bold script small y",
+            "\r"
+        ]
+    },
+    "1D503*": {
+        "prefix": "/Bscrz",
+        "body": "𝔃",
+        "description": [
+            "𝔃",
+            "mathematical bold script small z",
+            "\r"
+        ]
+    },
+    "1D504*": {
+        "prefix": "/frA",
+        "body": "𝔄",
+        "description": [
+            "𝔄",
+            "mathematical fraktur capital a",
+            "\r"
+        ]
+    },
+    "1D505*": {
+        "prefix": "/frB",
+        "body": "𝔅",
+        "description": [
+            "𝔅",
+            "mathematical fraktur capital b",
+            "\r"
+        ]
+    },
+    "1D507*": {
+        "prefix": "/frD",
+        "body": "𝔇",
+        "description": [
+            "𝔇",
+            "mathematical fraktur capital d",
+            "\r"
+        ]
+    },
+    "1D508*": {
+        "prefix": "/frE",
+        "body": "𝔈",
+        "description": [
+            "𝔈",
+            "mathematical fraktur capital e",
+            "\r"
+        ]
+    },
+    "1D509*": {
+        "prefix": "/frF",
+        "body": "𝔉",
+        "description": [
+            "𝔉",
+            "mathematical fraktur capital f",
+            "\r"
+        ]
+    },
+    "1D50A*": {
+        "prefix": "/frG",
+        "body": "𝔊",
+        "description": [
+            "𝔊",
+            "mathematical fraktur capital g",
+            "\r"
+        ]
+    },
+    "1D50D*": {
+        "prefix": "/frJ",
+        "body": "𝔍",
+        "description": [
+            "𝔍",
+            "mathematical fraktur capital j",
+            "\r"
+        ]
+    },
+    "1D50E*": {
+        "prefix": "/frK",
+        "body": "𝔎",
+        "description": [
+            "𝔎",
+            "mathematical fraktur capital k",
+            "\r"
+        ]
+    },
+    "1D50F*": {
+        "prefix": "/frL",
+        "body": "𝔏",
+        "description": [
+            "𝔏",
+            "mathematical fraktur capital l",
+            "\r"
+        ]
+    },
+    "1D510*": {
+        "prefix": "/frM",
+        "body": "𝔐",
+        "description": [
+            "𝔐",
+            "mathematical fraktur capital m",
+            "\r"
+        ]
+    },
+    "1D511*": {
+        "prefix": "/frN",
+        "body": "𝔑",
+        "description": [
+            "𝔑",
+            "mathematical fraktur capital n",
+            "\r"
+        ]
+    },
+    "1D512*": {
+        "prefix": "/frO",
+        "body": "𝔒",
+        "description": [
+            "𝔒",
+            "mathematical fraktur capital o",
+            "\r"
+        ]
+    },
+    "1D513*": {
+        "prefix": "/frP",
+        "body": "𝔓",
+        "description": [
+            "𝔓",
+            "mathematical fraktur capital p",
+            "\r"
+        ]
+    },
+    "1D514*": {
+        "prefix": "/frQ",
+        "body": "𝔔",
+        "description": [
+            "𝔔",
+            "mathematical fraktur capital q",
+            "\r"
+        ]
+    },
+    "1D516*": {
+        "prefix": "/frS",
+        "body": "𝔖",
+        "description": [
+            "𝔖",
+            "mathematical fraktur capital s",
+            "\r"
+        ]
+    },
+    "1D517*": {
+        "prefix": "/frT",
+        "body": "𝔗",
+        "description": [
+            "𝔗",
+            "mathematical fraktur capital t",
+            "\r"
+        ]
+    },
+    "1D518*": {
+        "prefix": "/frU",
+        "body": "𝔘",
+        "description": [
+            "𝔘",
+            "mathematical fraktur capital u",
+            "\r"
+        ]
+    },
+    "1D519*": {
+        "prefix": "/frV",
+        "body": "𝔙",
+        "description": [
+            "𝔙",
+            "mathematical fraktur capital v",
+            "\r"
+        ]
+    },
+    "1D51A*": {
+        "prefix": "/frW",
+        "body": "𝔚",
+        "description": [
+            "𝔚",
+            "mathematical fraktur capital w",
+            "\r"
+        ]
+    },
+    "1D51B*": {
+        "prefix": "/frX",
+        "body": "𝔛",
+        "description": [
+            "𝔛",
+            "mathematical fraktur capital x",
+            "\r"
+        ]
+    },
+    "1D51C*": {
+        "prefix": "/frY",
+        "body": "𝔜",
+        "description": [
+            "𝔜",
+            "mathematical fraktur capital y",
+            "\r"
+        ]
+    },
+    "1D51E*": {
+        "prefix": "/fra",
+        "body": "𝔞",
+        "description": [
+            "𝔞",
+            "mathematical fraktur small a",
+            "\r"
+        ]
+    },
+    "1D51F*": {
+        "prefix": "/frb",
+        "body": "𝔟",
+        "description": [
+            "𝔟",
+            "mathematical fraktur small b",
+            "\r"
+        ]
+    },
+    "1D520*": {
+        "prefix": "/frc",
+        "body": "𝔠",
+        "description": [
+            "𝔠",
+            "mathematical fraktur small c",
+            "\r"
+        ]
+    },
+    "1D521*": {
+        "prefix": "/frd",
+        "body": "𝔡",
+        "description": [
+            "𝔡",
+            "mathematical fraktur small d",
+            "\r"
+        ]
+    },
+    "1D522*": {
+        "prefix": "/fre",
+        "body": "𝔢",
+        "description": [
+            "𝔢",
+            "mathematical fraktur small e",
+            "\r"
+        ]
+    },
+    "1D523*": {
+        "prefix": "/frf",
+        "body": "𝔣",
+        "description": [
+            "𝔣",
+            "mathematical fraktur small f",
+            "\r"
+        ]
+    },
+    "1D524*": {
+        "prefix": "/frg",
+        "body": "𝔤",
+        "description": [
+            "𝔤",
+            "mathematical fraktur small g",
+            "\r"
+        ]
+    },
+    "1D525*": {
+        "prefix": "/frh",
+        "body": "𝔥",
+        "description": [
+            "𝔥",
+            "mathematical fraktur small h",
+            "\r"
+        ]
+    },
+    "1D526*": {
+        "prefix": "/fri",
+        "body": "𝔦",
+        "description": [
+            "𝔦",
+            "mathematical fraktur small i",
+            "\r"
+        ]
+    },
+    "1D527*": {
+        "prefix": "/frj",
+        "body": "𝔧",
+        "description": [
+            "𝔧",
+            "mathematical fraktur small j",
+            "\r"
+        ]
+    },
+    "1D528*": {
+        "prefix": "/frk",
+        "body": "𝔨",
+        "description": [
+            "𝔨",
+            "mathematical fraktur small k",
+            "\r"
+        ]
+    },
+    "1D529*": {
+        "prefix": "/frl",
+        "body": "𝔩",
+        "description": [
+            "𝔩",
+            "mathematical fraktur small l",
+            "\r"
+        ]
+    },
+    "1D52A*": {
+        "prefix": "/frm",
+        "body": "𝔪",
+        "description": [
+            "𝔪",
+            "mathematical fraktur small m",
+            "\r"
+        ]
+    },
+    "1D52B*": {
+        "prefix": "/frn",
+        "body": "𝔫",
+        "description": [
+            "𝔫",
+            "mathematical fraktur small n",
+            "\r"
+        ]
+    },
+    "1D52C*": {
+        "prefix": "/fro",
+        "body": "𝔬",
+        "description": [
+            "𝔬",
+            "mathematical fraktur small o",
+            "\r"
+        ]
+    },
+    "1D52D*": {
+        "prefix": "/frp",
+        "body": "𝔭",
+        "description": [
+            "𝔭",
+            "mathematical fraktur small p",
+            "\r"
+        ]
+    },
+    "1D52E*": {
+        "prefix": "/frq",
+        "body": "𝔮",
+        "description": [
+            "𝔮",
+            "mathematical fraktur small q",
+            "\r"
+        ]
+    },
+    "1D52F*": {
+        "prefix": "/frr",
+        "body": "𝔯",
+        "description": [
+            "𝔯",
+            "mathematical fraktur small r",
+            "\r"
+        ]
+    },
+    "1D530*": {
+        "prefix": "/frs",
+        "body": "𝔰",
+        "description": [
+            "𝔰",
+            "mathematical fraktur small s",
+            "\r"
+        ]
+    },
+    "1D531*": {
+        "prefix": "/frt",
+        "body": "𝔱",
+        "description": [
+            "𝔱",
+            "mathematical fraktur small t",
+            "\r"
+        ]
+    },
+    "1D532*": {
+        "prefix": "/fru",
+        "body": "𝔲",
+        "description": [
+            "𝔲",
+            "mathematical fraktur small u",
+            "\r"
+        ]
+    },
+    "1D533*": {
+        "prefix": "/frv",
+        "body": "𝔳",
+        "description": [
+            "𝔳",
+            "mathematical fraktur small v",
+            "\r"
+        ]
+    },
+    "1D534*": {
+        "prefix": "/frw",
+        "body": "𝔴",
+        "description": [
+            "𝔴",
+            "mathematical fraktur small w",
+            "\r"
+        ]
+    },
+    "1D535*": {
+        "prefix": "/frx",
+        "body": "𝔵",
+        "description": [
+            "𝔵",
+            "mathematical fraktur small x",
+            "\r"
+        ]
+    },
+    "1D536*": {
+        "prefix": "/fry",
+        "body": "𝔶",
+        "description": [
+            "𝔶",
+            "mathematical fraktur small y",
+            "\r"
+        ]
+    },
+    "1D537*": {
+        "prefix": "/frz",
+        "body": "𝔷",
+        "description": [
+            "𝔷",
+            "mathematical fraktur small z",
+            "\r"
+        ]
+    },
+    "1D538*": {
+        "prefix": "/bbA",
+        "body": "𝔸",
+        "description": [
+            "𝔸",
+            "mathematical double-struck capital a",
+            "\r"
+        ]
+    },
+    "1D539*": {
+        "prefix": "/bbB",
+        "body": "𝔹",
+        "description": [
+            "𝔹",
+            "mathematical double-struck capital b",
+            "\r"
+        ]
+    },
+    "1D53B*": {
+        "prefix": "/bbD",
+        "body": "𝔻",
+        "description": [
+            "𝔻",
+            "mathematical double-struck capital d",
+            "\r"
+        ]
+    },
+    "1D53C*": {
+        "prefix": "/bbE",
+        "body": "𝔼",
+        "description": [
+            "𝔼",
+            "mathematical double-struck capital e",
+            "\r"
+        ]
+    },
+    "1D53D*": {
+        "prefix": "/bbF",
+        "body": "𝔽",
+        "description": [
+            "𝔽",
+            "mathematical double-struck capital f",
+            "\r"
+        ]
+    },
+    "1D53E*": {
+        "prefix": "/bbG",
+        "body": "𝔾",
+        "description": [
+            "𝔾",
+            "mathematical double-struck capital g",
+            "\r"
+        ]
+    },
+    "1D540*": {
+        "prefix": "/bbI",
+        "body": "𝕀",
+        "description": [
+            "𝕀",
+            "mathematical double-struck capital i",
+            "\r"
+        ]
+    },
+    "1D541*": {
+        "prefix": "/bbJ",
+        "body": "𝕁",
+        "description": [
+            "𝕁",
+            "mathematical double-struck capital j",
+            "\r"
+        ]
+    },
+    "1D542*": {
+        "prefix": "/bbK",
+        "body": "𝕂",
+        "description": [
+            "𝕂",
+            "mathematical double-struck capital k",
+            "\r"
+        ]
+    },
+    "1D543*": {
+        "prefix": "/bbL",
+        "body": "𝕃",
+        "description": [
+            "𝕃",
+            "mathematical double-struck capital l",
+            "\r"
+        ]
+    },
+    "1D544*": {
+        "prefix": "/bbM",
+        "body": "𝕄",
+        "description": [
+            "𝕄",
+            "mathematical double-struck capital m",
+            "\r"
+        ]
+    },
+    "1D546*": {
+        "prefix": "/bbO",
+        "body": "𝕆",
+        "description": [
+            "𝕆",
+            "mathematical double-struck capital o",
+            "\r"
+        ]
+    },
+    "1D54A*": {
+        "prefix": "/bbS",
+        "body": "𝕊",
+        "description": [
+            "𝕊",
+            "mathematical double-struck capital s",
+            "\r"
+        ]
+    },
+    "1D54B*": {
+        "prefix": "/bbT",
+        "body": "𝕋",
+        "description": [
+            "𝕋",
+            "mathematical double-struck capital t",
+            "\r"
+        ]
+    },
+    "1D54C*": {
+        "prefix": "/bbU",
+        "body": "𝕌",
+        "description": [
+            "𝕌",
+            "mathematical double-struck capital u",
+            "\r"
+        ]
+    },
+    "1D54D*": {
+        "prefix": "/bbV",
+        "body": "𝕍",
+        "description": [
+            "𝕍",
+            "mathematical double-struck capital v",
+            "\r"
+        ]
+    },
+    "1D54E*": {
+        "prefix": "/bbW",
+        "body": "𝕎",
+        "description": [
+            "𝕎",
+            "mathematical double-struck capital w",
+            "\r"
+        ]
+    },
+    "1D54F*": {
+        "prefix": "/bbX",
+        "body": "𝕏",
+        "description": [
+            "𝕏",
+            "mathematical double-struck capital x",
+            "\r"
+        ]
+    },
+    "1D550*": {
+        "prefix": "/bbY",
+        "body": "𝕐",
+        "description": [
+            "𝕐",
+            "mathematical double-struck capital y",
+            "\r"
+        ]
+    },
+    "1D552*": {
+        "prefix": "/bba",
+        "body": "𝕒",
+        "description": [
+            "𝕒",
+            "mathematical double-struck small a",
+            "\r"
+        ]
+    },
+    "1D553*": {
+        "prefix": "/bbb",
+        "body": "𝕓",
+        "description": [
+            "𝕓",
+            "mathematical double-struck small b",
+            "\r"
+        ]
+    },
+    "1D554*": {
+        "prefix": "/bbc",
+        "body": "𝕔",
+        "description": [
+            "𝕔",
+            "mathematical double-struck small c",
+            "\r"
+        ]
+    },
+    "1D555*": {
+        "prefix": "/bbd",
+        "body": "𝕕",
+        "description": [
+            "𝕕",
+            "mathematical double-struck small d",
+            "\r"
+        ]
+    },
+    "1D556*": {
+        "prefix": "/bbe",
+        "body": "𝕖",
+        "description": [
+            "𝕖",
+            "mathematical double-struck small e",
+            "\r"
+        ]
+    },
+    "1D557*": {
+        "prefix": "/bbf",
+        "body": "𝕗",
+        "description": [
+            "𝕗",
+            "mathematical double-struck small f",
+            "\r"
+        ]
+    },
+    "1D558*": {
+        "prefix": "/bbg",
+        "body": "𝕘",
+        "description": [
+            "𝕘",
+            "mathematical double-struck small g",
+            "\r"
+        ]
+    },
+    "1D559*": {
+        "prefix": "/bbh",
+        "body": "𝕙",
+        "description": [
+            "𝕙",
+            "mathematical double-struck small h",
+            "\r"
+        ]
+    },
+    "1D55A*": {
+        "prefix": "/bbi",
+        "body": "𝕚",
+        "description": [
+            "𝕚",
+            "mathematical double-struck small i",
+            "\r"
+        ]
+    },
+    "1D55B*": {
+        "prefix": "/bbj",
+        "body": "𝕛",
+        "description": [
+            "𝕛",
+            "mathematical double-struck small j",
+            "\r"
+        ]
+    },
+    "1D55C*": {
+        "prefix": "/bbk",
+        "body": "𝕜",
+        "description": [
+            "𝕜",
+            "mathematical double-struck small k",
+            "\r"
+        ]
+    },
+    "1D55D*": {
+        "prefix": "/bbl",
+        "body": "𝕝",
+        "description": [
+            "𝕝",
+            "mathematical double-struck small l",
+            "\r"
+        ]
+    },
+    "1D55E*": {
+        "prefix": "/bbm",
+        "body": "𝕞",
+        "description": [
+            "𝕞",
+            "mathematical double-struck small m",
+            "\r"
+        ]
+    },
+    "1D55F*": {
+        "prefix": "/bbn",
+        "body": "𝕟",
+        "description": [
+            "𝕟",
+            "mathematical double-struck small n",
+            "\r"
+        ]
+    },
+    "1D560*": {
+        "prefix": "/bbo",
+        "body": "𝕠",
+        "description": [
+            "𝕠",
+            "mathematical double-struck small o",
+            "\r"
+        ]
+    },
+    "1D561*": {
+        "prefix": "/bbp",
+        "body": "𝕡",
+        "description": [
+            "𝕡",
+            "mathematical double-struck small p",
+            "\r"
+        ]
+    },
+    "1D562*": {
+        "prefix": "/bbq",
+        "body": "𝕢",
+        "description": [
+            "𝕢",
+            "mathematical double-struck small q",
+            "\r"
+        ]
+    },
+    "1D563*": {
+        "prefix": "/bbr",
+        "body": "𝕣",
+        "description": [
+            "𝕣",
+            "mathematical double-struck small r",
+            "\r"
+        ]
+    },
+    "1D564*": {
+        "prefix": "/bbs",
+        "body": "𝕤",
+        "description": [
+            "𝕤",
+            "mathematical double-struck small s",
+            "\r"
+        ]
+    },
+    "1D565*": {
+        "prefix": "/bbt",
+        "body": "𝕥",
+        "description": [
+            "𝕥",
+            "mathematical double-struck small t",
+            "\r"
+        ]
+    },
+    "1D566*": {
+        "prefix": "/bbu",
+        "body": "𝕦",
+        "description": [
+            "𝕦",
+            "mathematical double-struck small u",
+            "\r"
+        ]
+    },
+    "1D567*": {
+        "prefix": "/bbv",
+        "body": "𝕧",
+        "description": [
+            "𝕧",
+            "mathematical double-struck small v",
+            "\r"
+        ]
+    },
+    "1D568*": {
+        "prefix": "/bbw",
+        "body": "𝕨",
+        "description": [
+            "𝕨",
+            "mathematical double-struck small w",
+            "\r"
+        ]
+    },
+    "1D569*": {
+        "prefix": "/bbx",
+        "body": "𝕩",
+        "description": [
+            "𝕩",
+            "mathematical double-struck small x",
+            "\r"
+        ]
+    },
+    "1D56A*": {
+        "prefix": "/bby",
+        "body": "𝕪",
+        "description": [
+            "𝕪",
+            "mathematical double-struck small y",
+            "\r"
+        ]
+    },
+    "1D56B*": {
+        "prefix": "/bbz",
+        "body": "𝕫",
+        "description": [
+            "𝕫",
+            "mathematical double-struck small z",
+            "\r"
+        ]
+    },
+    "1D56C*": {
+        "prefix": "/BfrA",
+        "body": "𝕬",
+        "description": [
+            "𝕬",
+            "mathematical bold fraktur capital a",
+            "\r"
+        ]
+    },
+    "1D56D*": {
+        "prefix": "/BfrB",
+        "body": "𝕭",
+        "description": [
+            "𝕭",
+            "mathematical bold fraktur capital b",
+            "\r"
+        ]
+    },
+    "1D56E*": {
+        "prefix": "/BfrC",
+        "body": "𝕮",
+        "description": [
+            "𝕮",
+            "mathematical bold fraktur capital c",
+            "\r"
+        ]
+    },
+    "1D56F*": {
+        "prefix": "/BfrD",
+        "body": "𝕯",
+        "description": [
+            "𝕯",
+            "mathematical bold fraktur capital d",
+            "\r"
+        ]
+    },
+    "1D570*": {
+        "prefix": "/BfrE",
+        "body": "𝕰",
+        "description": [
+            "𝕰",
+            "mathematical bold fraktur capital e",
+            "\r"
+        ]
+    },
+    "1D571*": {
+        "prefix": "/BfrF",
+        "body": "𝕱",
+        "description": [
+            "𝕱",
+            "mathematical bold fraktur capital f",
+            "\r"
+        ]
+    },
+    "1D572*": {
+        "prefix": "/BfrG",
+        "body": "𝕲",
+        "description": [
+            "𝕲",
+            "mathematical bold fraktur capital g",
+            "\r"
+        ]
+    },
+    "1D573*": {
+        "prefix": "/BfrH",
+        "body": "𝕳",
+        "description": [
+            "𝕳",
+            "mathematical bold fraktur capital h",
+            "\r"
+        ]
+    },
+    "1D574*": {
+        "prefix": "/BfrI",
+        "body": "𝕴",
+        "description": [
+            "𝕴",
+            "mathematical bold fraktur capital i",
+            "\r"
+        ]
+    },
+    "1D575*": {
+        "prefix": "/BfrJ",
+        "body": "𝕵",
+        "description": [
+            "𝕵",
+            "mathematical bold fraktur capital j",
+            "\r"
+        ]
+    },
+    "1D576*": {
+        "prefix": "/BfrK",
+        "body": "𝕶",
+        "description": [
+            "𝕶",
+            "mathematical bold fraktur capital k",
+            "\r"
+        ]
+    },
+    "1D577*": {
+        "prefix": "/BfrL",
+        "body": "𝕷",
+        "description": [
+            "𝕷",
+            "mathematical bold fraktur capital l",
+            "\r"
+        ]
+    },
+    "1D578*": {
+        "prefix": "/BfrM",
+        "body": "𝕸",
+        "description": [
+            "𝕸",
+            "mathematical bold fraktur capital m",
+            "\r"
+        ]
+    },
+    "1D579*": {
+        "prefix": "/BfrN",
+        "body": "𝕹",
+        "description": [
+            "𝕹",
+            "mathematical bold fraktur capital n",
+            "\r"
+        ]
+    },
+    "1D57A*": {
+        "prefix": "/BfrO",
+        "body": "𝕺",
+        "description": [
+            "𝕺",
+            "mathematical bold fraktur capital o",
+            "\r"
+        ]
+    },
+    "1D57B*": {
+        "prefix": "/BfrP",
+        "body": "𝕻",
+        "description": [
+            "𝕻",
+            "mathematical bold fraktur capital p",
+            "\r"
+        ]
+    },
+    "1D57C*": {
+        "prefix": "/BfrQ",
+        "body": "𝕼",
+        "description": [
+            "𝕼",
+            "mathematical bold fraktur capital q",
+            "\r"
+        ]
+    },
+    "1D57D*": {
+        "prefix": "/BfrR",
+        "body": "𝕽",
+        "description": [
+            "𝕽",
+            "mathematical bold fraktur capital r",
+            "\r"
+        ]
+    },
+    "1D57E*": {
+        "prefix": "/BfrS",
+        "body": "𝕾",
+        "description": [
+            "𝕾",
+            "mathematical bold fraktur capital s",
+            "\r"
+        ]
+    },
+    "1D57F*": {
+        "prefix": "/BfrT",
+        "body": "𝕿",
+        "description": [
+            "𝕿",
+            "mathematical bold fraktur capital t",
+            "\r"
+        ]
+    },
+    "1D580*": {
+        "prefix": "/BfrU",
+        "body": "𝖀",
+        "description": [
+            "𝖀",
+            "mathematical bold fraktur capital u",
+            "\r"
+        ]
+    },
+    "1D581*": {
+        "prefix": "/BfrV",
+        "body": "𝖁",
+        "description": [
+            "𝖁",
+            "mathematical bold fraktur capital v",
+            "\r"
+        ]
+    },
+    "1D582*": {
+        "prefix": "/BfrW",
+        "body": "𝖂",
+        "description": [
+            "𝖂",
+            "mathematical bold fraktur capital w",
+            "\r"
+        ]
+    },
+    "1D583*": {
+        "prefix": "/BfrX",
+        "body": "𝖃",
+        "description": [
+            "𝖃",
+            "mathematical bold fraktur capital x",
+            "\r"
+        ]
+    },
+    "1D584*": {
+        "prefix": "/BfrY",
+        "body": "𝖄",
+        "description": [
+            "𝖄",
+            "mathematical bold fraktur capital y",
+            "\r"
+        ]
+    },
+    "1D585*": {
+        "prefix": "/BfrZ",
+        "body": "𝖅",
+        "description": [
+            "𝖅",
+            "mathematical bold fraktur capital z",
+            "\r"
+        ]
+    },
+    "1D586*": {
+        "prefix": "/Bfra",
+        "body": "𝖆",
+        "description": [
+            "𝖆",
+            "mathematical bold fraktur small a",
+            "\r"
+        ]
+    },
+    "1D587*": {
+        "prefix": "/Bfrb",
+        "body": "𝖇",
+        "description": [
+            "𝖇",
+            "mathematical bold fraktur small b",
+            "\r"
+        ]
+    },
+    "1D588*": {
+        "prefix": "/Bfrc",
+        "body": "𝖈",
+        "description": [
+            "𝖈",
+            "mathematical bold fraktur small c",
+            "\r"
+        ]
+    },
+    "1D589*": {
+        "prefix": "/Bfrd",
+        "body": "𝖉",
+        "description": [
+            "𝖉",
+            "mathematical bold fraktur small d",
+            "\r"
+        ]
+    },
+    "1D58A*": {
+        "prefix": "/Bfre",
+        "body": "𝖊",
+        "description": [
+            "𝖊",
+            "mathematical bold fraktur small e",
+            "\r"
+        ]
+    },
+    "1D58B*": {
+        "prefix": "/Bfrf",
+        "body": "𝖋",
+        "description": [
+            "𝖋",
+            "mathematical bold fraktur small f",
+            "\r"
+        ]
+    },
+    "1D58C*": {
+        "prefix": "/Bfrg",
+        "body": "𝖌",
+        "description": [
+            "𝖌",
+            "mathematical bold fraktur small g",
+            "\r"
+        ]
+    },
+    "1D58D*": {
+        "prefix": "/Bfrh",
+        "body": "𝖍",
+        "description": [
+            "𝖍",
+            "mathematical bold fraktur small h",
+            "\r"
+        ]
+    },
+    "1D58E*": {
+        "prefix": "/Bfri",
+        "body": "𝖎",
+        "description": [
+            "𝖎",
+            "mathematical bold fraktur small i",
+            "\r"
+        ]
+    },
+    "1D58F*": {
+        "prefix": "/Bfrj",
+        "body": "𝖏",
+        "description": [
+            "𝖏",
+            "mathematical bold fraktur small j",
+            "\r"
+        ]
+    },
+    "1D590*": {
+        "prefix": "/Bfrk",
+        "body": "𝖐",
+        "description": [
+            "𝖐",
+            "mathematical bold fraktur small k",
+            "\r"
+        ]
+    },
+    "1D591*": {
+        "prefix": "/Bfrl",
+        "body": "𝖑",
+        "description": [
+            "𝖑",
+            "mathematical bold fraktur small l",
+            "\r"
+        ]
+    },
+    "1D592*": {
+        "prefix": "/Bfrm",
+        "body": "𝖒",
+        "description": [
+            "𝖒",
+            "mathematical bold fraktur small m",
+            "\r"
+        ]
+    },
+    "1D593*": {
+        "prefix": "/Bfrn",
+        "body": "𝖓",
+        "description": [
+            "𝖓",
+            "mathematical bold fraktur small n",
+            "\r"
+        ]
+    },
+    "1D594*": {
+        "prefix": "/Bfro",
+        "body": "𝖔",
+        "description": [
+            "𝖔",
+            "mathematical bold fraktur small o",
+            "\r"
+        ]
+    },
+    "1D595*": {
+        "prefix": "/Bfrp",
+        "body": "𝖕",
+        "description": [
+            "𝖕",
+            "mathematical bold fraktur small p",
+            "\r"
+        ]
+    },
+    "1D596*": {
+        "prefix": "/Bfrq",
+        "body": "𝖖",
+        "description": [
+            "𝖖",
+            "mathematical bold fraktur small q",
+            "\r"
+        ]
+    },
+    "1D597*": {
+        "prefix": "/Bfrr",
+        "body": "𝖗",
+        "description": [
+            "𝖗",
+            "mathematical bold fraktur small r",
+            "\r"
+        ]
+    },
+    "1D598*": {
+        "prefix": "/Bfrs",
+        "body": "𝖘",
+        "description": [
+            "𝖘",
+            "mathematical bold fraktur small s",
+            "\r"
+        ]
+    },
+    "1D599*": {
+        "prefix": "/Bfrt",
+        "body": "𝖙",
+        "description": [
+            "𝖙",
+            "mathematical bold fraktur small t",
+            "\r"
+        ]
+    },
+    "1D59A*": {
+        "prefix": "/Bfru",
+        "body": "𝖚",
+        "description": [
+            "𝖚",
+            "mathematical bold fraktur small u",
+            "\r"
+        ]
+    },
+    "1D59B*": {
+        "prefix": "/Bfrv",
+        "body": "𝖛",
+        "description": [
+            "𝖛",
+            "mathematical bold fraktur small v",
+            "\r"
+        ]
+    },
+    "1D59C*": {
+        "prefix": "/Bfrw",
+        "body": "𝖜",
+        "description": [
+            "𝖜",
+            "mathematical bold fraktur small w",
+            "\r"
+        ]
+    },
+    "1D59D*": {
+        "prefix": "/Bfrx",
+        "body": "𝖝",
+        "description": [
+            "𝖝",
+            "mathematical bold fraktur small x",
+            "\r"
+        ]
+    },
+    "1D59E*": {
+        "prefix": "/Bfry",
+        "body": "𝖞",
+        "description": [
+            "𝖞",
+            "mathematical bold fraktur small y",
+            "\r"
+        ]
+    },
+    "1D59F*": {
+        "prefix": "/Bfrz",
+        "body": "𝖟",
+        "description": [
+            "𝖟",
+            "mathematical bold fraktur small z",
+            "\r"
+        ]
+    },
+    "1D608*": {
+        "prefix": "/SA",
+        "body": "𝘈",
+        "description": [
+            "𝘈",
+            "mathematical sans-serif italic capital a",
+            "\r"
+        ]
+    },
+    "1D609*": {
+        "prefix": "/SB",
+        "body": "𝘉",
+        "description": [
+            "𝘉",
+            "mathematical sans-serif italic capital b",
+            "\r"
+        ]
+    },
+    "1D60A*": {
+        "prefix": "/SC",
+        "body": "𝘊",
+        "description": [
+            "𝘊",
+            "mathematical sans-serif italic capital c",
+            "\r"
+        ]
+    },
+    "1D60B*": {
+        "prefix": "/SD",
+        "body": "𝘋",
+        "description": [
+            "𝘋",
+            "mathematical sans-serif italic capital d",
+            "\r"
+        ]
+    },
+    "1D60C*": {
+        "prefix": "/SE",
+        "body": "𝘌",
+        "description": [
+            "𝘌",
+            "mathematical sans-serif italic capital e",
+            "\r"
+        ]
+    },
+    "1D60D*": {
+        "prefix": "/SF",
+        "body": "𝘍",
+        "description": [
+            "𝘍",
+            "mathematical sans-serif italic capital f",
+            "\r"
+        ]
+    },
+    "1D60E*": {
+        "prefix": "/SG",
+        "body": "𝘎",
+        "description": [
+            "𝘎",
+            "mathematical sans-serif italic capital g",
+            "\r"
+        ]
+    },
+    "1D60F*": {
+        "prefix": "/SH",
+        "body": "𝘏",
+        "description": [
+            "𝘏",
+            "mathematical sans-serif italic capital h",
+            "\r"
+        ]
+    },
+    "1D610*": {
+        "prefix": "/SI",
+        "body": "𝘐",
+        "description": [
+            "𝘐",
+            "mathematical sans-serif italic capital i",
+            "\r"
+        ]
+    },
+    "1D611*": {
+        "prefix": "/SJ",
+        "body": "𝘑",
+        "description": [
+            "𝘑",
+            "mathematical sans-serif italic capital j",
+            "\r"
+        ]
+    },
+    "1D612*": {
+        "prefix": "/SK",
+        "body": "𝘒",
+        "description": [
+            "𝘒",
+            "mathematical sans-serif italic capital k",
+            "\r"
+        ]
+    },
+    "1D613*": {
+        "prefix": "/SL",
+        "body": "𝘓",
+        "description": [
+            "𝘓",
+            "mathematical sans-serif italic capital l",
+            "\r"
+        ]
+    },
+    "1D614*": {
+        "prefix": "/SM",
+        "body": "𝘔",
+        "description": [
+            "𝘔",
+            "mathematical sans-serif italic capital m",
+            "\r"
+        ]
+    },
+    "1D615*": {
+        "prefix": "/SN",
+        "body": "𝘕",
+        "description": [
+            "𝘕",
+            "mathematical sans-serif italic capital n",
+            "\r"
+        ]
+    },
+    "1D616*": {
+        "prefix": "/SO",
+        "body": "𝘖",
+        "description": [
+            "𝘖",
+            "mathematical sans-serif italic capital o",
+            "\r"
+        ]
+    },
+    "1D617*": {
+        "prefix": "/SP",
+        "body": "𝘗",
+        "description": [
+            "𝘗",
+            "mathematical sans-serif italic capital p",
+            "\r"
+        ]
+    },
+    "1D618*": {
+        "prefix": "/SQ",
+        "body": "𝘘",
+        "description": [
+            "𝘘",
+            "mathematical sans-serif italic capital q",
+            "\r"
+        ]
+    },
+    "1D619*": {
+        "prefix": "/SR",
+        "body": "𝘙",
+        "description": [
+            "𝘙",
+            "mathematical sans-serif italic capital r",
+            "\r"
+        ]
+    },
+    "1D61A*": {
+        "prefix": "/SS",
+        "body": "𝘚",
+        "description": [
+            "𝘚",
+            "mathematical sans-serif italic capital s",
+            "\r"
+        ]
+    },
+    "1D61B*": {
+        "prefix": "/ST",
+        "body": "𝘛",
+        "description": [
+            "𝘛",
+            "mathematical sans-serif italic capital t",
+            "\r"
+        ]
+    },
+    "1D61C*": {
+        "prefix": "/SU",
+        "body": "𝘜",
+        "description": [
+            "𝘜",
+            "mathematical sans-serif italic capital u",
+            "\r"
+        ]
+    },
+    "1D61D*": {
+        "prefix": "/SV",
+        "body": "𝘝",
+        "description": [
+            "𝘝",
+            "mathematical sans-serif italic capital v",
+            "\r"
+        ]
+    },
+    "1D61E*": {
+        "prefix": "/SW",
+        "body": "𝘞",
+        "description": [
+            "𝘞",
+            "mathematical sans-serif italic capital w",
+            "\r"
+        ]
+    },
+    "1D61F*": {
+        "prefix": "/SX",
+        "body": "𝘟",
+        "description": [
+            "𝘟",
+            "mathematical sans-serif italic capital x",
+            "\r"
+        ]
+    },
+    "1D620*": {
+        "prefix": "/SY",
+        "body": "𝘠",
+        "description": [
+            "𝘠",
+            "mathematical sans-serif italic capital y",
+            "\r"
+        ]
+    },
+    "1D621*": {
+        "prefix": "/SZ",
+        "body": "𝘡",
+        "description": [
+            "𝘡",
+            "mathematical sans-serif italic capital z",
+            "\r"
+        ]
+    },
+    "1D622*": {
+        "prefix": "/Sa",
+        "body": "𝘢",
+        "description": [
+            "𝘢",
+            "mathematical sans-serif italic small a",
+            "\r"
+        ]
+    },
+    "1D623*": {
+        "prefix": "/Sb",
+        "body": "𝘣",
+        "description": [
+            "𝘣",
+            "mathematical sans-serif italic small b",
+            "\r"
+        ]
+    },
+    "1D624*": {
+        "prefix": "/Sc",
+        "body": "𝘤",
+        "description": [
+            "𝘤",
+            "mathematical sans-serif italic small c",
+            "\r"
+        ]
+    },
+    "1D625*": {
+        "prefix": "/Sd",
+        "body": "𝘥",
+        "description": [
+            "𝘥",
+            "mathematical sans-serif italic small d",
+            "\r"
+        ]
+    },
+    "1D626*": {
+        "prefix": "/Se",
+        "body": "𝘦",
+        "description": [
+            "𝘦",
+            "mathematical sans-serif italic small e",
+            "\r"
+        ]
+    },
+    "1D627*": {
+        "prefix": "/Sf",
+        "body": "𝘧",
+        "description": [
+            "𝘧",
+            "mathematical sans-serif italic small f",
+            "\r"
+        ]
+    },
+    "1D628*": {
+        "prefix": "/Sg",
+        "body": "𝘨",
+        "description": [
+            "𝘨",
+            "mathematical sans-serif italic small g",
+            "\r"
+        ]
+    },
+    "1D629*": {
+        "prefix": "/Sh",
+        "body": "𝘩",
+        "description": [
+            "𝘩",
+            "mathematical sans-serif italic small h",
+            "\r"
+        ]
+    },
+    "1D62A*": {
+        "prefix": "/Si",
+        "body": "𝘪",
+        "description": [
+            "𝘪",
+            "mathematical sans-serif italic small i",
+            "\r"
+        ]
+    },
+    "1D62B*": {
+        "prefix": "/Sj",
+        "body": "𝘫",
+        "description": [
+            "𝘫",
+            "mathematical sans-serif italic small j",
+            "\r"
+        ]
+    },
+    "1D62C*": {
+        "prefix": "/Sk",
+        "body": "𝘬",
+        "description": [
+            "𝘬",
+            "mathematical sans-serif italic small k",
+            "\r"
+        ]
+    },
+    "1D62D*": {
+        "prefix": "/Sl",
+        "body": "𝘭",
+        "description": [
+            "𝘭",
+            "mathematical sans-serif italic small l",
+            "\r"
+        ]
+    },
+    "1D62E*": {
+        "prefix": "/Sm",
+        "body": "𝘮",
+        "description": [
+            "𝘮",
+            "mathematical sans-serif italic small m",
+            "\r"
+        ]
+    },
+    "1D62F*": {
+        "prefix": "/Sn",
+        "body": "𝘯",
+        "description": [
+            "𝘯",
+            "mathematical sans-serif italic small n",
+            "\r"
+        ]
+    },
+    "1D630*": {
+        "prefix": "/So",
+        "body": "𝘰",
+        "description": [
+            "𝘰",
+            "mathematical sans-serif italic small o",
+            "\r"
+        ]
+    },
+    "1D631*": {
+        "prefix": "/Sp",
+        "body": "𝘱",
+        "description": [
+            "𝘱",
+            "mathematical sans-serif italic small p",
+            "\r"
+        ]
+    },
+    "1D632*": {
+        "prefix": "/Sq",
+        "body": "𝘲",
+        "description": [
+            "𝘲",
+            "mathematical sans-serif italic small q",
+            "\r"
+        ]
+    },
+    "1D633*": {
+        "prefix": "/Sr",
+        "body": "𝘳",
+        "description": [
+            "𝘳",
+            "mathematical sans-serif italic small r",
+            "\r"
+        ]
+    },
+    "1D634*": {
+        "prefix": "/Ss",
+        "body": "𝘴",
+        "description": [
+            "𝘴",
+            "mathematical sans-serif italic small s",
+            "\r"
+        ]
+    },
+    "1D635*": {
+        "prefix": "/St",
+        "body": "𝘵",
+        "description": [
+            "𝘵",
+            "mathematical sans-serif italic small t",
+            "\r"
+        ]
+    },
+    "1D636*": {
+        "prefix": "/Su",
+        "body": "𝘶",
+        "description": [
+            "𝘶",
+            "mathematical sans-serif italic small u",
+            "\r"
+        ]
+    },
+    "1D637*": {
+        "prefix": "/Sv",
+        "body": "𝘷",
+        "description": [
+            "𝘷",
+            "mathematical sans-serif italic small v",
+            "\r"
+        ]
+    },
+    "1D638*": {
+        "prefix": "/Sw",
+        "body": "𝘸",
+        "description": [
+            "𝘸",
+            "mathematical sans-serif italic small w",
+            "\r"
+        ]
+    },
+    "1D639*": {
+        "prefix": "/Sx",
+        "body": "𝘹",
+        "description": [
+            "𝘹",
+            "mathematical sans-serif italic small x",
+            "\r"
+        ]
+    },
+    "1D63A*": {
+        "prefix": "/Sy",
+        "body": "𝘺",
+        "description": [
+            "𝘺",
+            "mathematical sans-serif italic small y",
+            "\r"
+        ]
+    },
+    "1D63B*": {
+        "prefix": "/Sz",
+        "body": "𝘻",
+        "description": [
+            "𝘻",
+            "mathematical sans-serif italic small z",
+            "\r"
+        ]
+    },
+    "1D63C*": {
+        "prefix": "/BSA",
+        "body": "𝘼",
+        "description": [
+            "𝘼",
+            "mathematical sans-serif bold italic capital a",
+            "\r"
+        ]
+    },
+    "1D63D*": {
+        "prefix": "/BSB",
+        "body": "𝘽",
+        "description": [
+            "𝘽",
+            "mathematical sans-serif bold italic capital b",
+            "\r"
+        ]
+    },
+    "1D63E*": {
+        "prefix": "/BSC",
+        "body": "𝘾",
+        "description": [
+            "𝘾",
+            "mathematical sans-serif bold italic capital c",
+            "\r"
+        ]
+    },
+    "1D63F*": {
+        "prefix": "/BSD",
+        "body": "𝘿",
+        "description": [
+            "𝘿",
+            "mathematical sans-serif bold italic capital d",
+            "\r"
+        ]
+    },
+    "1D640*": {
+        "prefix": "/BSE",
+        "body": "𝙀",
+        "description": [
+            "𝙀",
+            "mathematical sans-serif bold italic capital e",
+            "\r"
+        ]
+    },
+    "1D641*": {
+        "prefix": "/BSF",
+        "body": "𝙁",
+        "description": [
+            "𝙁",
+            "mathematical sans-serif bold italic capital f",
+            "\r"
+        ]
+    },
+    "1D642*": {
+        "prefix": "/BSG",
+        "body": "𝙂",
+        "description": [
+            "𝙂",
+            "mathematical sans-serif bold italic capital g",
+            "\r"
+        ]
+    },
+    "1D643*": {
+        "prefix": "/BSH",
+        "body": "𝙃",
+        "description": [
+            "𝙃",
+            "mathematical sans-serif bold italic capital h",
+            "\r"
+        ]
+    },
+    "1D644*": {
+        "prefix": "/BSI",
+        "body": "𝙄",
+        "description": [
+            "𝙄",
+            "mathematical sans-serif bold italic capital i",
+            "\r"
+        ]
+    },
+    "1D645*": {
+        "prefix": "/BSJ",
+        "body": "𝙅",
+        "description": [
+            "𝙅",
+            "mathematical sans-serif bold italic capital j",
+            "\r"
+        ]
+    },
+    "1D646*": {
+        "prefix": "/BSK",
+        "body": "𝙆",
+        "description": [
+            "𝙆",
+            "mathematical sans-serif bold italic capital k",
+            "\r"
+        ]
+    },
+    "1D647*": {
+        "prefix": "/BSL",
+        "body": "𝙇",
+        "description": [
+            "𝙇",
+            "mathematical sans-serif bold italic capital l",
+            "\r"
+        ]
+    },
+    "1D648*": {
+        "prefix": "/BSM",
+        "body": "𝙈",
+        "description": [
+            "𝙈",
+            "mathematical sans-serif bold italic capital m",
+            "\r"
+        ]
+    },
+    "1D649*": {
+        "prefix": "/BSN",
+        "body": "𝙉",
+        "description": [
+            "𝙉",
+            "mathematical sans-serif bold italic capital n",
+            "\r"
+        ]
+    },
+    "1D64A*": {
+        "prefix": "/BSO",
+        "body": "𝙊",
+        "description": [
+            "𝙊",
+            "mathematical sans-serif bold italic capital o",
+            "\r"
+        ]
+    },
+    "1D64B*": {
+        "prefix": "/BSP",
+        "body": "𝙋",
+        "description": [
+            "𝙋",
+            "mathematical sans-serif bold italic capital p",
+            "\r"
+        ]
+    },
+    "1D64C*": {
+        "prefix": "/BSQ",
+        "body": "𝙌",
+        "description": [
+            "𝙌",
+            "mathematical sans-serif bold italic capital q",
+            "\r"
+        ]
+    },
+    "1D64D*": {
+        "prefix": "/BSR",
+        "body": "𝙍",
+        "description": [
+            "𝙍",
+            "mathematical sans-serif bold italic capital r",
+            "\r"
+        ]
+    },
+    "1D64E*": {
+        "prefix": "/BSS",
+        "body": "𝙎",
+        "description": [
+            "𝙎",
+            "mathematical sans-serif bold italic capital s",
+            "\r"
+        ]
+    },
+    "1D64F*": {
+        "prefix": "/BST",
+        "body": "𝙏",
+        "description": [
+            "𝙏",
+            "mathematical sans-serif bold italic capital t",
+            "\r"
+        ]
+    },
+    "1D650*": {
+        "prefix": "/BSU",
+        "body": "𝙐",
+        "description": [
+            "𝙐",
+            "mathematical sans-serif bold italic capital u",
+            "\r"
+        ]
+    },
+    "1D651*": {
+        "prefix": "/BSV",
+        "body": "𝙑",
+        "description": [
+            "𝙑",
+            "mathematical sans-serif bold italic capital v",
+            "\r"
+        ]
+    },
+    "1D652*": {
+        "prefix": "/BSW",
+        "body": "𝙒",
+        "description": [
+            "𝙒",
+            "mathematical sans-serif bold italic capital w",
+            "\r"
+        ]
+    },
+    "1D653*": {
+        "prefix": "/BSX",
+        "body": "𝙓",
+        "description": [
+            "𝙓",
+            "mathematical sans-serif bold italic capital x",
+            "\r"
+        ]
+    },
+    "1D654*": {
+        "prefix": "/BSY",
+        "body": "𝙔",
+        "description": [
+            "𝙔",
+            "mathematical sans-serif bold italic capital y",
+            "\r"
+        ]
+    },
+    "1D655*": {
+        "prefix": "/BSZ",
+        "body": "𝙕",
+        "description": [
+            "𝙕",
+            "mathematical sans-serif bold italic capital z",
+            "\r"
+        ]
+    },
+    "1D656*": {
+        "prefix": "/BSa",
+        "body": "𝙖",
+        "description": [
+            "𝙖",
+            "mathematical sans-serif bold italic small a",
+            "\r"
+        ]
+    },
+    "1D657*": {
+        "prefix": "/BSb",
+        "body": "𝙗",
+        "description": [
+            "𝙗",
+            "mathematical sans-serif bold italic small b",
+            "\r"
+        ]
+    },
+    "1D658*": {
+        "prefix": "/BSc",
+        "body": "𝙘",
+        "description": [
+            "𝙘",
+            "mathematical sans-serif bold italic small c",
+            "\r"
+        ]
+    },
+    "1D659*": {
+        "prefix": "/BSd",
+        "body": "𝙙",
+        "description": [
+            "𝙙",
+            "mathematical sans-serif bold italic small d",
+            "\r"
+        ]
+    },
+    "1D65A*": {
+        "prefix": "/BSe",
+        "body": "𝙚",
+        "description": [
+            "𝙚",
+            "mathematical sans-serif bold italic small e",
+            "\r"
+        ]
+    },
+    "1D65B*": {
+        "prefix": "/BSf",
+        "body": "𝙛",
+        "description": [
+            "𝙛",
+            "mathematical sans-serif bold italic small f",
+            "\r"
+        ]
+    },
+    "1D65C*": {
+        "prefix": "/BSg",
+        "body": "𝙜",
+        "description": [
+            "𝙜",
+            "mathematical sans-serif bold italic small g",
+            "\r"
+        ]
+    },
+    "1D65D*": {
+        "prefix": "/BSh",
+        "body": "𝙝",
+        "description": [
+            "𝙝",
+            "mathematical sans-serif bold italic small h",
+            "\r"
+        ]
+    },
+    "1D65E*": {
+        "prefix": "/BSi",
+        "body": "𝙞",
+        "description": [
+            "𝙞",
+            "mathematical sans-serif bold italic small i",
+            "\r"
+        ]
+    },
+    "1D65F*": {
+        "prefix": "/BSj",
+        "body": "𝙟",
+        "description": [
+            "𝙟",
+            "mathematical sans-serif bold italic small j",
+            "\r"
+        ]
+    },
+    "1D660*": {
+        "prefix": "/BSk",
+        "body": "𝙠",
+        "description": [
+            "𝙠",
+            "mathematical sans-serif bold italic small k",
+            "\r"
+        ]
+    },
+    "1D661*": {
+        "prefix": "/BSl",
+        "body": "𝙡",
+        "description": [
+            "𝙡",
+            "mathematical sans-serif bold italic small l",
+            "\r"
+        ]
+    },
+    "1D662*": {
+        "prefix": "/BSm",
+        "body": "𝙢",
+        "description": [
+            "𝙢",
+            "mathematical sans-serif bold italic small m",
+            "\r"
+        ]
+    },
+    "1D663*": {
+        "prefix": "/BSn",
+        "body": "𝙣",
+        "description": [
+            "𝙣",
+            "mathematical sans-serif bold italic small n",
+            "\r"
+        ]
+    },
+    "1D664*": {
+        "prefix": "/BSo",
+        "body": "𝙤",
+        "description": [
+            "𝙤",
+            "mathematical sans-serif bold italic small o",
+            "\r"
+        ]
+    },
+    "1D665*": {
+        "prefix": "/BSp",
+        "body": "𝙥",
+        "description": [
+            "𝙥",
+            "mathematical sans-serif bold italic small p",
+            "\r"
+        ]
+    },
+    "1D666*": {
+        "prefix": "/BSq",
+        "body": "𝙦",
+        "description": [
+            "𝙦",
+            "mathematical sans-serif bold italic small q",
+            "\r"
+        ]
+    },
+    "1D667*": {
+        "prefix": "/BSr",
+        "body": "𝙧",
+        "description": [
+            "𝙧",
+            "mathematical sans-serif bold italic small r",
+            "\r"
+        ]
+    },
+    "1D668*": {
+        "prefix": "/BSs",
+        "body": "𝙨",
+        "description": [
+            "𝙨",
+            "mathematical sans-serif bold italic small s",
+            "\r"
+        ]
+    },
+    "1D669*": {
+        "prefix": "/BSt",
+        "body": "𝙩",
+        "description": [
+            "𝙩",
+            "mathematical sans-serif bold italic small t",
+            "\r"
+        ]
+    },
+    "1D66A*": {
+        "prefix": "/BSu",
+        "body": "𝙪",
+        "description": [
+            "𝙪",
+            "mathematical sans-serif bold italic small u",
+            "\r"
+        ]
+    },
+    "1D66B*": {
+        "prefix": "/BSv",
+        "body": "𝙫",
+        "description": [
+            "𝙫",
+            "mathematical sans-serif bold italic small v",
+            "\r"
+        ]
+    },
+    "1D66C*": {
+        "prefix": "/BSw",
+        "body": "𝙬",
+        "description": [
+            "𝙬",
+            "mathematical sans-serif bold italic small w",
+            "\r"
+        ]
+    },
+    "1D66D*": {
+        "prefix": "/BSx",
+        "body": "𝙭",
+        "description": [
+            "𝙭",
+            "mathematical sans-serif bold italic small x",
+            "\r"
+        ]
+    },
+    "1D66E*": {
+        "prefix": "/BSy",
+        "body": "𝙮",
+        "description": [
+            "𝙮",
+            "mathematical sans-serif bold italic small y",
+            "\r"
+        ]
+    },
+    "1D66F*": {
+        "prefix": "/BSz",
+        "body": "𝙯",
+        "description": [
+            "𝙯",
+            "mathematical sans-serif bold italic small z",
+            "\r"
+        ]
+    },
+    "1D670*": {
+        "prefix": "/ttA",
+        "body": "𝙰",
+        "description": [
+            "𝙰",
+            "mathematical monospace capital a",
+            "\r"
+        ]
+    },
+    "1D671*": {
+        "prefix": "/ttB",
+        "body": "𝙱",
+        "description": [
+            "𝙱",
+            "mathematical monospace capital b",
+            "\r"
+        ]
+    },
+    "1D672*": {
+        "prefix": "/ttC",
+        "body": "𝙲",
+        "description": [
+            "𝙲",
+            "mathematical monospace capital c",
+            "\r"
+        ]
+    },
+    "1D673*": {
+        "prefix": "/ttD",
+        "body": "𝙳",
+        "description": [
+            "𝙳",
+            "mathematical monospace capital d",
+            "\r"
+        ]
+    },
+    "1D674*": {
+        "prefix": "/ttE",
+        "body": "𝙴",
+        "description": [
+            "𝙴",
+            "mathematical monospace capital e",
+            "\r"
+        ]
+    },
+    "1D675*": {
+        "prefix": "/ttF",
+        "body": "𝙵",
+        "description": [
+            "𝙵",
+            "mathematical monospace capital f",
+            "\r"
+        ]
+    },
+    "1D676*": {
+        "prefix": "/ttG",
+        "body": "𝙶",
+        "description": [
+            "𝙶",
+            "mathematical monospace capital g",
+            "\r"
+        ]
+    },
+    "1D677*": {
+        "prefix": "/ttH",
+        "body": "𝙷",
+        "description": [
+            "𝙷",
+            "mathematical monospace capital h",
+            "\r"
+        ]
+    },
+    "1D678*": {
+        "prefix": "/ttI",
+        "body": "𝙸",
+        "description": [
+            "𝙸",
+            "mathematical monospace capital i",
+            "\r"
+        ]
+    },
+    "1D679*": {
+        "prefix": "/ttJ",
+        "body": "𝙹",
+        "description": [
+            "𝙹",
+            "mathematical monospace capital j",
+            "\r"
+        ]
+    },
+    "1D67A*": {
+        "prefix": "/ttK",
+        "body": "𝙺",
+        "description": [
+            "𝙺",
+            "mathematical monospace capital k",
+            "\r"
+        ]
+    },
+    "1D67B*": {
+        "prefix": "/ttL",
+        "body": "𝙻",
+        "description": [
+            "𝙻",
+            "mathematical monospace capital l",
+            "\r"
+        ]
+    },
+    "1D67C*": {
+        "prefix": "/ttM",
+        "body": "𝙼",
+        "description": [
+            "𝙼",
+            "mathematical monospace capital m",
+            "\r"
+        ]
+    },
+    "1D67D*": {
+        "prefix": "/ttN",
+        "body": "𝙽",
+        "description": [
+            "𝙽",
+            "mathematical monospace capital n",
+            "\r"
+        ]
+    },
+    "1D67E*": {
+        "prefix": "/ttO",
+        "body": "𝙾",
+        "description": [
+            "𝙾",
+            "mathematical monospace capital o",
+            "\r"
+        ]
+    },
+    "1D67F*": {
+        "prefix": "/ttP",
+        "body": "𝙿",
+        "description": [
+            "𝙿",
+            "mathematical monospace capital p",
+            "\r"
+        ]
+    },
+    "1D680*": {
+        "prefix": "/ttQ",
+        "body": "𝚀",
+        "description": [
+            "𝚀",
+            "mathematical monospace capital q",
+            "\r"
+        ]
+    },
+    "1D681*": {
+        "prefix": "/ttR",
+        "body": "𝚁",
+        "description": [
+            "𝚁",
+            "mathematical monospace capital r",
+            "\r"
+        ]
+    },
+    "1D682*": {
+        "prefix": "/ttS",
+        "body": "𝚂",
+        "description": [
+            "𝚂",
+            "mathematical monospace capital s",
+            "\r"
+        ]
+    },
+    "1D683*": {
+        "prefix": "/ttT",
+        "body": "𝚃",
+        "description": [
+            "𝚃",
+            "mathematical monospace capital t",
+            "\r"
+        ]
+    },
+    "1D684*": {
+        "prefix": "/ttU",
+        "body": "𝚄",
+        "description": [
+            "𝚄",
+            "mathematical monospace capital u",
+            "\r"
+        ]
+    },
+    "1D685*": {
+        "prefix": "/ttV",
+        "body": "𝚅",
+        "description": [
+            "𝚅",
+            "mathematical monospace capital v",
+            "\r"
+        ]
+    },
+    "1D686*": {
+        "prefix": "/ttW",
+        "body": "𝚆",
+        "description": [
+            "𝚆",
+            "mathematical monospace capital w",
+            "\r"
+        ]
+    },
+    "1D687*": {
+        "prefix": "/ttX",
+        "body": "𝚇",
+        "description": [
+            "𝚇",
+            "mathematical monospace capital x",
+            "\r"
+        ]
+    },
+    "1D688*": {
+        "prefix": "/ttY",
+        "body": "𝚈",
+        "description": [
+            "𝚈",
+            "mathematical monospace capital y",
+            "\r"
+        ]
+    },
+    "1D689*": {
+        "prefix": "/ttZ",
+        "body": "𝚉",
+        "description": [
+            "𝚉",
+            "mathematical monospace capital z",
+            "\r"
+        ]
+    },
+    "1D68A*": {
+        "prefix": "/tta",
+        "body": "𝚊",
+        "description": [
+            "𝚊",
+            "mathematical monospace small a",
+            "\r"
+        ]
+    },
+    "1D68B*": {
+        "prefix": "/ttb",
+        "body": "𝚋",
+        "description": [
+            "𝚋",
+            "mathematical monospace small b",
+            "\r"
+        ]
+    },
+    "1D68C*": {
+        "prefix": "/ttc",
+        "body": "𝚌",
+        "description": [
+            "𝚌",
+            "mathematical monospace small c",
+            "\r"
+        ]
+    },
+    "1D68D*": {
+        "prefix": "/ttd",
+        "body": "𝚍",
+        "description": [
+            "𝚍",
+            "mathematical monospace small d",
+            "\r"
+        ]
+    },
+    "1D68E*": {
+        "prefix": "/tte",
+        "body": "𝚎",
+        "description": [
+            "𝚎",
+            "mathematical monospace small e",
+            "\r"
+        ]
+    },
+    "1D68F*": {
+        "prefix": "/ttf",
+        "body": "𝚏",
+        "description": [
+            "𝚏",
+            "mathematical monospace small f",
+            "\r"
+        ]
+    },
+    "1D690*": {
+        "prefix": "/ttg",
+        "body": "𝚐",
+        "description": [
+            "𝚐",
+            "mathematical monospace small g",
+            "\r"
+        ]
+    },
+    "1D691*": {
+        "prefix": "/tth",
+        "body": "𝚑",
+        "description": [
+            "𝚑",
+            "mathematical monospace small h",
+            "\r"
+        ]
+    },
+    "1D692*": {
+        "prefix": "/tti",
+        "body": "𝚒",
+        "description": [
+            "𝚒",
+            "mathematical monospace small i",
+            "\r"
+        ]
+    },
+    "1D693*": {
+        "prefix": "/ttj",
+        "body": "𝚓",
+        "description": [
+            "𝚓",
+            "mathematical monospace small j",
+            "\r"
+        ]
+    },
+    "1D694*": {
+        "prefix": "/ttk",
+        "body": "𝚔",
+        "description": [
+            "𝚔",
+            "mathematical monospace small k",
+            "\r"
+        ]
+    },
+    "1D695*": {
+        "prefix": "/ttl",
+        "body": "𝚕",
+        "description": [
+            "𝚕",
+            "mathematical monospace small l",
+            "\r"
+        ]
+    },
+    "1D696*": {
+        "prefix": "/ttm",
+        "body": "𝚖",
+        "description": [
+            "𝚖",
+            "mathematical monospace small m",
+            "\r"
+        ]
+    },
+    "1D697*": {
+        "prefix": "/ttn",
+        "body": "𝚗",
+        "description": [
+            "𝚗",
+            "mathematical monospace small n",
+            "\r"
+        ]
+    },
+    "1D698*": {
+        "prefix": "/tto",
+        "body": "𝚘",
+        "description": [
+            "𝚘",
+            "mathematical monospace small o",
+            "\r"
+        ]
+    },
+    "1D699*": {
+        "prefix": "/ttp",
+        "body": "𝚙",
+        "description": [
+            "𝚙",
+            "mathematical monospace small p",
+            "\r"
+        ]
+    },
+    "1D69A*": {
+        "prefix": "/ttq",
+        "body": "𝚚",
+        "description": [
+            "𝚚",
+            "mathematical monospace small q",
+            "\r"
+        ]
+    },
+    "1D69B*": {
+        "prefix": "/ttr",
+        "body": "𝚛",
+        "description": [
+            "𝚛",
+            "mathematical monospace small r",
+            "\r"
+        ]
+    },
+    "1D69C*": {
+        "prefix": "/tts",
+        "body": "𝚜",
+        "description": [
+            "𝚜",
+            "mathematical monospace small s",
+            "\r"
+        ]
+    },
+    "1D69D*": {
+        "prefix": "/ttt",
+        "body": "𝚝",
+        "description": [
+            "𝚝",
+            "mathematical monospace small t",
+            "\r"
+        ]
+    },
+    "1D69E*": {
+        "prefix": "/ttu",
+        "body": "𝚞",
+        "description": [
+            "𝚞",
+            "mathematical monospace small u",
+            "\r"
+        ]
+    },
+    "1D69F*": {
+        "prefix": "/ttv",
+        "body": "𝚟",
+        "description": [
+            "𝚟",
+            "mathematical monospace small v",
+            "\r"
+        ]
+    },
+    "1D6A0*": {
+        "prefix": "/ttw",
+        "body": "𝚠",
+        "description": [
+            "𝚠",
+            "mathematical monospace small w",
+            "\r"
+        ]
+    },
+    "1D6A1*": {
+        "prefix": "/ttx",
+        "body": "𝚡",
+        "description": [
+            "𝚡",
+            "mathematical monospace small x",
+            "\r"
+        ]
+    },
+    "1D6A2*": {
+        "prefix": "/tty",
+        "body": "𝚢",
+        "description": [
+            "𝚢",
+            "mathematical monospace small y",
+            "\r"
+        ]
+    },
+    "1D6A3*": {
+        "prefix": "/ttz",
+        "body": "𝚣",
+        "description": [
+            "𝚣",
+            "mathematical monospace small z",
+            "\r"
+        ]
+    },
+    "1D6E2*": {
+        "prefix": "/Alpha",
+        "body": "𝛢",
+        "description": [
+            "𝛢",
+            "mathematical italic capital alpha",
+            "\r"
+        ]
+    },
+    "1D6E3*": {
+        "prefix": "/Beta",
+        "body": "𝛣",
+        "description": [
+            "𝛣",
+            "mathematical italic capital beta",
+            "\r"
+        ]
+    },
+    "1D6E4*": {
+        "prefix": "/Gamma",
+        "body": "𝛤",
+        "description": [
+            "𝛤",
+            "mathematical italic capital gamma",
+            "\r"
+        ]
+    },
+    "1D6E5*": {
+        "prefix": "/Delta",
+        "body": "𝛥",
+        "description": [
+            "𝛥",
+            "mathematical italic capital delta",
+            "\r"
+        ]
+    },
+    "1D6E6*": {
+        "prefix": "/Epsilon",
+        "body": "𝛦",
+        "description": [
+            "𝛦",
+            "mathematical italic capital epsilon",
+            "\r"
+        ]
+    },
+    "1D6E7*": {
+        "prefix": "/Zeta",
+        "body": "𝛧",
+        "description": [
+            "𝛧",
+            "mathematical italic capital zeta",
+            "\r"
+        ]
+    },
+    "1D6E8*": {
+        "prefix": "/Eta",
+        "body": "𝛨",
+        "description": [
+            "𝛨",
+            "mathematical italic capital eta",
+            "\r"
+        ]
+    },
+    "1D6E9*": {
+        "prefix": "/Theta",
+        "body": "𝛩",
+        "description": [
+            "𝛩",
+            "mathematical italic capital theta",
+            "\r"
+        ]
+    },
+    "1D6EA*": {
+        "prefix": "/Iota",
+        "body": "𝛪",
+        "description": [
+            "𝛪",
+            "mathematical italic capital iota",
+            "\r"
+        ]
+    },
+    "1D6EB*": {
+        "prefix": "/Kappa",
+        "body": "𝛫",
+        "description": [
+            "𝛫",
+            "mathematical italic capital kappa",
+            "\r"
+        ]
+    },
+    "1D6EC*": {
+        "prefix": "/Lambda",
+        "body": "𝛬",
+        "description": [
+            "𝛬",
+            "mathematical italic capital lambda",
+            "\r"
+        ]
+    },
+    "1D6ED*": {
+        "prefix": "/Mu",
+        "body": "𝛭",
+        "description": [
+            "𝛭",
+            "mathematical italic capital mu",
+            "\r"
+        ]
+    },
+    "1D6EE*": {
+        "prefix": "/Nu",
+        "body": "𝛮",
+        "description": [
+            "𝛮",
+            "mathematical italic capital nu",
+            "\r"
+        ]
+    },
+    "1D6EF*": {
+        "prefix": "/Xi",
+        "body": "𝛯",
+        "description": [
+            "𝛯",
+            "mathematical italic capital xi",
+            "\r"
+        ]
+    },
+    "1D6F0*": {
+        "prefix": "/Omicron",
+        "body": "𝛰",
+        "description": [
+            "𝛰",
+            "mathematical italic capital omicron",
+            "\r"
+        ]
+    },
+    "1D6F1*": {
+        "prefix": "/Pi",
+        "body": "𝛱",
+        "description": [
+            "𝛱",
+            "mathematical italic capital pi",
+            "\r"
+        ]
+    },
+    "1D6F2*": {
+        "prefix": "/Rho",
+        "body": "𝛲",
+        "description": [
+            "𝛲",
+            "mathematical italic capital rho",
+            "\r"
+        ]
+    },
+    "1D6F3*": {
+        "prefix": "/varTheta",
+        "body": "𝛳",
+        "description": [
+            "𝛳",
+            "mathematical italic capital theta symbol",
+            "\r"
+        ]
+    },
+    "1D6F4*": {
+        "prefix": "/Sigma",
+        "body": "𝛴",
+        "description": [
+            "𝛴",
+            "mathematical italic capital sigma",
+            "\r"
+        ]
+    },
+    "1D6F5*": {
+        "prefix": "/Tau",
+        "body": "𝛵",
+        "description": [
+            "𝛵",
+            "mathematical italic capital tau",
+            "\r"
+        ]
+    },
+    "1D6F6*": {
+        "prefix": "/Upsilon",
+        "body": "𝛶",
+        "description": [
+            "𝛶",
+            "mathematical italic capital upsilon",
+            "\r"
+        ]
+    },
+    "1D6F7*": {
+        "prefix": "/Phi",
+        "body": "𝛷",
+        "description": [
+            "𝛷",
+            "mathematical italic capital phi",
+            "\r"
+        ]
+    },
+    "1D6F8*": {
+        "prefix": "/Chi",
+        "body": "𝛸",
+        "description": [
+            "𝛸",
+            "mathematical italic capital chi",
+            "\r"
+        ]
+    },
+    "1D6F9*": {
+        "prefix": "/Psi",
+        "body": "𝛹",
+        "description": [
+            "𝛹",
+            "mathematical italic capital psi",
+            "\r"
+        ]
+    },
+    "1D6FA*": {
+        "prefix": "/Omega",
+        "body": "𝛺",
+        "description": [
+            "𝛺",
+            "mathematical italic capital omega",
+            "\r"
+        ]
+    },
+    "1D6FB*": {
+        "prefix": "/nabla",
+        "body": "𝛻",
+        "description": [
+            "𝛻",
+            "mathematical italic nabla",
+            "\r"
+        ]
+    },
+    "1D6FC*": {
+        "prefix": "/alpha",
+        "body": "𝛼",
+        "description": [
+            "𝛼",
+            "mathematical italic small alpha",
+            "\r"
+        ]
+    },
+    "1D6FD*": {
+        "prefix": "/beta",
+        "body": "𝛽",
+        "description": [
+            "𝛽",
+            "mathematical italic small beta",
+            "\r"
+        ]
+    },
+    "1D6FE*": {
+        "prefix": "/gamma",
+        "body": "𝛾",
+        "description": [
+            "𝛾",
+            "mathematical italic small gamma",
+            "\r"
+        ]
+    },
+    "1D6FF*": {
+        "prefix": "/delta",
+        "body": "𝛿",
+        "description": [
+            "𝛿",
+            "mathematical italic small delta",
+            "\r"
+        ]
+    },
+    "1D700*": {
+        "prefix": "/varepsilon",
+        "body": "𝜀",
+        "description": [
+            "𝜀",
+            "mathematical italic small varepsilon",
+            "\r"
+        ]
+    },
+    "1D701*": {
+        "prefix": "/zeta",
+        "body": "𝜁",
+        "description": [
+            "𝜁",
+            "mathematical italic small zeta",
+            "\r"
+        ]
+    },
+    "1D702*": {
+        "prefix": "/eta",
+        "body": "𝜂",
+        "description": [
+            "𝜂",
+            "mathematical italic small eta",
+            "\r"
+        ]
+    },
+    "1D703*": {
+        "prefix": "/theta",
+        "body": "𝜃",
+        "description": [
+            "𝜃",
+            "mathematical italic small theta",
+            "\r"
+        ]
+    },
+    "1D704*": {
+        "prefix": "/iota",
+        "body": "𝜄",
+        "description": [
+            "𝜄",
+            "mathematical italic small iota",
+            "\r"
+        ]
+    },
+    "1D705*": {
+        "prefix": "/kappa",
+        "body": "𝜅",
+        "description": [
+            "𝜅",
+            "mathematical italic small kappa",
+            "\r"
+        ]
+    },
+    "1D706*": {
+        "prefix": "/lambda",
+        "body": "𝜆",
+        "description": [
+            "𝜆",
+            "mathematical italic small lambda",
+            "\r"
+        ]
+    },
+    "1D707*": {
+        "prefix": "/mu",
+        "body": "𝜇",
+        "description": [
+            "𝜇",
+            "mathematical italic small mu",
+            "\r"
+        ]
+    },
+    "1D708*": {
+        "prefix": "/nu",
+        "body": "𝜈",
+        "description": [
+            "𝜈",
+            "mathematical italic small nu",
+            "\r"
+        ]
+    },
+    "1D709*": {
+        "prefix": "/xi",
+        "body": "𝜉",
+        "description": [
+            "𝜉",
+            "mathematical italic small xi",
+            "\r"
+        ]
+    },
+    "1D70A*": {
+        "prefix": "/omicron",
+        "body": "𝜊",
+        "description": [
+            "𝜊",
+            "mathematical italic small omicron",
+            "\r"
+        ]
+    },
+    "1D70B*": {
+        "prefix": "/pi",
+        "body": "𝜋",
+        "description": [
+            "𝜋",
+            "mathematical italic small pi",
+            "\r"
+        ]
+    },
+    "1D70C*": {
+        "prefix": "/rho",
+        "body": "𝜌",
+        "description": [
+            "𝜌",
+            "mathematical italic small rho",
+            "\r"
+        ]
+    },
+    "1D70D*": {
+        "prefix": "/varsigma",
+        "body": "𝜍",
+        "description": [
+            "𝜍",
+            "mathematical italic small final sigma",
+            "\r"
+        ]
+    },
+    "1D70E*": {
+        "prefix": "/sigma",
+        "body": "𝜎",
+        "description": [
+            "𝜎",
+            "mathematical italic small sigma",
+            "\r"
+        ]
+    },
+    "1D70F*": {
+        "prefix": "/tau",
+        "body": "𝜏",
+        "description": [
+            "𝜏",
+            "mathematical italic small tau",
+            "\r"
+        ]
+    },
+    "1D710*": {
+        "prefix": "/upsilon",
+        "body": "𝜐",
+        "description": [
+            "𝜐",
+            "mathematical italic small upsilon",
+            "\r"
+        ]
+    },
+    "1D711*": {
+        "prefix": "/varphi",
+        "body": "𝜑",
+        "description": [
+            "𝜑",
+            "mathematical italic small phi",
+            "\r"
+        ]
+    },
+    "1D712*": {
+        "prefix": "/chi",
+        "body": "𝜒",
+        "description": [
+            "𝜒",
+            "mathematical italic small chi",
+            "\r"
+        ]
+    },
+    "1D713*": {
+        "prefix": "/psi",
+        "body": "𝜓",
+        "description": [
+            "𝜓",
+            "mathematical italic small psi",
+            "\r"
+        ]
+    },
+    "1D714*": {
+        "prefix": "/omega",
+        "body": "𝜔",
+        "description": [
+            "𝜔",
+            "mathematical italic small omega",
+            "\r"
+        ]
+    },
+    "1D715*": {
+        "prefix": "/partial",
+        "body": "𝜕",
+        "description": [
+            "𝜕",
+            "mathematical italic partial differential",
+            "\r"
+        ]
+    },
+    "1D716*": {
+        "prefix": "/epsilon",
+        "body": "𝜖",
+        "description": [
+            "𝜖",
+            "mathematical italic varepsilon symbol",
+            "\r"
+        ]
+    },
+    "1D717*": {
+        "prefix": "/vartheta",
+        "body": "𝜗",
+        "description": [
+            "𝜗",
+            "mathematical italic theta symbol",
+            "\r"
+        ]
+    },
+    "1D718*": {
+        "prefix": "/varkappa",
+        "body": "𝜘",
+        "description": [
+            "𝜘",
+            "mathematical italic kappa symbol",
+            "\r"
+        ]
+    },
+    "1D719*": {
+        "prefix": "/phi",
+        "body": "𝜙",
+        "description": [
+            "𝜙",
+            "mathematical italic phi symbol",
+            "\r"
+        ]
+    },
+    "1D71A*": {
+        "prefix": "/varrho",
+        "body": "𝜚",
+        "description": [
+            "𝜚",
+            "mathematical italic rho symbol",
+            "\r"
+        ]
+    },
+    "1D71B*": {
+        "prefix": "/varpi",
+        "body": "𝜛",
+        "description": [
+            "𝜛",
+            "mathematical italic pi symbol",
+            "\r"
+        ]
+    },
+    "1D71C*": {
+        "prefix": "/BAlpha",
+        "body": "𝜜",
+        "description": [
+            "𝜜",
+            "mathematical bold italic capital alpha",
+            "\r"
+        ]
+    },
+    "1D71D*": {
+        "prefix": "/BBeta",
+        "body": "𝜝",
+        "description": [
+            "𝜝",
+            "mathematical bold italic capital beta",
+            "\r"
+        ]
+    },
+    "1D71E*": {
+        "prefix": "/BGamma",
+        "body": "𝜞",
+        "description": [
+            "𝜞",
+            "mathematical bold italic capital gamma",
+            "\r"
+        ]
+    },
+    "1D71F*": {
+        "prefix": "/BDelta",
+        "body": "𝜟",
+        "description": [
+            "𝜟",
+            "mathematical bold italic capital delta",
+            "\r"
+        ]
+    },
+    "1D720*": {
+        "prefix": "/BEpsilon",
+        "body": "𝜠",
+        "description": [
+            "𝜠",
+            "mathematical bold italic capital epsilon",
+            "\r"
+        ]
+    },
+    "1D721*": {
+        "prefix": "/BZeta",
+        "body": "𝜡",
+        "description": [
+            "𝜡",
+            "mathematical bold italic capital zeta",
+            "\r"
+        ]
+    },
+    "1D722*": {
+        "prefix": "/BEta",
+        "body": "𝜢",
+        "description": [
+            "𝜢",
+            "mathematical bold italic capital eta",
+            "\r"
+        ]
+    },
+    "1D723*": {
+        "prefix": "/BTheta",
+        "body": "𝜣",
+        "description": [
+            "𝜣",
+            "mathematical bold italic capital theta",
+            "\r"
+        ]
+    },
+    "1D724*": {
+        "prefix": "/BIota",
+        "body": "𝜤",
+        "description": [
+            "𝜤",
+            "mathematical bold italic capital iota",
+            "\r"
+        ]
+    },
+    "1D725*": {
+        "prefix": "/BKappa",
+        "body": "𝜥",
+        "description": [
+            "𝜥",
+            "mathematical bold italic capital kappa",
+            "\r"
+        ]
+    },
+    "1D726*": {
+        "prefix": "/BLambda",
+        "body": "𝜦",
+        "description": [
+            "𝜦",
+            "mathematical bold italic capital lambda",
+            "\r"
+        ]
+    },
+    "1D727*": {
+        "prefix": "/BMu",
+        "body": "𝜧",
+        "description": [
+            "𝜧",
+            "mathematical bold italic capital mu",
+            "\r"
+        ]
+    },
+    "1D728*": {
+        "prefix": "/BNu",
+        "body": "𝜨",
+        "description": [
+            "𝜨",
+            "mathematical bold italic capital nu",
+            "\r"
+        ]
+    },
+    "1D729*": {
+        "prefix": "/BXi",
+        "body": "𝜩",
+        "description": [
+            "𝜩",
+            "mathematical bold italic capital xi",
+            "\r"
+        ]
+    },
+    "1D72A*": {
+        "prefix": "/BOmicron",
+        "body": "𝜪",
+        "description": [
+            "𝜪",
+            "mathematical bold italic capital omicron",
+            "\r"
+        ]
+    },
+    "1D72B*": {
+        "prefix": "/BPi",
+        "body": "𝜫",
+        "description": [
+            "𝜫",
+            "mathematical bold italic capital pi",
+            "\r"
+        ]
+    },
+    "1D72C*": {
+        "prefix": "/BRho",
+        "body": "𝜬",
+        "description": [
+            "𝜬",
+            "mathematical bold italic capital rho",
+            "\r"
+        ]
+    },
+    "1D72D*": {
+        "prefix": "/BvarTheta",
+        "body": "𝜭",
+        "description": [
+            "𝜭",
+            "mathematical bold italic capital theta symbol",
+            "\r"
+        ]
+    },
+    "1D72E*": {
+        "prefix": "/BSigma",
+        "body": "𝜮",
+        "description": [
+            "𝜮",
+            "mathematical bold italic capital sigma",
+            "\r"
+        ]
+    },
+    "1D72F*": {
+        "prefix": "/BTau",
+        "body": "𝜯",
+        "description": [
+            "𝜯",
+            "mathematical bold italic capital tau",
+            "\r"
+        ]
+    },
+    "1D730*": {
+        "prefix": "/BUpsilon",
+        "body": "𝜰",
+        "description": [
+            "𝜰",
+            "mathematical bold italic capital upsilon",
+            "\r"
+        ]
+    },
+    "1D731*": {
+        "prefix": "/BPhi",
+        "body": "𝜱",
+        "description": [
+            "𝜱",
+            "mathematical bold italic capital phi",
+            "\r"
+        ]
+    },
+    "1D732*": {
+        "prefix": "/BChi",
+        "body": "𝜲",
+        "description": [
+            "𝜲",
+            "mathematical bold italic capital chi",
+            "\r"
+        ]
+    },
+    "1D733*": {
+        "prefix": "/BPsi",
+        "body": "𝜳",
+        "description": [
+            "𝜳",
+            "mathematical bold italic capital psi",
+            "\r"
+        ]
+    },
+    "1D734*": {
+        "prefix": "/BOmega",
+        "body": "𝜴",
+        "description": [
+            "𝜴",
+            "mathematical bold italic capital omega",
+            "\r"
+        ]
+    },
+    "1D735*": {
+        "prefix": "/Bnabla",
+        "body": "𝜵",
+        "description": [
+            "𝜵",
+            "mathematical bold italic nabla",
+            "\r"
+        ]
+    },
+    "1D736*": {
+        "prefix": "/Balpha",
+        "body": "𝜶",
+        "description": [
+            "𝜶",
+            "mathematical bold italic small alpha",
+            "\r"
+        ]
+    },
+    "1D737*": {
+        "prefix": "/Bbeta",
+        "body": "𝜷",
+        "description": [
+            "𝜷",
+            "mathematical bold italic small beta",
+            "\r"
+        ]
+    },
+    "1D738*": {
+        "prefix": "/Bgamma",
+        "body": "𝜸",
+        "description": [
+            "𝜸",
+            "mathematical bold italic small gamma",
+            "\r"
+        ]
+    },
+    "1D739*": {
+        "prefix": "/Bdelta",
+        "body": "𝜹",
+        "description": [
+            "𝜹",
+            "mathematical bold italic small delta",
+            "\r"
+        ]
+    },
+    "1D73A*": {
+        "prefix": "/Bvarepsilon",
+        "body": "𝜺",
+        "description": [
+            "𝜺",
+            "mathematical bold italic small varepsilon",
+            "\r"
+        ]
+    },
+    "1D73B*": {
+        "prefix": "/Bzeta",
+        "body": "𝜻",
+        "description": [
+            "𝜻",
+            "mathematical bold italic small zeta",
+            "\r"
+        ]
+    },
+    "1D73C*": {
+        "prefix": "/Beta",
+        "body": "𝜼",
+        "description": [
+            "𝜼",
+            "mathematical bold italic small eta",
+            "\r"
+        ]
+    },
+    "1D73D*": {
+        "prefix": "/Btheta",
+        "body": "𝜽",
+        "description": [
+            "𝜽",
+            "mathematical bold italic small theta",
+            "\r"
+        ]
+    },
+    "1D73E*": {
+        "prefix": "/Biota",
+        "body": "𝜾",
+        "description": [
+            "𝜾",
+            "mathematical bold italic small iota",
+            "\r"
+        ]
+    },
+    "1D73F*": {
+        "prefix": "/Bkappa",
+        "body": "𝜿",
+        "description": [
+            "𝜿",
+            "mathematical bold italic small kappa",
+            "\r"
+        ]
+    },
+    "1D740*": {
+        "prefix": "/Blambda",
+        "body": "𝝀",
+        "description": [
+            "𝝀",
+            "mathematical bold italic small lambda",
+            "\r"
+        ]
+    },
+    "1D741*": {
+        "prefix": "/Bmu",
+        "body": "𝝁",
+        "description": [
+            "𝝁",
+            "mathematical bold italic small mu",
+            "\r"
+        ]
+    },
+    "1D742*": {
+        "prefix": "/Bnu",
+        "body": "𝝂",
+        "description": [
+            "𝝂",
+            "mathematical bold italic small nu",
+            "\r"
+        ]
+    },
+    "1D743*": {
+        "prefix": "/Bxi",
+        "body": "𝝃",
+        "description": [
+            "𝝃",
+            "mathematical bold italic small xi",
+            "\r"
+        ]
+    },
+    "1D744*": {
+        "prefix": "/Bomicron",
+        "body": "𝝄",
+        "description": [
+            "𝝄",
+            "mathematical bold italic small omicron",
+            "\r"
+        ]
+    },
+    "1D745*": {
+        "prefix": "/Bpi",
+        "body": "𝝅",
+        "description": [
+            "𝝅",
+            "mathematical bold italic small pi",
+            "\r"
+        ]
+    },
+    "1D746*": {
+        "prefix": "/Brho",
+        "body": "𝝆",
+        "description": [
+            "𝝆",
+            "mathematical bold italic small rho",
+            "\r"
+        ]
+    },
+    "1D747*": {
+        "prefix": "/Bvarsigma",
+        "body": "𝝇",
+        "description": [
+            "𝝇",
+            "mathematical bold italic small final sigma",
+            "\r"
+        ]
+    },
+    "1D748*": {
+        "prefix": "/Bsigma",
+        "body": "𝝈",
+        "description": [
+            "𝝈",
+            "mathematical bold italic small sigma",
+            "\r"
+        ]
+    },
+    "1D749*": {
+        "prefix": "/Btau",
+        "body": "𝝉",
+        "description": [
+            "𝝉",
+            "mathematical bold italic small tau",
+            "\r"
+        ]
+    },
+    "1D74A*": {
+        "prefix": "/Bupsilon",
+        "body": "𝝊",
+        "description": [
+            "𝝊",
+            "mathematical bold italic small upsilon",
+            "\r"
+        ]
+    },
+    "1D74B*": {
+        "prefix": "/Bvarphi",
+        "body": "𝝋",
+        "description": [
+            "𝝋",
+            "mathematical bold italic small phi",
+            "\r"
+        ]
+    },
+    "1D74C*": {
+        "prefix": "/Bchi",
+        "body": "𝝌",
+        "description": [
+            "𝝌",
+            "mathematical bold italic small chi",
+            "\r"
+        ]
+    },
+    "1D74D*": {
+        "prefix": "/Bpsi",
+        "body": "𝝍",
+        "description": [
+            "𝝍",
+            "mathematical bold italic small psi",
+            "\r"
+        ]
+    },
+    "1D74E*": {
+        "prefix": "/Bomega",
+        "body": "𝝎",
+        "description": [
+            "𝝎",
+            "mathematical bold italic small omega",
+            "\r"
+        ]
+    },
+    "1D74F*": {
+        "prefix": "/Bpartial",
+        "body": "𝝏",
+        "description": [
+            "𝝏",
+            "mathematical bold italic partial differential",
+            "\r"
+        ]
+    },
+    "1D750*": {
+        "prefix": "/Bepsilon",
+        "body": "𝝐",
+        "description": [
+            "𝝐",
+            "mathematical bold italic varepsilon symbol",
+            "\r"
+        ]
+    },
+    "1D751*": {
+        "prefix": "/Bvartheta",
+        "body": "𝝑",
+        "description": [
+            "𝝑",
+            "mathematical bold italic theta symbol",
+            "\r"
+        ]
+    },
+    "1D752*": {
+        "prefix": "/Bvarkappa",
+        "body": "𝝒",
+        "description": [
+            "𝝒",
+            "mathematical bold italic kappa symbol",
+            "\r"
+        ]
+    },
+    "1D753*": {
+        "prefix": "/Bphi",
+        "body": "𝝓",
+        "description": [
+            "𝝓",
+            "mathematical bold italic phi symbol",
+            "\r"
+        ]
+    },
+    "1D754*": {
+        "prefix": "/Bvarrho",
+        "body": "𝝔",
+        "description": [
+            "𝝔",
+            "mathematical bold italic rho symbol",
+            "\r"
+        ]
+    },
+    "1D755*": {
+        "prefix": "/Bvarpi",
+        "body": "𝝕",
+        "description": [
+            "𝝕",
+            "mathematical bold italic pi symbol",
+            "\r"
+        ]
+    },
+    "1D790*": {
+        "prefix": "/BSAlpha",
+        "body": "𝞐",
+        "description": [
+            "𝞐",
+            "mathematical sans-serif bold italic capital alpha",
+            "\r"
+        ]
+    },
+    "1D791*": {
+        "prefix": "/BSBeta",
+        "body": "𝞑",
+        "description": [
+            "𝞑",
+            "mathematical sans-serif bold italic capital beta",
+            "\r"
+        ]
+    },
+    "1D792*": {
+        "prefix": "/BSGamma",
+        "body": "𝞒",
+        "description": [
+            "𝞒",
+            "mathematical sans-serif bold italic capital gamma",
+            "\r"
+        ]
+    },
+    "1D793*": {
+        "prefix": "/BSDelta",
+        "body": "𝞓",
+        "description": [
+            "𝞓",
+            "mathematical sans-serif bold italic capital delta",
+            "\r"
+        ]
+    },
+    "1D794*": {
+        "prefix": "/BSEpsilon",
+        "body": "𝞔",
+        "description": [
+            "𝞔",
+            "mathematical sans-serif bold italic capital epsilon",
+            "\r"
+        ]
+    },
+    "1D795*": {
+        "prefix": "/BSZeta",
+        "body": "𝞕",
+        "description": [
+            "𝞕",
+            "mathematical sans-serif bold italic capital zeta",
+            "\r"
+        ]
+    },
+    "1D796*": {
+        "prefix": "/BSEta",
+        "body": "𝞖",
+        "description": [
+            "𝞖",
+            "mathematical sans-serif bold italic capital eta",
+            "\r"
+        ]
+    },
+    "1D797*": {
+        "prefix": "/BSTheta",
+        "body": "𝞗",
+        "description": [
+            "𝞗",
+            "mathematical sans-serif bold italic capital theta",
+            "\r"
+        ]
+    },
+    "1D798*": {
+        "prefix": "/BSIota",
+        "body": "𝞘",
+        "description": [
+            "𝞘",
+            "mathematical sans-serif bold italic capital iota",
+            "\r"
+        ]
+    },
+    "1D799*": {
+        "prefix": "/BSKappa",
+        "body": "𝞙",
+        "description": [
+            "𝞙",
+            "mathematical sans-serif bold italic capital kappa",
+            "\r"
+        ]
+    },
+    "1D79A*": {
+        "prefix": "/BSLambda",
+        "body": "𝞚",
+        "description": [
+            "𝞚",
+            "mathematical sans-serif bold italic capital lambda",
+            "\r"
+        ]
+    },
+    "1D79B*": {
+        "prefix": "/BSMu",
+        "body": "𝞛",
+        "description": [
+            "𝞛",
+            "mathematical sans-serif bold italic capital mu",
+            "\r"
+        ]
+    },
+    "1D79C*": {
+        "prefix": "/BSNu",
+        "body": "𝞜",
+        "description": [
+            "𝞜",
+            "mathematical sans-serif bold italic capital nu",
+            "\r"
+        ]
+    },
+    "1D79D*": {
+        "prefix": "/BSXi",
+        "body": "𝞝",
+        "description": [
+            "𝞝",
+            "mathematical sans-serif bold italic capital xi",
+            "\r"
+        ]
+    },
+    "1D79E*": {
+        "prefix": "/BSOmicron",
+        "body": "𝞞",
+        "description": [
+            "𝞞",
+            "mathematical sans-serif bold italic capital omicron",
+            "\r"
+        ]
+    },
+    "1D79F*": {
+        "prefix": "/BSPi",
+        "body": "𝞟",
+        "description": [
+            "𝞟",
+            "mathematical sans-serif bold italic capital pi",
+            "\r"
+        ]
+    },
+    "1D7A0*": {
+        "prefix": "/BSRho",
+        "body": "𝞠",
+        "description": [
+            "𝞠",
+            "mathematical sans-serif bold italic capital rho",
+            "\r"
+        ]
+    },
+    "1D7A1*": {
+        "prefix": "/BSvarTheta",
+        "body": "𝞡",
+        "description": [
+            "𝞡",
+            "mathematical sans-serif bold italic capital theta symbol",
+            "\r"
+        ]
+    },
+    "1D7A2*": {
+        "prefix": "/BSSigma",
+        "body": "𝞢",
+        "description": [
+            "𝞢",
+            "mathematical sans-serif bold italic capital sigma",
+            "\r"
+        ]
+    },
+    "1D7A3*": {
+        "prefix": "/BSTau",
+        "body": "𝞣",
+        "description": [
+            "𝞣",
+            "mathematical sans-serif bold italic capital tau",
+            "\r"
+        ]
+    },
+    "1D7A4*": {
+        "prefix": "/BSUpsilon",
+        "body": "𝞤",
+        "description": [
+            "𝞤",
+            "mathematical sans-serif bold italic capital upsilon",
+            "\r"
+        ]
+    },
+    "1D7A5*": {
+        "prefix": "/BSPhi",
+        "body": "𝞥",
+        "description": [
+            "𝞥",
+            "mathematical sans-serif bold italic capital phi",
+            "\r"
+        ]
+    },
+    "1D7A6*": {
+        "prefix": "/BSChi",
+        "body": "𝞦",
+        "description": [
+            "𝞦",
+            "mathematical sans-serif bold italic capital chi",
+            "\r"
+        ]
+    },
+    "1D7A7*": {
+        "prefix": "/BSPsi",
+        "body": "𝞧",
+        "description": [
+            "𝞧",
+            "mathematical sans-serif bold italic capital psi",
+            "\r"
+        ]
+    },
+    "1D7A8*": {
+        "prefix": "/BSOmega",
+        "body": "𝞨",
+        "description": [
+            "𝞨",
+            "mathematical sans-serif bold italic capital omega",
+            "\r"
+        ]
+    },
+    "1D7A9*": {
+        "prefix": "/BSnabla",
+        "body": "𝞩",
+        "description": [
+            "𝞩",
+            "mathematical sans-serif bold italic nabla",
+            "\r"
+        ]
+    },
+    "1D7AA*": {
+        "prefix": "/BSalpha",
+        "body": "𝞪",
+        "description": [
+            "𝞪",
+            "mathematical sans-serif bold italic small alpha",
+            "\r"
+        ]
+    },
+    "1D7AB*": {
+        "prefix": "/BSbeta",
+        "body": "𝞫",
+        "description": [
+            "𝞫",
+            "mathematical sans-serif bold italic small beta",
+            "\r"
+        ]
+    },
+    "1D7AC*": {
+        "prefix": "/BSgamma",
+        "body": "𝞬",
+        "description": [
+            "𝞬",
+            "mathematical sans-serif bold italic small gamma",
+            "\r"
+        ]
+    },
+    "1D7AD*": {
+        "prefix": "/BSdelta",
+        "body": "𝞭",
+        "description": [
+            "𝞭",
+            "mathematical sans-serif bold italic small delta",
+            "\r"
+        ]
+    },
+    "1D7AE*": {
+        "prefix": "/BSvarepsilon",
+        "body": "𝞮",
+        "description": [
+            "𝞮",
+            "mathematical sans-serif bold italic small varepsilon",
+            "\r"
+        ]
+    },
+    "1D7AF*": {
+        "prefix": "/BSzeta",
+        "body": "𝞯",
+        "description": [
+            "𝞯",
+            "mathematical sans-serif bold italic small zeta",
+            "\r"
+        ]
+    },
+    "1D7B0*": {
+        "prefix": "/BSeta",
+        "body": "𝞰",
+        "description": [
+            "𝞰",
+            "mathematical sans-serif bold italic small eta",
+            "\r"
+        ]
+    },
+    "1D7B1*": {
+        "prefix": "/BStheta",
+        "body": "𝞱",
+        "description": [
+            "𝞱",
+            "mathematical sans-serif bold italic small theta",
+            "\r"
+        ]
+    },
+    "1D7B2*": {
+        "prefix": "/BSiota",
+        "body": "𝞲",
+        "description": [
+            "𝞲",
+            "mathematical sans-serif bold italic small iota",
+            "\r"
+        ]
+    },
+    "1D7B3*": {
+        "prefix": "/BSkappa",
+        "body": "𝞳",
+        "description": [
+            "𝞳",
+            "mathematical sans-serif bold italic small kappa",
+            "\r"
+        ]
+    },
+    "1D7B4*": {
+        "prefix": "/BSlambda",
+        "body": "𝞴",
+        "description": [
+            "𝞴",
+            "mathematical sans-serif bold italic small lambda",
+            "\r"
+        ]
+    },
+    "1D7B5*": {
+        "prefix": "/BSmu",
+        "body": "𝞵",
+        "description": [
+            "𝞵",
+            "mathematical sans-serif bold italic small mu",
+            "\r"
+        ]
+    },
+    "1D7B6*": {
+        "prefix": "/BSnu",
+        "body": "𝞶",
+        "description": [
+            "𝞶",
+            "mathematical sans-serif bold italic small nu",
+            "\r"
+        ]
+    },
+    "1D7B7*": {
+        "prefix": "/BSxi",
+        "body": "𝞷",
+        "description": [
+            "𝞷",
+            "mathematical sans-serif bold italic small xi",
+            "\r"
+        ]
+    },
+    "1D7B8*": {
+        "prefix": "/BSomicron",
+        "body": "𝞸",
+        "description": [
+            "𝞸",
+            "mathematical sans-serif bold italic small omicron",
+            "\r"
+        ]
+    },
+    "1D7B9*": {
+        "prefix": "/BSpi",
+        "body": "𝞹",
+        "description": [
+            "𝞹",
+            "mathematical sans-serif bold italic small pi",
+            "\r"
+        ]
+    },
+    "1D7BA*": {
+        "prefix": "/BSrho",
+        "body": "𝞺",
+        "description": [
+            "𝞺",
+            "mathematical sans-serif bold italic small rho",
+            "\r"
+        ]
+    },
+    "1D7BB*": {
+        "prefix": "/BSvarsigma",
+        "body": "𝞻",
+        "description": [
+            "𝞻",
+            "mathematical sans-serif bold italic small final sigma",
+            "\r"
+        ]
+    },
+    "1D7BC*": {
+        "prefix": "/BSsigma",
+        "body": "𝞼",
+        "description": [
+            "𝞼",
+            "mathematical sans-serif bold italic small sigma",
+            "\r"
+        ]
+    },
+    "1D7BD*": {
+        "prefix": "/BStau",
+        "body": "𝞽",
+        "description": [
+            "𝞽",
+            "mathematical sans-serif bold italic small tau",
+            "\r"
+        ]
+    },
+    "1D7BE*": {
+        "prefix": "/BSupsilon",
+        "body": "𝞾",
+        "description": [
+            "𝞾",
+            "mathematical sans-serif bold italic small upsilon",
+            "\r"
+        ]
+    },
+    "1D7BF*": {
+        "prefix": "/BSvarphi",
+        "body": "𝞿",
+        "description": [
+            "𝞿",
+            "mathematical sans-serif bold italic small phi",
+            "\r"
+        ]
+    },
+    "1D7C0*": {
+        "prefix": "/BSchi",
+        "body": "𝟀",
+        "description": [
+            "𝟀",
+            "mathematical sans-serif bold italic small chi",
+            "\r"
+        ]
+    },
+    "1D7C1*": {
+        "prefix": "/BSpsi",
+        "body": "𝟁",
+        "description": [
+            "𝟁",
+            "mathematical sans-serif bold italic small psi",
+            "\r"
+        ]
+    },
+    "1D7C2*": {
+        "prefix": "/BSomega",
+        "body": "𝟂",
+        "description": [
+            "𝟂",
+            "mathematical sans-serif bold italic small omega",
+            "\r"
+        ]
+    },
+    "1D7C3*": {
+        "prefix": "/BSpartial",
+        "body": "𝟃",
+        "description": [
+            "𝟃",
+            "mathematical sans-serif bold italic partial differential",
+            "\r"
+        ]
+    },
+    "1D7C4*": {
+        "prefix": "/BSepsilon",
+        "body": "𝟄",
+        "description": [
+            "𝟄",
+            "mathematical sans-serif bold italic varepsilon symbol",
+            "\r"
+        ]
+    },
+    "1D7C5*": {
+        "prefix": "/BSvartheta",
+        "body": "𝟅",
+        "description": [
+            "𝟅",
+            "mathematical sans-serif bold italic theta symbol",
+            "\r"
+        ]
+    },
+    "1D7C6*": {
+        "prefix": "/BSvarkappa",
+        "body": "𝟆",
+        "description": [
+            "𝟆",
+            "mathematical sans-serif bold italic kappa symbol",
+            "\r"
+        ]
+    },
+    "1D7C7*": {
+        "prefix": "/BSphi",
+        "body": "𝟇",
+        "description": [
+            "𝟇",
+            "mathematical sans-serif bold italic phi symbol",
+            "\r"
+        ]
+    },
+    "1D7C8*": {
+        "prefix": "/BSvarrho",
+        "body": "𝟈",
+        "description": [
+            "𝟈",
+            "mathematical sans-serif bold italic rho symbol",
+            "\r"
+        ]
+    },
+    "1D7C9*": {
+        "prefix": "/BSvarpi",
+        "body": "𝟉",
+        "description": [
+            "𝟉",
+            "mathematical sans-serif bold italic pi symbol",
+            "\r"
+        ]
+    },
+    "1D7CA*": {
+        "prefix": "/BDigamma",
+        "body": "𝟊",
+        "description": [
+            "𝟊",
+            "mathematical bold capital digamma",
+            "\r"
+        ]
+    },
+    "1D7CB*": {
+        "prefix": "/Bdigamma",
+        "body": "𝟋",
+        "description": [
+            "𝟋",
+            "mathematical bold small digamma",
+            "\r"
+        ]
+    },
+}
