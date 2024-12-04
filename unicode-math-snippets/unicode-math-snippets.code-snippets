@@ -14484,7 +14484,7 @@
     },
     "003D1": {
         "scope": "latex",
-        "prefix": ["/mupvartheta", "/vartheta"],
+        "prefix": "/mupvartheta",
         "body": "ϑ",
         "description": [
             "ϑ",
@@ -24413,4 +24413,3 @@
         ]
     }
 }
-

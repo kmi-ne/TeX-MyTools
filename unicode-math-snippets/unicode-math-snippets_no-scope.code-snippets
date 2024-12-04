@@ -13048,7 +13048,7 @@
         ]
     },
     "003D1": {
-        "prefix": ["/mupvartheta", "/vartheta"],
+        "prefix": "/mupvartheta",
         "body": "ϑ",
         "description": [
             "ϑ",
