@@ -1,6 +1,7 @@
 // Extracted from unicode-math-table.tex (https://github.com/latex3/unicode-math/blob/master/unicode-math-table.tex).
 // mathaccentoverlay, mathaccentwide and mathbotaccentwide type macros are not contained in the .pdf version of that table (http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unimath-symbols.pdf), so I omitted them.
 // All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
+{
 // 
 // 
 // 
@@ -11,7 +12,6 @@
 // 
 // 01. Opening symbols, \mathopen
 // 
-{
     "00028": {
         "scope": "latex",
         "prefix": "/lparen",
