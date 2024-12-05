@@ -1,16 +1,16 @@
 // Additional snippets.
 // All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
-    // 
-    // 
-    // 
-    // 
-    // 
-    // NEW SECTION HEADER
-    // 
-    // 
-    // /lr~~ = /l~~ + /r~~
-    // 
+// 
+// 
+// 
+// 
+// 
+// NEW SECTION HEADER
+// 
+// 
+// /lr~~ = /l~~ + /r~~
+// 
     "00028+00029": {
         "prefix": "/lrparen",
         "body": "($1)",
@@ -318,7 +318,7 @@
 //     (\symbb): /Bbb* → /bb-@
 // 
     // \symbfup
-    "1D7CE": {
+    "1D7CE*": {
         "prefix": "/b-0",
         "body": "𝟎",
         "description": [
@@ -327,7 +327,7 @@
             "\r"
         ]
     },
-    "1D7CF": {
+    "1D7CF*": {
         "prefix": "/b-1",
         "body": "𝟏",
         "description": [
@@ -336,7 +336,7 @@
             "\r"
         ]
     },
-    "1D7D0": {
+    "1D7D0*": {
         "prefix": "/b-2",
         "body": "𝟐",
         "description": [
@@ -345,7 +345,7 @@
             "\r"
         ]
     },
-    "1D7D1": {
+    "1D7D1*": {
         "prefix": "/b-3",
         "body": "𝟑",
         "description": [
@@ -354,7 +354,7 @@
             "\r"
         ]
     },
-    "1D7D2": {
+    "1D7D2*": {
         "prefix": "/b-4",
         "body": "𝟒",
         "description": [
@@ -363,7 +363,7 @@
             "\r"
         ]
     },
-    "1D7D3": {
+    "1D7D3*": {
         "prefix": "/b-5",
         "body": "𝟓",
         "description": [
@@ -372,7 +372,7 @@
             "\r"
         ]
     },
-    "1D7D4": {
+    "1D7D4*": {
         "prefix": "/b-6",
         "body": "𝟔",
         "description": [
@@ -381,7 +381,7 @@
             "\r"
         ]
     },
-    "1D7D5": {
+    "1D7D5*": {
         "prefix": "/b-7",
         "body": "𝟕",
         "description": [
@@ -390,7 +390,7 @@
             "\r"
         ]
     },
-    "1D7D6": {
+    "1D7D6*": {
         "prefix": "/b-8",
         "body": "𝟖",
         "description": [
@@ -399,7 +399,7 @@
             "\r"
         ]
     },
-    "1D7D7": {
+    "1D7D7*": {
         "prefix": "/b-9",
         "body": "𝟗",
         "description": [
@@ -409,7 +409,7 @@
         ]
     },
     // \symsfup
-    "1D7E2": {
+    "1D7E2*": {
         "prefix": "/s-0",
         "body": "𝟢",
         "description": [
@@ -418,7 +418,7 @@
             "\r"
         ]
     },
-    "1D7E3": {
+    "1D7E3*": {
         "prefix": "/s-1",
         "body": "𝟣",
         "description": [
@@ -427,7 +427,7 @@
             "\r"
         ]
     },
-    "1D7E4": {
+    "1D7E4*": {
         "prefix": "/s-2",
         "body": "𝟤",
         "description": [
@@ -436,7 +436,7 @@
             "\r"
         ]
     },
-    "1D7E5": {
+    "1D7E5*": {
         "prefix": "/s-3",
         "body": "𝟥",
         "description": [
@@ -445,7 +445,7 @@
             "\r"
         ]
     },
-    "1D7E6": {
+    "1D7E6*": {
         "prefix": "/s-4",
         "body": "𝟦",
         "description": [
@@ -454,7 +454,7 @@
             "\r"
         ]
     },
-    "1D7E7": {
+    "1D7E7*": {
         "prefix": "/s-5",
         "body": "𝟧",
         "description": [
@@ -463,7 +463,7 @@
             "\r"
         ]
     },
-    "1D7E8": {
+    "1D7E8*": {
         "prefix": "/s-6",
         "body": "𝟨",
         "description": [
@@ -472,7 +472,7 @@
             "\r"
         ]
     },
-    "1D7E9": {
+    "1D7E9*": {
         "prefix": "/s-7",
         "body": "𝟩",
         "description": [
@@ -481,7 +481,7 @@
             "\r"
         ]
     },
-    "1D7EA": {
+    "1D7EA*": {
         "prefix": "/s-8",
         "body": "𝟪",
         "description": [
@@ -490,7 +490,7 @@
             "\r"
         ]
     },
-    "1D7EB": {
+    "1D7EB*": {
         "prefix": "/s-9",
         "body": "𝟫",
         "description": [
@@ -500,7 +500,7 @@
         ]
     },
     // \symbfsf
-    "1D7EC": {
+    "1D7EC*": {
         "prefix": "/bs-0",
         "body": "𝟬",
         "description": [
@@ -509,7 +509,7 @@
             "\r"
         ]
     },
-    "1D7ED": {
+    "1D7ED*": {
         "prefix": "/bs-1",
         "body": "𝟭",
         "description": [
@@ -518,7 +518,7 @@
             "\r"
         ]
     },
-    "1D7EE": {
+    "1D7EE*": {
         "prefix": "/bs-2",
         "body": "𝟮",
         "description": [
@@ -527,7 +527,7 @@
             "\r"
         ]
     },
-    "1D7EF": {
+    "1D7EF*": {
         "prefix": "/bs-3",
         "body": "𝟯",
         "description": [
@@ -536,7 +536,7 @@
             "\r"
         ]
     },
-    "1D7F0": {
+    "1D7F0*": {
         "prefix": "/bs-4",
         "body": "𝟰",
         "description": [
@@ -545,7 +545,7 @@
             "\r"
         ]
     },
-    "1D7F1": {
+    "1D7F1*": {
         "prefix": "/bs-5",
         "body": "𝟱",
         "description": [
@@ -554,7 +554,7 @@
             "\r"
         ]
     },
-    "1D7F2": {
+    "1D7F2*": {
         "prefix": "/bs-6",
         "body": "𝟲",
         "description": [
@@ -563,7 +563,7 @@
             "\r"
         ]
     },
-    "1D7F3": {
+    "1D7F3*": {
         "prefix": "/bs-7",
         "body": "𝟳",
         "description": [
@@ -572,7 +572,7 @@
             "\r"
         ]
     },
-    "1D7F4": {
+    "1D7F4*": {
         "prefix": "/bs-8",
         "body": "𝟴",
         "description": [
@@ -581,7 +581,7 @@
             "\r"
         ]
     },
-    "1D7F5": {
+    "1D7F5*": {
         "prefix": "/bs-9",
         "body": "𝟵",
         "description": [
@@ -591,7 +591,7 @@
         ]
     },
     // \symtt
-    "1D7F6": {
+    "1D7F6*": {
         "prefix": "/tt-0",
         "body": "𝟶",
         "description": [
@@ -600,7 +600,7 @@
             "\r"
         ]
     },
-    "1D7F7": {
+    "1D7F7*": {
         "prefix": "/tt-1",
         "body": "𝟷",
         "description": [
@@ -609,7 +609,7 @@
             "\r"
         ]
     },
-    "1D7F8": {
+    "1D7F8*": {
         "prefix": "/tt-2",
         "body": "𝟸",
         "description": [
@@ -618,7 +618,7 @@
             "\r"
         ]
     },
-    "1D7F9": {
+    "1D7F9*": {
         "prefix": "/tt-3",
         "body": "𝟹",
         "description": [
@@ -627,7 +627,7 @@
             "\r"
         ]
     },
-    "1D7FA": {
+    "1D7FA*": {
         "prefix": "/tt-4",
         "body": "𝟺",
         "description": [
@@ -636,7 +636,7 @@
             "\r"
         ]
     },
-    "1D7FB": {
+    "1D7FB*": {
         "prefix": "/tt-5",
         "body": "𝟻",
         "description": [
@@ -645,7 +645,7 @@
             "\r"
         ]
     },
-    "1D7FC": {
+    "1D7FC*": {
         "prefix": "/tt-6",
         "body": "𝟼",
         "description": [
@@ -654,7 +654,7 @@
             "\r"
         ]
     },
-    "1D7FD": {
+    "1D7FD*": {
         "prefix": "/tt-7",
         "body": "𝟽",
         "description": [
@@ -663,7 +663,7 @@
             "\r"
         ]
     },
-    "1D7FE": {
+    "1D7FE*": {
         "prefix": "/tt-8",
         "body": "𝟾",
         "description": [
@@ -672,7 +672,7 @@
             "\r"
         ]
     },
-    "1D7FF": {
+    "1D7FF*": {
         "prefix": "/tt-9",
         "body": "𝟿",
         "description": [
@@ -682,7 +682,7 @@
         ]
     },
     // \symbb
-    "1D7D8": {
+    "1D7D8*": {
         "prefix": "/bb-0",
         "body": "𝟘",
         "description": [
@@ -691,7 +691,7 @@
             "\r"
         ]
     },
-    "1D7D9": {
+    "1D7D9*": {
         "prefix": "/bb-1",
         "body": "𝟙",
         "description": [
@@ -700,7 +700,7 @@
             "\r"
         ]
     },
-    "1D7DA": {
+    "1D7DA*": {
         "prefix": "/bb-2",
         "body": "𝟚",
         "description": [
@@ -709,7 +709,7 @@
             "\r"
         ]
     },
-    "1D7DB": {
+    "1D7DB*": {
         "prefix": "/bb-3",
         "body": "𝟛",
         "description": [
@@ -718,7 +718,7 @@
             "\r"
         ]
     },
-    "1D7DC": {
+    "1D7DC*": {
         "prefix": "/bb-4",
         "body": "𝟜",
         "description": [
@@ -727,7 +727,7 @@
             "\r"
         ]
     },
-    "1D7DD": {
+    "1D7DD*": {
         "prefix": "/bb-5",
         "body": "𝟝",
         "description": [
@@ -736,7 +736,7 @@
             "\r"
         ]
     },
-    "1D7DE": {
+    "1D7DE*": {
         "prefix": "/bb-6",
         "body": "𝟞",
         "description": [
@@ -745,7 +745,7 @@
             "\r"
         ]
     },
-    "1D7DF": {
+    "1D7DF*": {
         "prefix": "/bb-7",
         "body": "𝟟",
         "description": [
@@ -754,7 +754,7 @@
             "\r"
         ]
     },
-    "1D7E0": {
+    "1D7E0*": {
         "prefix": "/bb-8",
         "body": "𝟠",
         "description": [
@@ -763,7 +763,7 @@
             "\r"
         ]
     },
-    "1D7E1": {
+    "1D7E1*": {
         "prefix": "/bb-9",
         "body": "𝟡",
         "description": [
@@ -802,7 +802,7 @@
 //     (\symbbit): /mitBbb* → /bbi-*
 // 
     // \symbfup
-    "1D400": {
+    "1D400*": {
         "prefix": "/bu-A",
         "body": "𝐀",
         "description": [
@@ -811,7 +811,7 @@
             "\r"
         ]
     },
-    "1D401": {
+    "1D401*": {
         "prefix": "/bu-B",
         "body": "𝐁",
         "description": [
@@ -820,7 +820,7 @@
             "\r"
         ]
     },
-    "1D402": {
+    "1D402*": {
         "prefix": "/bu-C",
         "body": "𝐂",
         "description": [
@@ -829,7 +829,7 @@
             "\r"
         ]
     },
-    "1D403": {
+    "1D403*": {
         "prefix": "/bu-D",
         "body": "𝐃",
         "description": [
@@ -838,7 +838,7 @@
             "\r"
         ]
     },
-    "1D404": {
+    "1D404*": {
         "prefix": "/bu-E",
         "body": "𝐄",
         "description": [
@@ -847,7 +847,7 @@
             "\r"
         ]
     },
-    "1D405": {
+    "1D405*": {
         "prefix": "/bu-F",
         "body": "𝐅",
         "description": [
@@ -856,7 +856,7 @@
             "\r"
         ]
     },
-    "1D406": {
+    "1D406*": {
         "prefix": "/bu-G",
         "body": "𝐆",
         "description": [
@@ -865,7 +865,7 @@
             "\r"
         ]
     },
-    "1D407": {
+    "1D407*": {
         "prefix": "/bu-H",
         "body": "𝐇",
         "description": [
@@ -874,7 +874,7 @@
             "\r"
         ]
     },
-    "1D408": {
+    "1D408*": {
         "prefix": "/bu-I",
         "body": "𝐈",
         "description": [
@@ -883,7 +883,7 @@
             "\r"
         ]
     },
-    "1D409": {
+    "1D409*": {
         "prefix": "/bu-J",
         "body": "𝐉",
         "description": [
@@ -892,7 +892,7 @@
             "\r"
         ]
     },
-    "1D40A": {
+    "1D40A*": {
         "prefix": "/bu-K",
         "body": "𝐊",
         "description": [
@@ -901,7 +901,7 @@
             "\r"
         ]
     },
-    "1D40B": {
+    "1D40B*": {
         "prefix": "/bu-L",
         "body": "𝐋",
         "description": [
@@ -910,7 +910,7 @@
             "\r"
         ]
     },
-    "1D40C": {
+    "1D40C*": {
         "prefix": "/bu-M",
         "body": "𝐌",
         "description": [
@@ -919,7 +919,7 @@
             "\r"
         ]
     },
-    "1D40D": {
+    "1D40D*": {
         "prefix": "/bu-N",
         "body": "𝐍",
         "description": [
@@ -928,7 +928,7 @@
             "\r"
         ]
     },
-    "1D40E": {
+    "1D40E*": {
         "prefix": "/bu-O",
         "body": "𝐎",
         "description": [
@@ -937,7 +937,7 @@
             "\r"
         ]
     },
-    "1D40F": {
+    "1D40F*": {
         "prefix": "/bu-P",
         "body": "𝐏",
         "description": [
@@ -946,7 +946,7 @@
             "\r"
         ]
     },
-    "1D410": {
+    "1D410*": {
         "prefix": "/bu-Q",
         "body": "𝐐",
         "description": [
@@ -955,7 +955,7 @@
             "\r"
         ]
     },
-    "1D411": {
+    "1D411*": {
         "prefix": "/bu-R",
         "body": "𝐑",
         "description": [
@@ -964,7 +964,7 @@
             "\r"
         ]
     },
-    "1D412": {
+    "1D412*": {
         "prefix": "/bu-S",
         "body": "𝐒",
         "description": [
@@ -973,7 +973,7 @@
             "\r"
         ]
     },
-    "1D413": {
+    "1D413*": {
         "prefix": "/bu-T",
         "body": "𝐓",
         "description": [
@@ -982,7 +982,7 @@
             "\r"
         ]
     },
-    "1D414": {
+    "1D414*": {
         "prefix": "/bu-U",
         "body": "𝐔",
         "description": [
@@ -991,7 +991,7 @@
             "\r"
         ]
     },
-    "1D415": {
+    "1D415*": {
         "prefix": "/bu-V",
         "body": "𝐕",
         "description": [
@@ -1000,7 +1000,7 @@
             "\r"
         ]
     },
-    "1D416": {
+    "1D416*": {
         "prefix": "/bu-W",
         "body": "𝐖",
         "description": [
@@ -1009,7 +1009,7 @@
             "\r"
         ]
     },
-    "1D417": {
+    "1D417*": {
         "prefix": "/bu-X",
         "body": "𝐗",
         "description": [
@@ -1018,7 +1018,7 @@
             "\r"
         ]
     },
-    "1D418": {
+    "1D418*": {
         "prefix": "/bu-Y",
         "body": "𝐘",
         "description": [
@@ -1027,7 +1027,7 @@
             "\r"
         ]
     },
-    "1D419": {
+    "1D419*": {
         "prefix": "/bu-Z",
         "body": "𝐙",
         "description": [
@@ -1036,7 +1036,7 @@
             "\r"
         ]
     },
-    "1D41A": {
+    "1D41A*": {
         "prefix": "/bu-a",
         "body": "𝐚",
         "description": [
@@ -1045,7 +1045,7 @@
             "\r"
         ]
     },
-    "1D41B": {
+    "1D41B*": {
         "prefix": "/bu-b",
         "body": "𝐛",
         "description": [
@@ -1054,7 +1054,7 @@
             "\r"
         ]
     },
-    "1D41C": {
+    "1D41C*": {
         "prefix": "/bu-c",
         "body": "𝐜",
         "description": [
@@ -1063,7 +1063,7 @@
             "\r"
         ]
     },
-    "1D41D": {
+    "1D41D*": {
         "prefix": "/bu-d",
         "body": "𝐝",
         "description": [
@@ -1072,7 +1072,7 @@
             "\r"
         ]
     },
-    "1D41E": {
+    "1D41E*": {
         "prefix": "/bu-e",
         "body": "𝐞",
         "description": [
@@ -1081,7 +1081,7 @@
             "\r"
         ]
     },
-    "1D41F": {
+    "1D41F*": {
         "prefix": "/bu-f",
         "body": "𝐟",
         "description": [
@@ -1090,7 +1090,7 @@
             "\r"
         ]
     },
-    "1D420": {
+    "1D420*": {
         "prefix": "/bu-g",
         "body": "𝐠",
         "description": [
@@ -1099,7 +1099,7 @@
             "\r"
         ]
     },
-    "1D421": {
+    "1D421*": {
         "prefix": "/bu-h",
         "body": "𝐡",
         "description": [
@@ -1108,7 +1108,7 @@
             "\r"
         ]
     },
-    "1D422": {
+    "1D422*": {
         "prefix": "/bu-i",
         "body": "𝐢",
         "description": [
@@ -1117,7 +1117,7 @@
             "\r"
         ]
     },
-    "1D423": {
+    "1D423*": {
         "prefix": "/bu-j",
         "body": "𝐣",
         "description": [
@@ -1126,7 +1126,7 @@
             "\r"
         ]
     },
-    "1D424": {
+    "1D424*": {
         "prefix": "/bu-k",
         "body": "𝐤",
         "description": [
@@ -1135,7 +1135,7 @@
             "\r"
         ]
     },
-    "1D425": {
+    "1D425*": {
         "prefix": "/bu-l",
         "body": "𝐥",
         "description": [
@@ -1144,7 +1144,7 @@
             "\r"
         ]
     },
-    "1D426": {
+    "1D426*": {
         "prefix": "/bu-m",
         "body": "𝐦",
         "description": [
@@ -1153,7 +1153,7 @@
             "\r"
         ]
     },
-    "1D427": {
+    "1D427*": {
         "prefix": "/bu-n",
         "body": "𝐧",
         "description": [
@@ -1162,7 +1162,7 @@
             "\r"
         ]
     },
-    "1D428": {
+    "1D428*": {
         "prefix": "/bu-o",
         "body": "𝐨",
         "description": [
@@ -1171,7 +1171,7 @@
             "\r"
         ]
     },
-    "1D429": {
+    "1D429*": {
         "prefix": "/bu-p",
         "body": "𝐩",
         "description": [
@@ -1180,7 +1180,7 @@
             "\r"
         ]
     },
-    "1D42A": {
+    "1D42A*": {
         "prefix": "/bu-q",
         "body": "𝐪",
         "description": [
@@ -1189,7 +1189,7 @@
             "\r"
         ]
     },
-    "1D42B": {
+    "1D42B*": {
         "prefix": "/bu-r",
         "body": "𝐫",
         "description": [
@@ -1198,7 +1198,7 @@
             "\r"
         ]
     },
-    "1D42C": {
+    "1D42C*": {
         "prefix": "/bu-s",
         "body": "𝐬",
         "description": [
@@ -1207,7 +1207,7 @@
             "\r"
         ]
     },
-    "1D42D": {
+    "1D42D*": {
         "prefix": "/bu-t",
         "body": "𝐭",
         "description": [
@@ -1216,7 +1216,7 @@
             "\r"
         ]
     },
-    "1D42E": {
+    "1D42E*": {
         "prefix": "/bu-u",
         "body": "𝐮",
         "description": [
@@ -1225,7 +1225,7 @@
             "\r"
         ]
     },
-    "1D42F": {
+    "1D42F*": {
         "prefix": "/bu-v",
         "body": "𝐯",
         "description": [
@@ -1234,7 +1234,7 @@
             "\r"
         ]
     },
-    "1D430": {
+    "1D430*": {
         "prefix": "/bu-w",
         "body": "𝐰",
         "description": [
@@ -1243,7 +1243,7 @@
             "\r"
         ]
     },
-    "1D431": {
+    "1D431*": {
         "prefix": "/bu-x",
         "body": "𝐱",
         "description": [
@@ -1252,7 +1252,7 @@
             "\r"
         ]
     },
-    "1D432": {
+    "1D432*": {
         "prefix": "/bu-y",
         "body": "𝐲",
         "description": [
@@ -1261,7 +1261,7 @@
             "\r"
         ]
     },
-    "1D433": {
+    "1D433*": {
         "prefix": "/bu-z",
         "body": "𝐳",
         "description": [
@@ -1271,7 +1271,7 @@
         ]
     },
     // \symsfup
-    "1D5A0": {
+    "1D5A0*": {
         "prefix": "/su-A",
         "body": "𝖠",
         "description": [
@@ -1280,7 +1280,7 @@
             "\r"
         ]
     },
-    "1D5A1": {
+    "1D5A1*": {
         "prefix": "/su-B",
         "body": "𝖡",
         "description": [
@@ -1289,7 +1289,7 @@
             "\r"
         ]
     },
-    "1D5A2": {
+    "1D5A2*": {
         "prefix": "/su-C",
         "body": "𝖢",
         "description": [
@@ -1298,7 +1298,7 @@
             "\r"
         ]
     },
-    "1D5A3": {
+    "1D5A3*": {
         "prefix": "/su-D",
         "body": "𝖣",
         "description": [
@@ -1307,7 +1307,7 @@
             "\r"
         ]
     },
-    "1D5A4": {
+    "1D5A4*": {
         "prefix": "/su-E",
         "body": "𝖤",
         "description": [
@@ -1316,7 +1316,7 @@
             "\r"
         ]
     },
-    "1D5A5": {
+    "1D5A5*": {
         "prefix": "/su-F",
         "body": "𝖥",
         "description": [
@@ -1325,7 +1325,7 @@
             "\r"
         ]
     },
-    "1D5A6": {
+    "1D5A6*": {
         "prefix": "/su-G",
         "body": "𝖦",
         "description": [
@@ -1334,7 +1334,7 @@
             "\r"
         ]
     },
-    "1D5A7": {
+    "1D5A7*": {
         "prefix": "/su-H",
         "body": "𝖧",
         "description": [
@@ -1343,7 +1343,7 @@
             "\r"
         ]
     },
-    "1D5A8": {
+    "1D5A8*": {
         "prefix": "/su-I",
         "body": "𝖨",
         "description": [
@@ -1352,7 +1352,7 @@
             "\r"
         ]
     },
-    "1D5A9": {
+    "1D5A9*": {
         "prefix": "/su-J",
         "body": "𝖩",
         "description": [
@@ -1361,7 +1361,7 @@
             "\r"
         ]
     },
-    "1D5AA": {
+    "1D5AA*": {
         "prefix": "/su-K",
         "body": "𝖪",
         "description": [
@@ -1370,7 +1370,7 @@
             "\r"
         ]
     },
-    "1D5AB": {
+    "1D5AB*": {
         "prefix": "/su-L",
         "body": "𝖫",
         "description": [
@@ -1379,7 +1379,7 @@
             "\r"
         ]
     },
-    "1D5AC": {
+    "1D5AC*": {
         "prefix": "/su-M",
         "body": "𝖬",
         "description": [
@@ -1388,7 +1388,7 @@
             "\r"
         ]
     },
-    "1D5AD": {
+    "1D5AD*": {
         "prefix": "/su-N",
         "body": "𝖭",
         "description": [
@@ -1397,7 +1397,7 @@
             "\r"
         ]
     },
-    "1D5AE": {
+    "1D5AE*": {
         "prefix": "/su-O",
         "body": "𝖮",
         "description": [
@@ -1406,7 +1406,7 @@
             "\r"
         ]
     },
-    "1D5AF": {
+    "1D5AF*": {
         "prefix": "/su-P",
         "body": "𝖯",
         "description": [
@@ -1415,7 +1415,7 @@
             "\r"
         ]
     },
-    "1D5B0": {
+    "1D5B0*": {
         "prefix": "/su-Q",
         "body": "𝖰",
         "description": [
@@ -1424,7 +1424,7 @@
             "\r"
         ]
     },
-    "1D5B1": {
+    "1D5B1*": {
         "prefix": "/su-R",
         "body": "𝖱",
         "description": [
@@ -1433,7 +1433,7 @@
             "\r"
         ]
     },
-    "1D5B2": {
+    "1D5B2*": {
         "prefix": "/su-S",
         "body": "𝖲",
         "description": [
@@ -1442,7 +1442,7 @@
             "\r"
         ]
     },
-    "1D5B3": {
+    "1D5B3*": {
         "prefix": "/su-T",
         "body": "𝖳",
         "description": [
@@ -1451,7 +1451,7 @@
             "\r"
         ]
     },
-    "1D5B4": {
+    "1D5B4*": {
         "prefix": "/su-U",
         "body": "𝖴",
         "description": [
@@ -1460,7 +1460,7 @@
             "\r"
         ]
     },
-    "1D5B5": {
+    "1D5B5*": {
         "prefix": "/su-V",
         "body": "𝖵",
         "description": [
@@ -1469,7 +1469,7 @@
             "\r"
         ]
     },
-    "1D5B6": {
+    "1D5B6*": {
         "prefix": "/su-W",
         "body": "𝖶",
         "description": [
@@ -1478,7 +1478,7 @@
             "\r"
         ]
     },
-    "1D5B7": {
+    "1D5B7*": {
         "prefix": "/su-X",
         "body": "𝖷",
         "description": [
@@ -1487,7 +1487,7 @@
             "\r"
         ]
     },
-    "1D5B8": {
+    "1D5B8*": {
         "prefix": "/su-Y",
         "body": "𝖸",
         "description": [
@@ -1496,7 +1496,7 @@
             "\r"
         ]
     },
-    "1D5B9": {
+    "1D5B9*": {
         "prefix": "/su-Z",
         "body": "𝖹",
         "description": [
@@ -1505,7 +1505,7 @@
             "\r"
         ]
     },
-    "1D5BA": {
+    "1D5BA*": {
         "prefix": "/su-a",
         "body": "𝖺",
         "description": [
@@ -1514,7 +1514,7 @@
             "\r"
         ]
     },
-    "1D5BB": {
+    "1D5BB*": {
         "prefix": "/su-b",
         "body": "𝖻",
         "description": [
@@ -1523,7 +1523,7 @@
             "\r"
         ]
     },
-    "1D5BC": {
+    "1D5BC*": {
         "prefix": "/su-c",
         "body": "𝖼",
         "description": [
@@ -1532,7 +1532,7 @@
             "\r"
         ]
     },
-    "1D5BD": {
+    "1D5BD*": {
         "prefix": "/su-d",
         "body": "𝖽",
         "description": [
@@ -1541,7 +1541,7 @@
             "\r"
         ]
     },
-    "1D5BE": {
+    "1D5BE*": {
         "prefix": "/su-e",
         "body": "𝖾",
         "description": [
@@ -1550,7 +1550,7 @@
             "\r"
         ]
     },
-    "1D5BF": {
+    "1D5BF*": {
         "prefix": "/su-f",
         "body": "𝖿",
         "description": [
@@ -1559,7 +1559,7 @@
             "\r"
         ]
     },
-    "1D5C0": {
+    "1D5C0*": {
         "prefix": "/su-g",
         "body": "𝗀",
         "description": [
@@ -1568,7 +1568,7 @@
             "\r"
         ]
     },
-    "1D5C1": {
+    "1D5C1*": {
         "prefix": "/su-h",
         "body": "𝗁",
         "description": [
@@ -1577,7 +1577,7 @@
             "\r"
         ]
     },
-    "1D5C2": {
+    "1D5C2*": {
         "prefix": "/su-i",
         "body": "𝗂",
         "description": [
@@ -1586,7 +1586,7 @@
             "\r"
         ]
     },
-    "1D5C3": {
+    "1D5C3*": {
         "prefix": "/su-j",
         "body": "𝗃",
         "description": [
@@ -1595,7 +1595,7 @@
             "\r"
         ]
     },
-    "1D5C4": {
+    "1D5C4*": {
         "prefix": "/su-k",
         "body": "𝗄",
         "description": [
@@ -1604,7 +1604,7 @@
             "\r"
         ]
     },
-    "1D5C5": {
+    "1D5C5*": {
         "prefix": "/su-l",
         "body": "𝗅",
         "description": [
@@ -1613,7 +1613,7 @@
             "\r"
         ]
     },
-    "1D5C6": {
+    "1D5C6*": {
         "prefix": "/su-m",
         "body": "𝗆",
         "description": [
@@ -1622,7 +1622,7 @@
             "\r"
         ]
     },
-    "1D5C7": {
+    "1D5C7*": {
         "prefix": "/su-n",
         "body": "𝗇",
         "description": [
@@ -1631,7 +1631,7 @@
             "\r"
         ]
     },
-    "1D5C8": {
+    "1D5C8*": {
         "prefix": "/su-o",
         "body": "𝗈",
         "description": [
@@ -1640,7 +1640,7 @@
             "\r"
         ]
     },
-    "1D5C9": {
+    "1D5C9*": {
         "prefix": "/su-p",
         "body": "𝗉",
         "description": [
@@ -1649,7 +1649,7 @@
             "\r"
         ]
     },
-    "1D5CA": {
+    "1D5CA*": {
         "prefix": "/su-q",
         "body": "𝗊",
         "description": [
@@ -1658,7 +1658,7 @@
             "\r"
         ]
     },
-    "1D5CB": {
+    "1D5CB*": {
         "prefix": "/su-r",
         "body": "𝗋",
         "description": [
@@ -1667,7 +1667,7 @@
             "\r"
         ]
     },
-    "1D5CC": {
+    "1D5CC*": {
         "prefix": "/su-s",
         "body": "𝗌",
         "description": [
@@ -1676,7 +1676,7 @@
             "\r"
         ]
     },
-    "1D5CD": {
+    "1D5CD*": {
         "prefix": "/su-t",
         "body": "𝗍",
         "description": [
@@ -1685,7 +1685,7 @@
             "\r"
         ]
     },
-    "1D5CE": {
+    "1D5CE*": {
         "prefix": "/su-u",
         "body": "𝗎",
         "description": [
@@ -1694,7 +1694,7 @@
             "\r"
         ]
     },
-    "1D5CF": {
+    "1D5CF*": {
         "prefix": "/su-v",
         "body": "𝗏",
         "description": [
@@ -1703,7 +1703,7 @@
             "\r"
         ]
     },
-    "1D5D0": {
+    "1D5D0*": {
         "prefix": "/su-w",
         "body": "𝗐",
         "description": [
@@ -1712,7 +1712,7 @@
             "\r"
         ]
     },
-    "1D5D1": {
+    "1D5D1*": {
         "prefix": "/su-x",
         "body": "𝗑",
         "description": [
@@ -1721,7 +1721,7 @@
             "\r"
         ]
     },
-    "1D5D2": {
+    "1D5D2*": {
         "prefix": "/su-y",
         "body": "𝗒",
         "description": [
@@ -1730,7 +1730,7 @@
             "\r"
         ]
     },
-    "1D5D3": {
+    "1D5D3*": {
         "prefix": "/su-z",
         "body": "𝗓",
         "description": [
@@ -1740,7 +1740,7 @@
         ]
     },
     // \symbfsfup
-    "1D5D4": {
+    "1D5D4*": {
         "prefix": "/bsu-A",
         "body": "𝗔",
         "description": [
@@ -1749,7 +1749,7 @@
             "\r"
         ]
     },
-    "1D5D5": {
+    "1D5D5*": {
         "prefix": "/bsu-B",
         "body": "𝗕",
         "description": [
@@ -1758,7 +1758,7 @@
             "\r"
         ]
     },
-    "1D5D6": {
+    "1D5D6*": {
         "prefix": "/bsu-C",
         "body": "𝗖",
         "description": [
@@ -1767,7 +1767,7 @@
             "\r"
         ]
     },
-    "1D5D7": {
+    "1D5D7*": {
         "prefix": "/bsu-D",
         "body": "𝗗",
         "description": [
@@ -1776,7 +1776,7 @@
             "\r"
         ]
     },
-    "1D5D8": {
+    "1D5D8*": {
         "prefix": "/bsu-E",
         "body": "𝗘",
         "description": [
@@ -1785,7 +1785,7 @@
             "\r"
         ]
     },
-    "1D5D9": {
+    "1D5D9*": {
         "prefix": "/bsu-F",
         "body": "𝗙",
         "description": [
@@ -1794,7 +1794,7 @@
             "\r"
         ]
     },
-    "1D5DA": {
+    "1D5DA*": {
         "prefix": "/bsu-G",
         "body": "𝗚",
         "description": [
@@ -1803,7 +1803,7 @@
             "\r"
         ]
     },
-    "1D5DB": {
+    "1D5DB*": {
         "prefix": "/bsu-H",
         "body": "𝗛",
         "description": [
@@ -1812,7 +1812,7 @@
             "\r"
         ]
     },
-    "1D5DC": {
+    "1D5DC*": {
         "prefix": "/bsu-I",
         "body": "𝗜",
         "description": [
@@ -1821,7 +1821,7 @@
             "\r"
         ]
     },
-    "1D5DD": {
+    "1D5DD*": {
         "prefix": "/bsu-J",
         "body": "𝗝",
         "description": [
@@ -1830,7 +1830,7 @@
             "\r"
         ]
     },
-    "1D5DE": {
+    "1D5DE*": {
         "prefix": "/bsu-K",
         "body": "𝗞",
         "description": [
@@ -1839,7 +1839,7 @@
             "\r"
         ]
     },
-    "1D5DF": {
+    "1D5DF*": {
         "prefix": "/bsu-L",
         "body": "𝗟",
         "description": [
@@ -1848,7 +1848,7 @@
             "\r"
         ]
     },
-    "1D5E0": {
+    "1D5E0*": {
         "prefix": "/bsu-M",
         "body": "𝗠",
         "description": [
@@ -1857,7 +1857,7 @@
             "\r"
         ]
     },
-    "1D5E1": {
+    "1D5E1*": {
         "prefix": "/bsu-N",
         "body": "𝗡",
         "description": [
@@ -1866,7 +1866,7 @@
             "\r"
         ]
     },
-    "1D5E2": {
+    "1D5E2*": {
         "prefix": "/bsu-O",
         "body": "𝗢",
         "description": [
@@ -1875,7 +1875,7 @@
             "\r"
         ]
     },
-    "1D5E3": {
+    "1D5E3*": {
         "prefix": "/bsu-P",
         "body": "𝗣",
         "description": [
@@ -1884,7 +1884,7 @@
             "\r"
         ]
     },
-    "1D5E4": {
+    "1D5E4*": {
         "prefix": "/bsu-Q",
         "body": "𝗤",
         "description": [
@@ -1893,7 +1893,7 @@
             "\r"
         ]
     },
-    "1D5E5": {
+    "1D5E5*": {
         "prefix": "/bsu-R",
         "body": "𝗥",
         "description": [
@@ -1902,7 +1902,7 @@
             "\r"
         ]
     },
-    "1D5E6": {
+    "1D5E6*": {
         "prefix": "/bsu-S",
         "body": "𝗦",
         "description": [
@@ -1911,7 +1911,7 @@
             "\r"
         ]
     },
-    "1D5E7": {
+    "1D5E7*": {
         "prefix": "/bsu-T",
         "body": "𝗧",
         "description": [
@@ -1920,7 +1920,7 @@
             "\r"
         ]
     },
-    "1D5E8": {
+    "1D5E8*": {
         "prefix": "/bsu-U",
         "body": "𝗨",
         "description": [
@@ -1929,7 +1929,7 @@
             "\r"
         ]
     },
-    "1D5E9": {
+    "1D5E9*": {
         "prefix": "/bsu-V",
         "body": "𝗩",
         "description": [
@@ -1938,7 +1938,7 @@
             "\r"
         ]
     },
-    "1D5EA": {
+    "1D5EA*": {
         "prefix": "/bsu-W",
         "body": "𝗪",
         "description": [
@@ -1947,7 +1947,7 @@
             "\r"
         ]
     },
-    "1D5EB": {
+    "1D5EB*": {
         "prefix": "/bsu-X",
         "body": "𝗫",
         "description": [
@@ -1956,7 +1956,7 @@
             "\r"
         ]
     },
-    "1D5EC": {
+    "1D5EC*": {
         "prefix": "/bsu-Y",
         "body": "𝗬",
         "description": [
@@ -1965,7 +1965,7 @@
             "\r"
         ]
     },
-    "1D5ED": {
+    "1D5ED*": {
         "prefix": "/bsu-Z",
         "body": "𝗭",
         "description": [
@@ -1974,7 +1974,7 @@
             "\r"
         ]
     },
-    "1D5EE": {
+    "1D5EE*": {
         "prefix": "/bsu-a",
         "body": "𝗮",
         "description": [
@@ -1983,7 +1983,7 @@
             "\r"
         ]
     },
-    "1D5EF": {
+    "1D5EF*": {
         "prefix": "/bsu-b",
         "body": "𝗯",
         "description": [
@@ -1992,7 +1992,7 @@
             "\r"
         ]
     },
-    "1D5F0": {
+    "1D5F0*": {
         "prefix": "/bsu-c",
         "body": "𝗰",
         "description": [
@@ -2001,7 +2001,7 @@
             "\r"
         ]
     },
-    "1D5F1": {
+    "1D5F1*": {
         "prefix": "/bsu-d",
         "body": "𝗱",
         "description": [
@@ -2010,7 +2010,7 @@
             "\r"
         ]
     },
-    "1D5F2": {
+    "1D5F2*": {
         "prefix": "/bsu-e",
         "body": "𝗲",
         "description": [
@@ -2019,7 +2019,7 @@
             "\r"
         ]
     },
-    "1D5F3": {
+    "1D5F3*": {
         "prefix": "/bsu-f",
         "body": "𝗳",
         "description": [
@@ -2028,7 +2028,7 @@
             "\r"
         ]
     },
-    "1D5F4": {
+    "1D5F4*": {
         "prefix": "/bsu-g",
         "body": "𝗴",
         "description": [
@@ -2037,7 +2037,7 @@
             "\r"
         ]
     },
-    "1D5F5": {
+    "1D5F5*": {
         "prefix": "/bsu-h",
         "body": "𝗵",
         "description": [
@@ -2046,7 +2046,7 @@
             "\r"
         ]
     },
-    "1D5F6": {
+    "1D5F6*": {
         "prefix": "/bsu-i",
         "body": "𝗶",
         "description": [
@@ -2055,7 +2055,7 @@
             "\r"
         ]
     },
-    "1D5F7": {
+    "1D5F7*": {
         "prefix": "/bsu-j",
         "body": "𝗷",
         "description": [
@@ -2064,7 +2064,7 @@
             "\r"
         ]
     },
-    "1D5F8": {
+    "1D5F8*": {
         "prefix": "/bsu-k",
         "body": "𝗸",
         "description": [
@@ -2073,7 +2073,7 @@
             "\r"
         ]
     },
-    "1D5F9": {
+    "1D5F9*": {
         "prefix": "/bsu-l",
         "body": "𝗹",
         "description": [
@@ -2082,7 +2082,7 @@
             "\r"
         ]
     },
-    "1D5FA": {
+    "1D5FA*": {
         "prefix": "/bsu-m",
         "body": "𝗺",
         "description": [
@@ -2091,7 +2091,7 @@
             "\r"
         ]
     },
-    "1D5FB": {
+    "1D5FB*": {
         "prefix": "/bsu-n",
         "body": "𝗻",
         "description": [
@@ -2100,7 +2100,7 @@
             "\r"
         ]
     },
-    "1D5FC": {
+    "1D5FC*": {
         "prefix": "/bsu-o",
         "body": "𝗼",
         "description": [
@@ -2109,7 +2109,7 @@
             "\r"
         ]
     },
-    "1D5FD": {
+    "1D5FD*": {
         "prefix": "/bsu-p",
         "body": "𝗽",
         "description": [
@@ -2118,7 +2118,7 @@
             "\r"
         ]
     },
-    "1D5FE": {
+    "1D5FE*": {
         "prefix": "/bsu-q",
         "body": "𝗾",
         "description": [
@@ -2127,7 +2127,7 @@
             "\r"
         ]
     },
-    "1D5FF": {
+    "1D5FF*": {
         "prefix": "/bsu-r",
         "body": "𝗿",
         "description": [
@@ -2136,7 +2136,7 @@
             "\r"
         ]
     },
-    "1D600": {
+    "1D600*": {
         "prefix": "/bsu-s",
         "body": "𝘀",
         "description": [
@@ -2145,7 +2145,7 @@
             "\r"
         ]
     },
-    "1D601": {
+    "1D601*": {
         "prefix": "/bsu-t",
         "body": "𝘁",
         "description": [
@@ -2154,7 +2154,7 @@
             "\r"
         ]
     },
-    "1D602": {
+    "1D602*": {
         "prefix": "/bsu-u",
         "body": "𝘂",
         "description": [
@@ -2163,7 +2163,7 @@
             "\r"
         ]
     },
-    "1D603": {
+    "1D603*": {
         "prefix": "/bsu-v",
         "body": "𝘃",
         "description": [
@@ -2172,7 +2172,7 @@
             "\r"
         ]
     },
-    "1D604": {
+    "1D604*": {
         "prefix": "/bsu-w",
         "body": "𝘄",
         "description": [
@@ -2181,7 +2181,7 @@
             "\r"
         ]
     },
-    "1D605": {
+    "1D605*": {
         "prefix": "/bsu-x",
         "body": "𝘅",
         "description": [
@@ -2190,7 +2190,7 @@
             "\r"
         ]
     },
-    "1D606": {
+    "1D606*": {
         "prefix": "/bsu-y",
         "body": "𝘆",
         "description": [
@@ -2199,7 +2199,7 @@
             "\r"
         ]
     },
-    "1D607": {
+    "1D607*": {
         "prefix": "/bsu-z",
         "body": "𝘇",
         "description": [
@@ -2209,7 +2209,7 @@
         ]
     },
     // \symtt
-    "1D670": {
+    "1D670*": {
         "prefix": "/tt-A",
         "body": "𝙰",
         "description": [
@@ -2218,7 +2218,7 @@
             "\r"
         ]
     },
-    "1D671": {
+    "1D671*": {
         "prefix": "/tt-B",
         "body": "𝙱",
         "description": [
@@ -2227,7 +2227,7 @@
             "\r"
         ]
     },
-    "1D672": {
+    "1D672*": {
         "prefix": "/tt-C",
         "body": "𝙲",
         "description": [
@@ -2236,7 +2236,7 @@
             "\r"
         ]
     },
-    "1D673": {
+    "1D673*": {
         "prefix": "/tt-D",
         "body": "𝙳",
         "description": [
@@ -2245,7 +2245,7 @@
             "\r"
         ]
     },
-    "1D674": {
+    "1D674*": {
         "prefix": "/tt-E",
         "body": "𝙴",
         "description": [
@@ -2254,7 +2254,7 @@
             "\r"
         ]
     },
-    "1D675": {
+    "1D675*": {
         "prefix": "/tt-F",
         "body": "𝙵",
         "description": [
@@ -2263,7 +2263,7 @@
             "\r"
         ]
     },
-    "1D676": {
+    "1D676*": {
         "prefix": "/tt-G",
         "body": "𝙶",
         "description": [
@@ -2272,7 +2272,7 @@
             "\r"
         ]
     },
-    "1D677": {
+    "1D677*": {
         "prefix": "/tt-H",
         "body": "𝙷",
         "description": [
@@ -2281,7 +2281,7 @@
             "\r"
         ]
     },
-    "1D678": {
+    "1D678*": {
         "prefix": "/tt-I",
         "body": "𝙸",
         "description": [
@@ -2290,7 +2290,7 @@
             "\r"
         ]
     },
-    "1D679": {
+    "1D679*": {
         "prefix": "/tt-J",
         "body": "𝙹",
         "description": [
@@ -2299,7 +2299,7 @@
             "\r"
         ]
     },
-    "1D67A": {
+    "1D67A*": {
         "prefix": "/tt-K",
         "body": "𝙺",
         "description": [
@@ -2308,7 +2308,7 @@
             "\r"
         ]
     },
-    "1D67B": {
+    "1D67B*": {
         "prefix": "/tt-L",
         "body": "𝙻",
         "description": [
@@ -2317,7 +2317,7 @@
             "\r"
         ]
     },
-    "1D67C": {
+    "1D67C*": {
         "prefix": "/tt-M",
         "body": "𝙼",
         "description": [
@@ -2326,7 +2326,7 @@
             "\r"
         ]
     },
-    "1D67D": {
+    "1D67D*": {
         "prefix": "/tt-N",
         "body": "𝙽",
         "description": [
@@ -2335,7 +2335,7 @@
             "\r"
         ]
     },
-    "1D67E": {
+    "1D67E*": {
         "prefix": "/tt-O",
         "body": "𝙾",
         "description": [
@@ -2344,7 +2344,7 @@
             "\r"
         ]
     },
-    "1D67F": {
+    "1D67F*": {
         "prefix": "/tt-P",
         "body": "𝙿",
         "description": [
@@ -2353,7 +2353,7 @@
             "\r"
         ]
     },
-    "1D680": {
+    "1D680*": {
         "prefix": "/tt-Q",
         "body": "𝚀",
         "description": [
@@ -2362,7 +2362,7 @@
             "\r"
         ]
     },
-    "1D681": {
+    "1D681*": {
         "prefix": "/tt-R",
         "body": "𝚁",
         "description": [
@@ -2371,7 +2371,7 @@
             "\r"
         ]
     },
-    "1D682": {
+    "1D682*": {
         "prefix": "/tt-S",
         "body": "𝚂",
         "description": [
@@ -2380,7 +2380,7 @@
             "\r"
         ]
     },
-    "1D683": {
+    "1D683*": {
         "prefix": "/tt-T",
         "body": "𝚃",
         "description": [
@@ -2389,7 +2389,7 @@
             "\r"
         ]
     },
-    "1D684": {
+    "1D684*": {
         "prefix": "/tt-U",
         "body": "𝚄",
         "description": [
@@ -2398,7 +2398,7 @@
             "\r"
         ]
     },
-    "1D685": {
+    "1D685*": {
         "prefix": "/tt-V",
         "body": "𝚅",
         "description": [
@@ -2407,7 +2407,7 @@
             "\r"
         ]
     },
-    "1D686": {
+    "1D686*": {
         "prefix": "/tt-W",
         "body": "𝚆",
         "description": [
@@ -2416,7 +2416,7 @@
             "\r"
         ]
     },
-    "1D687": {
+    "1D687*": {
         "prefix": "/tt-X",
         "body": "𝚇",
         "description": [
@@ -2425,7 +2425,7 @@
             "\r"
         ]
     },
-    "1D688": {
+    "1D688*": {
         "prefix": "/tt-Y",
         "body": "𝚈",
         "description": [
@@ -2434,7 +2434,7 @@
             "\r"
         ]
     },
-    "1D689": {
+    "1D689*": {
         "prefix": "/tt-Z",
         "body": "𝚉",
         "description": [
@@ -2443,7 +2443,7 @@
             "\r"
         ]
     },
-    "1D68A": {
+    "1D68A*": {
         "prefix": "/tt-a",
         "body": "𝚊",
         "description": [
@@ -2452,7 +2452,7 @@
             "\r"
         ]
     },
-    "1D68B": {
+    "1D68B*": {
         "prefix": "/tt-b",
         "body": "𝚋",
         "description": [
@@ -2461,7 +2461,7 @@
             "\r"
         ]
     },
-    "1D68C": {
+    "1D68C*": {
         "prefix": "/tt-c",
         "body": "𝚌",
         "description": [
@@ -2470,7 +2470,7 @@
             "\r"
         ]
     },
-    "1D68D": {
+    "1D68D*": {
         "prefix": "/tt-d",
         "body": "𝚍",
         "description": [
@@ -2479,7 +2479,7 @@
             "\r"
         ]
     },
-    "1D68E": {
+    "1D68E*": {
         "prefix": "/tt-e",
         "body": "𝚎",
         "description": [
@@ -2488,7 +2488,7 @@
             "\r"
         ]
     },
-    "1D68F": {
+    "1D68F*": {
         "prefix": "/tt-f",
         "body": "𝚏",
         "description": [
@@ -2497,7 +2497,7 @@
             "\r"
         ]
     },
-    "1D690": {
+    "1D690*": {
         "prefix": "/tt-g",
         "body": "𝚐",
         "description": [
@@ -2506,7 +2506,7 @@
             "\r"
         ]
     },
-    "1D691": {
+    "1D691*": {
         "prefix": "/tt-h",
         "body": "𝚑",
         "description": [
@@ -2515,7 +2515,7 @@
             "\r"
         ]
     },
-    "1D692": {
+    "1D692*": {
         "prefix": "/tt-i",
         "body": "𝚒",
         "description": [
@@ -2524,7 +2524,7 @@
             "\r"
         ]
     },
-    "1D693": {
+    "1D693*": {
         "prefix": "/tt-j",
         "body": "𝚓",
         "description": [
@@ -2533,7 +2533,7 @@
             "\r"
         ]
     },
-    "1D694": {
+    "1D694*": {
         "prefix": "/tt-k",
         "body": "𝚔",
         "description": [
@@ -2542,7 +2542,7 @@
             "\r"
         ]
     },
-    "1D695": {
+    "1D695*": {
         "prefix": "/tt-l",
         "body": "𝚕",
         "description": [
@@ -2551,7 +2551,7 @@
             "\r"
         ]
     },
-    "1D696": {
+    "1D696*": {
         "prefix": "/tt-m",
         "body": "𝚖",
         "description": [
@@ -2560,7 +2560,7 @@
             "\r"
         ]
     },
-    "1D697": {
+    "1D697*": {
         "prefix": "/tt-n",
         "body": "𝚗",
         "description": [
@@ -2569,7 +2569,7 @@
             "\r"
         ]
     },
-    "1D698": {
+    "1D698*": {
         "prefix": "/tt-o",
         "body": "𝚘",
         "description": [
@@ -2578,7 +2578,7 @@
             "\r"
         ]
     },
-    "1D699": {
+    "1D699*": {
         "prefix": "/tt-p",
         "body": "𝚙",
         "description": [
@@ -2587,7 +2587,7 @@
             "\r"
         ]
     },
-    "1D69A": {
+    "1D69A*": {
         "prefix": "/tt-q",
         "body": "𝚚",
         "description": [
@@ -2596,7 +2596,7 @@
             "\r"
         ]
     },
-    "1D69B": {
+    "1D69B*": {
         "prefix": "/tt-r",
         "body": "𝚛",
         "description": [
@@ -2605,7 +2605,7 @@
             "\r"
         ]
     },
-    "1D69C": {
+    "1D69C*": {
         "prefix": "/tt-s",
         "body": "𝚜",
         "description": [
@@ -2614,7 +2614,7 @@
             "\r"
         ]
     },
-    "1D69D": {
+    "1D69D*": {
         "prefix": "/tt-t",
         "body": "𝚝",
         "description": [
@@ -2623,7 +2623,7 @@
             "\r"
         ]
     },
-    "1D69E": {
+    "1D69E*": {
         "prefix": "/tt-u",
         "body": "𝚞",
         "description": [
@@ -2632,7 +2632,7 @@
             "\r"
         ]
     },
-    "1D69F": {
+    "1D69F*": {
         "prefix": "/tt-v",
         "body": "𝚟",
         "description": [
@@ -2641,7 +2641,7 @@
             "\r"
         ]
     },
-    "1D6A0": {
+    "1D6A0*": {
         "prefix": "/tt-w",
         "body": "𝚠",
         "description": [
@@ -2650,7 +2650,7 @@
             "\r"
         ]
     },
-    "1D6A1": {
+    "1D6A1*": {
         "prefix": "/tt-x",
         "body": "𝚡",
         "description": [
@@ -2659,7 +2659,7 @@
             "\r"
         ]
     },
-    "1D6A2": {
+    "1D6A2*": {
         "prefix": "/tt-y",
         "body": "𝚢",
         "description": [
@@ -2668,7 +2668,7 @@
             "\r"
         ]
     },
-    "1D6A3": {
+    "1D6A3*": {
         "prefix": "/tt-z",
         "body": "𝚣",
         "description": [
@@ -2678,7 +2678,7 @@
         ]
     },
     // \symbb
-    "1D538": {
+    "1D538*": {
         "prefix": "/bb-A",
         "body": "𝔸",
         "description": [
@@ -2687,7 +2687,7 @@
             "\r"
         ]
     },
-    "1D539": {
+    "1D539*": {
         "prefix": "/bb-B",
         "body": "𝔹",
         "description": [
@@ -2696,7 +2696,7 @@
             "\r"
         ]
     },
-    "02102": {
+    "02102*": {
         "prefix": "/bb-C",
         "body": "ℂ",
         "description": [
@@ -2705,7 +2705,7 @@
             "\r"
         ]
     },
-    "1D53B": {
+    "1D53B*": {
         "prefix": "/bb-D",
         "body": "𝔻",
         "description": [
@@ -2714,7 +2714,7 @@
             "\r"
         ]
     },
-    "1D53C": {
+    "1D53C*": {
         "prefix": "/bb-E",
         "body": "𝔼",
         "description": [
@@ -2723,7 +2723,7 @@
             "\r"
         ]
     },
-    "1D53D": {
+    "1D53D*": {
         "prefix": "/bb-F",
         "body": "𝔽",
         "description": [
@@ -2732,7 +2732,7 @@
             "\r"
         ]
     },
-    "1D53E": {
+    "1D53E*": {
         "prefix": "/bb-G",
         "body": "𝔾",
         "description": [
@@ -2741,7 +2741,7 @@
             "\r"
         ]
     },
-    "0210D": {
+    "0210D*": {
         "prefix": "/bb-H",
         "body": "ℍ",
         "description": [
@@ -2750,7 +2750,7 @@
             "\r"
         ]
     },
-    "1D540": {
+    "1D540*": {
         "prefix": "/bb-I",
         "body": "𝕀",
         "description": [
@@ -2759,7 +2759,7 @@
             "\r"
         ]
     },
-    "1D541": {
+    "1D541*": {
         "prefix": "/bb-J",
         "body": "𝕁",
         "description": [
@@ -2768,7 +2768,7 @@
             "\r"
         ]
     },
-    "1D542": {
+    "1D542*": {
         "prefix": "/bb-K",
         "body": "𝕂",
         "description": [
@@ -2777,7 +2777,7 @@
             "\r"
         ]
     },
-    "1D543": {
+    "1D543*": {
         "prefix": "/bb-L",
         "body": "𝕃",
         "description": [
@@ -2786,7 +2786,7 @@
             "\r"
         ]
     },
-    "1D544": {
+    "1D544*": {
         "prefix": "/bb-M",
         "body": "𝕄",
         "description": [
@@ -2795,7 +2795,7 @@
             "\r"
         ]
     },
-    "02115": {
+    "02115*": {
         "prefix": "/bb-N",
         "body": "ℕ",
         "description": [
@@ -2804,7 +2804,7 @@
             "\r"
         ]
     },
-    "1D546": {
+    "1D546*": {
         "prefix": "/bb-O",
         "body": "𝕆",
         "description": [
@@ -2813,7 +2813,7 @@
             "\r"
         ]
     },
-    "02119": {
+    "02119*": {
         "prefix": "/bb-P",
         "body": "ℙ",
         "description": [
@@ -2822,7 +2822,7 @@
             "\r"
         ]
     },
-    "0211A": {
+    "0211A*": {
         "prefix": "/bb-Q",
         "body": "ℚ",
         "description": [
@@ -2831,7 +2831,7 @@
             "\r"
         ]
     },
-    "0211D": {
+    "0211D*": {
         "prefix": "/bb-R",
         "body": "ℝ",
         "description": [
@@ -2840,7 +2840,7 @@
             "\r"
         ]
     },
-    "1D54A": {
+    "1D54A*": {
         "prefix": "/bb-S",
         "body": "𝕊",
         "description": [
@@ -2849,7 +2849,7 @@
             "\r"
         ]
     },
-    "1D54B": {
+    "1D54B*": {
         "prefix": "/bb-T",
         "body": "𝕋",
         "description": [
@@ -2858,7 +2858,7 @@
             "\r"
         ]
     },
-    "1D54C": {
+    "1D54C*": {
         "prefix": "/bb-U",
         "body": "𝕌",
         "description": [
@@ -2867,7 +2867,7 @@
             "\r"
         ]
     },
-    "1D54D": {
+    "1D54D*": {
         "prefix": "/bb-V",
         "body": "𝕍",
         "description": [
@@ -2876,7 +2876,7 @@
             "\r"
         ]
     },
-    "1D54E": {
+    "1D54E*": {
         "prefix": "/bb-W",
         "body": "𝕎",
         "description": [
@@ -2885,7 +2885,7 @@
             "\r"
         ]
     },
-    "1D54F": {
+    "1D54F*": {
         "prefix": "/bb-X",
         "body": "𝕏",
         "description": [
@@ -2894,7 +2894,7 @@
             "\r"
         ]
     },
-    "1D550": {
+    "1D550*": {
         "prefix": "/bb-Y",
         "body": "𝕐",
         "description": [
@@ -2903,7 +2903,7 @@
             "\r"
         ]
     },
-    "02124": {
+    "02124*": {
         "prefix": "/bb-Z",
         "body": "ℤ",
         "description": [
@@ -2912,7 +2912,7 @@
             "\r"
         ]
     },
-    "1D552": {
+    "1D552*": {
         "prefix": "/bb-a",
         "body": "𝕒",
         "description": [
@@ -2921,7 +2921,7 @@
             "\r"
         ]
     },
-    "1D553": {
+    "1D553*": {
         "prefix": "/bb-b",
         "body": "𝕓",
         "description": [
@@ -2930,7 +2930,7 @@
             "\r"
         ]
     },
-    "1D554": {
+    "1D554*": {
         "prefix": "/bb-c",
         "body": "𝕔",
         "description": [
@@ -2939,7 +2939,7 @@
             "\r"
         ]
     },
-    "1D555": {
+    "1D555*": {
         "prefix": "/bb-d",
         "body": "𝕕",
         "description": [
@@ -2948,7 +2948,7 @@
             "\r"
         ]
     },
-    "1D556": {
+    "1D556*": {
         "prefix": "/bb-e",
         "body": "𝕖",
         "description": [
@@ -2957,7 +2957,7 @@
             "\r"
         ]
     },
-    "1D557": {
+    "1D557*": {
         "prefix": "/bb-f",
         "body": "𝕗",
         "description": [
@@ -2966,7 +2966,7 @@
             "\r"
         ]
     },
-    "1D558": {
+    "1D558*": {
         "prefix": "/bb-g",
         "body": "𝕘",
         "description": [
@@ -2975,7 +2975,7 @@
             "\r"
         ]
     },
-    "1D559": {
+    "1D559*": {
         "prefix": "/bb-h",
         "body": "𝕙",
         "description": [
@@ -2984,7 +2984,7 @@
             "\r"
         ]
     },
-    "1D55A": {
+    "1D55A*": {
         "prefix": "/bb-i",
         "body": "𝕚",
         "description": [
@@ -2993,7 +2993,7 @@
             "\r"
         ]
     },
-    "1D55B": {
+    "1D55B*": {
         "prefix": "/bb-j",
         "body": "𝕛",
         "description": [
@@ -3002,7 +3002,7 @@
             "\r"
         ]
     },
-    "1D55C": {
+    "1D55C*": {
         "prefix": "/bb-k",
         "body": "𝕜",
         "description": [
@@ -3011,7 +3011,7 @@
             "\r"
         ]
     },
-    "1D55D": {
+    "1D55D*": {
         "prefix": "/bb-l",
         "body": "𝕝",
         "description": [
@@ -3020,7 +3020,7 @@
             "\r"
         ]
     },
-    "1D55E": {
+    "1D55E*": {
         "prefix": "/bb-m",
         "body": "𝕞",
         "description": [
@@ -3029,7 +3029,7 @@
             "\r"
         ]
     },
-    "1D55F": {
+    "1D55F*": {
         "prefix": "/bb-n",
         "body": "𝕟",
         "description": [
@@ -3038,7 +3038,7 @@
             "\r"
         ]
     },
-    "1D560": {
+    "1D560*": {
         "prefix": "/bb-o",
         "body": "𝕠",
         "description": [
@@ -3047,7 +3047,7 @@
             "\r"
         ]
     },
-    "1D561": {
+    "1D561*": {
         "prefix": "/bb-p",
         "body": "𝕡",
         "description": [
@@ -3056,7 +3056,7 @@
             "\r"
         ]
     },
-    "1D562": {
+    "1D562*": {
         "prefix": "/bb-q",
         "body": "𝕢",
         "description": [
@@ -3065,7 +3065,7 @@
             "\r"
         ]
     },
-    "1D563": {
+    "1D563*": {
         "prefix": "/bb-r",
         "body": "𝕣",
         "description": [
@@ -3074,7 +3074,7 @@
             "\r"
         ]
     },
-    "1D564": {
+    "1D564*": {
         "prefix": "/bb-s",
         "body": "𝕤",
         "description": [
@@ -3083,7 +3083,7 @@
             "\r"
         ]
     },
-    "1D565": {
+    "1D565*": {
         "prefix": "/bb-t",
         "body": "𝕥",
         "description": [
@@ -3092,7 +3092,7 @@
             "\r"
         ]
     },
-    "1D566": {
+    "1D566*": {
         "prefix": "/bb-u",
         "body": "𝕦",
         "description": [
@@ -3101,7 +3101,7 @@
             "\r"
         ]
     },
-    "1D567": {
+    "1D567*": {
         "prefix": "/bb-v",
         "body": "𝕧",
         "description": [
@@ -3110,7 +3110,7 @@
             "\r"
         ]
     },
-    "1D568": {
+    "1D568*": {
         "prefix": "/bb-w",
         "body": "𝕨",
         "description": [
@@ -3119,7 +3119,7 @@
             "\r"
         ]
     },
-    "1D569": {
+    "1D569*": {
         "prefix": "/bb-x",
         "body": "𝕩",
         "description": [
@@ -3128,7 +3128,7 @@
             "\r"
         ]
     },
-    "1D56A": {
+    "1D56A*": {
         "prefix": "/bb-y",
         "body": "𝕪",
         "description": [
@@ -3137,7 +3137,7 @@
             "\r"
         ]
     },
-    "1D56B": {
+    "1D56B*": {
         "prefix": "/bb-z",
         "body": "𝕫",
         "description": [
@@ -3147,7 +3147,7 @@
         ]
     },
     // \symscr
-    "1D49C": {
+    "1D49C*": {
         "prefix": "/sc-A",
         "body": "𝒜",
         "description": [
@@ -3156,7 +3156,7 @@
             "\r"
         ]
     },
-    "0212C": {
+    "0212C*": {
         "prefix": "/sc-B",
         "body": "ℬ",
         "description": [
@@ -3165,7 +3165,7 @@
             "\r"
         ]
     },
-    "1D49E": {
+    "1D49E*": {
         "prefix": "/sc-C",
         "body": "𝒞",
         "description": [
@@ -3174,7 +3174,7 @@
             "\r"
         ]
     },
-    "1D49F": {
+    "1D49F*": {
         "prefix": "/sc-D",
         "body": "𝒟",
         "description": [
@@ -3183,7 +3183,7 @@
             "\r"
         ]
     },
-    "02130": {
+    "02130*": {
         "prefix": "/sc-E",
         "body": "ℰ",
         "description": [
@@ -3192,7 +3192,7 @@
             "\r"
         ]
     },
-    "02131": {
+    "02131*": {
         "prefix": "/sc-F",
         "body": "ℱ",
         "description": [
@@ -3201,7 +3201,7 @@
             "\r"
         ]
     },
-    "1D4A2": {
+    "1D4A2*": {
         "prefix": "/sc-G",
         "body": "𝒢",
         "description": [
@@ -3210,7 +3210,7 @@
             "\r"
         ]
     },
-    "0210B": {
+    "0210B*": {
         "prefix": "/sc-H",
         "body": "ℋ",
         "description": [
@@ -3219,7 +3219,7 @@
             "\r"
         ]
     },
-    "02110": {
+    "02110*": {
         "prefix": "/sc-I",
         "body": "ℐ",
         "description": [
@@ -3228,7 +3228,7 @@
             "\r"
         ]
     },
-    "1D4A5": {
+    "1D4A5*": {
         "prefix": "/sc-J",
         "body": "𝒥",
         "description": [
@@ -3237,7 +3237,7 @@
             "\r"
         ]
     },
-    "1D4A6": {
+    "1D4A6*": {
         "prefix": "/sc-K",
         "body": "𝒦",
         "description": [
@@ -3246,7 +3246,7 @@
             "\r"
         ]
     },
-    "02112": {
+    "02112*": {
         "prefix": "/sc-L",
         "body": "ℒ",
         "description": [
@@ -3255,7 +3255,7 @@
             "\r"
         ]
     },
-    "02133": {
+    "02133*": {
         "prefix": "/sc-M",
         "body": "ℳ",
         "description": [
@@ -3264,7 +3264,7 @@
             "\r"
         ]
     },
-    "1D4A9": {
+    "1D4A9*": {
         "prefix": "/sc-N",
         "body": "𝒩",
         "description": [
@@ -3273,7 +3273,7 @@
             "\r"
         ]
     },
-    "1D4AA": {
+    "1D4AA*": {
         "prefix": "/sc-O",
         "body": "𝒪",
         "description": [
@@ -3282,7 +3282,7 @@
             "\r"
         ]
     },
-    "1D4AB": {
+    "1D4AB*": {
         "prefix": "/sc-P",
         "body": "𝒫",
         "description": [
@@ -3291,7 +3291,7 @@
             "\r"
         ]
     },
-    "1D4AC": {
+    "1D4AC*": {
         "prefix": "/sc-Q",
         "body": "𝒬",
         "description": [
@@ -3300,7 +3300,7 @@
             "\r"
         ]
     },
-    "0211B": {
+    "0211B*": {
         "prefix": "/sc-R",
         "body": "ℛ",
         "description": [
@@ -3310,7 +3310,7 @@
         ]
     },
 
-    "1D4AE": {
+    "1D4AE*": {
         "prefix": "/sc-S",
         "body": "𝒮",
         "description": [
@@ -3319,7 +3319,7 @@
             "\r"
         ]
     },
-    "1D4AF": {
+    "1D4AF*": {
         "prefix": "/sc-T",
         "body": "𝒯",
         "description": [
@@ -3328,7 +3328,7 @@
             "\r"
         ]
     },
-    "1D4B0": {
+    "1D4B0*": {
         "prefix": "/sc-U",
         "body": "𝒰",
         "description": [
@@ -3337,7 +3337,7 @@
             "\r"
         ]
     },
-    "1D4B1": {
+    "1D4B1*": {
         "prefix": "/sc-V",
         "body": "𝒱",
         "description": [
@@ -3346,7 +3346,7 @@
             "\r"
         ]
     },
-    "1D4B2": {
+    "1D4B2*": {
         "prefix": "/sc-W",
         "body": "𝒲",
         "description": [
@@ -3355,7 +3355,7 @@
             "\r"
         ]
     },
-    "1D4B3": {
+    "1D4B3*": {
         "prefix": "/sc-X",
         "body": "𝒳",
         "description": [
@@ -3364,7 +3364,7 @@
             "\r"
         ]
     },
-    "1D4B4": {
+    "1D4B4*": {
         "prefix": "/sc-Y",
         "body": "𝒴",
         "description": [
@@ -3373,7 +3373,7 @@
             "\r"
         ]
     },
-    "1D4B5": {
+    "1D4B5*": {
         "prefix": "/sc-Z",
         "body": "𝒵",
         "description": [
@@ -3382,7 +3382,7 @@
             "\r"
         ]
     },
-    "1D4B6": {
+    "1D4B6*": {
         "prefix": "/sc-a",
         "body": "𝒶",
         "description": [
@@ -3391,7 +3391,7 @@
             "\r"
         ]
     },
-    "1D4B7": {
+    "1D4B7*": {
         "prefix": "/sc-b",
         "body": "𝒷",
         "description": [
@@ -3400,7 +3400,7 @@
             "\r"
         ]
     },
-    "1D4B8": {
+    "1D4B8*": {
         "prefix": "/sc-c",
         "body": "𝒸",
         "description": [
@@ -3409,7 +3409,7 @@
             "\r"
         ]
     },
-    "1D4B9": {
+    "1D4B9*": {
         "prefix": "/sc-d",
         "body": "𝒹",
         "description": [
@@ -3418,7 +3418,7 @@
             "\r"
         ]
     },
-    "0212F": {
+    "0212F*": {
         "prefix": "/sc-e",
         "body": "ℯ",
         "description": [
@@ -3427,7 +3427,7 @@
             "\r"
         ]
     },
-    "1D4BB": {
+    "1D4BB*": {
         "prefix": "/sc-f",
         "body": "𝒻",
         "description": [
@@ -3436,7 +3436,7 @@
             "\r"
         ]
     },
-    "0210A": {
+    "0210A*": {
         "prefix": "/sc-g",
         "body": "ℊ",
         "description": [
@@ -3445,7 +3445,7 @@
             "\r"
         ]
     },
-    "1D4BD": {
+    "1D4BD*": {
         "prefix": "/sc-h",
         "body": "𝒽",
         "description": [
@@ -3454,7 +3454,7 @@
             "\r"
         ]
     },
-    "1D4BE": {
+    "1D4BE*": {
         "prefix": "/sc-i",
         "body": "𝒾",
         "description": [
@@ -3463,7 +3463,7 @@
             "\r"
         ]
     },
-    "1D4BF": {
+    "1D4BF*": {
         "prefix": "/sc-j",
         "body": "𝒿",
         "description": [
@@ -3472,7 +3472,7 @@
             "\r"
         ]
     },
-    "1D4C0": {
+    "1D4C0*": {
         "prefix": "/sc-k",
         "body": "𝓀",
         "description": [
@@ -3481,7 +3481,7 @@
             "\r"
         ]
     },
-    "1D4C1": {
+    "1D4C1*": {
         "prefix": "/sc-l",
         "body": "𝓁",
         "description": [
@@ -3490,7 +3490,7 @@
             "\r"
         ]
     },
-    "1D4C2": {
+    "1D4C2*": {
         "prefix": "/sc-m",
         "body": "𝓂",
         "description": [
@@ -3499,7 +3499,7 @@
             "\r"
         ]
     },
-    "1D4C3": {
+    "1D4C3*": {
         "prefix": "/sc-n",
         "body": "𝓃",
         "description": [
@@ -3508,7 +3508,7 @@
             "\r"
         ]
     },
-    "02134": {
+    "02134*": {
         "prefix": "/sc-o",
         "body": "ℴ",
         "description": [
@@ -3517,7 +3517,7 @@
             "\r"
         ]
     },
-    "1D4C5": {
+    "1D4C5*": {
         "prefix": "/sc-p",
         "body": "𝓅",
         "description": [
@@ -3526,7 +3526,7 @@
             "\r"
         ]
     },
-    "1D4C6": {
+    "1D4C6*": {
         "prefix": "/sc-q",
         "body": "𝓆",
         "description": [
@@ -3535,7 +3535,7 @@
             "\r"
         ]
     },
-    "1D4C7": {
+    "1D4C7*": {
         "prefix": "/sc-r",
         "body": "𝓇",
         "description": [
@@ -3544,7 +3544,7 @@
             "\r"
         ]
     },
-    "1D4C8": {
+    "1D4C8*": {
         "prefix": "/sc-s",
         "body": "𝓈",
         "description": [
@@ -3553,7 +3553,7 @@
             "\r"
         ]
     },
-    "1D4C9": {
+    "1D4C9*": {
         "prefix": "/sc-t",
         "body": "𝓉",
         "description": [
@@ -3562,7 +3562,7 @@
             "\r"
         ]
     },
-    "1D4CA": {
+    "1D4CA*": {
         "prefix": "/sc-u",
         "body": "𝓊",
         "description": [
@@ -3571,7 +3571,7 @@
             "\r"
         ]
     },
-    "1D4CB": {
+    "1D4CB*": {
         "prefix": "/sc-v",
         "body": "𝓋",
         "description": [
@@ -3580,7 +3580,7 @@
             "\r"
         ]
     },
-    "1D4CC": {
+    "1D4CC*": {
         "prefix": "/sc-w",
         "body": "𝓌",
         "description": [
@@ -3589,7 +3589,7 @@
             "\r"
         ]
     },
-    "1D4CD": {
+    "1D4CD*": {
         "prefix": "/sc-x",
         "body": "𝓍",
         "description": [
@@ -3598,7 +3598,7 @@
             "\r"
         ]
     },
-    "1D4CE": {
+    "1D4CE*": {
         "prefix": "/sc-y",
         "body": "𝓎",
         "description": [
@@ -3607,7 +3607,7 @@
             "\r"
         ]
     },
-    "1D4CF": {
+    "1D4CF*": {
         "prefix": "/sc-z",
         "body": "𝓏",
         "description": [
@@ -3617,7 +3617,7 @@
         ]
     },
     // \symbfscr
-    "1D4D0": {
+    "1D4D0*": {
         "prefix": "/bsc-A",
         "body": "𝓐",
         "description": [
@@ -3626,7 +3626,7 @@
             "\r"
         ]
     },
-    "1D4D1": {
+    "1D4D1*": {
         "prefix": "/bsc-B",
         "body": "𝓑",
         "description": [
@@ -3635,7 +3635,7 @@
             "\r"
         ]
     },
-    "1D4D2": {
+    "1D4D2*": {
         "prefix": "/bsc-C",
         "body": "𝓒",
         "description": [
@@ -3644,7 +3644,7 @@
             "\r"
         ]
     },
-    "1D4D3": {
+    "1D4D3*": {
         "prefix": "/bsc-D",
         "body": "𝓓",
         "description": [
@@ -3653,7 +3653,7 @@
             "\r"
         ]
     },
-    "1D4D4": {
+    "1D4D4*": {
         "prefix": "/bsc-E",
         "body": "𝓔",
         "description": [
@@ -3662,7 +3662,7 @@
             "\r"
         ]
     },
-    "1D4D5": {
+    "1D4D5*": {
         "prefix": "/bsc-F",
         "body": "𝓕",
         "description": [
@@ -3671,7 +3671,7 @@
             "\r"
         ]
     },
-    "1D4D6": {
+    "1D4D6*": {
         "prefix": "/bsc-G",
         "body": "𝓖",
         "description": [
@@ -3680,7 +3680,7 @@
             "\r"
         ]
     },
-    "1D4D7": {
+    "1D4D7*": {
         "prefix": "/bsc-H",
         "body": "𝓗",
         "description": [
@@ -3689,7 +3689,7 @@
             "\r"
         ]
     },
-    "1D4D8": {
+    "1D4D8*": {
         "prefix": "/bsc-I",
         "body": "𝓘",
         "description": [
@@ -3698,7 +3698,7 @@
             "\r"
         ]
     },
-    "1D4D9": {
+    "1D4D9*": {
         "prefix": "/bsc-J",
         "body": "𝓙",
         "description": [
@@ -3707,7 +3707,7 @@
             "\r"
         ]
     },
-    "1D4DA": {
+    "1D4DA*": {
         "prefix": "/bsc-K",
         "body": "𝓚",
         "description": [
@@ -3716,7 +3716,7 @@
             "\r"
         ]
     },
-    "1D4DB": {
+    "1D4DB*": {
         "prefix": "/bsc-L",
         "body": "𝓛",
         "description": [
@@ -3725,7 +3725,7 @@
             "\r"
         ]
     },
-    "1D4DC": {
+    "1D4DC*": {
         "prefix": "/bsc-M",
         "body": "𝓜",
         "description": [
@@ -3734,7 +3734,7 @@
             "\r"
         ]
     },
-    "1D4DD": {
+    "1D4DD*": {
         "prefix": "/bsc-N",
         "body": "𝓝",
         "description": [
@@ -3743,7 +3743,7 @@
             "\r"
         ]
     },
-    "1D4DE": {
+    "1D4DE*": {
         "prefix": "/bsc-O",
         "body": "𝓞",
         "description": [
@@ -3752,7 +3752,7 @@
             "\r"
         ]
     },
-    "1D4DF": {
+    "1D4DF*": {
         "prefix": "/bsc-P",
         "body": "𝓟",
         "description": [
@@ -3761,7 +3761,7 @@
             "\r"
         ]
     },
-    "1D4E0": {
+    "1D4E0*": {
         "prefix": "/bsc-Q",
         "body": "𝓠",
         "description": [
@@ -3770,7 +3770,7 @@
             "\r"
         ]
     },
-    "1D4E1": {
+    "1D4E1*": {
         "prefix": "/bsc-R",
         "body": "𝓡",
         "description": [
@@ -3779,7 +3779,7 @@
             "\r"
         ]
     },
-    "1D4E2": {
+    "1D4E2*": {
         "prefix": "/bsc-S",
         "body": "𝓢",
         "description": [
@@ -3788,7 +3788,7 @@
             "\r"
         ]
     },
-    "1D4E3": {
+    "1D4E3*": {
         "prefix": "/bsc-T",
         "body": "𝓣",
         "description": [
@@ -3797,7 +3797,7 @@
             "\r"
         ]
     },
-    "1D4E4": {
+    "1D4E4*": {
         "prefix": "/bsc-U",
         "body": "𝓤",
         "description": [
@@ -3806,7 +3806,7 @@
             "\r"
         ]
     },
-    "1D4E5": {
+    "1D4E5*": {
         "prefix": "/bsc-V",
         "body": "𝓥",
         "description": [
@@ -3815,7 +3815,7 @@
             "\r"
         ]
     },
-    "1D4E6": {
+    "1D4E6*": {
         "prefix": "/bsc-W",
         "body": "𝓦",
         "description": [
@@ -3824,7 +3824,7 @@
             "\r"
         ]
     },
-    "1D4E7": {
+    "1D4E7*": {
         "prefix": "/bsc-X",
         "body": "𝓧",
         "description": [
@@ -3833,7 +3833,7 @@
             "\r"
         ]
     },
-    "1D4E8": {
+    "1D4E8*": {
         "prefix": "/bsc-Y",
         "body": "𝓨",
         "description": [
@@ -3842,7 +3842,7 @@
             "\r"
         ]
     },
-    "1D4E9": {
+    "1D4E9*": {
         "prefix": "/bsc-Z",
         "body": "𝓩",
         "description": [
@@ -3851,7 +3851,7 @@
             "\r"
         ]
     },
-    "1D4EA": {
+    "1D4EA*": {
         "prefix": "/bsc-a",
         "body": "𝓪",
         "description": [
@@ -3860,7 +3860,7 @@
             "\r"
         ]
     },
-    "1D4EB": {
+    "1D4EB*": {
         "prefix": "/bsc-b",
         "body": "𝓫",
         "description": [
@@ -3869,7 +3869,7 @@
             "\r"
         ]
     },
-    "1D4EC": {
+    "1D4EC*": {
         "prefix": "/bsc-c",
         "body": "𝓬",
         "description": [
@@ -3878,7 +3878,7 @@
             "\r"
         ]
     },
-    "1D4ED": {
+    "1D4ED*": {
         "prefix": "/bsc-d",
         "body": "𝓭",
         "description": [
@@ -3887,7 +3887,7 @@
             "\r"
         ]
     },
-    "1D4EE": {
+    "1D4EE*": {
         "prefix": "/bsc-e",
         "body": "𝓮",
         "description": [
@@ -3896,7 +3896,7 @@
             "\r"
         ]
     },
-    "1D4EF": {
+    "1D4EF*": {
         "prefix": "/bsc-f",
         "body": "𝓯",
         "description": [
@@ -3905,7 +3905,7 @@
             "\r"
         ]
     },
-    "1D4F0": {
+    "1D4F0*": {
         "prefix": "/bsc-g",
         "body": "𝓰",
         "description": [
@@ -3914,7 +3914,7 @@
             "\r"
         ]
     },
-    "1D4F1": {
+    "1D4F1*": {
         "prefix": "/bsc-h",
         "body": "𝓱",
         "description": [
@@ -3923,7 +3923,7 @@
             "\r"
         ]
     },
-    "1D4F2": {
+    "1D4F2*": {
         "prefix": "/bsc-i",
         "body": "𝓲",
         "description": [
@@ -3932,7 +3932,7 @@
             "\r"
         ]
     },
-    "1D4F3": {
+    "1D4F3*": {
         "prefix": "/bsc-j",
         "body": "𝓳",
         "description": [
@@ -3941,7 +3941,7 @@
             "\r"
         ]
     },
-    "1D4F4": {
+    "1D4F4*": {
         "prefix": "/bsc-k",
         "body": "𝓴",
         "description": [
@@ -3950,7 +3950,7 @@
             "\r"
         ]
     },
-    "1D4F5": {
+    "1D4F5*": {
         "prefix": "/bsc-l",
         "body": "𝓵",
         "description": [
@@ -3959,7 +3959,7 @@
             "\r"
         ]
     },
-    "1D4F6": {
+    "1D4F6*": {
         "prefix": "/bsc-m",
         "body": "𝓶",
         "description": [
@@ -3968,7 +3968,7 @@
             "\r"
         ]
     },
-    "1D4F7": {
+    "1D4F7*": {
         "prefix": "/bsc-n",
         "body": "𝓷",
         "description": [
@@ -3977,7 +3977,7 @@
             "\r"
         ]
     },
-    "1D4F8": {
+    "1D4F8*": {
         "prefix": "/bsc-o",
         "body": "𝓸",
         "description": [
@@ -3986,7 +3986,7 @@
             "\r"
         ]
     },
-    "1D4F9": {
+    "1D4F9*": {
         "prefix": "/bsc-p",
         "body": "𝓹",
         "description": [
@@ -3995,7 +3995,7 @@
             "\r"
         ]
     },
-    "1D4FA": {
+    "1D4FA*": {
         "prefix": "/bsc-q",
         "body": "𝓺",
         "description": [
@@ -4004,7 +4004,7 @@
             "\r"
         ]
     },
-    "1D4FB": {
+    "1D4FB*": {
         "prefix": "/bsc-r",
         "body": "𝓻",
         "description": [
@@ -4013,7 +4013,7 @@
             "\r"
         ]
     },
-    "1D4FC": {
+    "1D4FC*": {
         "prefix": "/bsc-s",
         "body": "𝓼",
         "description": [
@@ -4022,7 +4022,7 @@
             "\r"
         ]
     },
-    "1D4FD": {
+    "1D4FD*": {
         "prefix": "/bsc-t",
         "body": "𝓽",
         "description": [
@@ -4031,7 +4031,7 @@
             "\r"
         ]
     },
-    "1D4FE": {
+    "1D4FE*": {
         "prefix": "/bsc-u",
         "body": "𝓾",
         "description": [
@@ -4040,7 +4040,7 @@
             "\r"
         ]
     },
-    "1D4FF": {
+    "1D4FF*": {
         "prefix": "/bsc-v",
         "body": "𝓿",
         "description": [
@@ -4049,7 +4049,7 @@
             "\r"
         ]
     },
-    "1D500": {
+    "1D500*": {
         "prefix": "/bsc-w",
         "body": "𝔀",
         "description": [
@@ -4058,7 +4058,7 @@
             "\r"
         ]
     },
-    "1D501": {
+    "1D501*": {
         "prefix": "/bsc-x",
         "body": "𝔁",
         "description": [
@@ -4067,7 +4067,7 @@
             "\r"
         ]
     },
-    "1D502": {
+    "1D502*": {
         "prefix": "/bsc-y",
         "body": "𝔂",
         "description": [
@@ -4076,7 +4076,7 @@
             "\r"
         ]
     },
-    "1D503": {
+    "1D503*": {
         "prefix": "/bsc-z",
         "body": "𝔃",
         "description": [
@@ -4086,7 +4086,7 @@
         ]
     },
     // \symfrak
-    "1D504": {
+    "1D504*": {
         "prefix": "/fr-A",
         "body": "𝔄",
         "description": [
@@ -4095,7 +4095,7 @@
             "\r"
         ]
     },
-    "1D505": {
+    "1D505*": {
         "prefix": "/fr-B",
         "body": "𝔅",
         "description": [
@@ -4104,7 +4104,7 @@
             "\r"
         ]
     },
-    "0212D": {
+    "0212D*": {
         "prefix": "/fr-C",
         "body": "ℭ",
         "description": [
@@ -4113,7 +4113,7 @@
             "\r"
         ]
     },
-    "1D507": {
+    "1D507*": {
         "prefix": "/fr-D",
         "body": "𝔇",
         "description": [
@@ -4122,7 +4122,7 @@
             "\r"
         ]
     },
-    "1D508": {
+    "1D508*": {
         "prefix": "/fr-E",
         "body": "𝔈",
         "description": [
@@ -4131,7 +4131,7 @@
             "\r"
         ]
     },
-    "1D509": {
+    "1D509*": {
         "prefix": "/fr-F",
         "body": "𝔉",
         "description": [
@@ -4140,7 +4140,7 @@
             "\r"
         ]
     },
-    "1D50A": {
+    "1D50A*": {
         "prefix": "/fr-G",
         "body": "𝔊",
         "description": [
@@ -4149,7 +4149,7 @@
             "\r"
         ]
     },
-    "0210C": {
+    "0210C*": {
         "prefix": "/fr-H",
         "body": "ℌ",
         "description": [
@@ -4158,7 +4158,7 @@
             "\r"
         ]
     },
-    "02111": {
+    "02111*": {
         "prefix": "/fr-I",
         "body": "ℑ",
         "description": [
@@ -4167,7 +4167,7 @@
             "\r"
         ]
     },
-    "1D50D": {
+    "1D50D*": {
         "prefix": "/fr-J",
         "body": "𝔍",
         "description": [
@@ -4176,7 +4176,7 @@
             "\r"
         ]
     },
-    "1D50E": {
+    "1D50E*": {
         "prefix": "/fr-K",
         "body": "𝔎",
         "description": [
@@ -4185,7 +4185,7 @@
             "\r"
         ]
     },
-    "1D50F": {
+    "1D50F*": {
         "prefix": "/fr-L",
         "body": "𝔏",
         "description": [
@@ -4194,7 +4194,7 @@
             "\r"
         ]
     },
-    "1D510": {
+    "1D510*": {
         "prefix": "/fr-M",
         "body": "𝔐",
         "description": [
@@ -4203,7 +4203,7 @@
             "\r"
         ]
     },
-    "1D511": {
+    "1D511*": {
         "prefix": "/fr-N",
         "body": "𝔑",
         "description": [
@@ -4212,7 +4212,7 @@
             "\r"
         ]
     },
-    "1D512": {
+    "1D512*": {
         "prefix": "/fr-O",
         "body": "𝔒",
         "description": [
@@ -4221,7 +4221,7 @@
             "\r"
         ]
     },
-    "1D513": {
+    "1D513*": {
         "prefix": "/fr-P",
         "body": "𝔓",
         "description": [
@@ -4230,7 +4230,7 @@
             "\r"
         ]
     },
-    "1D514": {
+    "1D514*": {
         "prefix": "/fr-Q",
         "body": "𝔔",
         "description": [
@@ -4239,7 +4239,7 @@
             "\r"
         ]
     },
-    "0211C": {
+    "0211C*": {
         "prefix": "/fr-R",
         "body": "ℜ",
         "description": [
@@ -4248,7 +4248,7 @@
             "\r"
         ]
     },
-    "1D516": {
+    "1D516*": {
         "prefix": "/fr-S",
         "body": "𝔖",
         "description": [
@@ -4257,7 +4257,7 @@
             "\r"
         ]
     },
-    "1D517": {
+    "1D517*": {
         "prefix": "/fr-T",
         "body": "𝔗",
         "description": [
@@ -4266,7 +4266,7 @@
             "\r"
         ]
     },
-    "1D518": {
+    "1D518*": {
         "prefix": "/fr-U",
         "body": "𝔘",
         "description": [
@@ -4275,7 +4275,7 @@
             "\r"
         ]
     },
-    "1D519": {
+    "1D519*": {
         "prefix": "/fr-V",
         "body": "𝔙",
         "description": [
@@ -4284,7 +4284,7 @@
             "\r"
         ]
     },
-    "1D51A": {
+    "1D51A*": {
         "prefix": "/fr-W",
         "body": "𝔚",
         "description": [
@@ -4293,7 +4293,7 @@
             "\r"
         ]
     },
-    "1D51B": {
+    "1D51B*": {
         "prefix": "/fr-X",
         "body": "𝔛",
         "description": [
@@ -4302,7 +4302,7 @@
             "\r"
         ]
     },
-    "1D51C": {
+    "1D51C*": {
         "prefix": "/fr-Y",
         "body": "𝔜",
         "description": [
@@ -4311,7 +4311,7 @@
             "\r"
         ]
     },
-    "02128": {
+    "02128*": {
         "prefix": "/fr-Z",
         "body": "ℨ",
         "description": [
@@ -4320,7 +4320,7 @@
             "\r"
         ]
     },
-    "1D51E": {
+    "1D51E*": {
         "prefix": "/fr-a",
         "body": "𝔞",
         "description": [
@@ -4329,7 +4329,7 @@
             "\r"
         ]
     },
-    "1D51F": {
+    "1D51F*": {
         "prefix": "/fr-b",
         "body": "𝔟",
         "description": [
@@ -4338,7 +4338,7 @@
             "\r"
         ]
     },
-    "1D520": {
+    "1D520*": {
         "prefix": "/fr-c",
         "body": "𝔠",
         "description": [
@@ -4347,7 +4347,7 @@
             "\r"
         ]
     },
-    "1D521": {
+    "1D521*": {
         "prefix": "/fr-d",
         "body": "𝔡",
         "description": [
@@ -4356,7 +4356,7 @@
             "\r"
         ]
     },
-    "1D522": {
+    "1D522*": {
         "prefix": "/fr-e",
         "body": "𝔢",
         "description": [
@@ -4365,7 +4365,7 @@
             "\r"
         ]
     },
-    "1D523": {
+    "1D523*": {
         "prefix": "/fr-f",
         "body": "𝔣",
         "description": [
@@ -4374,7 +4374,7 @@
             "\r"
         ]
     },
-    "1D524": {
+    "1D524*": {
         "prefix": "/fr-g",
         "body": "𝔤",
         "description": [
@@ -4383,7 +4383,7 @@
             "\r"
         ]
     },
-    "1D525": {
+    "1D525*": {
         "prefix": "/fr-h",
         "body": "𝔥",
         "description": [
@@ -4392,7 +4392,7 @@
             "\r"
         ]
     },
-    "1D526": {
+    "1D526*": {
         "prefix": "/fr-i",
         "body": "𝔦",
         "description": [
@@ -4401,7 +4401,7 @@
             "\r"
         ]
     },
-    "1D527": {
+    "1D527*": {
         "prefix": "/fr-j",
         "body": "𝔧",
         "description": [
@@ -4410,7 +4410,7 @@
             "\r"
         ]
     },
-    "1D528": {
+    "1D528*": {
         "prefix": "/fr-k",
         "body": "𝔨",
         "description": [
@@ -4419,7 +4419,7 @@
             "\r"
         ]
     },
-    "1D529": {
+    "1D529*": {
         "prefix": "/fr-l",
         "body": "𝔩",
         "description": [
@@ -4428,7 +4428,7 @@
             "\r"
         ]
     },
-    "1D52A": {
+    "1D52A*": {
         "prefix": "/fr-m",
         "body": "𝔪",
         "description": [
@@ -4437,7 +4437,7 @@
             "\r"
         ]
     },
-    "1D52B": {
+    "1D52B*": {
         "prefix": "/fr-n",
         "body": "𝔫",
         "description": [
@@ -4446,7 +4446,7 @@
             "\r"
         ]
     },
-    "1D52C": {
+    "1D52C*": {
         "prefix": "/fr-o",
         "body": "𝔬",
         "description": [
@@ -4455,7 +4455,7 @@
             "\r"
         ]
     },
-    "1D52D": {
+    "1D52D*": {
         "prefix": "/fr-p",
         "body": "𝔭",
         "description": [
@@ -4464,7 +4464,7 @@
             "\r"
         ]
     },
-    "1D52E": {
+    "1D52E*": {
         "prefix": "/fr-q",
         "body": "𝔮",
         "description": [
@@ -4473,7 +4473,7 @@
             "\r"
         ]
     },
-    "1D52F": {
+    "1D52F*": {
         "prefix": "/fr-r",
         "body": "𝔯",
         "description": [
@@ -4482,7 +4482,7 @@
             "\r"
         ]
     },
-    "1D530": {
+    "1D530*": {
         "prefix": "/fr-s",
         "body": "𝔰",
         "description": [
@@ -4491,7 +4491,7 @@
             "\r"
         ]
     },
-    "1D531": {
+    "1D531*": {
         "prefix": "/fr-t",
         "body": "𝔱",
         "description": [
@@ -4500,7 +4500,7 @@
             "\r"
         ]
     },
-    "1D532": {
+    "1D532*": {
         "prefix": "/fr-u",
         "body": "𝔲",
         "description": [
@@ -4509,7 +4509,7 @@
             "\r"
         ]
     },
-    "1D533": {
+    "1D533*": {
         "prefix": "/fr-v",
         "body": "𝔳",
         "description": [
@@ -4518,7 +4518,7 @@
             "\r"
         ]
     },
-    "1D534": {
+    "1D534*": {
         "prefix": "/fr-w",
         "body": "𝔴",
         "description": [
@@ -4527,7 +4527,7 @@
             "\r"
         ]
     },
-    "1D535": {
+    "1D535*": {
         "prefix": "/fr-x",
         "body": "𝔵",
         "description": [
@@ -4536,7 +4536,7 @@
             "\r"
         ]
     },
-    "1D536": {
+    "1D536*": {
         "prefix": "/fr-y",
         "body": "𝔶",
         "description": [
@@ -4545,7 +4545,7 @@
             "\r"
         ]
     },
-    "1D537": {
+    "1D537*": {
         "prefix": "/fr-z",
         "body": "𝔷",
         "description": [
@@ -4555,7 +4555,7 @@
         ]
     },
     // \symbffrak
-    "1D56C": {
+    "1D56C*": {
         "prefix": "/bfr-A",
         "body": "𝕬",
         "description": [
@@ -4564,7 +4564,7 @@
             "\r"
         ]
     },
-    "1D56D": {
+    "1D56D*": {
         "prefix": "/bfr-B",
         "body": "𝕭",
         "description": [
@@ -4573,7 +4573,7 @@
             "\r"
         ]
     },
-    "1D56E": {
+    "1D56E*": {
         "prefix": "/bfr-C",
         "body": "𝕮",
         "description": [
@@ -4582,7 +4582,7 @@
             "\r"
         ]
     },
-    "1D56F": {
+    "1D56F*": {
         "prefix": "/bfr-D",
         "body": "𝕯",
         "description": [
@@ -4591,7 +4591,7 @@
             "\r"
         ]
     },
-    "1D570": {
+    "1D570*": {
         "prefix": "/bfr-E",
         "body": "𝕰",
         "description": [
@@ -4600,7 +4600,7 @@
             "\r"
         ]
     },
-    "1D571": {
+    "1D571*": {
         "prefix": "/bfr-F",
         "body": "𝕱",
         "description": [
@@ -4609,7 +4609,7 @@
             "\r"
         ]
     },
-    "1D572": {
+    "1D572*": {
         "prefix": "/bfr-G",
         "body": "𝕲",
         "description": [
@@ -4618,7 +4618,7 @@
             "\r"
         ]
     },
-    "1D573": {
+    "1D573*": {
         "prefix": "/bfr-H",
         "body": "𝕳",
         "description": [
@@ -4627,7 +4627,7 @@
             "\r"
         ]
     },
-    "1D574": {
+    "1D574*": {
         "prefix": "/bfr-I",
         "body": "𝕴",
         "description": [
@@ -4636,7 +4636,7 @@
             "\r"
         ]
     },
-    "1D575": {
+    "1D575*": {
         "prefix": "/bfr-J",
         "body": "𝕵",
         "description": [
@@ -4645,7 +4645,7 @@
             "\r"
         ]
     },
-    "1D576": {
+    "1D576*": {
         "prefix": "/bfr-K",
         "body": "𝕶",
         "description": [
@@ -4654,7 +4654,7 @@
             "\r"
         ]
     },
-    "1D577": {
+    "1D577*": {
         "prefix": "/bfr-L",
         "body": "𝕷",
         "description": [
@@ -4663,7 +4663,7 @@
             "\r"
         ]
     },
-    "1D578": {
+    "1D578*": {
         "prefix": "/bfr-M",
         "body": "𝕸",
         "description": [
@@ -4672,7 +4672,7 @@
             "\r"
         ]
     },
-    "1D579": {
+    "1D579*": {
         "prefix": "/bfr-N",
         "body": "𝕹",
         "description": [
@@ -4681,7 +4681,7 @@
             "\r"
         ]
     },
-    "1D57A": {
+    "1D57A*": {
         "prefix": "/bfr-O",
         "body": "𝕺",
         "description": [
@@ -4690,7 +4690,7 @@
             "\r"
         ]
     },
-    "1D57B": {
+    "1D57B*": {
         "prefix": "/bfr-P",
         "body": "𝕻",
         "description": [
@@ -4699,7 +4699,7 @@
             "\r"
         ]
     },
-    "1D57C": {
+    "1D57C*": {
         "prefix": "/bfr-Q",
         "body": "𝕼",
         "description": [
@@ -4708,7 +4708,7 @@
             "\r"
         ]
     },
-    "1D57D": {
+    "1D57D*": {
         "prefix": "/bfr-R",
         "body": "𝕽",
         "description": [
@@ -4717,7 +4717,7 @@
             "\r"
         ]
     },
-    "1D57E": {
+    "1D57E*": {
         "prefix": "/bfr-S",
         "body": "𝕾",
         "description": [
@@ -4726,7 +4726,7 @@
             "\r"
         ]
     },
-    "1D57F": {
+    "1D57F*": {
         "prefix": "/bfr-T",
         "body": "𝕿",
         "description": [
@@ -4735,7 +4735,7 @@
             "\r"
         ]
     },
-    "1D580": {
+    "1D580*": {
         "prefix": "/bfr-U",
         "body": "𝖀",
         "description": [
@@ -4744,7 +4744,7 @@
             "\r"
         ]
     },
-    "1D581": {
+    "1D581*": {
         "prefix": "/bfr-V",
         "body": "𝖁",
         "description": [
@@ -4753,7 +4753,7 @@
             "\r"
         ]
     },
-    "1D582": {
+    "1D582*": {
         "prefix": "/bfr-W",
         "body": "𝖂",
         "description": [
@@ -4762,7 +4762,7 @@
             "\r"
         ]
     },
-    "1D583": {
+    "1D583*": {
         "prefix": "/bfr-X",
         "body": "𝖃",
         "description": [
@@ -4771,7 +4771,7 @@
             "\r"
         ]
     },
-    "1D584": {
+    "1D584*": {
         "prefix": "/bfr-Y",
         "body": "𝖄",
         "description": [
@@ -4780,7 +4780,7 @@
             "\r"
         ]
     },
-    "1D585": {
+    "1D585*": {
         "prefix": "/bfr-Z",
         "body": "𝖅",
         "description": [
@@ -4789,7 +4789,7 @@
             "\r"
         ]
     },
-    "1D586": {
+    "1D586*": {
         "prefix": "/bfr-a",
         "body": "𝖆",
         "description": [
@@ -4798,7 +4798,7 @@
             "\r"
         ]
     },
-    "1D587": {
+    "1D587*": {
         "prefix": "/bfr-b",
         "body": "𝖇",
         "description": [
@@ -4807,7 +4807,7 @@
             "\r"
         ]
     },
-    "1D588": {
+    "1D588*": {
         "prefix": "/bfr-c",
         "body": "𝖈",
         "description": [
@@ -4816,7 +4816,7 @@
             "\r"
         ]
     },
-    "1D589": {
+    "1D589*": {
         "prefix": "/bfr-d",
         "body": "𝖉",
         "description": [
@@ -4825,7 +4825,7 @@
             "\r"
         ]
     },
-    "1D58A": {
+    "1D58A*": {
         "prefix": "/bfr-e",
         "body": "𝖊",
         "description": [
@@ -4834,7 +4834,7 @@
             "\r"
         ]
     },
-    "1D58B": {
+    "1D58B*": {
         "prefix": "/bfr-f",
         "body": "𝖋",
         "description": [
@@ -4843,7 +4843,7 @@
             "\r"
         ]
     },
-    "1D58C": {
+    "1D58C*": {
         "prefix": "/bfr-g",
         "body": "𝖌",
         "description": [
@@ -4852,7 +4852,7 @@
             "\r"
         ]
     },
-    "1D58D": {
+    "1D58D*": {
         "prefix": "/bfr-h",
         "body": "𝖍",
         "description": [
@@ -4861,7 +4861,7 @@
             "\r"
         ]
     },
-    "1D58E": {
+    "1D58E*": {
         "prefix": "/bfr-i",
         "body": "𝖎",
         "description": [
@@ -4870,7 +4870,7 @@
             "\r"
         ]
     },
-    "1D58F": {
+    "1D58F*": {
         "prefix": "/bfr-j",
         "body": "𝖏",
         "description": [
@@ -4879,7 +4879,7 @@
             "\r"
         ]
     },
-    "1D590": {
+    "1D590*": {
         "prefix": "/bfr-k",
         "body": "𝖐",
         "description": [
@@ -4888,7 +4888,7 @@
             "\r"
         ]
     },
-    "1D591": {
+    "1D591*": {
         "prefix": "/bfr-l",
         "body": "𝖑",
         "description": [
@@ -4897,7 +4897,7 @@
             "\r"
         ]
     },
-    "1D592": {
+    "1D592*": {
         "prefix": "/bfr-m",
         "body": "𝖒",
         "description": [
@@ -4906,7 +4906,7 @@
             "\r"
         ]
     },
-    "1D593": {
+    "1D593*": {
         "prefix": "/bfr-n",
         "body": "𝖓",
         "description": [
@@ -4915,7 +4915,7 @@
             "\r"
         ]
     },
-    "1D594": {
+    "1D594*": {
         "prefix": "/bfr-o",
         "body": "𝖔",
         "description": [
@@ -4924,7 +4924,7 @@
             "\r"
         ]
     },
-    "1D595": {
+    "1D595*": {
         "prefix": "/bfr-p",
         "body": "𝖕",
         "description": [
@@ -4933,7 +4933,7 @@
             "\r"
         ]
     },
-    "1D596": {
+    "1D596*": {
         "prefix": "/bfr-q",
         "body": "𝖖",
         "description": [
@@ -4942,7 +4942,7 @@
             "\r"
         ]
     },
-    "1D597": {
+    "1D597*": {
         "prefix": "/bfr-r",
         "body": "𝖗",
         "description": [
@@ -4951,7 +4951,7 @@
             "\r"
         ]
     },
-    "1D598": {
+    "1D598*": {
         "prefix": "/bfr-s",
         "body": "𝖘",
         "description": [
@@ -4960,7 +4960,7 @@
             "\r"
         ]
     },
-    "1D599": {
+    "1D599*": {
         "prefix": "/bfr-t",
         "body": "𝖙",
         "description": [
@@ -4969,7 +4969,7 @@
             "\r"
         ]
     },
-    "1D59A": {
+    "1D59A*": {
         "prefix": "/bfr-u",
         "body": "𝖚",
         "description": [
@@ -4978,7 +4978,7 @@
             "\r"
         ]
     },
-    "1D59B": {
+    "1D59B*": {
         "prefix": "/bfr-v",
         "body": "𝖛",
         "description": [
@@ -4987,7 +4987,7 @@
             "\r"
         ]
     },
-    "1D59C": {
+    "1D59C*": {
         "prefix": "/bfr-w",
         "body": "𝖜",
         "description": [
@@ -4996,7 +4996,7 @@
             "\r"
         ]
     },
-    "1D59D": {
+    "1D59D*": {
         "prefix": "/bfr-x",
         "body": "𝖝",
         "description": [
@@ -5005,7 +5005,7 @@
             "\r"
         ]
     },
-    "1D59E": {
+    "1D59E*": {
         "prefix": "/bfr-y",
         "body": "𝖞",
         "description": [
@@ -5014,7 +5014,7 @@
             "\r"
         ]
     },
-    "1D59F": {
+    "1D59F*": {
         "prefix": "/bfr-z",
         "body": "𝖟",
         "description": [
@@ -5024,7 +5024,7 @@
         ]
     },
     // \symit
-    "1D434": {
+    "1D434*": {
         "prefix": ["/i-A", "/A"],
         "body": "𝐴",
         "description": [
@@ -5033,7 +5033,7 @@
             "\r"
         ]
     },
-    "1D435": {
+    "1D435*": {
         "prefix": ["/i-B", "/B"],
         "body": "𝐵",
         "description": [
@@ -5042,7 +5042,7 @@
             "\r"
         ]
     },
-    "1D436": {
+    "1D436*": {
         "prefix": ["/i-C", "/C"],
         "body": "𝐶",
         "description": [
@@ -5051,7 +5051,7 @@
             "\r"
         ]
     },
-    "1D437": {
+    "1D437*": {
         "prefix": ["/i-D", "/D"],
         "body": "𝐷",
         "description": [
@@ -5060,7 +5060,7 @@
             "\r"
         ]
     },
-    "1D438": {
+    "1D438*": {
         "prefix": ["/i-E", "/E"],
         "body": "𝐸",
         "description": [
@@ -5069,7 +5069,7 @@
             "\r"
         ]
     },
-    "1D439": {
+    "1D439*": {
         "prefix": ["/i-F", "/F"],
         "body": "𝐹",
         "description": [
@@ -5078,7 +5078,7 @@
             "\r"
         ]
     },
-    "1D43A": {
+    "1D43A*": {
         "prefix": ["/i-G", "/G"],
         "body": "𝐺",
         "description": [
@@ -5087,7 +5087,7 @@
             "\r"
         ]
     },
-    "1D43B": {
+    "1D43B*": {
         "prefix": ["/i-H", "/H"],
         "body": "𝐻",
         "description": [
@@ -5096,7 +5096,7 @@
             "\r"
         ]
     },
-    "1D43C": {
+    "1D43C*": {
         "prefix": ["/i-I", "/I"],
         "body": "𝐼",
         "description": [
@@ -5105,7 +5105,7 @@
             "\r"
         ]
     },
-    "1D43D": {
+    "1D43D*": {
         "prefix": ["/i-J", "/J"],
         "body": "𝐽",
         "description": [
@@ -5114,7 +5114,7 @@
             "\r"
         ]
     },
-    "1D43E": {
+    "1D43E*": {
         "prefix": ["/i-K", "/K"],
         "body": "𝐾",
         "description": [
@@ -5123,7 +5123,7 @@
             "\r"
         ]
     },
-    "1D43F": {
+    "1D43F*": {
         "prefix": ["/i-L", "/L"],
         "body": "𝐿",
         "description": [
@@ -5132,7 +5132,7 @@
             "\r"
         ]
     },
-    "1D440": {
+    "1D440*": {
         "prefix": ["/i-M", "/M"],
         "body": "𝑀",
         "description": [
@@ -5141,7 +5141,7 @@
             "\r"
         ]
     },
-    "1D441": {
+    "1D441*": {
         "prefix": ["/i-N", "/N"],
         "body": "𝑁",
         "description": [
@@ -5150,7 +5150,7 @@
             "\r"
         ]
     },
-    "1D442": {
+    "1D442*": {
         "prefix": ["/i-O", "/O"],
         "body": "𝑂",
         "description": [
@@ -5159,7 +5159,7 @@
             "\r"
         ]
     },
-    "1D443": {
+    "1D443*": {
         "prefix": ["/i-P", "/P"],
         "body": "𝑃",
         "description": [
@@ -5168,7 +5168,7 @@
             "\r"
         ]
     },
-    "1D444": {
+    "1D444*": {
         "prefix": ["/i-Q", "/Q"],
         "body": "𝑄",
         "description": [
@@ -5177,7 +5177,7 @@
             "\r"
         ]
     },
-    "1D445": {
+    "1D445*": {
         "prefix": ["/i-R", "/R"],
         "body": "𝑅",
         "description": [
@@ -5186,7 +5186,7 @@
             "\r"
         ]
     },
-    "1D446": {
+    "1D446*": {
         "prefix": ["/i-S", "/S"],
         "body": "𝑆",
         "description": [
@@ -5195,7 +5195,7 @@
             "\r"
         ]
     },
-    "1D447": {
+    "1D447*": {
         "prefix": ["/i-T", "/T"],
         "body": "𝑇",
         "description": [
@@ -5204,7 +5204,7 @@
             "\r"
         ]
     },
-    "1D448": {
+    "1D448*": {
         "prefix": ["/i-U", "/U"],
         "body": "𝑈",
         "description": [
@@ -5213,7 +5213,7 @@
             "\r"
         ]
     },
-    "1D449": {
+    "1D449*": {
         "prefix": ["/i-V", "/V"],
         "body": "𝑉",
         "description": [
@@ -5222,7 +5222,7 @@
             "\r"
         ]
     },
-    "1D44A": {
+    "1D44A*": {
         "prefix": ["/i-W", "/W"],
         "body": "𝑊",
         "description": [
@@ -5231,7 +5231,7 @@
             "\r"
         ]
     },
-    "1D44B": {
+    "1D44B*": {
         "prefix": ["/i-X", "/X"],
         "body": "𝑋",
         "description": [
@@ -5240,7 +5240,7 @@
             "\r"
         ]
     },
-    "1D44C": {
+    "1D44C*": {
         "prefix": ["/i-Y", "/Y"],
         "body": "𝑌",
         "description": [
@@ -5249,7 +5249,7 @@
             "\r"
         ]
     },
-    "1D44D": {
+    "1D44D*": {
         "prefix": ["/i-Z", "/Z"],
         "body": "𝑍",
         "description": [
@@ -5258,7 +5258,7 @@
             "\r"
         ]
     },
-    "1D44E": {
+    "1D44E*": {
         "prefix": ["/i-a", "/a"],
         "body": "𝑎",
         "description": [
@@ -5267,7 +5267,7 @@
             "\r"
         ]
     },
-    "1D44F": {
+    "1D44F*": {
         "prefix": ["/i-b", "/b"],
         "body": "𝑏",
         "description": [
@@ -5276,7 +5276,7 @@
             "\r"
         ]
     },
-    "1D450": {
+    "1D450*": {
         "prefix": ["/i-c", "/c"],
         "body": "𝑐",
         "description": [
@@ -5285,7 +5285,7 @@
             "\r"
         ]
     },
-    "1D451": {
+    "1D451*": {
         "prefix": ["/i-d", "/d"],
         "body": "𝑑",
         "description": [
@@ -5294,7 +5294,7 @@
             "\r"
         ]
     },
-    "1D452": {
+    "1D452*": {
         "prefix": ["/i-e", "/e"],
         "body": "𝑒",
         "description": [
@@ -5303,7 +5303,7 @@
             "\r"
         ]
     },
-    "1D453": {
+    "1D453*": {
         "prefix": ["/i-f", "/f"],
         "body": "𝑓",
         "description": [
@@ -5312,7 +5312,7 @@
             "\r"
         ]
     },
-    "1D454": {
+    "1D454*": {
         "prefix": ["/i-g", "/g"],
         "body": "𝑔",
         "description": [
@@ -5321,7 +5321,7 @@
             "\r"
         ]
     },
-    "0210E": {
+    "0210E*": {
         "prefix": ["/i-h", "/h"],
         "body": "ℎ",
         "description": [
@@ -5330,7 +5330,7 @@
             "\r"
         ]
     },
-    "1D456": {
+    "1D456*": {
         "prefix": ["/i-i", "/i"],
         "body": "𝑖",
         "description": [
@@ -5339,7 +5339,7 @@
             "\r"
         ]
     },
-    "1D457": {
+    "1D457*": {
         "prefix": ["/i-j", "/j"],
         "body": "𝑗",
         "description": [
@@ -5348,7 +5348,7 @@
             "\r"
         ]
     },
-    "1D458": {
+    "1D458*": {
         "prefix": ["/i-k", "/k"],
         "body": "𝑘",
         "description": [
@@ -5357,7 +5357,7 @@
             "\r"
         ]
     },
-    "1D459": {
+    "1D459*": {
         "prefix": ["/i-l", "/l"],
         "body": "𝑙",
         "description": [
@@ -5366,7 +5366,7 @@
             "\r"
         ]
     },
-    "1D45A": {
+    "1D45A*": {
         "prefix": ["/i-m", "/m"],
         "body": "𝑚",
         "description": [
@@ -5375,7 +5375,7 @@
             "\r"
         ]
     },
-    "1D45B": {
+    "1D45B*": {
         "prefix": ["/i-n", "/n"],
         "body": "𝑛",
         "description": [
@@ -5384,7 +5384,7 @@
             "\r"
         ]
     },
-    "1D45C": {
+    "1D45C*": {
         "prefix": ["/i-o", "/o"],
         "body": "𝑜",
         "description": [
@@ -5393,7 +5393,7 @@
             "\r"
         ]
     },
-    "1D45D": {
+    "1D45D*": {
         "prefix": ["/i-p", "/p"],
         "body": "𝑝",
         "description": [
@@ -5402,7 +5402,7 @@
             "\r"
         ]
     },
-    "1D45E": {
+    "1D45E*": {
         "prefix": ["/i-q", "/q"],
         "body": "𝑞",
         "description": [
@@ -5411,7 +5411,7 @@
             "\r"
         ]
     },
-    "1D45F": {
+    "1D45F*": {
         "prefix": ["/i-r", "/r"],
         "body": "𝑟",
         "description": [
@@ -5420,7 +5420,7 @@
             "\r"
         ]
     },
-    "1D460": {
+    "1D460*": {
         "prefix": ["/i-s", "/s"],
         "body": "𝑠",
         "description": [
@@ -5429,7 +5429,7 @@
             "\r"
         ]
     },
-    "1D461": {
+    "1D461*": {
         "prefix": ["/i-t", "/t"],
         "body": "𝑡",
         "description": [
@@ -5438,7 +5438,7 @@
             "\r"
         ]
     },
-    "1D462": {
+    "1D462*": {
         "prefix": ["/i-u", "/u"],
         "body": "𝑢",
         "description": [
@@ -5447,7 +5447,7 @@
             "\r"
         ]
     },
-    "1D463": {
+    "1D463*": {
         "prefix": ["/i-v", "/v"],
         "body": "𝑣",
         "description": [
@@ -5456,7 +5456,7 @@
             "\r"
         ]
     },
-    "1D464": {
+    "1D464*": {
         "prefix": ["/i-w", "/w"],
         "body": "𝑤",
         "description": [
@@ -5465,7 +5465,7 @@
             "\r"
         ]
     },
-    "1D465": {
+    "1D465*": {
         "prefix": ["/i-x", "/x"],
         "body": "𝑥",
         "description": [
@@ -5474,7 +5474,7 @@
             "\r"
         ]
     },
-    "1D466": {
+    "1D466*": {
         "prefix": ["/i-y", "/y"],
         "body": "𝑦",
         "description": [
@@ -5483,7 +5483,7 @@
             "\r"
         ]
     },
-    "1D467": {
+    "1D467*": {
         "prefix": ["/i-z", "/z"],
         "body": "𝑧",
         "description": [
@@ -5493,7 +5493,7 @@
         ]
     },
     // \symbfit
-    "1D468": {
+    "1D468*": {
         "prefix": ["/bi-A", "/b-A"],
         "body": "𝑨",
         "description": [
@@ -5502,7 +5502,7 @@
             "\r"
         ]
     },
-    "1D469": {
+    "1D469*": {
         "prefix": ["/bi-B", "/b-B"],
         "body": "𝑩",
         "description": [
@@ -5511,7 +5511,7 @@
             "\r"
         ]
     },
-    "1D46A": {
+    "1D46A*": {
         "prefix": ["/bi-C", "/b-C"],
         "body": "𝑪",
         "description": [
@@ -5520,7 +5520,7 @@
             "\r"
         ]
     },
-    "1D46B": {
+    "1D46B*": {
         "prefix": ["/bi-D", "/b-D"],
         "body": "𝑫",
         "description": [
@@ -5529,7 +5529,7 @@
             "\r"
         ]
     },
-    "1D46C": {
+    "1D46C*": {
         "prefix": ["/bi-E", "/b-E"],
         "body": "𝑬",
         "description": [
@@ -5538,7 +5538,7 @@
             "\r"
         ]
     },
-    "1D46D": {
+    "1D46D*": {
         "prefix": ["/bi-F", "/b-F"],
         "body": "𝑭",
         "description": [
@@ -5547,7 +5547,7 @@
             "\r"
         ]
     },
-    "1D46E": {
+    "1D46E*": {
         "prefix": ["/bi-G", "/b-G"],
         "body": "𝑮",
         "description": [
@@ -5556,7 +5556,7 @@
             "\r"
         ]
     },
-    "1D46F": {
+    "1D46F*": {
         "prefix": ["/bi-H", "/b-H"],
         "body": "𝑯",
         "description": [
@@ -5565,7 +5565,7 @@
             "\r"
         ]
     },
-    "1D470": {
+    "1D470*": {
         "prefix": ["/bi-I", "/b-I"],
         "body": "𝑰",
         "description": [
@@ -5574,7 +5574,7 @@
             "\r"
         ]
     },
-    "1D471": {
+    "1D471*": {
         "prefix": ["/bi-J", "/b-J"],
         "body": "𝑱",
         "description": [
@@ -5583,7 +5583,7 @@
             "\r"
         ]
     },
-    "1D472": {
+    "1D472*": {
         "prefix": ["/bi-K", "/b-K"],
         "body": "𝑲",
         "description": [
@@ -5592,7 +5592,7 @@
             "\r"
         ]
     },
-    "1D473": {
+    "1D473*": {
         "prefix": ["/bi-L", "/b-L"],
         "body": "𝑳",
         "description": [
@@ -5601,7 +5601,7 @@
             "\r"
         ]
     },
-    "1D474": {
+    "1D474*": {
         "prefix": ["/bi-M", "/b-M"],
         "body": "𝑴",
         "description": [
@@ -5610,7 +5610,7 @@
             "\r"
         ]
     },
-    "1D475": {
+    "1D475*": {
         "prefix": ["/bi-N", "/b-N"],
         "body": "𝑵",
         "description": [
@@ -5619,7 +5619,7 @@
             "\r"
         ]
     },
-    "1D476": {
+    "1D476*": {
         "prefix": ["/bi-O", "/b-O"],
         "body": "𝑶",
         "description": [
@@ -5628,7 +5628,7 @@
             "\r"
         ]
     },
-    "1D477": {
+    "1D477*": {
         "prefix": ["/bi-P", "/b-P"],
         "body": "𝑷",
         "description": [
@@ -5637,7 +5637,7 @@
             "\r"
         ]
     },
-    "1D478": {
+    "1D478*": {
         "prefix": ["/bi-Q", "/b-Q"],
         "body": "𝑸",
         "description": [
@@ -5646,7 +5646,7 @@
             "\r"
         ]
     },
-    "1D479": {
+    "1D479*": {
         "prefix": ["/bi-R", "/b-R"],
         "body": "𝑹",
         "description": [
@@ -5655,7 +5655,7 @@
             "\r"
         ]
     },
-    "1D47A": {
+    "1D47A*": {
         "prefix": ["/bi-S", "/b-S"],
         "body": "𝑺",
         "description": [
@@ -5664,7 +5664,7 @@
             "\r"
         ]
     },
-    "1D47B": {
+    "1D47B*": {
         "prefix": ["/bi-T", "/b-T"],
         "body": "𝑻",
         "description": [
@@ -5673,7 +5673,7 @@
             "\r"
         ]
     },
-    "1D47C": {
+    "1D47C*": {
         "prefix": ["/bi-U", "/b-U"],
         "body": "𝑼",
         "description": [
@@ -5682,7 +5682,7 @@
             "\r"
         ]
     },
-    "1D47D": {
+    "1D47D*": {
         "prefix": ["/bi-V", "/b-V"],
         "body": "𝑽",
         "description": [
@@ -5691,7 +5691,7 @@
             "\r"
         ]
     },
-    "1D47E": {
+    "1D47E*": {
         "prefix": ["/bi-W", "/b-W"],
         "body": "𝑾",
         "description": [
@@ -5700,7 +5700,7 @@
             "\r"
         ]
     },
-    "1D47F": {
+    "1D47F*": {
         "prefix": ["/bi-X", "/b-X"],
         "body": "𝑿",
         "description": [
@@ -5709,7 +5709,7 @@
             "\r"
         ]
     },
-    "1D480": {
+    "1D480*": {
         "prefix": ["/bi-Y", "/b-Y"],
         "body": "𝒀",
         "description": [
@@ -5718,7 +5718,7 @@
             "\r"
         ]
     },
-    "1D481": {
+    "1D481*": {
         "prefix": ["/bi-Z", "/b-Z"],
         "body": "𝒁",
         "description": [
@@ -5727,7 +5727,7 @@
             "\r"
         ]
     },
-    "1D482": {
+    "1D482*": {
         "prefix": ["/bi-a", "/b-a"],
         "body": "𝒂",
         "description": [
@@ -5736,7 +5736,7 @@
             "\r"
         ]
     },
-    "1D483": {
+    "1D483*": {
         "prefix": ["/bi-b", "/b-b"],
         "body": "𝒃",
         "description": [
@@ -5745,7 +5745,7 @@
             "\r"
         ]
     },
-    "1D484": {
+    "1D484*": {
         "prefix": ["/bi-c", "/b-c"],
         "body": "𝒄",
         "description": [
@@ -5754,7 +5754,7 @@
             "\r"
         ]
     },
-    "1D485": {
+    "1D485*": {
         "prefix": ["/bi-d", "/b-d"],
         "body": "𝒅",
         "description": [
@@ -5763,7 +5763,7 @@
             "\r"
         ]
     },
-    "1D486": {
+    "1D486*": {
         "prefix": ["/bi-e", "/b-e"],
         "body": "𝒆",
         "description": [
@@ -5772,7 +5772,7 @@
             "\r"
         ]
     },
-    "1D487": {
+    "1D487*": {
         "prefix": ["/bi-f", "/b-f"],
         "body": "𝒇",
         "description": [
@@ -5781,7 +5781,7 @@
             "\r"
         ]
     },
-    "1D488": {
+    "1D488*": {
         "prefix": ["/bi-g", "/b-g"],
         "body": "𝒈",
         "description": [
@@ -5790,7 +5790,7 @@
             "\r"
         ]
     },
-    "1D489": {
+    "1D489*": {
         "prefix": ["/bi-h", "/b-h"],
         "body": "𝒉",
         "description": [
@@ -5799,7 +5799,7 @@
             "\r"
         ]
     },
-    "1D48A": {
+    "1D48A*": {
         "prefix": ["/bi-i", "/b-i"],
         "body": "𝒊",
         "description": [
@@ -5808,7 +5808,7 @@
             "\r"
         ]
     },
-    "1D48B": {
+    "1D48B*": {
         "prefix": ["/bi-j", "/b-j"],
         "body": "𝒋",
         "description": [
@@ -5817,7 +5817,7 @@
             "\r"
         ]
     },
-    "1D48C": {
+    "1D48C*": {
         "prefix": ["/bi-k", "/b-k"],
         "body": "𝒌",
         "description": [
@@ -5826,7 +5826,7 @@
             "\r"
         ]
     },
-    "1D48D": {
+    "1D48D*": {
         "prefix": ["/bi-l", "/b-l"],
         "body": "𝒍",
         "description": [
@@ -5835,7 +5835,7 @@
             "\r"
         ]
     },
-    "1D48E": {
+    "1D48E*": {
         "prefix": ["/bi-m", "/b-m"],
         "body": "𝒎",
         "description": [
@@ -5844,7 +5844,7 @@
             "\r"
         ]
     },
-    "1D48F": {
+    "1D48F*": {
         "prefix": ["/bi-n", "/b-n"],
         "body": "𝒏",
         "description": [
@@ -5853,7 +5853,7 @@
             "\r"
         ]
     },
-    "1D490": {
+    "1D490*": {
         "prefix": ["/bi-o", "/b-o"],
         "body": "𝒐",
         "description": [
@@ -5862,7 +5862,7 @@
             "\r"
         ]
     },
-    "1D491": {
+    "1D491*": {
         "prefix": ["/bi-p", "/b-p"],
         "body": "𝒑",
         "description": [
@@ -5871,7 +5871,7 @@
             "\r"
         ]
     },
-    "1D492": {
+    "1D492*": {
         "prefix": ["/bi-q", "/b-q"],
         "body": "𝒒",
         "description": [
@@ -5880,7 +5880,7 @@
             "\r"
         ]
     },
-    "1D493": {
+    "1D493*": {
         "prefix": ["/bi-r", "/b-r"],
         "body": "𝒓",
         "description": [
@@ -5889,7 +5889,7 @@
             "\r"
         ]
     },
-    "1D494": {
+    "1D494*": {
         "prefix": ["/bi-s", "/b-s"],
         "body": "𝒔",
         "description": [
@@ -5898,7 +5898,7 @@
             "\r"
         ]
     },
-    "1D495": {
+    "1D495*": {
         "prefix": ["/bi-t", "/b-t"],
         "body": "𝒕",
         "description": [
@@ -5907,7 +5907,7 @@
             "\r"
         ]
     },
-    "1D496": {
+    "1D496*": {
         "prefix": ["/bi-u", "/b-u"],
         "body": "𝒖",
         "description": [
@@ -5916,7 +5916,7 @@
             "\r"
         ]
     },
-    "1D497": {
+    "1D497*": {
         "prefix": ["/bi-v", "/b-v"],
         "body": "𝒗",
         "description": [
@@ -5925,7 +5925,7 @@
             "\r"
         ]
     },
-    "1D498": {
+    "1D498*": {
         "prefix": ["/bi-w", "/b-w"],
         "body": "𝒘",
         "description": [
@@ -5934,7 +5934,7 @@
             "\r"
         ]
     },
-    "1D499": {
+    "1D499*": {
         "prefix": ["/bi-x", "/b-x"],
         "body": "𝒙",
         "description": [
@@ -5943,7 +5943,7 @@
             "\r"
         ]
     },
-    "1D49A": {
+    "1D49A*": {
         "prefix": ["/bi-y", "/b-y"],
         "body": "𝒚",
         "description": [
@@ -5952,7 +5952,7 @@
             "\r"
         ]
     },
-    "1D49B": {
+    "1D49B*": {
         "prefix": ["/bi-z", "/b-z"],
         "body": "𝒛",
         "description": [
@@ -5962,7 +5962,7 @@
         ]
     },
     // \symsfit
-    "1D608": {
+    "1D608*": {
         "prefix": ["/si-A", "/s-A"],
         "body": "𝘈",
         "description": [
@@ -5971,7 +5971,7 @@
             "\r"
         ]
     },
-    "1D609": {
+    "1D609*": {
         "prefix": ["/si-B", "/s-B"],
         "body": "𝘉",
         "description": [
@@ -5980,7 +5980,7 @@
             "\r"
         ]
     },
-    "1D60A": {
+    "1D60A*": {
         "prefix": ["/si-C", "/s-C"],
         "body": "𝘊",
         "description": [
@@ -5989,7 +5989,7 @@
             "\r"
         ]
     },
-    "1D60B": {
+    "1D60B*": {
         "prefix": ["/si-D", "/s-D"],
         "body": "𝘋",
         "description": [
@@ -5998,7 +5998,7 @@
             "\r"
         ]
     },
-    "1D60C": {
+    "1D60C*": {
         "prefix": ["/si-E", "/s-E"],
         "body": "𝘌",
         "description": [
@@ -6007,7 +6007,7 @@
             "\r"
         ]
     },
-    "1D60D": {
+    "1D60D*": {
         "prefix": ["/si-F", "/s-F"],
         "body": "𝘍",
         "description": [
@@ -6016,7 +6016,7 @@
             "\r"
         ]
     },
-    "1D60E": {
+    "1D60E*": {
         "prefix": ["/si-G", "/s-G"],
         "body": "𝘎",
         "description": [
@@ -6025,7 +6025,7 @@
             "\r"
         ]
     },
-    "1D60F": {
+    "1D60F*": {
         "prefix": ["/si-H", "/s-H"],
         "body": "𝘏",
         "description": [
@@ -6034,7 +6034,7 @@
             "\r"
         ]
     },
-    "1D610": {
+    "1D610*": {
         "prefix": ["/si-I", "/s-I"],
         "body": "𝘐",
         "description": [
@@ -6043,7 +6043,7 @@
             "\r"
         ]
     },
-    "1D611": {
+    "1D611*": {
         "prefix": ["/si-J", "/s-J"],
         "body": "𝘑",
         "description": [
@@ -6052,7 +6052,7 @@
             "\r"
         ]
     },
-    "1D612": {
+    "1D612*": {
         "prefix": ["/si-K", "/s-K"],
         "body": "𝘒",
         "description": [
@@ -6061,7 +6061,7 @@
             "\r"
         ]
     },
-    "1D613": {
+    "1D613*": {
         "prefix": ["/si-L", "/s-L"],
         "body": "𝘓",
         "description": [
@@ -6070,7 +6070,7 @@
             "\r"
         ]
     },
-    "1D614": {
+    "1D614*": {
         "prefix": ["/si-M", "/s-M"],
         "body": "𝘔",
         "description": [
@@ -6079,7 +6079,7 @@
             "\r"
         ]
     },
-    "1D615": {
+    "1D615*": {
         "prefix": ["/si-N", "/s-N"],
         "body": "𝘕",
         "description": [
@@ -6088,7 +6088,7 @@
             "\r"
         ]
     },
-    "1D616": {
+    "1D616*": {
         "prefix": ["/si-O", "/s-O"],
         "body": "𝘖",
         "description": [
@@ -6097,7 +6097,7 @@
             "\r"
         ]
     },
-    "1D617": {
+    "1D617*": {
         "prefix": ["/si-P", "/s-P"],
         "body": "𝘗",
         "description": [
@@ -6106,7 +6106,7 @@
             "\r"
         ]
     },
-    "1D618": {
+    "1D618*": {
         "prefix": ["/si-Q", "/s-Q"],
         "body": "𝘘",
         "description": [
@@ -6115,7 +6115,7 @@
             "\r"
         ]
     },
-    "1D619": {
+    "1D619*": {
         "prefix": ["/si-R", "/s-R"],
         "body": "𝘙",
         "description": [
@@ -6124,7 +6124,7 @@
             "\r"
         ]
     },
-    "1D61A": {
+    "1D61A*": {
         "prefix": ["/si-S", "/s-S"],
         "body": "𝘚",
         "description": [
@@ -6133,7 +6133,7 @@
             "\r"
         ]
     },
-    "1D61B": {
+    "1D61B*": {
         "prefix": ["/si-T", "/s-T"],
         "body": "𝘛",
         "description": [
@@ -6142,7 +6142,7 @@
             "\r"
         ]
     },
-    "1D61C": {
+    "1D61C*": {
         "prefix": ["/si-U", "/s-U"],
         "body": "𝘜",
         "description": [
@@ -6151,7 +6151,7 @@
             "\r"
         ]
     },
-    "1D61D": {
+    "1D61D*": {
         "prefix": ["/si-V", "/s-V"],
         "body": "𝘝",
         "description": [
@@ -6160,7 +6160,7 @@
             "\r"
         ]
     },
-    "1D61E": {
+    "1D61E*": {
         "prefix": ["/si-W", "/s-W"],
         "body": "𝘞",
         "description": [
@@ -6169,7 +6169,7 @@
             "\r"
         ]
     },
-    "1D61F": {
+    "1D61F*": {
         "prefix": ["/si-X", "/s-X"],
         "body": "𝘟",
         "description": [
@@ -6178,7 +6178,7 @@
             "\r"
         ]
     },
-    "1D620": {
+    "1D620*": {
         "prefix": ["/si-Y", "/s-Y"],
         "body": "𝘠",
         "description": [
@@ -6187,7 +6187,7 @@
             "\r"
         ]
     },
-    "1D621": {
+    "1D621*": {
         "prefix": ["/si-Z", "/s-Z"],
         "body": "𝘡",
         "description": [
@@ -6196,7 +6196,7 @@
             "\r"
         ]
     },
-    "1D622": {
+    "1D622*": {
         "prefix": ["/si-a", "/s-a"],
         "body": "𝘢",
         "description": [
@@ -6205,7 +6205,7 @@
             "\r"
         ]
     },
-    "1D623": {
+    "1D623*": {
         "prefix": ["/si-b", "/s-b"],
         "body": "𝘣",
         "description": [
@@ -6214,7 +6214,7 @@
             "\r"
         ]
     },
-    "1D624": {
+    "1D624*": {
         "prefix": ["/si-c", "/s-c"],
         "body": "𝘤",
         "description": [
@@ -6223,7 +6223,7 @@
             "\r"
         ]
     },
-    "1D625": {
+    "1D625*": {
         "prefix": ["/si-d", "/s-d"],
         "body": "𝘥",
         "description": [
@@ -6232,7 +6232,7 @@
             "\r"
         ]
     },
-    "1D626": {
+    "1D626*": {
         "prefix": ["/si-e", "/s-e"],
         "body": "𝘦",
         "description": [
@@ -6241,7 +6241,7 @@
             "\r"
         ]
     },
-    "1D627": {
+    "1D627*": {
         "prefix": ["/si-f", "/s-f"],
         "body": "𝘧",
         "description": [
@@ -6250,7 +6250,7 @@
             "\r"
         ]
     },
-    "1D628": {
+    "1D628*": {
         "prefix": ["/si-g", "/s-g"],
         "body": "𝘨",
         "description": [
@@ -6259,7 +6259,7 @@
             "\r"
         ]
     },
-    "1D629": {
+    "1D629*": {
         "prefix": ["/si-h", "/s-h"],
         "body": "𝘩",
         "description": [
@@ -6268,7 +6268,7 @@
             "\r"
         ]
     },
-    "1D62A": {
+    "1D62A*": {
         "prefix": ["/si-i", "/s-i"],
         "body": "𝘪",
         "description": [
@@ -6277,7 +6277,7 @@
             "\r"
         ]
     },
-    "1D62B": {
+    "1D62B*": {
         "prefix": ["/si-j", "/s-j"],
         "body": "𝘫",
         "description": [
@@ -6286,7 +6286,7 @@
             "\r"
         ]
     },
-    "1D62C": {
+    "1D62C*": {
         "prefix": ["/si-k", "/s-k"],
         "body": "𝘬",
         "description": [
@@ -6295,7 +6295,7 @@
             "\r"
         ]
     },
-    "1D62D": {
+    "1D62D*": {
         "prefix": ["/si-l", "/s-l"],
         "body": "𝘭",
         "description": [
@@ -6304,7 +6304,7 @@
             "\r"
         ]
     },
-    "1D62E": {
+    "1D62E*": {
         "prefix": ["/si-m", "/s-m"],
         "body": "𝘮",
         "description": [
@@ -6313,7 +6313,7 @@
             "\r"
         ]
     },
-    "1D62F": {
+    "1D62F*": {
         "prefix": ["/si-n", "/s-n"],
         "body": "𝘯",
         "description": [
@@ -6322,7 +6322,7 @@
             "\r"
         ]
     },
-    "1D630": {
+    "1D630*": {
         "prefix": ["/si-o", "/s-o"],
         "body": "𝘰",
         "description": [
@@ -6331,7 +6331,7 @@
             "\r"
         ]
     },
-    "1D631": {
+    "1D631*": {
         "prefix": ["/si-p", "/s-p"],
         "body": "𝘱",
         "description": [
@@ -6340,7 +6340,7 @@
             "\r"
         ]
     },
-    "1D632": {
+    "1D632*": {
         "prefix": ["/si-q", "/s-q"],
         "body": "𝘲",
         "description": [
@@ -6349,7 +6349,7 @@
             "\r"
         ]
     },
-    "1D633": {
+    "1D633*": {
         "prefix": ["/si-r", "/s-r"],
         "body": "𝘳",
         "description": [
@@ -6358,7 +6358,7 @@
             "\r"
         ]
     },
-    "1D634": {
+    "1D634*": {
         "prefix": ["/si-s", "/s-s"],
         "body": "𝘴",
         "description": [
@@ -6367,7 +6367,7 @@
             "\r"
         ]
     },
-    "1D635": {
+    "1D635*": {
         "prefix": ["/si-t", "/s-t"],
         "body": "𝘵",
         "description": [
@@ -6376,7 +6376,7 @@
             "\r"
         ]
     },
-    "1D636": {
+    "1D636*": {
         "prefix": ["/si-u", "/s-u"],
         "body": "𝘶",
         "description": [
@@ -6385,7 +6385,7 @@
             "\r"
         ]
     },
-    "1D637": {
+    "1D637*": {
         "prefix": ["/si-v", "/s-v"],
         "body": "𝘷",
         "description": [
@@ -6394,7 +6394,7 @@
             "\r"
         ]
     },
-    "1D638": {
+    "1D638*": {
         "prefix": ["/si-w", "/s-w"],
         "body": "𝘸",
         "description": [
@@ -6403,7 +6403,7 @@
             "\r"
         ]
     },
-    "1D639": {
+    "1D639*": {
         "prefix": ["/si-x", "/s-x"],
         "body": "𝘹",
         "description": [
@@ -6412,7 +6412,7 @@
             "\r"
         ]
     },
-    "1D63A": {
+    "1D63A*": {
         "prefix": ["/si-y", "/s-y"],
         "body": "𝘺",
         "description": [
@@ -6421,7 +6421,7 @@
             "\r"
         ]
     },
-    "1D63B": {
+    "1D63B*": {
         "prefix": ["/si-z", "/s-z"],
         "body": "𝘻",
         "description": [
@@ -6431,7 +6431,7 @@
         ]
     },
     // \symbfsfit
-    "1D63C": {
+    "1D63C*": {
         "prefix": ["/bsi-A", "/bs-A"],
         "body": "𝘼",
         "description": [
@@ -6440,7 +6440,7 @@
             "\r"
         ]
     },
-    "1D63D": {
+    "1D63D*": {
         "prefix": ["/bsi-B", "/bs-B"],
         "body": "𝘽",
         "description": [
@@ -6449,7 +6449,7 @@
             "\r"
         ]
     },
-    "1D63E": {
+    "1D63E*": {
         "prefix": ["/bsi-C", "/bs-C"],
         "body": "𝘾",
         "description": [
@@ -6458,7 +6458,7 @@
             "\r"
         ]
     },
-    "1D63F": {
+    "1D63F*": {
         "prefix": ["/bsi-D", "/bs-D"],
         "body": "𝘿",
         "description": [
@@ -6467,7 +6467,7 @@
             "\r"
         ]
     },
-    "1D640": {
+    "1D640*": {
         "prefix": ["/bsi-E", "/bs-E"],
         "body": "𝙀",
         "description": [
@@ -6476,7 +6476,7 @@
             "\r"
         ]
     },
-    "1D641": {
+    "1D641*": {
         "prefix": ["/bsi-F", "/bs-F"],
         "body": "𝙁",
         "description": [
@@ -6485,7 +6485,7 @@
             "\r"
         ]
     },
-    "1D642": {
+    "1D642*": {
         "prefix": ["/bsi-G", "/bs-G"],
         "body": "𝙂",
         "description": [
@@ -6494,7 +6494,7 @@
             "\r"
         ]
     },
-    "1D643": {
+    "1D643*": {
         "prefix": ["/bsi-H", "/bs-H"],
         "body": "𝙃",
         "description": [
@@ -6503,7 +6503,7 @@
             "\r"
         ]
     },
-    "1D644": {
+    "1D644*": {
         "prefix": ["/bsi-I", "/bs-I"],
         "body": "𝙄",
         "description": [
@@ -6512,7 +6512,7 @@
             "\r"
         ]
     },
-    "1D645": {
+    "1D645*": {
         "prefix": ["/bsi-J", "/bs-J"],
         "body": "𝙅",
         "description": [
@@ -6521,7 +6521,7 @@
             "\r"
         ]
     },
-    "1D646": {
+    "1D646*": {
         "prefix": ["/bsi-K", "/bs-K"],
         "body": "𝙆",
         "description": [
@@ -6530,7 +6530,7 @@
             "\r"
         ]
     },
-    "1D647": {
+    "1D647*": {
         "prefix": ["/bsi-L", "/bs-L"],
         "body": "𝙇",
         "description": [
@@ -6539,7 +6539,7 @@
             "\r"
         ]
     },
-    "1D648": {
+    "1D648*": {
         "prefix": ["/bsi-M", "/bs-M"],
         "body": "𝙈",
         "description": [
@@ -6548,7 +6548,7 @@
             "\r"
         ]
     },
-    "1D649": {
+    "1D649*": {
         "prefix": ["/bsi-N", "/bs-N"],
         "body": "𝙉",
         "description": [
@@ -6557,7 +6557,7 @@
             "\r"
         ]
     },
-    "1D64A": {
+    "1D64A*": {
         "prefix": ["/bsi-O", "/bs-O"],
         "body": "𝙊",
         "description": [
@@ -6566,7 +6566,7 @@
             "\r"
         ]
     },
-    "1D64B": {
+    "1D64B*": {
         "prefix": ["/bsi-P", "/bs-P"],
         "body": "𝙋",
         "description": [
@@ -6575,7 +6575,7 @@
             "\r"
         ]
     },
-    "1D64C": {
+    "1D64C*": {
         "prefix": ["/bsi-Q", "/bs-Q"],
         "body": "𝙌",
         "description": [
@@ -6584,7 +6584,7 @@
             "\r"
         ]
     },
-    "1D64D": {
+    "1D64D*": {
         "prefix": ["/bsi-R", "/bs-R"],
         "body": "𝙍",
         "description": [
@@ -6593,7 +6593,7 @@
             "\r"
         ]
     },
-    "1D64E": {
+    "1D64E*": {
         "prefix": ["/bsi-S", "/bs-S"],
         "body": "𝙎",
         "description": [
@@ -6602,7 +6602,7 @@
             "\r"
         ]
     },
-    "1D64F": {
+    "1D64F*": {
         "prefix": ["/bsi-T", "/bs-T"],
         "body": "𝙏",
         "description": [
@@ -6611,7 +6611,7 @@
             "\r"
         ]
     },
-    "1D650": {
+    "1D650*": {
         "prefix": ["/bsi-U", "/bs-U"],
         "body": "𝙐",
         "description": [
@@ -6620,7 +6620,7 @@
             "\r"
         ]
     },
-    "1D651": {
+    "1D651*": {
         "prefix": ["/bsi-V", "/bs-V"],
         "body": "𝙑",
         "description": [
@@ -6629,7 +6629,7 @@
             "\r"
         ]
     },
-    "1D652": {
+    "1D652*": {
         "prefix": ["/bsi-W", "/bs-W"],
         "body": "𝙒",
         "description": [
@@ -6638,7 +6638,7 @@
             "\r"
         ]
     },
-    "1D653": {
+    "1D653*": {
         "prefix": ["/bsi-X", "/bs-X"],
         "body": "𝙓",
         "description": [
@@ -6647,7 +6647,7 @@
             "\r"
         ]
     },
-    "1D654": {
+    "1D654*": {
         "prefix": ["/bsi-Y", "/bs-Y"],
         "body": "𝙔",
         "description": [
@@ -6656,7 +6656,7 @@
             "\r"
         ]
     },
-    "1D655": {
+    "1D655*": {
         "prefix": ["/bsi-Z", "/bs-Z"],
         "body": "𝙕",
         "description": [
@@ -6665,7 +6665,7 @@
             "\r"
         ]
     },
-    "1D656": {
+    "1D656*": {
         "prefix": ["/bsi-a", "/bs-a"],
         "body": "𝙖",
         "description": [
@@ -6674,7 +6674,7 @@
             "\r"
         ]
     },
-    "1D657": {
+    "1D657*": {
         "prefix": ["/bsi-b", "/bs-b"],
         "body": "𝙗",
         "description": [
@@ -6683,7 +6683,7 @@
             "\r"
         ]
     },
-    "1D658": {
+    "1D658*": {
         "prefix": ["/bsi-c", "/bs-c"],
         "body": "𝙘",
         "description": [
@@ -6692,7 +6692,7 @@
             "\r"
         ]
     },
-    "1D659": {
+    "1D659*": {
         "prefix": ["/bsi-d", "/bs-d"],
         "body": "𝙙",
         "description": [
@@ -6701,7 +6701,7 @@
             "\r"
         ]
     },
-    "1D65A": {
+    "1D65A*": {
         "prefix": ["/bsi-e", "/bs-e"],
         "body": "𝙚",
         "description": [
@@ -6710,7 +6710,7 @@
             "\r"
         ]
     },
-    "1D65B": {
+    "1D65B*": {
         "prefix": ["/bsi-f", "/bs-f"],
         "body": "𝙛",
         "description": [
@@ -6719,7 +6719,7 @@
             "\r"
         ]
     },
-    "1D65C": {
+    "1D65C*": {
         "prefix": ["/bsi-g", "/bs-g"],
         "body": "𝙜",
         "description": [
@@ -6728,7 +6728,7 @@
             "\r"
         ]
     },
-    "1D65D": {
+    "1D65D*": {
         "prefix": ["/bsi-h", "/bs-h"],
         "body": "𝙝",
         "description": [
@@ -6737,7 +6737,7 @@
             "\r"
         ]
     },
-    "1D65E": {
+    "1D65E*": {
         "prefix": ["/bsi-i", "/bs-i"],
         "body": "𝙞",
         "description": [
@@ -6746,7 +6746,7 @@
             "\r"
         ]
     },
-    "1D65F": {
+    "1D65F*": {
         "prefix": ["/bsi-j", "/bs-j"],
         "body": "𝙟",
         "description": [
@@ -6755,7 +6755,7 @@
             "\r"
         ]
     },
-    "1D660": {
+    "1D660*": {
         "prefix": ["/bsi-k", "/bs-k"],
         "body": "𝙠",
         "description": [
@@ -6764,7 +6764,7 @@
             "\r"
         ]
     },
-    "1D661": {
+    "1D661*": {
         "prefix": ["/bsi-l", "/bs-l"],
         "body": "𝙡",
         "description": [
@@ -6773,7 +6773,7 @@
             "\r"
         ]
     },
-    "1D662": {
+    "1D662*": {
         "prefix": ["/bsi-m", "/bs-m"],
         "body": "𝙢",
         "description": [
@@ -6782,7 +6782,7 @@
             "\r"
         ]
     },
-    "1D663": {
+    "1D663*": {
         "prefix": ["/bsi-n", "/bs-n"],
         "body": "𝙣",
         "description": [
@@ -6791,7 +6791,7 @@
             "\r"
         ]
     },
-    "1D664": {
+    "1D664*": {
         "prefix": ["/bsi-o", "/bs-o"],
         "body": "𝙤",
         "description": [
@@ -6800,7 +6800,7 @@
             "\r"
         ]
     },
-    "1D665": {
+    "1D665*": {
         "prefix": ["/bsi-p", "/bs-p"],
         "body": "𝙥",
         "description": [
@@ -6809,7 +6809,7 @@
             "\r"
         ]
     },
-    "1D666": {
+    "1D666*": {
         "prefix": ["/bsi-q", "/bs-q"],
         "body": "𝙦",
         "description": [
@@ -6818,7 +6818,7 @@
             "\r"
         ]
     },
-    "1D667": {
+    "1D667*": {
         "prefix": ["/bsi-r", "/bs-r"],
         "body": "𝙧",
         "description": [
@@ -6827,7 +6827,7 @@
             "\r"
         ]
     },
-    "1D668": {
+    "1D668*": {
         "prefix": ["/bsi-s", "/bs-s"],
         "body": "𝙨",
         "description": [
@@ -6836,7 +6836,7 @@
             "\r"
         ]
     },
-    "1D669": {
+    "1D669*": {
         "prefix": ["/bsi-t", "/bs-t"],
         "body": "𝙩",
         "description": [
@@ -6845,7 +6845,7 @@
             "\r"
         ]
     },
-    "1D66A": {
+    "1D66A*": {
         "prefix": ["/bsi-u", "/bs-u"],
         "body": "𝙪",
         "description": [
@@ -6854,7 +6854,7 @@
             "\r"
         ]
     },
-    "1D66B": {
+    "1D66B*": {
         "prefix": ["/bsi-v", "/bs-v"],
         "body": "𝙫",
         "description": [
@@ -6863,7 +6863,7 @@
             "\r"
         ]
     },
-    "1D66C": {
+    "1D66C*": {
         "prefix": ["/bsi-w", "/bs-w"],
         "body": "𝙬",
         "description": [
@@ -6872,7 +6872,7 @@
             "\r"
         ]
     },
-    "1D66D": {
+    "1D66D*": {
         "prefix": ["/bsi-x", "/bs-x"],
         "body": "𝙭",
         "description": [
@@ -6881,7 +6881,7 @@
             "\r"
         ]
     },
-    "1D66E": {
+    "1D66E*": {
         "prefix": ["/bsi-y", "/bs-y"],
         "body": "𝙮",
         "description": [
@@ -6890,7 +6890,7 @@
             "\r"
         ]
     },
-    "1D66F": {
+    "1D66F*": {
         "prefix": ["/bsi-z", "/bs-z"],
         "body": "𝙯",
         "description": [
@@ -6900,7 +6900,7 @@
         ]
     },
     // \symbbit
-    "02145": {
+    "02145*": {
         "prefix": "/bbi-D",
         "body": "ⅅ",
         "description": [
@@ -6909,7 +6909,7 @@
             "\r"
         ]
     },
-    "02146": {
+    "02146*": {
         "prefix": "/bbi-d",
         "body": "ⅆ",
         "description": [
@@ -6918,7 +6918,7 @@
             "\r"
         ]
     },
-    "02147": {
+    "02147*": {
         "prefix": "/bbi-e",
         "body": "ⅇ",
         "description": [
@@ -6927,7 +6927,7 @@
             "\r"
         ]
     },
-    "02148": {
+    "02148*": {
         "prefix": "/bbi-i",
         "body": "ⅈ",
         "description": [
@@ -6936,7 +6936,7 @@
             "\r"
         ]
     },
-    "02149": {
+    "02149*": {
         "prefix": "/bbi-j",
         "body": "ⅉ",
         "description": [
@@ -6968,7 +6968,7 @@
 //     (\symbfsfit): /mbfitsans* → /bsi-*, /bs-*
 // 
     // \symup
-    "00391": {
+    "00391*": {
         "prefix": "/u-Alpha",
         "body": "Α",
         "description": [
@@ -6977,7 +6977,7 @@
             "\r"
         ]
     },
-    "00392": {
+    "00392*": {
         "prefix": "/u-Beta",
         "body": "Β",
         "description": [
@@ -6986,7 +6986,7 @@
             "\r"
         ]
     },
-    "00393": {
+    "00393*": {
         "prefix": "/u-Gamma",
         "body": "Γ",
         "description": [
@@ -6995,7 +6995,7 @@
             "\r"
         ]
     },
-    "00394": {
+    "00394*": {
         "prefix": "/u-Delta",
         "body": "Δ",
         "description": [
@@ -7004,7 +7004,7 @@
             "\r"
         ]
     },
-    "00395": {
+    "00395*": {
         "prefix": "/u-Epsilon",
         "body": "Ε",
         "description": [
@@ -7013,7 +7013,7 @@
             "\r"
         ]
     },
-    "00396": {
+    "00396*": {
         "prefix": "/u-Zeta",
         "body": "Ζ",
         "description": [
@@ -7022,7 +7022,7 @@
             "\r"
         ]
     },
-    "00397": {
+    "00397*": {
         "prefix": "/u-Eta",
         "body": "Η",
         "description": [
@@ -7031,7 +7031,7 @@
             "\r"
         ]
     },
-    "00398": {
+    "00398*": {
         "prefix": "/u-Theta",
         "body": "Θ",
         "description": [
@@ -7040,7 +7040,7 @@
             "\r"
         ]
     },
-    "00399": {
+    "00399*": {
         "prefix": "/u-Iota",
         "body": "Ι",
         "description": [
@@ -7049,7 +7049,7 @@
             "\r"
         ]
     },
-    "0039A": {
+    "0039A*": {
         "prefix": "/u-Kappa",
         "body": "Κ",
         "description": [
@@ -7058,7 +7058,7 @@
             "\r"
         ]
     },
-    "0039B": {
+    "0039B*": {
         "prefix": "/u-Lambda",
         "body": "Λ",
         "description": [
@@ -7067,7 +7067,7 @@
             "\r"
         ]
     },
-    "0039C": {
+    "0039C*": {
         "prefix": "/u-Mu",
         "body": "Μ",
         "description": [
@@ -7076,7 +7076,7 @@
             "\r"
         ]
     },
-    "0039D": {
+    "0039D*": {
         "prefix": "/u-Nu",
         "body": "Ν",
         "description": [
@@ -7085,7 +7085,7 @@
             "\r"
         ]
     },
-    "0039E": {
+    "0039E*": {
         "prefix": "/u-Xi",
         "body": "Ξ",
         "description": [
@@ -7094,7 +7094,7 @@
             "\r"
         ]
     },
-    "0039F": {
+    "0039F*": {
         "prefix": "/u-Omicron",
         "body": "Ο",
         "description": [
@@ -7103,7 +7103,7 @@
             "\r"
         ]
     },
-    "003A0": {
+    "003A0*": {
         "prefix": "/u-Pi",
         "body": "Π",
         "description": [
@@ -7112,7 +7112,7 @@
             "\r"
         ]
     },
-    "003A1": {
+    "003A1*": {
         "prefix": "/u-Rho",
         "body": "Ρ",
         "description": [
@@ -7121,7 +7121,7 @@
             "\r"
         ]
     },
-    "003F4": {
+    "003F4*": {
         "prefix": "/u-varTheta",
         "body": "ϴ",
         "description": [
@@ -7130,7 +7130,7 @@
             "\r"
         ]
     },
-    "003A3": {
+    "003A3*": {
         "prefix": "/u-Sigma",
         "body": "Σ",
         "description": [
@@ -7139,7 +7139,7 @@
             "\r"
         ]
     },
-    "003A4": {
+    "003A4*": {
         "prefix": "/u-Tau",
         "body": "Τ",
         "description": [
@@ -7148,7 +7148,7 @@
             "\r"
         ]
     },
-    "003A5": {
+    "003A5*": {
         "prefix": "/u-Upsilon",
         "body": "Υ",
         "description": [
@@ -7157,7 +7157,7 @@
             "\r"
         ]
     },
-    "003A6": {
+    "003A6*": {
         "prefix": "/u-Phi",
         "body": "Φ",
         "description": [
@@ -7166,7 +7166,7 @@
             "\r"
         ]
     },
-    "003A7": {
+    "003A7*": {
         "prefix": "/u-Chi",
         "body": "Χ",
         "description": [
@@ -7175,7 +7175,7 @@
             "\r"
         ]
     },
-    "003A8": {
+    "003A8*": {
         "prefix": "/u-Psi",
         "body": "Ψ",
         "description": [
@@ -7184,7 +7184,7 @@
             "\r"
         ]
     },
-    "003A9": {
+    "003A9*": {
         "prefix": "/u-Omega",
         "body": "Ω",
         "description": [
@@ -7193,7 +7193,7 @@
             "\r"
         ]
     },
-    "003DC": {
+    "003DC*": {
         "prefix": "/u-Digamma",
         "body": "Ϝ",
         "description": [
@@ -7202,7 +7202,7 @@
             "\r"
         ]
     },
-    "003B1": {
+    "003B1*": {
         "prefix": "/u-alpha",
         "body": "α",
         "description": [
@@ -7211,7 +7211,7 @@
             "\r"
         ]
     },
-    "003B2": {
+    "003B2*": {
         "prefix": "/u-beta",
         "body": "β",
         "description": [
@@ -7220,7 +7220,7 @@
             "\r"
         ]
     },
-    "003B3": {
+    "003B3*": {
         "prefix": "/u-gamma",
         "body": "γ",
         "description": [
@@ -7229,7 +7229,7 @@
             "\r"
         ]
     },
-    "003B4": {
+    "003B4*": {
         "prefix": "/u-delta",
         "body": "δ",
         "description": [
@@ -7238,7 +7238,7 @@
             "\r"
         ]
     },
-    "003B5": {
+    "003B5*": {
         "prefix": "/u-varepsilon",
         "body": "ε",
         "description": [
@@ -7247,7 +7247,7 @@
             "\r"
         ]
     },
-    "003B6": {
+    "003B6*": {
         "prefix": "/u-zeta",
         "body": "ζ",
         "description": [
@@ -7256,7 +7256,7 @@
             "\r"
         ]
     },
-    "003B7": {
+    "003B7*": {
         "prefix": "/u-eta",
         "body": "η",
         "description": [
@@ -7265,7 +7265,7 @@
             "\r"
         ]
     },
-    "003B8": {
+    "003B8*": {
         "prefix": "/u-theta",
         "body": "θ",
         "description": [
@@ -7274,7 +7274,7 @@
             "\r"
         ]
     },
-    "003B9": {
+    "003B9*": {
         "prefix": "/u-iota",
         "body": "ι",
         "description": [
@@ -7283,7 +7283,7 @@
             "\r"
         ]
     },
-    "003BA": {
+    "003BA*": {
         "prefix": "/u-kappa",
         "body": "κ",
         "description": [
@@ -7292,7 +7292,7 @@
             "\r"
         ]
     },
-    "003BB": {
+    "003BB*": {
         "prefix": "/u-lambda",
         "body": "λ",
         "description": [
@@ -7301,7 +7301,7 @@
             "\r"
         ]
     },
-    "003BC": {
+    "003BC*": {
         "prefix": "/u-mu",
         "body": "μ",
         "description": [
@@ -7310,7 +7310,7 @@
             "\r"
         ]
     },
-    "003BD": {
+    "003BD*": {
         "prefix": "/u-nu",
         "body": "ν",
         "description": [
@@ -7319,7 +7319,7 @@
             "\r"
         ]
     },
-    "003BE": {
+    "003BE*": {
         "prefix": "/u-xi",
         "body": "ξ",
         "description": [
@@ -7328,7 +7328,7 @@
             "\r"
         ]
     },
-    "003BF": {
+    "003BF*": {
         "prefix": "/u-omicron",
         "body": "ο",
         "description": [
@@ -7337,7 +7337,7 @@
             "\r"
         ]
     },
-    "003C0": {
+    "003C0*": {
         "prefix": "/u-pi",
         "body": "π",
         "description": [
@@ -7346,7 +7346,7 @@
             "\r"
         ]
     },
-    "003C1": {
+    "003C1*": {
         "prefix": "/u-rho",
         "body": "ρ",
         "description": [
@@ -7355,7 +7355,7 @@
             "\r"
         ]
     },
-    "003C2": {
+    "003C2*": {
         "prefix": "/u-varsigma",
         "body": "ς",
         "description": [
@@ -7364,7 +7364,7 @@
             "\r"
         ]
     },
-    "003C3": {
+    "003C3*": {
         "prefix": "/u-sigma",
         "body": "σ",
         "description": [
@@ -7373,7 +7373,7 @@
             "\r"
         ]
     },
-    "003C4": {
+    "003C4*": {
         "prefix": "/u-tau",
         "body": "τ",
         "description": [
@@ -7382,7 +7382,7 @@
             "\r"
         ]
     },
-    "003C5": {
+    "003C5*": {
         "prefix": "/u-upsilon",
         "body": "υ",
         "description": [
@@ -7391,7 +7391,7 @@
             "\r"
         ]
     },
-    "003C6": {
+    "003C6*": {
         "prefix": "/u-varphi",
         "body": "φ",
         "description": [
@@ -7400,7 +7400,7 @@
             "\r"
         ]
     },
-    "003C7": {
+    "003C7*": {
         "prefix": "/u-chi",
         "body": "χ",
         "description": [
@@ -7409,7 +7409,7 @@
             "\r"
         ]
     },
-    "003C8": {
+    "003C8*": {
         "prefix": "/u-psi",
         "body": "ψ",
         "description": [
@@ -7418,7 +7418,7 @@
             "\r"
         ]
     },
-    "003C9": {
+    "003C9*": {
         "prefix": "/u-omega",
         "body": "ω",
         "description": [
@@ -7427,7 +7427,7 @@
             "\r"
         ]
     },
-    "003F5": {
+    "003F5*": {
         "prefix": "/u-epsilon",
         "body": "ϵ",
         "description": [
@@ -7436,7 +7436,7 @@
             "\r"
         ]
     },
-    "003D1": {
+    "003D1*": {
         "prefix": "/u-vartheta",
         "body": "ϑ",
         "description": [
@@ -7445,7 +7445,7 @@
             "\r"
         ]
     },
-    "003F0": {
+    "003F0*": {
         "prefix": "/u-varkappa",
         "body": "ϰ",
         "description": [
@@ -7454,7 +7454,7 @@
             "\r"
         ]
     },
-    "003D5": {
+    "003D5*": {
         "prefix": "/u-phi",
         "body": "ϕ",
         "description": [
@@ -7463,7 +7463,7 @@
             "\r"
         ]
     },
-    "003F1": {
+    "003F1*": {
         "prefix": "/u-varrho",
         "body": "ϱ",
         "description": [
@@ -7472,7 +7472,7 @@
             "\r"
         ]
     },
-    "003D6": {
+    "003D6*": {
         "prefix": "/u-varpi",
         "body": "ϖ",
         "description": [
@@ -7481,7 +7481,7 @@
             "\r"
         ]
     },
-    "003DD": {
+    "003DD*": {
         "prefix": "/u-digamma",
         "body": "ϝ",
         "description": [
@@ -7491,7 +7491,7 @@
         ]
     },
     // \symbfup
-    "1D6A8": {
+    "1D6A8*": {
         "prefix": "/bu-Alpha",
         "body": "𝚨",
         "description": [
@@ -7500,7 +7500,7 @@
             "\r"
         ]
     },
-    "1D6A9": {
+    "1D6A9*": {
         "prefix": "/bu-Beta",
         "body": "𝚩",
         "description": [
@@ -7509,7 +7509,7 @@
             "\r"
         ]
     },
-    "1D6AA": {
+    "1D6AA*": {
         "prefix": "/bu-Gamma",
         "body": "𝚪",
         "description": [
@@ -7518,7 +7518,7 @@
             "\r"
         ]
     },
-    "1D6AB": {
+    "1D6AB*": {
         "prefix": "/bu-Delta",
         "body": "𝚫",
         "description": [
@@ -7527,7 +7527,7 @@
             "\r"
         ]
     },
-    "1D6AC": {
+    "1D6AC*": {
         "prefix": "/bu-Epsilon",
         "body": "𝚬",
         "description": [
@@ -7536,7 +7536,7 @@
             "\r"
         ]
     },
-    "1D6AD": {
+    "1D6AD*": {
         "prefix": "/bu-Zeta",
         "body": "𝚭",
         "description": [
@@ -7545,7 +7545,7 @@
             "\r"
         ]
     },
-    "1D6AE": {
+    "1D6AE*": {
         "prefix": "/bu-Eta",
         "body": "𝚮",
         "description": [
@@ -7554,7 +7554,7 @@
             "\r"
         ]
     },
-    "1D6AF": {
+    "1D6AF*": {
         "prefix": "/bu-Theta",
         "body": "𝚯",
         "description": [
@@ -7563,7 +7563,7 @@
             "\r"
         ]
     },
-    "1D6B0": {
+    "1D6B0*": {
         "prefix": "/bu-Iota",
         "body": "𝚰",
         "description": [
@@ -7572,7 +7572,7 @@
             "\r"
         ]
     },
-    "1D6B1": {
+    "1D6B1*": {
         "prefix": "/bu-Kappa",
         "body": "𝚱",
         "description": [
@@ -7581,7 +7581,7 @@
             "\r"
         ]
     },
-    "1D6B2": {
+    "1D6B2*": {
         "prefix": "/bu-Lambda",
         "body": "𝚲",
         "description": [
@@ -7590,7 +7590,7 @@
             "\r"
         ]
     },
-    "1D6B3": {
+    "1D6B3*": {
         "prefix": "/bu-Mu",
         "body": "𝚳",
         "description": [
@@ -7599,7 +7599,7 @@
             "\r"
         ]
     },
-    "1D6B4": {
+    "1D6B4*": {
         "prefix": "/bu-Nu",
         "body": "𝚴",
         "description": [
@@ -7608,7 +7608,7 @@
             "\r"
         ]
     },
-    "1D6B5": {
+    "1D6B5*": {
         "prefix": "/bu-Xi",
         "body": "𝚵",
         "description": [
@@ -7617,7 +7617,7 @@
             "\r"
         ]
     },
-    "1D6B6": {
+    "1D6B6*": {
         "prefix": "/bu-Omicron",
         "body": "𝚶",
         "description": [
@@ -7626,7 +7626,7 @@
             "\r"
         ]
     },
-    "1D6B7": {
+    "1D6B7*": {
         "prefix": "/bu-Pi",
         "body": "𝚷",
         "description": [
@@ -7635,7 +7635,7 @@
             "\r"
         ]
     },
-    "1D6B8": {
+    "1D6B8*": {
         "prefix": "/bu-Rho",
         "body": "𝚸",
         "description": [
@@ -7644,7 +7644,7 @@
             "\r"
         ]
     },
-    "1D6B9": {
+    "1D6B9*": {
         "prefix": "/bu-varTheta",
         "body": "𝚹",
         "description": [
@@ -7653,7 +7653,7 @@
             "\r"
         ]
     },
-    "1D6BA": {
+    "1D6BA*": {
         "prefix": "/bu-Sigma",
         "body": "𝚺",
         "description": [
@@ -7662,7 +7662,7 @@
             "\r"
         ]
     },
-    "1D6BB": {
+    "1D6BB*": {
         "prefix": "/bu-Tau",
         "body": "𝚻",
         "description": [
@@ -7671,7 +7671,7 @@
             "\r"
         ]
     },
-    "1D6BC": {
+    "1D6BC*": {
         "prefix": "/bu-Upsilon",
         "body": "𝚼",
         "description": [
@@ -7680,7 +7680,7 @@
             "\r"
         ]
     },
-    "1D6BD": {
+    "1D6BD*": {
         "prefix": "/bu-Phi",
         "body": "𝚽",
         "description": [
@@ -7689,7 +7689,7 @@
             "\r"
         ]
     },
-    "1D6BE": {
+    "1D6BE*": {
         "prefix": "/bu-Chi",
         "body": "𝚾",
         "description": [
@@ -7698,7 +7698,7 @@
             "\r"
         ]
     },
-    "1D6BF": {
+    "1D6BF*": {
         "prefix": "/bu-Psi",
         "body": "𝚿",
         "description": [
@@ -7707,7 +7707,7 @@
             "\r"
         ]
     },
-    "1D6C0": {
+    "1D6C0*": {
         "prefix": "/bu-Omega",
         "body": "𝛀",
         "description": [
@@ -7716,7 +7716,7 @@
             "\r"
         ]
     },
-    "1D7CA": {
+    "1D7CA*": {
         "prefix": "/bu-Digamma",
         "body": "𝟊",
         "description": [
@@ -7725,7 +7725,7 @@
             "\r"
         ]
     },
-    "1D6C2": {
+    "1D6C2*": {
         "prefix": "/bu-alpha",
         "body": "𝛂",
         "description": [
@@ -7734,7 +7734,7 @@
             "\r"
         ]
     },
-    "1D6C3": {
+    "1D6C3*": {
         "prefix": "/bu-beta",
         "body": "𝛃",
         "description": [
@@ -7743,7 +7743,7 @@
             "\r"
         ]
     },
-    "1D6C4": {
+    "1D6C4*": {
         "prefix": "/bu-gamma",
         "body": "𝛄",
         "description": [
@@ -7752,7 +7752,7 @@
             "\r"
         ]
     },
-    "1D6C5": {
+    "1D6C5*": {
         "prefix": "/bu-delta",
         "body": "𝛅",
         "description": [
@@ -7761,7 +7761,7 @@
             "\r"
         ]
     },
-    "1D6C6": {
+    "1D6C6*": {
         "prefix": "/bu-varepsilon",
         "body": "𝛆",
         "description": [
@@ -7770,7 +7770,7 @@
             "\r"
         ]
     },
-    "1D6C7": {
+    "1D6C7*": {
         "prefix": "/bu-zeta",
         "body": "𝛇",
         "description": [
@@ -7779,7 +7779,7 @@
             "\r"
         ]
     },
-    "1D6C8": {
+    "1D6C8*": {
         "prefix": "/bu-eta",
         "body": "𝛈",
         "description": [
@@ -7788,7 +7788,7 @@
             "\r"
         ]
     },
-    "1D6C9": {
+    "1D6C9*": {
         "prefix": "/bu-theta",
         "body": "𝛉",
         "description": [
@@ -7797,7 +7797,7 @@
             "\r"
         ]
     },
-    "1D6CA": {
+    "1D6CA*": {
         "prefix": "/bu-iota",
         "body": "𝛊",
         "description": [
@@ -7806,7 +7806,7 @@
             "\r"
         ]
     },
-    "1D6CB": {
+    "1D6CB*": {
         "prefix": "/bu-kappa",
         "body": "𝛋",
         "description": [
@@ -7815,7 +7815,7 @@
             "\r"
         ]
     },
-    "1D6CC": {
+    "1D6CC*": {
         "prefix": "/bu-lambda",
         "body": "𝛌",
         "description": [
@@ -7824,7 +7824,7 @@
             "\r"
         ]
     },
-    "1D6CD": {
+    "1D6CD*": {
         "prefix": "/bu-mu",
         "body": "𝛍",
         "description": [
@@ -7833,7 +7833,7 @@
             "\r"
         ]
     },
-    "1D6CE": {
+    "1D6CE*": {
         "prefix": "/bu-nu",
         "body": "𝛎",
         "description": [
@@ -7842,7 +7842,7 @@
             "\r"
         ]
     },
-    "1D6CF": {
+    "1D6CF*": {
         "prefix": "/bu-xi",
         "body": "𝛏",
         "description": [
@@ -7851,7 +7851,7 @@
             "\r"
         ]
     },
-    "1D6D0": {
+    "1D6D0*": {
         "prefix": "/bu-omicron",
         "body": "𝛐",
         "description": [
@@ -7860,7 +7860,7 @@
             "\r"
         ]
     },
-    "1D6D1": {
+    "1D6D1*": {
         "prefix": "/bu-pi",
         "body": "𝛑",
         "description": [
@@ -7869,7 +7869,7 @@
             "\r"
         ]
     },
-    "1D6D2": {
+    "1D6D2*": {
         "prefix": "/bu-rho",
         "body": "𝛒",
         "description": [
@@ -7878,7 +7878,7 @@
             "\r"
         ]
     },
-    "1D6D3": {
+    "1D6D3*": {
         "prefix": "/bu-varsigma",
         "body": "𝛓",
         "description": [
@@ -7887,7 +7887,7 @@
             "\r"
         ]
     },
-    "1D6D4": {
+    "1D6D4*": {
         "prefix": "/bu-sigma",
         "body": "𝛔",
         "description": [
@@ -7896,7 +7896,7 @@
             "\r"
         ]
     },
-    "1D6D5": {
+    "1D6D5*": {
         "prefix": "/bu-tau",
         "body": "𝛕",
         "description": [
@@ -7905,7 +7905,7 @@
             "\r"
         ]
     },
-    "1D6D6": {
+    "1D6D6*": {
         "prefix": "/bu-upsilon",
         "body": "𝛖",
         "description": [
@@ -7914,7 +7914,7 @@
             "\r"
         ]
     },
-    "1D6D7": {
+    "1D6D7*": {
         "prefix": "/bu-varphi",
         "body": "𝛗",
         "description": [
@@ -7923,7 +7923,7 @@
             "\r"
         ]
     },
-    "1D6D8": {
+    "1D6D8*": {
         "prefix": "/bu-chi",
         "body": "𝛘",
         "description": [
@@ -7932,7 +7932,7 @@
             "\r"
         ]
     },
-    "1D6D9": {
+    "1D6D9*": {
         "prefix": "/bu-psi",
         "body": "𝛙",
         "description": [
@@ -7941,7 +7941,7 @@
             "\r"
         ]
     },
-    "1D6DA": {
+    "1D6DA*": {
         "prefix": "/bu-omega",
         "body": "𝛚",
         "description": [
@@ -7950,7 +7950,7 @@
             "\r"
         ]
     },
-    "1D6DC": {
+    "1D6DC*": {
         "prefix": "/bu-epsilon",
         "body": "𝛜",
         "description": [
@@ -7959,7 +7959,7 @@
             "\r"
         ]
     },
-    "1D6DD": {
+    "1D6DD*": {
         "prefix": "/bu-vartheta",
         "body": "𝛝",
         "description": [
@@ -7968,7 +7968,7 @@
             "\r"
         ]
     },
-    "1D6DE": {
+    "1D6DE*": {
         "prefix": "/bu-varkappa",
         "body": "𝛞",
         "description": [
@@ -7977,7 +7977,7 @@
             "\r"
         ]
     },
-    "1D6DF": {
+    "1D6DF*": {
         "prefix": "/bu-phi",
         "body": "𝛟",
         "description": [
@@ -7986,7 +7986,7 @@
             "\r"
         ]
     },
-    "1D6E0": {
+    "1D6E0*": {
         "prefix": "/bu-varrho",
         "body": "𝛠",
         "description": [
@@ -7995,7 +7995,7 @@
             "\r"
         ]
     },
-    "1D6E1": {
+    "1D6E1*": {
         "prefix": "/bu-varpi",
         "body": "𝛡",
         "description": [
@@ -8004,7 +8004,7 @@
             "\r"
         ]
     },
-    "1D7CB": {
+    "1D7CB*": {
         "prefix": "/bu-digamma",
         "body": "𝟋",
         "description": [
@@ -8014,7 +8014,7 @@
         ]
     },
     // \symbfsfup
-    "1D756": {
+    "1D756*": {
         "prefix": "/bsu-Alpha",
         "body": "𝝖",
         "description": [
@@ -8023,7 +8023,7 @@
             "\r"
         ]
     },
-    "1D757": {
+    "1D757*": {
         "prefix": "/bsu-Beta",
         "body": "𝝗",
         "description": [
@@ -8032,7 +8032,7 @@
             "\r"
         ]
     },
-    "1D758": {
+    "1D758*": {
         "prefix": "/bsu-Gamma",
         "body": "𝝘",
         "description": [
@@ -8041,7 +8041,7 @@
             "\r"
         ]
     },
-    "1D759": {
+    "1D759*": {
         "prefix": "/bsu-Delta",
         "body": "𝝙",
         "description": [
@@ -8050,7 +8050,7 @@
             "\r"
         ]
     },
-    "1D75A": {
+    "1D75A*": {
         "prefix": "/bsu-Epsilon",
         "body": "𝝚",
         "description": [
@@ -8059,7 +8059,7 @@
             "\r"
         ]
     },
-    "1D75B": {
+    "1D75B*": {
         "prefix": "/bsu-Zeta",
         "body": "𝝛",
         "description": [
@@ -8068,7 +8068,7 @@
             "\r"
         ]
     },
-    "1D75C": {
+    "1D75C*": {
         "prefix": "/bsu-Eta",
         "body": "𝝜",
         "description": [
@@ -8077,7 +8077,7 @@
             "\r"
         ]
     },
-    "1D75D": {
+    "1D75D*": {
         "prefix": "/bsu-Theta",
         "body": "𝝝",
         "description": [
@@ -8086,7 +8086,7 @@
             "\r"
         ]
     },
-    "1D75E": {
+    "1D75E*": {
         "prefix": "/bsu-Iota",
         "body": "𝝞",
         "description": [
@@ -8095,7 +8095,7 @@
             "\r"
         ]
     },
-    "1D75F": {
+    "1D75F*": {
         "prefix": "/bsu-Kappa",
         "body": "𝝟",
         "description": [
@@ -8104,7 +8104,7 @@
             "\r"
         ]
     },
-    "1D760": {
+    "1D760*": {
         "prefix": "/bsu-Lambda",
         "body": "𝝠",
         "description": [
@@ -8113,7 +8113,7 @@
             "\r"
         ]
     },
-    "1D761": {
+    "1D761*": {
         "prefix": "/bsu-Mu",
         "body": "𝝡",
         "description": [
@@ -8122,7 +8122,7 @@
             "\r"
         ]
     },
-    "1D762": {
+    "1D762*": {
         "prefix": "/bsu-Nu",
         "body": "𝝢",
         "description": [
@@ -8131,7 +8131,7 @@
             "\r"
         ]
     },
-    "1D763": {
+    "1D763*": {
         "prefix": "/bsu-Xi",
         "body": "𝝣",
         "description": [
@@ -8140,7 +8140,7 @@
             "\r"
         ]
     },
-    "1D764": {
+    "1D764*": {
         "prefix": "/bsu-Omicron",
         "body": "𝝤",
         "description": [
@@ -8149,7 +8149,7 @@
             "\r"
         ]
     },
-    "1D765": {
+    "1D765*": {
         "prefix": "/bsu-Pi",
         "body": "𝝥",
         "description": [
@@ -8158,7 +8158,7 @@
             "\r"
         ]
     },
-    "1D766": {
+    "1D766*": {
         "prefix": "/bsu-Rho",
         "body": "𝝦",
         "description": [
@@ -8167,7 +8167,7 @@
             "\r"
         ]
     },
-    "1D767": {
+    "1D767*": {
         "prefix": "/bsu-varTheta",
         "body": "𝝧",
         "description": [
@@ -8176,7 +8176,7 @@
             "\r"
         ]
     },
-    "1D768": {
+    "1D768*": {
         "prefix": "/bsu-Sigma",
         "body": "𝝨",
         "description": [
@@ -8185,7 +8185,7 @@
             "\r"
         ]
     },
-    "1D769": {
+    "1D769*": {
         "prefix": "/bsu-Tau",
         "body": "𝝩",
         "description": [
@@ -8194,7 +8194,7 @@
             "\r"
         ]
     },
-    "1D76A": {
+    "1D76A*": {
         "prefix": "/bsu-Upsilon",
         "body": "𝝪",
         "description": [
@@ -8203,7 +8203,7 @@
             "\r"
         ]
     },
-    "1D76B": {
+    "1D76B*": {
         "prefix": "/bsu-Phi",
         "body": "𝝫",
         "description": [
@@ -8212,7 +8212,7 @@
             "\r"
         ]
     },
-    "1D76C": {
+    "1D76C*": {
         "prefix": "/bsu-Chi",
         "body": "𝝬",
         "description": [
@@ -8221,7 +8221,7 @@
             "\r"
         ]
     },
-    "1D76D": {
+    "1D76D*": {
         "prefix": "/bsu-Psi",
         "body": "𝝭",
         "description": [
@@ -8230,7 +8230,7 @@
             "\r"
         ]
     },
-    "1D76E": {
+    "1D76E*": {
         "prefix": "/bsu-Omega",
         "body": "𝝮",
         "description": [
@@ -8239,7 +8239,7 @@
             "\r"
         ]
     },
-    "1D770": {
+    "1D770*": {
         "prefix": "/bsu-alpha",
         "body": "𝝰",
         "description": [
@@ -8248,7 +8248,7 @@
             "\r"
         ]
     },
-    "1D771": {
+    "1D771*": {
         "prefix": "/bsu-beta",
         "body": "𝝱",
         "description": [
@@ -8257,7 +8257,7 @@
             "\r"
         ]
     },
-    "1D772": {
+    "1D772*": {
         "prefix": "/bsu-gamma",
         "body": "𝝲",
         "description": [
@@ -8266,7 +8266,7 @@
             "\r"
         ]
     },
-    "1D773": {
+    "1D773*": {
         "prefix": "/bsu-delta",
         "body": "𝝳",
         "description": [
@@ -8275,7 +8275,7 @@
             "\r"
         ]
     },
-    "1D774": {
+    "1D774*": {
         "prefix": "/bsu-varepsilon",
         "body": "𝝴",
         "description": [
@@ -8284,7 +8284,7 @@
             "\r"
         ]
     },
-    "1D775": {
+    "1D775*": {
         "prefix": "/bsu-zeta",
         "body": "𝝵",
         "description": [
@@ -8293,7 +8293,7 @@
             "\r"
         ]
     },
-    "1D776": {
+    "1D776*": {
         "prefix": "/bsu-eta",
         "body": "𝝶",
         "description": [
@@ -8302,7 +8302,7 @@
             "\r"
         ]
     },
-    "1D777": {
+    "1D777*": {
         "prefix": "/bsu-theta",
         "body": "𝝷",
         "description": [
@@ -8311,7 +8311,7 @@
             "\r"
         ]
     },
-    "1D778": {
+    "1D778*": {
         "prefix": "/bsu-iota",
         "body": "𝝸",
         "description": [
@@ -8320,7 +8320,7 @@
             "\r"
         ]
     },
-    "1D779": {
+    "1D779*": {
         "prefix": "/bsu-kappa",
         "body": "𝝹",
         "description": [
@@ -8329,7 +8329,7 @@
             "\r"
         ]
     },
-    "1D77A": {
+    "1D77A*": {
         "prefix": "/bsu-lambda",
         "body": "𝝺",
         "description": [
@@ -8338,7 +8338,7 @@
             "\r"
         ]
     },
-    "1D77B": {
+    "1D77B*": {
         "prefix": "/bsu-mu",
         "body": "𝝻",
         "description": [
@@ -8347,7 +8347,7 @@
             "\r"
         ]
     },
-    "1D77C": {
+    "1D77C*": {
         "prefix": "/bsu-nu",
         "body": "𝝼",
         "description": [
@@ -8356,7 +8356,7 @@
             "\r"
         ]
     },
-    "1D77D": {
+    "1D77D*": {
         "prefix": "/bsu-xi",
         "body": "𝝽",
         "description": [
@@ -8365,7 +8365,7 @@
             "\r"
         ]
     },
-    "1D77E": {
+    "1D77E*": {
         "prefix": "/bsu-omicron",
         "body": "𝝾",
         "description": [
@@ -8374,7 +8374,7 @@
             "\r"
         ]
     },
-    "1D77F": {
+    "1D77F*": {
         "prefix": "/bsu-pi",
         "body": "𝝿",
         "description": [
@@ -8383,7 +8383,7 @@
             "\r"
         ]
     },
-    "1D780": {
+    "1D780*": {
         "prefix": "/bsu-rho",
         "body": "𝞀",
         "description": [
@@ -8392,7 +8392,7 @@
             "\r"
         ]
     },
-    "1D781": {
+    "1D781*": {
         "prefix": "/bsu-varsigma",
         "body": "𝞁",
         "description": [
@@ -8401,7 +8401,7 @@
             "\r"
         ]
     },
-    "1D782": {
+    "1D782*": {
         "prefix": "/bsu-sigma",
         "body": "𝞂",
         "description": [
@@ -8410,7 +8410,7 @@
             "\r"
         ]
     },
-    "1D783": {
+    "1D783*": {
         "prefix": "/bsu-tau",
         "body": "𝞃",
         "description": [
@@ -8419,7 +8419,7 @@
             "\r"
         ]
     },
-    "1D784": {
+    "1D784*": {
         "prefix": "/bsu-upsilon",
         "body": "𝞄",
         "description": [
@@ -8428,7 +8428,7 @@
             "\r"
         ]
     },
-    "1D785": {
+    "1D785*": {
         "prefix": "/bsu-varphi",
         "body": "𝞅",
         "description": [
@@ -8437,7 +8437,7 @@
             "\r"
         ]
     },
-    "1D786": {
+    "1D786*": {
         "prefix": "/bsu-chi",
         "body": "𝞆",
         "description": [
@@ -8446,7 +8446,7 @@
             "\r"
         ]
     },
-    "1D787": {
+    "1D787*": {
         "prefix": "/bsu-psi",
         "body": "𝞇",
         "description": [
@@ -8455,7 +8455,7 @@
             "\r"
         ]
     },
-    "1D788": {
+    "1D788*": {
         "prefix": "/bsu-omega",
         "body": "𝞈",
         "description": [
@@ -8464,7 +8464,7 @@
             "\r"
         ]
     },
-    "1D78A": {
+    "1D78A*": {
         "prefix": "/bsu-epsilon",
         "body": "𝞊",
         "description": [
@@ -8473,7 +8473,7 @@
             "\r"
         ]
     },
-    "1D78B": {
+    "1D78B*": {
         "prefix": "/bsu-vartheta",
         "body": "𝞋",
         "description": [
@@ -8482,7 +8482,7 @@
             "\r"
         ]
     },
-    "1D78C": {
+    "1D78C*": {
         "prefix": "/bsu-varkappa",
         "body": "𝞌",
         "description": [
@@ -8491,7 +8491,7 @@
             "\r"
         ]
     },
-    "1D78D": {
+    "1D78D*": {
         "prefix": "/bsu-phi",
         "body": "𝞍",
         "description": [
@@ -8500,7 +8500,7 @@
             "\r"
         ]
     },
-    "1D78E": {
+    "1D78E*": {
         "prefix": "/bsu-varrho",
         "body": "𝞎",
         "description": [
@@ -8509,7 +8509,7 @@
             "\r"
         ]
     },
-    "1D78F": {
+    "1D78F*": {
         "prefix": "/bsu-varpi",
         "body": "𝞏",
         "description": [
@@ -8519,7 +8519,7 @@
         ]
     },
     // \symbb
-    "0213C": {
+    "0213C*": {
         "prefix": "/bb-pi",
         "body": "ℼ",
         "description": [
@@ -8528,7 +8528,7 @@
             "\r"
         ]
     },
-    "0213D": {
+    "0213D*": {
         "prefix": "/bb-gamma",
         "body": "ℽ",
         "description": [
@@ -8537,7 +8537,7 @@
             "\r"
         ]
     },
-    "0213E": {
+    "0213E*": {
         "prefix": "/bb-Gamma",
         "body": "ℾ",
         "description": [
@@ -8546,7 +8546,7 @@
             "\r"
         ]
     },
-    "0213F": {
+    "0213F*": {
         "prefix": "/bb-Pi",
         "body": "ℿ",
         "description": [
@@ -8556,7 +8556,7 @@
         ]
     },
     // \symit
-    "1D6E2": {
+    "1D6E2*": {
         "prefix": ["/i-Alpha", "/Alpha"],
         "body": "𝛢",
         "description": [
@@ -8565,7 +8565,7 @@
             "\r"
         ]
     },
-    "1D6E3": {
+    "1D6E3*": {
         "prefix": ["/i-Beta", "/Beta"],
         "body": "𝛣",
         "description": [
@@ -8574,7 +8574,7 @@
             "\r"
         ]
     },
-    "1D6E4": {
+    "1D6E4*": {
         "prefix": ["/i-Gamma", "/Gamma"],
         "body": "𝛤",
         "description": [
@@ -8583,7 +8583,7 @@
             "\r"
         ]
     },
-    "1D6E5": {
+    "1D6E5*": {
         "prefix": ["/i-Delta", "/Delta"],
         "body": "𝛥",
         "description": [
@@ -8592,7 +8592,7 @@
             "\r"
         ]
     },
-    "1D6E6": {
+    "1D6E6*": {
         "prefix": ["/i-Epsilon", "/Epsilon"],
         "body": "𝛦",
         "description": [
@@ -8601,7 +8601,7 @@
             "\r"
         ]
     },
-    "1D6E7": {
+    "1D6E7*": {
         "prefix": ["/i-Zeta", "/Zeta"],
         "body": "𝛧",
         "description": [
@@ -8610,7 +8610,7 @@
             "\r"
         ]
     },
-    "1D6E8": {
+    "1D6E8*": {
         "prefix": ["/i-Eta", "/Eta"],
         "body": "𝛨",
         "description": [
@@ -8619,7 +8619,7 @@
             "\r"
         ]
     },
-    "1D6E9": {
+    "1D6E9*": {
         "prefix": ["/i-Theta", "/Theta"],
         "body": "𝛩",
         "description": [
@@ -8628,7 +8628,7 @@
             "\r"
         ]
     },
-    "1D6EA": {
+    "1D6EA*": {
         "prefix": ["/i-Iota", "/Iota"],
         "body": "𝛪",
         "description": [
@@ -8637,7 +8637,7 @@
             "\r"
         ]
     },
-    "1D6EB": {
+    "1D6EB*": {
         "prefix": ["/i-Kappa", "/Kappa"],
         "body": "𝛫",
         "description": [
@@ -8646,7 +8646,7 @@
             "\r"
         ]
     },
-    "1D6EC": {
+    "1D6EC*": {
         "prefix": ["/i-Lambda", "/Lambda"],
         "body": "𝛬",
         "description": [
@@ -8655,7 +8655,7 @@
             "\r"
         ]
     },
-    "1D6ED": {
+    "1D6ED*": {
         "prefix": ["/i-Mu", "/Mu"],
         "body": "𝛭",
         "description": [
@@ -8664,7 +8664,7 @@
             "\r"
         ]
     },
-    "1D6EE": {
+    "1D6EE*": {
         "prefix": ["/i-Nu", "/Nu"],
         "body": "𝛮",
         "description": [
@@ -8673,7 +8673,7 @@
             "\r"
         ]
     },
-    "1D6EF": {
+    "1D6EF*": {
         "prefix": ["/i-Xi", "/Xi"],
         "body": "𝛯",
         "description": [
@@ -8682,7 +8682,7 @@
             "\r"
         ]
     },
-    "1D6F0": {
+    "1D6F0*": {
         "prefix": ["/i-Omicron", "/Omicron"],
         "body": "𝛰",
         "description": [
@@ -8691,7 +8691,7 @@
             "\r"
         ]
     },
-    "1D6F1": {
+    "1D6F1*": {
         "prefix": ["/i-Pi", "/Pi"],
         "body": "𝛱",
         "description": [
@@ -8700,7 +8700,7 @@
             "\r"
         ]
     },
-    "1D6F2": {
+    "1D6F2*": {
         "prefix": ["/i-Rho", "/Rho"],
         "body": "𝛲",
         "description": [
@@ -8709,7 +8709,7 @@
             "\r"
         ]
     },
-    "1D6F3": {
+    "1D6F3*": {
         "prefix": ["/i-varTheta", "/varTheta"],
         "body": "𝛳",
         "description": [
@@ -8718,7 +8718,7 @@
             "\r"
         ]
     },
-    "1D6F4": {
+    "1D6F4*": {
         "prefix": ["/i-Sigma", "/Sigma"],
         "body": "𝛴",
         "description": [
@@ -8727,7 +8727,7 @@
             "\r"
         ]
     },
-    "1D6F5": {
+    "1D6F5*": {
         "prefix": ["/i-Tau", "/Tau"],
         "body": "𝛵",
         "description": [
@@ -8736,7 +8736,7 @@
             "\r"
         ]
     },
-    "1D6F6": {
+    "1D6F6*": {
         "prefix": ["/i-Upsilon", "/Upsilon"],
         "body": "𝛶",
         "description": [
@@ -8745,7 +8745,7 @@
             "\r"
         ]
     },
-    "1D6F7": {
+    "1D6F7*": {
         "prefix": ["/i-Phi", "/Phi"],
         "body": "𝛷",
         "description": [
@@ -8754,7 +8754,7 @@
             "\r"
         ]
     },
-    "1D6F8": {
+    "1D6F8*": {
         "prefix": ["/i-Chi", "/Chi"],
         "body": "𝛸",
         "description": [
@@ -8763,7 +8763,7 @@
             "\r"
         ]
     },
-    "1D6F9": {
+    "1D6F9*": {
         "prefix": ["/i-Psi", "/Psi"],
         "body": "𝛹",
         "description": [
@@ -8772,7 +8772,7 @@
             "\r"
         ]
     },
-    "1D6FA": {
+    "1D6FA*": {
         "prefix": ["/i-Omega", "/Omega"],
         "body": "𝛺",
         "description": [
@@ -8781,7 +8781,7 @@
             "\r"
         ]
     },
-    "1D6FC": {
+    "1D6FC*": {
         "prefix": ["/i-alpha", "/alpha"],
         "body": "𝛼",
         "description": [
@@ -8790,7 +8790,7 @@
             "\r"
         ]
     },
-    "1D6FD": {
+    "1D6FD*": {
         "prefix": ["/i-beta", "/beta"],
         "body": "𝛽",
         "description": [
@@ -8799,7 +8799,7 @@
             "\r"
         ]
     },
-    "1D6FE": {
+    "1D6FE*": {
         "prefix": ["/i-gamma", "/gamma"],
         "body": "𝛾",
         "description": [
@@ -8808,7 +8808,7 @@
             "\r"
         ]
     },
-    "1D6FF": {
+    "1D6FF*": {
         "prefix": ["/i-delta", "/delta"],
         "body": "𝛿",
         "description": [
@@ -8817,7 +8817,7 @@
             "\r"
         ]
     },
-    "1D700": {
+    "1D700*": {
         "prefix": ["/i-varepsilon", "/varepsilon"],
         "body": "𝜀",
         "description": [
@@ -8826,7 +8826,7 @@
             "\r"
         ]
     },
-    "1D701": {
+    "1D701*": {
         "prefix": ["/i-zeta", "/zeta"],
         "body": "𝜁",
         "description": [
@@ -8835,7 +8835,7 @@
             "\r"
         ]
     },
-    "1D702": {
+    "1D702*": {
         "prefix": ["/i-eta", "/eta"],
         "body": "𝜂",
         "description": [
@@ -8844,7 +8844,7 @@
             "\r"
         ]
     },
-    "1D703": {
+    "1D703*": {
         "prefix": ["/i-theta", "/theta"],
         "body": "𝜃",
         "description": [
@@ -8853,7 +8853,7 @@
             "\r"
         ]
     },
-    "1D704": {
+    "1D704*": {
         "prefix": ["/i-iota", "/iota"],
         "body": "𝜄",
         "description": [
@@ -8862,7 +8862,7 @@
             "\r"
         ]
     },
-    "1D705": {
+    "1D705*": {
         "prefix": ["/i-kappa", "/kappa"],
         "body": "𝜅",
         "description": [
@@ -8871,7 +8871,7 @@
             "\r"
         ]
     },
-    "1D706": {
+    "1D706*": {
         "prefix": ["/i-lambda", "/lambda"],
         "body": "𝜆",
         "description": [
@@ -8880,7 +8880,7 @@
             "\r"
         ]
     },
-    "1D707": {
+    "1D707*": {
         "prefix": ["/i-mu", "/mu"],
         "body": "𝜇",
         "description": [
@@ -8889,7 +8889,7 @@
             "\r"
         ]
     },
-    "1D708": {
+    "1D708*": {
         "prefix": ["/i-nu", "/nu"],
         "body": "𝜈",
         "description": [
@@ -8898,7 +8898,7 @@
             "\r"
         ]
     },
-    "1D709": {
+    "1D709*": {
         "prefix": ["/i-xi", "/xi"],
         "body": "𝜉",
         "description": [
@@ -8907,7 +8907,7 @@
             "\r"
         ]
     },
-    "1D70A": {
+    "1D70A*": {
         "prefix": ["/i-omicron", "/omicron"],
         "body": "𝜊",
         "description": [
@@ -8916,7 +8916,7 @@
             "\r"
         ]
     },
-    "1D70B": {
+    "1D70B*": {
         "prefix": ["/i-pi", "/pi"],
         "body": "𝜋",
         "description": [
@@ -8925,7 +8925,7 @@
             "\r"
         ]
     },
-    "1D70C": {
+    "1D70C*": {
         "prefix": ["/i-rho", "/rho"],
         "body": "𝜌",
         "description": [
@@ -8934,7 +8934,7 @@
             "\r"
         ]
     },
-    "1D70D": {
+    "1D70D*": {
         "prefix": ["/i-varsigma", "/varsigma"],
         "body": "𝜍",
         "description": [
@@ -8943,7 +8943,7 @@
             "\r"
         ]
     },
-    "1D70E": {
+    "1D70E*": {
         "prefix": ["/i-sigma", "/sigma"],
         "body": "𝜎",
         "description": [
@@ -8952,7 +8952,7 @@
             "\r"
         ]
     },
-    "1D70F": {
+    "1D70F*": {
         "prefix": ["/i-tau", "/tau"],
         "body": "𝜏",
         "description": [
@@ -8961,7 +8961,7 @@
             "\r"
         ]
     },
-    "1D710": {
+    "1D710*": {
         "prefix": ["/i-upsilon", "/upsilon"],
         "body": "𝜐",
         "description": [
@@ -8970,7 +8970,7 @@
             "\r"
         ]
     },
-    "1D711": {
+    "1D711*": {
         "prefix": ["/i-varphi", "/varphi"],
         "body": "𝜑",
         "description": [
@@ -8979,7 +8979,7 @@
             "\r"
         ]
     },
-    "1D712": {
+    "1D712*": {
         "prefix": ["/i-chi", "/chi"],
         "body": "𝜒",
         "description": [
@@ -8988,7 +8988,7 @@
             "\r"
         ]
     },
-    "1D713": {
+    "1D713*": {
         "prefix": ["/i-psi", "/psi"],
         "body": "𝜓",
         "description": [
@@ -8997,7 +8997,7 @@
             "\r"
         ]
     },
-    "1D714": {
+    "1D714*": {
         "prefix": ["/i-omega", "/omega"],
         "body": "𝜔",
         "description": [
@@ -9006,7 +9006,7 @@
             "\r"
         ]
     },
-    "1D716": {
+    "1D716*": {
         "prefix": ["/i-epsilon", "/epsilon"],
         "body": "𝜖",
         "description": [
@@ -9015,7 +9015,7 @@
             "\r"
         ]
     },
-    "1D717": {
+    "1D717*": {
         "prefix": ["/i-vartheta", "/vartheta"],
         "body": "𝜗",
         "description": [
@@ -9024,7 +9024,7 @@
             "\r"
         ]
     },
-    "1D718": {
+    "1D718*": {
         "prefix": ["/i-varkappa", "/varkappa"],
         "body": "𝜘",
         "description": [
@@ -9033,7 +9033,7 @@
             "\r"
         ]
     },
-    "1D719": {
+    "1D719*": {
         "prefix": ["/i-phi", "/phi"],
         "body": "𝜙",
         "description": [
@@ -9042,7 +9042,7 @@
             "\r"
         ]
     },
-    "1D71A": {
+    "1D71A*": {
         "prefix": ["/i-varrho", "/varrho"],
         "body": "𝜚",
         "description": [
@@ -9051,7 +9051,7 @@
             "\r"
         ]
     },
-    "1D71B": {
+    "1D71B*": {
         "prefix": ["/i-varpi", "/varpi"],
         "body": "𝜛",
         "description": [
@@ -9061,7 +9061,7 @@
         ]
     },
     // \symbfit
-    "1D71C": {
+    "1D71C*": {
         "prefix": ["/bi-Alpha", "/b-Alpha"],
         "body": "𝜜",
         "description": [
@@ -9070,7 +9070,7 @@
             "\r"
         ]
     },
-    "1D71D": {
+    "1D71D*": {
         "prefix": ["/bi-Beta", "/b-Beta"],
         "body": "𝜝",
         "description": [
@@ -9079,7 +9079,7 @@
             "\r"
         ]
     },
-    "1D71E": {
+    "1D71E*": {
         "prefix": ["/bi-Gamma", "/b-Gamma"],
         "body": "𝜞",
         "description": [
@@ -9088,7 +9088,7 @@
             "\r"
         ]
     },
-    "1D71F": {
+    "1D71F*": {
         "prefix": ["/bi-Delta", "/b-Delta"],
         "body": "𝜟",
         "description": [
@@ -9097,7 +9097,7 @@
             "\r"
         ]
     },
-    "1D720": {
+    "1D720*": {
         "prefix": ["/bi-Epsilon", "/b-Epsilon"],
         "body": "𝜠",
         "description": [
@@ -9106,7 +9106,7 @@
             "\r"
         ]
     },
-    "1D721": {
+    "1D721*": {
         "prefix": ["/bi-Zeta", "/b-Zeta"],
         "body": "𝜡",
         "description": [
@@ -9115,7 +9115,7 @@
             "\r"
         ]
     },
-    "1D722": {
+    "1D722*": {
         "prefix": ["/bi-Eta", "/b-Eta"],
         "body": "𝜢",
         "description": [
@@ -9124,7 +9124,7 @@
             "\r"
         ]
     },
-    "1D723": {
+    "1D723*": {
         "prefix": ["/bi-Theta", "/b-Theta"],
         "body": "𝜣",
         "description": [
@@ -9133,7 +9133,7 @@
             "\r"
         ]
     },
-    "1D724": {
+    "1D724*": {
         "prefix": ["/bi-Iota", "/b-Iota"],
         "body": "𝜤",
         "description": [
@@ -9142,7 +9142,7 @@
             "\r"
         ]
     },
-    "1D725": {
+    "1D725*": {
         "prefix": ["/bi-Kappa", "/b-Kappa"],
         "body": "𝜥",
         "description": [
@@ -9151,7 +9151,7 @@
             "\r"
         ]
     },
-    "1D726": {
+    "1D726*": {
         "prefix": ["/bi-Lambda", "/b-Lambda"],
         "body": "𝜦",
         "description": [
@@ -9160,7 +9160,7 @@
             "\r"
         ]
     },
-    "1D727": {
+    "1D727*": {
         "prefix": ["/bi-Mu", "/b-Mu"],
         "body": "𝜧",
         "description": [
@@ -9169,7 +9169,7 @@
             "\r"
         ]
     },
-    "1D728": {
+    "1D728*": {
         "prefix": ["/bi-Nu", "/b-Nu"],
         "body": "𝜨",
         "description": [
@@ -9178,7 +9178,7 @@
             "\r"
         ]
     },
-    "1D729": {
+    "1D729*": {
         "prefix": ["/bi-Xi", "/b-Xi"],
         "body": "𝜩",
         "description": [
@@ -9187,7 +9187,7 @@
             "\r"
         ]
     },
-    "1D72A": {
+    "1D72A*": {
         "prefix": ["/bi-Omicron", "/b-Omicron"],
         "body": "𝜪",
         "description": [
@@ -9196,7 +9196,7 @@
             "\r"
         ]
     },
-    "1D72B": {
+    "1D72B*": {
         "prefix": ["/bi-Pi", "/b-Pi"],
         "body": "𝜫",
         "description": [
@@ -9205,7 +9205,7 @@
             "\r"
         ]
     },
-    "1D72C": {
+    "1D72C*": {
         "prefix": ["/bi-Rho", "/b-Rho"],
         "body": "𝜬",
         "description": [
@@ -9214,7 +9214,7 @@
             "\r"
         ]
     },
-    "1D72D": {
+    "1D72D*": {
         "prefix": ["/bi-varTheta", "/b-varTheta"],
         "body": "𝜭",
         "description": [
@@ -9223,7 +9223,7 @@
             "\r"
         ]
     },
-    "1D72E": {
+    "1D72E*": {
         "prefix": ["/bi-Sigma", "/b-Sigma"],
         "body": "𝜮",
         "description": [
@@ -9232,7 +9232,7 @@
             "\r"
         ]
     },
-    "1D72F": {
+    "1D72F*": {
         "prefix": ["/bi-Tau", "/b-Tau"],
         "body": "𝜯",
         "description": [
@@ -9241,7 +9241,7 @@
             "\r"
         ]
     },
-    "1D730": {
+    "1D730*": {
         "prefix": ["/bi-Upsilon", "/b-Upsilon"],
         "body": "𝜰",
         "description": [
@@ -9250,7 +9250,7 @@
             "\r"
         ]
     },
-    "1D731": {
+    "1D731*": {
         "prefix": ["/bi-Phi", "/b-Phi"],
         "body": "𝜱",
         "description": [
@@ -9259,7 +9259,7 @@
             "\r"
         ]
     },
-    "1D732": {
+    "1D732*": {
         "prefix": ["/bi-Chi", "/b-Chi"],
         "body": "𝜲",
         "description": [
@@ -9268,7 +9268,7 @@
             "\r"
         ]
     },
-    "1D733": {
+    "1D733*": {
         "prefix": ["/bi-Psi", "/b-Psi"],
         "body": "𝜳",
         "description": [
@@ -9277,7 +9277,7 @@
             "\r"
         ]
     },
-    "1D734": {
+    "1D734*": {
         "prefix": ["/bi-Omega", "/b-Omega"],
         "body": "𝜴",
         "description": [
@@ -9286,7 +9286,7 @@
             "\r"
         ]
     },
-    "1D736": {
+    "1D736*": {
         "prefix": ["/bi-alpha", "/b-alpha"],
         "body": "𝜶",
         "description": [
@@ -9295,7 +9295,7 @@
             "\r"
         ]
     },
-    "1D737": {
+    "1D737*": {
         "prefix": ["/bi-beta", "/b-beta"],
         "body": "𝜷",
         "description": [
@@ -9304,7 +9304,7 @@
             "\r"
         ]
     },
-    "1D738": {
+    "1D738*": {
         "prefix": ["/bi-gamma", "/b-gamma"],
         "body": "𝜸",
         "description": [
@@ -9313,7 +9313,7 @@
             "\r"
         ]
     },
-    "1D739": {
+    "1D739*": {
         "prefix": ["/bi-delta", "/b-delta"],
         "body": "𝜹",
         "description": [
@@ -9322,7 +9322,7 @@
             "\r"
         ]
     },
-    "1D73A": {
+    "1D73A*": {
         "prefix": ["/bi-varepsilon", "/b-varepsilon"],
         "body": "𝜺",
         "description": [
@@ -9331,7 +9331,7 @@
             "\r"
         ]
     },
-    "1D73B": {
+    "1D73B*": {
         "prefix": ["/bi-zeta", "/b-zeta"],
         "body": "𝜻",
         "description": [
@@ -9340,7 +9340,7 @@
             "\r"
         ]
     },
-    "1D73C": {
+    "1D73C*": {
         "prefix": ["/bi-eta", "/b-eta"],
         "body": "𝜼",
         "description": [
@@ -9349,7 +9349,7 @@
             "\r"
         ]
     },
-    "1D73D": {
+    "1D73D*": {
         "prefix": ["/bi-theta", "/b-theta"],
         "body": "𝜽",
         "description": [
@@ -9358,7 +9358,7 @@
             "\r"
         ]
     },
-    "1D73E": {
+    "1D73E*": {
         "prefix": ["/bi-iota", "/b-iota"],
         "body": "𝜾",
         "description": [
@@ -9367,7 +9367,7 @@
             "\r"
         ]
     },
-    "1D73F": {
+    "1D73F*": {
         "prefix": ["/bi-kappa", "/b-kappa"],
         "body": "𝜿",
         "description": [
@@ -9376,7 +9376,7 @@
             "\r"
         ]
     },
-    "1D740": {
+    "1D740*": {
         "prefix": ["/bi-lambda", "/b-lambda"],
         "body": "𝝀",
         "description": [
@@ -9385,7 +9385,7 @@
             "\r"
         ]
     },
-    "1D741": {
+    "1D741*": {
         "prefix": ["/bi-mu", "/b-mu"],
         "body": "𝝁",
         "description": [
@@ -9394,7 +9394,7 @@
             "\r"
         ]
     },
-    "1D742": {
+    "1D742*": {
         "prefix": ["/bi-nu", "/b-nu"],
         "body": "𝝂",
         "description": [
@@ -9403,7 +9403,7 @@
             "\r"
         ]
     },
-    "1D743": {
+    "1D743*": {
         "prefix": ["/bi-xi", "/b-xi"],
         "body": "𝝃",
         "description": [
@@ -9412,7 +9412,7 @@
             "\r"
         ]
     },
-    "1D744": {
+    "1D744*": {
         "prefix": ["/bi-omicron", "/b-omicron"],
         "body": "𝝄",
         "description": [
@@ -9421,7 +9421,7 @@
             "\r"
         ]
     },
-    "1D745": {
+    "1D745*": {
         "prefix": ["/bi-pi", "/b-pi"],
         "body": "𝝅",
         "description": [
@@ -9430,7 +9430,7 @@
             "\r"
         ]
     },
-    "1D746": {
+    "1D746*": {
         "prefix": ["/bi-rho", "/b-rho"],
         "body": "𝝆",
         "description": [
@@ -9439,7 +9439,7 @@
             "\r"
         ]
     },
-    "1D747": {
+    "1D747*": {
         "prefix": ["/bi-varsigma", "/b-varsigma"],
         "body": "𝝇",
         "description": [
@@ -9448,7 +9448,7 @@
             "\r"
         ]
     },
-    "1D748": {
+    "1D748*": {
         "prefix": ["/bi-sigma", "/b-sigma"],
         "body": "𝝈",
         "description": [
@@ -9457,7 +9457,7 @@
             "\r"
         ]
     },
-    "1D749": {
+    "1D749*": {
         "prefix": ["/bi-tau", "/b-tau"],
         "body": "𝝉",
         "description": [
@@ -9466,7 +9466,7 @@
             "\r"
         ]
     },
-    "1D74A": {
+    "1D74A*": {
         "prefix": ["/bi-upsilon", "/b-upsilon"],
         "body": "𝝊",
         "description": [
@@ -9475,7 +9475,7 @@
             "\r"
         ]
     },
-    "1D74B": {
+    "1D74B*": {
         "prefix": ["/bi-varphi", "/b-varphi"],
         "body": "𝝋",
         "description": [
@@ -9484,7 +9484,7 @@
             "\r"
         ]
     },
-    "1D74C": {
+    "1D74C*": {
         "prefix": ["/bi-chi", "/b-chi"],
         "body": "𝝌",
         "description": [
@@ -9493,7 +9493,7 @@
             "\r"
         ]
     },
-    "1D74D": {
+    "1D74D*": {
         "prefix": ["/bi-psi", "/b-psi"],
         "body": "𝝍",
         "description": [
@@ -9502,7 +9502,7 @@
             "\r"
         ]
     },
-    "1D74E": {
+    "1D74E*": {
         "prefix": ["/bi-omega", "/b-omega"],
         "body": "𝝎",
         "description": [
@@ -9511,7 +9511,7 @@
             "\r"
         ]
     },
-    "1D750": {
+    "1D750*": {
         "prefix": ["/bi-epsilon", "/b-epsilon"],
         "body": "𝝐",
         "description": [
@@ -9520,7 +9520,7 @@
             "\r"
         ]
     },
-    "1D751": {
+    "1D751*": {
         "prefix": ["/bi-vartheta", "/b-vartheta"],
         "body": "𝝑",
         "description": [
@@ -9529,7 +9529,7 @@
             "\r"
         ]
     },
-    "1D752": {
+    "1D752*": {
         "prefix": ["/bi-varkappa", "/b-varkappa"],
         "body": "𝝒",
         "description": [
@@ -9538,7 +9538,7 @@
             "\r"
         ]
     },
-    "1D753": {
+    "1D753*": {
         "prefix": ["/bi-phi", "/b-phi"],
         "body": "𝝓",
         "description": [
@@ -9547,7 +9547,7 @@
             "\r"
         ]
     },
-    "1D754": {
+    "1D754*": {
         "prefix": ["/bi-varrho", "/b-varrho"],
         "body": "𝝔",
         "description": [
@@ -9556,7 +9556,7 @@
             "\r"
         ]
     },
-    "1D755": {
+    "1D755*": {
         "prefix": ["/bi-varpi", "/b-varpi"],
         "body": "𝝕",
         "description": [
@@ -9566,7 +9566,7 @@
         ]
     },
     // \symbfsfit
-    "1D790": {
+    "1D790*": {
         "prefix": ["/bsi-Alpha", "/bs-Alpha"],
         "body": "𝞐",
         "description": [
@@ -9575,7 +9575,7 @@
             "\r"
         ]
     },
-    "1D791": {
+    "1D791*": {
         "prefix": ["/bsi-Beta", "/bs-Beta"],
         "body": "𝞑",
         "description": [
@@ -9584,7 +9584,7 @@
             "\r"
         ]
     },
-    "1D792": {
+    "1D792*": {
         "prefix": ["/bsi-Gamma", "/bs-Gamma"],
         "body": "𝞒",
         "description": [
@@ -9593,7 +9593,7 @@
             "\r"
         ]
     },
-    "1D793": {
+    "1D793*": {
         "prefix": ["/bsi-Delta", "/bs-Delta"],
         "body": "𝞓",
         "description": [
@@ -9602,7 +9602,7 @@
             "\r"
         ]
     },
-    "1D794": {
+    "1D794*": {
         "prefix": ["/bsi-Epsilon", "/bs-Epsilon"],
         "body": "𝞔",
         "description": [
@@ -9611,7 +9611,7 @@
             "\r"
         ]
     },
-    "1D795": {
+    "1D795*": {
         "prefix": ["/bsi-Zeta", "/bs-Zeta"],
         "body": "𝞕",
         "description": [
@@ -9620,7 +9620,7 @@
             "\r"
         ]
     },
-    "1D796": {
+    "1D796*": {
         "prefix": ["/bsi-Eta", "/bs-Eta"],
         "body": "𝞖",
         "description": [
@@ -9629,7 +9629,7 @@
             "\r"
         ]
     },
-    "1D797": {
+    "1D797*": {
         "prefix": ["/bsi-Theta", "/bs-Theta"],
         "body": "𝞗",
         "description": [
@@ -9638,7 +9638,7 @@
             "\r"
         ]
     },
-    "1D798": {
+    "1D798*": {
         "prefix": ["/bsi-Iota", "/bs-Iota"],
         "body": "𝞘",
         "description": [
@@ -9647,7 +9647,7 @@
             "\r"
         ]
     },
-    "1D799": {
+    "1D799*": {
         "prefix": ["/bsi-Kappa", "/bs-Kappa"],
         "body": "𝞙",
         "description": [
@@ -9656,7 +9656,7 @@
             "\r"
         ]
     },
-    "1D79A": {
+    "1D79A*": {
         "prefix": ["/bsi-Lambda", "/bs-Lambda"],
         "body": "𝞚",
         "description": [
@@ -9665,7 +9665,7 @@
             "\r"
         ]
     },
-    "1D79B": {
+    "1D79B*": {
         "prefix": ["/bsi-Mu", "/bs-Mu"],
         "body": "𝞛",
         "description": [
@@ -9674,7 +9674,7 @@
             "\r"
         ]
     },
-    "1D79C": {
+    "1D79C*": {
         "prefix": ["/bsi-Nu", "/bs-Nu"],
         "body": "𝞜",
         "description": [
@@ -9683,7 +9683,7 @@
             "\r"
         ]
     },
-    "1D79D": {
+    "1D79D*": {
         "prefix": ["/bsi-Xi", "/bs-Xi"],
         "body": "𝞝",
         "description": [
@@ -9692,7 +9692,7 @@
             "\r"
         ]
     },
-    "1D79E": {
+    "1D79E*": {
         "prefix": ["/bsi-Omicron", "/bs-Omicron"],
         "body": "𝞞",
         "description": [
@@ -9701,7 +9701,7 @@
             "\r"
         ]
     },
-    "1D79F": {
+    "1D79F*": {
         "prefix": ["/bsi-Pi", "/bs-Pi"],
         "body": "𝞟",
         "description": [
@@ -9710,7 +9710,7 @@
             "\r"
         ]
     },
-    "1D7A0": {
+    "1D7A0*": {
         "prefix": ["/bsi-Rho", "/bs-Rho"],
         "body": "𝞠",
         "description": [
@@ -9719,7 +9719,7 @@
             "\r"
         ]
     },
-    "1D7A1": {
+    "1D7A1*": {
         "prefix": ["/bsi-varTheta", "/bs-varTheta"],
         "body": "𝞡",
         "description": [
@@ -9728,7 +9728,7 @@
             "\r"
         ]
     },
-    "1D7A2": {
+    "1D7A2*": {
         "prefix": ["/bsi-Sigma", "/bs-Sigma"],
         "body": "𝞢",
         "description": [
@@ -9737,7 +9737,7 @@
             "\r"
         ]
     },
-    "1D7A3": {
+    "1D7A3*": {
         "prefix": ["/bsi-Tau", "/bs-Tau"],
         "body": "𝞣",
         "description": [
@@ -9746,7 +9746,7 @@
             "\r"
         ]
     },
-    "1D7A4": {
+    "1D7A4*": {
         "prefix": ["/bsi-Upsilon", "/bs-Upsilon"],
         "body": "𝞤",
         "description": [
@@ -9755,7 +9755,7 @@
             "\r"
         ]
     },
-    "1D7A5": {
+    "1D7A5*": {
         "prefix": ["/bsi-Phi", "/bs-Phi"],
         "body": "𝞥",
         "description": [
@@ -9764,7 +9764,7 @@
             "\r"
         ]
     },
-    "1D7A6": {
+    "1D7A6*": {
         "prefix": ["/bsi-Chi", "/bs-Chi"],
         "body": "𝞦",
         "description": [
@@ -9773,7 +9773,7 @@
             "\r"
         ]
     },
-    "1D7A7": {
+    "1D7A7*": {
         "prefix": ["/bsi-Psi", "/bs-Psi"],
         "body": "𝞧",
         "description": [
@@ -9782,7 +9782,7 @@
             "\r"
         ]
     },
-    "1D7A8": {
+    "1D7A8*": {
         "prefix": ["/bsi-Omega", "/bs-Omega"],
         "body": "𝞨",
         "description": [
@@ -9791,7 +9791,7 @@
             "\r"
         ]
     },
-    "1D7AA": {
+    "1D7AA*": {
         "prefix": ["/bsi-alpha", "/bs-alpha"],
         "body": "𝞪",
         "description": [
@@ -9800,7 +9800,7 @@
             "\r"
         ]
     },
-    "1D7AB": {
+    "1D7AB*": {
         "prefix": ["/bsi-beta", "/bs-beta"],
         "body": "𝞫",
         "description": [
@@ -9809,7 +9809,7 @@
             "\r"
         ]
     },
-    "1D7AC": {
+    "1D7AC*": {
         "prefix": ["/bsi-gamma", "/bs-gamma"],
         "body": "𝞬",
         "description": [
@@ -9818,7 +9818,7 @@
             "\r"
         ]
     },
-    "1D7AD": {
+    "1D7AD*": {
         "prefix": ["/bsi-delta", "/bs-delta"],
         "body": "𝞭",
         "description": [
@@ -9827,7 +9827,7 @@
             "\r"
         ]
     },
-    "1D7AE": {
+    "1D7AE*": {
         "prefix": ["/bsi-varepsilon", "/bs-varepsilon"],
         "body": "𝞮",
         "description": [
@@ -9836,7 +9836,7 @@
             "\r"
         ]
     },
-    "1D7AF": {
+    "1D7AF*": {
         "prefix": ["/bsi-zeta", "/bs-zeta"],
         "body": "𝞯",
         "description": [
@@ -9845,7 +9845,7 @@
             "\r"
         ]
     },
-    "1D7B0": {
+    "1D7B0*": {
         "prefix": ["/bsi-eta", "/bs-eta"],
         "body": "𝞰",
         "description": [
@@ -9854,7 +9854,7 @@
             "\r"
         ]
     },
-    "1D7B1": {
+    "1D7B1*": {
         "prefix": ["/bsi-theta", "/bs-theta"],
         "body": "𝞱",
         "description": [
@@ -9863,7 +9863,7 @@
             "\r"
         ]
     },
-    "1D7B2": {
+    "1D7B2*": {
         "prefix": ["/bsi-iota", "/bs-iota"],
         "body": "𝞲",
         "description": [
@@ -9872,7 +9872,7 @@
             "\r"
         ]
     },
-    "1D7B3": {
+    "1D7B3*": {
         "prefix": ["/bsi-kappa", "/bs-kappa"],
         "body": "𝞳",
         "description": [
@@ -9881,7 +9881,7 @@
             "\r"
         ]
     },
-    "1D7B4": {
+    "1D7B4*": {
         "prefix": ["/bsi-lambda", "/bs-lambda"],
         "body": "𝞴",
         "description": [
@@ -9890,7 +9890,7 @@
             "\r"
         ]
     },
-    "1D7B5": {
+    "1D7B5*": {
         "prefix": ["/bsi-mu", "/bs-mu"],
         "body": "𝞵",
         "description": [
@@ -9899,7 +9899,7 @@
             "\r"
         ]
     },
-    "1D7B6": {
+    "1D7B6*": {
         "prefix": ["/bsi-nu", "/bs-nu"],
         "body": "𝞶",
         "description": [
@@ -9908,7 +9908,7 @@
             "\r"
         ]
     },
-    "1D7B7": {
+    "1D7B7*": {
         "prefix": ["/bsi-xi", "/bs-xi"],
         "body": "𝞷",
         "description": [
@@ -9917,7 +9917,7 @@
             "\r"
         ]
     },
-    "1D7B8": {
+    "1D7B8*": {
         "prefix": ["/bsi-omicron", "/bs-omicron"],
         "body": "𝞸",
         "description": [
@@ -9926,7 +9926,7 @@
             "\r"
         ]
     },
-    "1D7B9": {
+    "1D7B9*": {
         "prefix": ["/bsi-pi", "/bs-pi"],
         "body": "𝞹",
         "description": [
@@ -9935,7 +9935,7 @@
             "\r"
         ]
     },
-    "1D7BA": {
+    "1D7BA*": {
         "prefix": ["/bsi-rho", "/bs-rho"],
         "body": "𝞺",
         "description": [
@@ -9944,7 +9944,7 @@
             "\r"
         ]
     },
-    "1D7BB": {
+    "1D7BB*": {
         "prefix": ["/bsi-varsigma", "/bs-varsigma"],
         "body": "𝞻",
         "description": [
@@ -9953,7 +9953,7 @@
             "\r"
         ]
     },
-    "1D7BC": {
+    "1D7BC*": {
         "prefix": ["/bsi-sigma", "/bs-sigma"],
         "body": "𝞼",
         "description": [
@@ -9962,7 +9962,7 @@
             "\r"
         ]
     },
-    "1D7BD": {
+    "1D7BD*": {
         "prefix": ["/bsi-tau", "/bs-tau"],
         "body": "𝞽",
         "description": [
@@ -9971,7 +9971,7 @@
             "\r"
         ]
     },
-    "1D7BE": {
+    "1D7BE*": {
         "prefix": ["/bsi-upsilon", "/bs-upsilon"],
         "body": "𝞾",
         "description": [
@@ -9980,7 +9980,7 @@
             "\r"
         ]
     },
-    "1D7BF": {
+    "1D7BF*": {
         "prefix": ["/bsi-varphi", "/bs-varphi"],
         "body": "𝞿",
         "description": [
@@ -9989,7 +9989,7 @@
             "\r"
         ]
     },
-    "1D7C0": {
+    "1D7C0*": {
         "prefix": ["/bsi-chi", "/bs-chi"],
         "body": "𝟀",
         "description": [
@@ -9998,7 +9998,7 @@
             "\r"
         ]
     },
-    "1D7C1": {
+    "1D7C1*": {
         "prefix": ["/bsi-psi", "/bs-psi"],
         "body": "𝟁",
         "description": [
@@ -10007,7 +10007,7 @@
             "\r"
         ]
     },
-    "1D7C2": {
+    "1D7C2*": {
         "prefix": ["/bsi-omega", "/bs-omega"],
         "body": "𝟂",
         "description": [
@@ -10016,7 +10016,7 @@
             "\r"
         ]
     },
-    "1D7C4": {
+    "1D7C4*": {
         "prefix": ["/bsi-epsilon", "/bs-epsilon"],
         "body": "𝟄",
         "description": [
@@ -10025,7 +10025,7 @@
             "\r"
         ]
     },
-    "1D7C5": {
+    "1D7C5*": {
         "prefix": ["/bsi-vartheta", "/bs-vartheta"],
         "body": "𝟅",
         "description": [
@@ -10034,7 +10034,7 @@
             "\r"
         ]
     },
-    "1D7C6": {
+    "1D7C6*": {
         "prefix": ["/bsi-varkappa", "/bs-varkappa"],
         "body": "𝟆",
         "description": [
@@ -10043,7 +10043,7 @@
             "\r"
         ]
     },
-    "1D7C7": {
+    "1D7C7*": {
         "prefix": ["/bsi-phi", "/bs-phi"],
         "body": "𝟇",
         "description": [
@@ -10052,7 +10052,7 @@
             "\r"
         ]
     },
-    "1D7C8": {
+    "1D7C8*": {
         "prefix": ["/bsi-varrho", "/bs-varrho"],
         "body": "𝟈",
         "description": [
@@ -10061,7 +10061,7 @@
             "\r"
         ]
     },
-    "1D7C9": {
+    "1D7C9*": {
         "prefix": ["/bsi-varpi", "/bs-varpi"],
         "body": "𝟉",
         "description": [
@@ -10092,7 +10092,7 @@
 //     (\symbfsfit): /mbfitsans* → /bsi-*
 // 
     // \symup
-    "02207": {
+    "02207*": {
         "prefix": "/u-nabla",
         "body": "∇",
         "description": [
@@ -10101,7 +10101,7 @@
             "\r"
         ]
     },
-    "02202": {
+    "02202*": {
         "prefix": "/u-partial",
         "body": "∂",
         "description": [
@@ -10111,7 +10111,7 @@
         ]
     },
     // \symmbfup
-    "1D6C1": {
+    "1D6C1*": {
         "prefix": ["/bu-nabla", "/b-nabla"],
         "body": "𝛁",
         "description": [
@@ -10120,7 +10120,7 @@
             "\r"
         ]
     },
-    "1D6DB": {
+    "1D6DB*": {
         "prefix": ["/bu-partial", "/b-partial"],
         "body": "𝛛",
         "description": [
@@ -10130,7 +10130,7 @@
         ]
     },
     // \symbfsfup
-    "1D76F": {
+    "1D76F*": {
         "prefix": ["/bsu-nabla", "/bs-nabla"],
         "body": "𝝯",
         "description": [
@@ -10139,7 +10139,7 @@
             "\r"
         ]
     },
-    "1D789": {
+    "1D789*": {
         "prefix": ["/bsu-partial", "/bs-partial"],
         "body": "𝞉",
         "description": [
@@ -10149,7 +10149,7 @@
         ]
     },
     // \symit
-    "1D6FB": {
+    "1D6FB*": {
         "prefix": "/i-nabla",
         "body": "𝛻",
         "description": [
@@ -10158,7 +10158,7 @@
             "\r"
         ]
     },
-    "1D715": {
+    "1D715*": {
         "prefix": "/i-partial",
         "body": "𝜕",
         "description": [
@@ -10168,7 +10168,7 @@
         ]
     },
     // \symbfit
-    "1D735": {
+    "1D735*": {
         "prefix": "/bi-nabla",
         "body": "𝜵",
         "description": [
@@ -10177,7 +10177,7 @@
             "\r"
         ]
     },
-    "1D74F": {
+    "1D74F*": {
         "prefix": "/bi-partial",
         "body": "𝝏",
         "description": [
@@ -10187,7 +10187,7 @@
         ]
     },
     // \mbfitsans
-    "1D7A9": {
+    "1D7A9*": {
         "prefix": "/bsi-nabla",
         "body": "𝞩",
         "description": [
@@ -10196,7 +10196,7 @@
             "\r"
         ]
     },
-    "1D7C3": {
+    "1D7C3*": {
         "prefix": "/bsi-partial",
         "body": "𝟃",
         "description": [

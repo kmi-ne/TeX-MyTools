@@ -1,16 +1,16 @@
 // Additional snippets.
 // All prefixes start with "/" (not "\") so as to distinguish them from existing macros (like /rightarrow (→) and \rightarrow) especially when they appear in suggestions.
 {
-    // 
-    // 
-    // 
-    // 
-    // 
-    // NEW SECTION HEADER
-    // 
-    // 
-    // /lr~~ = /l~~ + /r~~
-    // 
+// 
+// 
+// 
+// 
+// 
+// NEW SECTION HEADER
+// 
+// 
+// /lr~~ = /l~~ + /r~~
+// 
     "00028+00029": {
         "scope": "latex",
         "prefix": "/lrparen",
@@ -350,7 +350,7 @@
 //     (\symbb): /Bbb* → /bb-@
 // 
     // \symbfup
-    "1D7CE": {
+    "1D7CE*": {
         "scope": "latex",
         "prefix": "/b-0",
         "body": "𝟎",
@@ -360,7 +360,7 @@
             "\r"
         ]
     },
-    "1D7CF": {
+    "1D7CF*": {
         "scope": "latex",
         "prefix": "/b-1",
         "body": "𝟏",
@@ -370,7 +370,7 @@
             "\r"
         ]
     },
-    "1D7D0": {
+    "1D7D0*": {
         "scope": "latex",
         "prefix": "/b-2",
         "body": "𝟐",
@@ -380,7 +380,7 @@
             "\r"
         ]
     },
-    "1D7D1": {
+    "1D7D1*": {
         "scope": "latex",
         "prefix": "/b-3",
         "body": "𝟑",
@@ -390,7 +390,7 @@
             "\r"
         ]
     },
-    "1D7D2": {
+    "1D7D2*": {
         "scope": "latex",
         "prefix": "/b-4",
         "body": "𝟒",
@@ -400,7 +400,7 @@
             "\r"
         ]
     },
-    "1D7D3": {
+    "1D7D3*": {
         "scope": "latex",
         "prefix": "/b-5",
         "body": "𝟓",
@@ -410,7 +410,7 @@
             "\r"
         ]
     },
-    "1D7D4": {
+    "1D7D4*": {
         "scope": "latex",
         "prefix": "/b-6",
         "body": "𝟔",
@@ -420,7 +420,7 @@
             "\r"
         ]
     },
-    "1D7D5": {
+    "1D7D5*": {
         "scope": "latex",
         "prefix": "/b-7",
         "body": "𝟕",
@@ -430,7 +430,7 @@
             "\r"
         ]
     },
-    "1D7D6": {
+    "1D7D6*": {
         "scope": "latex",
         "prefix": "/b-8",
         "body": "𝟖",
@@ -440,7 +440,7 @@
             "\r"
         ]
     },
-    "1D7D7": {
+    "1D7D7*": {
         "scope": "latex",
         "prefix": "/b-9",
         "body": "𝟗",
@@ -451,7 +451,7 @@
         ]
     },
     // \symsfup
-    "1D7E2": {
+    "1D7E2*": {
         "scope": "latex",
         "prefix": "/s-0",
         "body": "𝟢",
@@ -461,7 +461,7 @@
             "\r"
         ]
     },
-    "1D7E3": {
+    "1D7E3*": {
         "scope": "latex",
         "prefix": "/s-1",
         "body": "𝟣",
@@ -471,7 +471,7 @@
             "\r"
         ]
     },
-    "1D7E4": {
+    "1D7E4*": {
         "scope": "latex",
         "prefix": "/s-2",
         "body": "𝟤",
@@ -481,7 +481,7 @@
             "\r"
         ]
     },
-    "1D7E5": {
+    "1D7E5*": {
         "scope": "latex",
         "prefix": "/s-3",
         "body": "𝟥",
@@ -491,7 +491,7 @@
             "\r"
         ]
     },
-    "1D7E6": {
+    "1D7E6*": {
         "scope": "latex",
         "prefix": "/s-4",
         "body": "𝟦",
@@ -501,7 +501,7 @@
             "\r"
         ]
     },
-    "1D7E7": {
+    "1D7E7*": {
         "scope": "latex",
         "prefix": "/s-5",
         "body": "𝟧",
@@ -511,7 +511,7 @@
             "\r"
         ]
     },
-    "1D7E8": {
+    "1D7E8*": {
         "scope": "latex",
         "prefix": "/s-6",
         "body": "𝟨",
@@ -521,7 +521,7 @@
             "\r"
         ]
     },
-    "1D7E9": {
+    "1D7E9*": {
         "scope": "latex",
         "prefix": "/s-7",
         "body": "𝟩",
@@ -531,7 +531,7 @@
             "\r"
         ]
     },
-    "1D7EA": {
+    "1D7EA*": {
         "scope": "latex",
         "prefix": "/s-8",
         "body": "𝟪",
@@ -541,7 +541,7 @@
             "\r"
         ]
     },
-    "1D7EB": {
+    "1D7EB*": {
         "scope": "latex",
         "prefix": "/s-9",
         "body": "𝟫",
@@ -552,7 +552,7 @@
         ]
     },
     // \symbfsf
-    "1D7EC": {
+    "1D7EC*": {
         "scope": "latex",
         "prefix": "/bs-0",
         "body": "𝟬",
@@ -562,7 +562,7 @@
             "\r"
         ]
     },
-    "1D7ED": {
+    "1D7ED*": {
         "scope": "latex",
         "prefix": "/bs-1",
         "body": "𝟭",
@@ -572,7 +572,7 @@
             "\r"
         ]
     },
-    "1D7EE": {
+    "1D7EE*": {
         "scope": "latex",
         "prefix": "/bs-2",
         "body": "𝟮",
@@ -582,7 +582,7 @@
             "\r"
         ]
     },
-    "1D7EF": {
+    "1D7EF*": {
         "scope": "latex",
         "prefix": "/bs-3",
         "body": "𝟯",
@@ -592,7 +592,7 @@
             "\r"
         ]
     },
-    "1D7F0": {
+    "1D7F0*": {
         "scope": "latex",
         "prefix": "/bs-4",
         "body": "𝟰",
@@ -602,7 +602,7 @@
             "\r"
         ]
     },
-    "1D7F1": {
+    "1D7F1*": {
         "scope": "latex",
         "prefix": "/bs-5",
         "body": "𝟱",
@@ -612,7 +612,7 @@
             "\r"
         ]
     },
-    "1D7F2": {
+    "1D7F2*": {
         "scope": "latex",
         "prefix": "/bs-6",
         "body": "𝟲",
@@ -622,7 +622,7 @@
             "\r"
         ]
     },
-    "1D7F3": {
+    "1D7F3*": {
         "scope": "latex",
         "prefix": "/bs-7",
         "body": "𝟳",
@@ -632,7 +632,7 @@
             "\r"
         ]
     },
-    "1D7F4": {
+    "1D7F4*": {
         "scope": "latex",
         "prefix": "/bs-8",
         "body": "𝟴",
@@ -642,7 +642,7 @@
             "\r"
         ]
     },
-    "1D7F5": {
+    "1D7F5*": {
         "scope": "latex",
         "prefix": "/bs-9",
         "body": "𝟵",
@@ -653,7 +653,7 @@
         ]
     },
     // \symtt
-    "1D7F6": {
+    "1D7F6*": {
         "scope": "latex",
         "prefix": "/tt-0",
         "body": "𝟶",
@@ -663,7 +663,7 @@
             "\r"
         ]
     },
-    "1D7F7": {
+    "1D7F7*": {
         "scope": "latex",
         "prefix": "/tt-1",
         "body": "𝟷",
@@ -673,7 +673,7 @@
             "\r"
         ]
     },
-    "1D7F8": {
+    "1D7F8*": {
         "scope": "latex",
         "prefix": "/tt-2",
         "body": "𝟸",
@@ -683,7 +683,7 @@
             "\r"
         ]
     },
-    "1D7F9": {
+    "1D7F9*": {
         "scope": "latex",
         "prefix": "/tt-3",
         "body": "𝟹",
@@ -693,7 +693,7 @@
             "\r"
         ]
     },
-    "1D7FA": {
+    "1D7FA*": {
         "scope": "latex",
         "prefix": "/tt-4",
         "body": "𝟺",
@@ -703,7 +703,7 @@
             "\r"
         ]
     },
-    "1D7FB": {
+    "1D7FB*": {
         "scope": "latex",
         "prefix": "/tt-5",
         "body": "𝟻",
@@ -713,7 +713,7 @@
             "\r"
         ]
     },
-    "1D7FC": {
+    "1D7FC*": {
         "scope": "latex",
         "prefix": "/tt-6",
         "body": "𝟼",
@@ -723,7 +723,7 @@
             "\r"
         ]
     },
-    "1D7FD": {
+    "1D7FD*": {
         "scope": "latex",
         "prefix": "/tt-7",
         "body": "𝟽",
@@ -733,7 +733,7 @@
             "\r"
         ]
     },
-    "1D7FE": {
+    "1D7FE*": {
         "scope": "latex",
         "prefix": "/tt-8",
         "body": "𝟾",
@@ -743,7 +743,7 @@
             "\r"
         ]
     },
-    "1D7FF": {
+    "1D7FF*": {
         "scope": "latex",
         "prefix": "/tt-9",
         "body": "𝟿",
@@ -754,7 +754,7 @@
         ]
     },
     // \symbb
-    "1D7D8": {
+    "1D7D8*": {
         "scope": "latex",
         "prefix": "/bb-0",
         "body": "𝟘",
@@ -764,7 +764,7 @@
             "\r"
         ]
     },
-    "1D7D9": {
+    "1D7D9*": {
         "scope": "latex",
         "prefix": "/bb-1",
         "body": "𝟙",
@@ -774,7 +774,7 @@
             "\r"
         ]
     },
-    "1D7DA": {
+    "1D7DA*": {
         "scope": "latex",
         "prefix": "/bb-2",
         "body": "𝟚",
@@ -784,7 +784,7 @@
             "\r"
         ]
     },
-    "1D7DB": {
+    "1D7DB*": {
         "scope": "latex",
         "prefix": "/bb-3",
         "body": "𝟛",
@@ -794,7 +794,7 @@
             "\r"
         ]
     },
-    "1D7DC": {
+    "1D7DC*": {
         "scope": "latex",
         "prefix": "/bb-4",
         "body": "𝟜",
@@ -804,7 +804,7 @@
             "\r"
         ]
     },
-    "1D7DD": {
+    "1D7DD*": {
         "scope": "latex",
         "prefix": "/bb-5",
         "body": "𝟝",
@@ -814,7 +814,7 @@
             "\r"
         ]
     },
-    "1D7DE": {
+    "1D7DE*": {
         "scope": "latex",
         "prefix": "/bb-6",
         "body": "𝟞",
@@ -824,7 +824,7 @@
             "\r"
         ]
     },
-    "1D7DF": {
+    "1D7DF*": {
         "scope": "latex",
         "prefix": "/bb-7",
         "body": "𝟟",
@@ -834,7 +834,7 @@
             "\r"
         ]
     },
-    "1D7E0": {
+    "1D7E0*": {
         "scope": "latex",
         "prefix": "/bb-8",
         "body": "𝟠",
@@ -844,7 +844,7 @@
             "\r"
         ]
     },
-    "1D7E1": {
+    "1D7E1*": {
         "scope": "latex",
         "prefix": "/bb-9",
         "body": "𝟡",
@@ -884,7 +884,7 @@
 //     (\symbbit): /mitBbb* → /bbi-*
 // 
     // \symbfup
-    "1D400": {
+    "1D400*": {
         "scope": "latex",
         "prefix": "/bu-A",
         "body": "𝐀",
@@ -894,7 +894,7 @@
             "\r"
         ]
     },
-    "1D401": {
+    "1D401*": {
         "scope": "latex",
         "prefix": "/bu-B",
         "body": "𝐁",
@@ -904,7 +904,7 @@
             "\r"
         ]
     },
-    "1D402": {
+    "1D402*": {
         "scope": "latex",
         "prefix": "/bu-C",
         "body": "𝐂",
@@ -914,7 +914,7 @@
             "\r"
         ]
     },
-    "1D403": {
+    "1D403*": {
         "scope": "latex",
         "prefix": "/bu-D",
         "body": "𝐃",
@@ -924,7 +924,7 @@
             "\r"
         ]
     },
-    "1D404": {
+    "1D404*": {
         "scope": "latex",
         "prefix": "/bu-E",
         "body": "𝐄",
@@ -934,7 +934,7 @@
             "\r"
         ]
     },
-    "1D405": {
+    "1D405*": {
         "scope": "latex",
         "prefix": "/bu-F",
         "body": "𝐅",
@@ -944,7 +944,7 @@
             "\r"
         ]
     },
-    "1D406": {
+    "1D406*": {
         "scope": "latex",
         "prefix": "/bu-G",
         "body": "𝐆",
@@ -954,7 +954,7 @@
             "\r"
         ]
     },
-    "1D407": {
+    "1D407*": {
         "scope": "latex",
         "prefix": "/bu-H",
         "body": "𝐇",
@@ -964,7 +964,7 @@
             "\r"
         ]
     },
-    "1D408": {
+    "1D408*": {
         "scope": "latex",
         "prefix": "/bu-I",
         "body": "𝐈",
@@ -974,7 +974,7 @@
             "\r"
         ]
     },
-    "1D409": {
+    "1D409*": {
         "scope": "latex",
         "prefix": "/bu-J",
         "body": "𝐉",
@@ -984,7 +984,7 @@
             "\r"
         ]
     },
-    "1D40A": {
+    "1D40A*": {
         "scope": "latex",
         "prefix": "/bu-K",
         "body": "𝐊",
@@ -994,7 +994,7 @@
             "\r"
         ]
     },
-    "1D40B": {
+    "1D40B*": {
         "scope": "latex",
         "prefix": "/bu-L",
         "body": "𝐋",
@@ -1004,7 +1004,7 @@
             "\r"
         ]
     },
-    "1D40C": {
+    "1D40C*": {
         "scope": "latex",
         "prefix": "/bu-M",
         "body": "𝐌",
@@ -1014,7 +1014,7 @@
             "\r"
         ]
     },
-    "1D40D": {
+    "1D40D*": {
         "scope": "latex",
         "prefix": "/bu-N",
         "body": "𝐍",
@@ -1024,7 +1024,7 @@
             "\r"
         ]
     },
-    "1D40E": {
+    "1D40E*": {
         "scope": "latex",
         "prefix": "/bu-O",
         "body": "𝐎",
@@ -1034,7 +1034,7 @@
             "\r"
         ]
     },
-    "1D40F": {
+    "1D40F*": {
         "scope": "latex",
         "prefix": "/bu-P",
         "body": "𝐏",
@@ -1044,7 +1044,7 @@
             "\r"
         ]
     },
-    "1D410": {
+    "1D410*": {
         "scope": "latex",
         "prefix": "/bu-Q",
         "body": "𝐐",
@@ -1054,7 +1054,7 @@
             "\r"
         ]
     },
-    "1D411": {
+    "1D411*": {
         "scope": "latex",
         "prefix": "/bu-R",
         "body": "𝐑",
@@ -1064,7 +1064,7 @@
             "\r"
         ]
     },
-    "1D412": {
+    "1D412*": {
         "scope": "latex",
         "prefix": "/bu-S",
         "body": "𝐒",
@@ -1074,7 +1074,7 @@
             "\r"
         ]
     },
-    "1D413": {
+    "1D413*": {
         "scope": "latex",
         "prefix": "/bu-T",
         "body": "𝐓",
@@ -1084,7 +1084,7 @@
             "\r"
         ]
     },
-    "1D414": {
+    "1D414*": {
         "scope": "latex",
         "prefix": "/bu-U",
         "body": "𝐔",
@@ -1094,7 +1094,7 @@
             "\r"
         ]
     },
-    "1D415": {
+    "1D415*": {
         "scope": "latex",
         "prefix": "/bu-V",
         "body": "𝐕",
@@ -1104,7 +1104,7 @@
             "\r"
         ]
     },
-    "1D416": {
+    "1D416*": {
         "scope": "latex",
         "prefix": "/bu-W",
         "body": "𝐖",
@@ -1114,7 +1114,7 @@
             "\r"
         ]
     },
-    "1D417": {
+    "1D417*": {
         "scope": "latex",
         "prefix": "/bu-X",
         "body": "𝐗",
@@ -1124,7 +1124,7 @@
             "\r"
         ]
     },
-    "1D418": {
+    "1D418*": {
         "scope": "latex",
         "prefix": "/bu-Y",
         "body": "𝐘",
@@ -1134,7 +1134,7 @@
             "\r"
         ]
     },
-    "1D419": {
+    "1D419*": {
         "scope": "latex",
         "prefix": "/bu-Z",
         "body": "𝐙",
@@ -1144,7 +1144,7 @@
             "\r"
         ]
     },
-    "1D41A": {
+    "1D41A*": {
         "scope": "latex",
         "prefix": "/bu-a",
         "body": "𝐚",
@@ -1154,7 +1154,7 @@
             "\r"
         ]
     },
-    "1D41B": {
+    "1D41B*": {
         "scope": "latex",
         "prefix": "/bu-b",
         "body": "𝐛",
@@ -1164,7 +1164,7 @@
             "\r"
         ]
     },
-    "1D41C": {
+    "1D41C*": {
         "scope": "latex",
         "prefix": "/bu-c",
         "body": "𝐜",
@@ -1174,7 +1174,7 @@
             "\r"
         ]
     },
-    "1D41D": {
+    "1D41D*": {
         "scope": "latex",
         "prefix": "/bu-d",
         "body": "𝐝",
@@ -1184,7 +1184,7 @@
             "\r"
         ]
     },
-    "1D41E": {
+    "1D41E*": {
         "scope": "latex",
         "prefix": "/bu-e",
         "body": "𝐞",
@@ -1194,7 +1194,7 @@
             "\r"
         ]
     },
-    "1D41F": {
+    "1D41F*": {
         "scope": "latex",
         "prefix": "/bu-f",
         "body": "𝐟",
@@ -1204,7 +1204,7 @@
             "\r"
         ]
     },
-    "1D420": {
+    "1D420*": {
         "scope": "latex",
         "prefix": "/bu-g",
         "body": "𝐠",
@@ -1214,7 +1214,7 @@
             "\r"
         ]
     },
-    "1D421": {
+    "1D421*": {
         "scope": "latex",
         "prefix": "/bu-h",
         "body": "𝐡",
@@ -1224,7 +1224,7 @@
             "\r"
         ]
     },
-    "1D422": {
+    "1D422*": {
         "scope": "latex",
         "prefix": "/bu-i",
         "body": "𝐢",
@@ -1234,7 +1234,7 @@
             "\r"
         ]
     },
-    "1D423": {
+    "1D423*": {
         "scope": "latex",
         "prefix": "/bu-j",
         "body": "𝐣",
@@ -1244,7 +1244,7 @@
             "\r"
         ]
     },
-    "1D424": {
+    "1D424*": {
         "scope": "latex",
         "prefix": "/bu-k",
         "body": "𝐤",
@@ -1254,7 +1254,7 @@
             "\r"
         ]
     },
-    "1D425": {
+    "1D425*": {
         "scope": "latex",
         "prefix": "/bu-l",
         "body": "𝐥",
@@ -1264,7 +1264,7 @@
             "\r"
         ]
     },
-    "1D426": {
+    "1D426*": {
         "scope": "latex",
         "prefix": "/bu-m",
         "body": "𝐦",
@@ -1274,7 +1274,7 @@
             "\r"
         ]
     },
-    "1D427": {
+    "1D427*": {
         "scope": "latex",
         "prefix": "/bu-n",
         "body": "𝐧",
@@ -1284,7 +1284,7 @@
             "\r"
         ]
     },
-    "1D428": {
+    "1D428*": {
         "scope": "latex",
         "prefix": "/bu-o",
         "body": "𝐨",
@@ -1294,7 +1294,7 @@
             "\r"
         ]
     },
-    "1D429": {
+    "1D429*": {
         "scope": "latex",
         "prefix": "/bu-p",
         "body": "𝐩",
@@ -1304,7 +1304,7 @@
             "\r"
         ]
     },
-    "1D42A": {
+    "1D42A*": {
         "scope": "latex",
         "prefix": "/bu-q",
         "body": "𝐪",
@@ -1314,7 +1314,7 @@
             "\r"
         ]
     },
-    "1D42B": {
+    "1D42B*": {
         "scope": "latex",
         "prefix": "/bu-r",
         "body": "𝐫",
@@ -1324,7 +1324,7 @@
             "\r"
         ]
     },
-    "1D42C": {
+    "1D42C*": {
         "scope": "latex",
         "prefix": "/bu-s",
         "body": "𝐬",
@@ -1334,7 +1334,7 @@
             "\r"
         ]
     },
-    "1D42D": {
+    "1D42D*": {
         "scope": "latex",
         "prefix": "/bu-t",
         "body": "𝐭",
@@ -1344,7 +1344,7 @@
             "\r"
         ]
     },
-    "1D42E": {
+    "1D42E*": {
         "scope": "latex",
         "prefix": "/bu-u",
         "body": "𝐮",
@@ -1354,7 +1354,7 @@
             "\r"
         ]
     },
-    "1D42F": {
+    "1D42F*": {
         "scope": "latex",
         "prefix": "/bu-v",
         "body": "𝐯",
@@ -1364,7 +1364,7 @@
             "\r"
         ]
     },
-    "1D430": {
+    "1D430*": {
         "scope": "latex",
         "prefix": "/bu-w",
         "body": "𝐰",
@@ -1374,7 +1374,7 @@
             "\r"
         ]
     },
-    "1D431": {
+    "1D431*": {
         "scope": "latex",
         "prefix": "/bu-x",
         "body": "𝐱",
@@ -1384,7 +1384,7 @@
             "\r"
         ]
     },
-    "1D432": {
+    "1D432*": {
         "scope": "latex",
         "prefix": "/bu-y",
         "body": "𝐲",
@@ -1394,7 +1394,7 @@
             "\r"
         ]
     },
-    "1D433": {
+    "1D433*": {
         "scope": "latex",
         "prefix": "/bu-z",
         "body": "𝐳",
@@ -1405,7 +1405,7 @@
         ]
     },
     // \symsfup
-    "1D5A0": {
+    "1D5A0*": {
         "scope": "latex",
         "prefix": "/su-A",
         "body": "𝖠",
@@ -1415,7 +1415,7 @@
             "\r"
         ]
     },
-    "1D5A1": {
+    "1D5A1*": {
         "scope": "latex",
         "prefix": "/su-B",
         "body": "𝖡",
@@ -1425,7 +1425,7 @@
             "\r"
         ]
     },
-    "1D5A2": {
+    "1D5A2*": {
         "scope": "latex",
         "prefix": "/su-C",
         "body": "𝖢",
@@ -1435,7 +1435,7 @@
             "\r"
         ]
     },
-    "1D5A3": {
+    "1D5A3*": {
         "scope": "latex",
         "prefix": "/su-D",
         "body": "𝖣",
@@ -1445,7 +1445,7 @@
             "\r"
         ]
     },
-    "1D5A4": {
+    "1D5A4*": {
         "scope": "latex",
         "prefix": "/su-E",
         "body": "𝖤",
@@ -1455,7 +1455,7 @@
             "\r"
         ]
     },
-    "1D5A5": {
+    "1D5A5*": {
         "scope": "latex",
         "prefix": "/su-F",
         "body": "𝖥",
@@ -1465,7 +1465,7 @@
             "\r"
         ]
     },
-    "1D5A6": {
+    "1D5A6*": {
         "scope": "latex",
         "prefix": "/su-G",
         "body": "𝖦",
@@ -1475,7 +1475,7 @@
             "\r"
         ]
     },
-    "1D5A7": {
+    "1D5A7*": {
         "scope": "latex",
         "prefix": "/su-H",
         "body": "𝖧",
@@ -1485,7 +1485,7 @@
             "\r"
         ]
     },
-    "1D5A8": {
+    "1D5A8*": {
         "scope": "latex",
         "prefix": "/su-I",
         "body": "𝖨",
@@ -1495,7 +1495,7 @@
             "\r"
         ]
     },
-    "1D5A9": {
+    "1D5A9*": {
         "scope": "latex",
         "prefix": "/su-J",
         "body": "𝖩",
@@ -1505,7 +1505,7 @@
             "\r"
         ]
     },
-    "1D5AA": {
+    "1D5AA*": {
         "scope": "latex",
         "prefix": "/su-K",
         "body": "𝖪",
@@ -1515,7 +1515,7 @@
             "\r"
         ]
     },
-    "1D5AB": {
+    "1D5AB*": {
         "scope": "latex",
         "prefix": "/su-L",
         "body": "𝖫",
@@ -1525,7 +1525,7 @@
             "\r"
         ]
     },
-    "1D5AC": {
+    "1D5AC*": {
         "scope": "latex",
         "prefix": "/su-M",
         "body": "𝖬",
@@ -1535,7 +1535,7 @@
             "\r"
         ]
     },
-    "1D5AD": {
+    "1D5AD*": {
         "scope": "latex",
         "prefix": "/su-N",
         "body": "𝖭",
@@ -1545,7 +1545,7 @@
             "\r"
         ]
     },
-    "1D5AE": {
+    "1D5AE*": {
         "scope": "latex",
         "prefix": "/su-O",
         "body": "𝖮",
@@ -1555,7 +1555,7 @@
             "\r"
         ]
     },
-    "1D5AF": {
+    "1D5AF*": {
         "scope": "latex",
         "prefix": "/su-P",
         "body": "𝖯",
@@ -1565,7 +1565,7 @@
             "\r"
         ]
     },
-    "1D5B0": {
+    "1D5B0*": {
         "scope": "latex",
         "prefix": "/su-Q",
         "body": "𝖰",
@@ -1575,7 +1575,7 @@
             "\r"
         ]
     },
-    "1D5B1": {
+    "1D5B1*": {
         "scope": "latex",
         "prefix": "/su-R",
         "body": "𝖱",
@@ -1585,7 +1585,7 @@
             "\r"
         ]
     },
-    "1D5B2": {
+    "1D5B2*": {
         "scope": "latex",
         "prefix": "/su-S",
         "body": "𝖲",
@@ -1595,7 +1595,7 @@
             "\r"
         ]
     },
-    "1D5B3": {
+    "1D5B3*": {
         "scope": "latex",
         "prefix": "/su-T",
         "body": "𝖳",
@@ -1605,7 +1605,7 @@
             "\r"
         ]
     },
-    "1D5B4": {
+    "1D5B4*": {
         "scope": "latex",
         "prefix": "/su-U",
         "body": "𝖴",
@@ -1615,7 +1615,7 @@
             "\r"
         ]
     },
-    "1D5B5": {
+    "1D5B5*": {
         "scope": "latex",
         "prefix": "/su-V",
         "body": "𝖵",
@@ -1625,7 +1625,7 @@
             "\r"
         ]
     },
-    "1D5B6": {
+    "1D5B6*": {
         "scope": "latex",
         "prefix": "/su-W",
         "body": "𝖶",
@@ -1635,7 +1635,7 @@
             "\r"
         ]
     },
-    "1D5B7": {
+    "1D5B7*": {
         "scope": "latex",
         "prefix": "/su-X",
         "body": "𝖷",
@@ -1645,7 +1645,7 @@
             "\r"
         ]
     },
-    "1D5B8": {
+    "1D5B8*": {
         "scope": "latex",
         "prefix": "/su-Y",
         "body": "𝖸",
@@ -1655,7 +1655,7 @@
             "\r"
         ]
     },
-    "1D5B9": {
+    "1D5B9*": {
         "scope": "latex",
         "prefix": "/su-Z",
         "body": "𝖹",
@@ -1665,7 +1665,7 @@
             "\r"
         ]
     },
-    "1D5BA": {
+    "1D5BA*": {
         "scope": "latex",
         "prefix": "/su-a",
         "body": "𝖺",
@@ -1675,7 +1675,7 @@
             "\r"
         ]
     },
-    "1D5BB": {
+    "1D5BB*": {
         "scope": "latex",
         "prefix": "/su-b",
         "body": "𝖻",
@@ -1685,7 +1685,7 @@
             "\r"
         ]
     },
-    "1D5BC": {
+    "1D5BC*": {
         "scope": "latex",
         "prefix": "/su-c",
         "body": "𝖼",
@@ -1695,7 +1695,7 @@
             "\r"
         ]
     },
-    "1D5BD": {
+    "1D5BD*": {
         "scope": "latex",
         "prefix": "/su-d",
         "body": "𝖽",
@@ -1705,7 +1705,7 @@
             "\r"
         ]
     },
-    "1D5BE": {
+    "1D5BE*": {
         "scope": "latex",
         "prefix": "/su-e",
         "body": "𝖾",
@@ -1715,7 +1715,7 @@
             "\r"
         ]
     },
-    "1D5BF": {
+    "1D5BF*": {
         "scope": "latex",
         "prefix": "/su-f",
         "body": "𝖿",
@@ -1725,7 +1725,7 @@
             "\r"
         ]
     },
-    "1D5C0": {
+    "1D5C0*": {
         "scope": "latex",
         "prefix": "/su-g",
         "body": "𝗀",
@@ -1735,7 +1735,7 @@
             "\r"
         ]
     },
-    "1D5C1": {
+    "1D5C1*": {
         "scope": "latex",
         "prefix": "/su-h",
         "body": "𝗁",
@@ -1745,7 +1745,7 @@
             "\r"
         ]
     },
-    "1D5C2": {
+    "1D5C2*": {
         "scope": "latex",
         "prefix": "/su-i",
         "body": "𝗂",
@@ -1755,7 +1755,7 @@
             "\r"
         ]
     },
-    "1D5C3": {
+    "1D5C3*": {
         "scope": "latex",
         "prefix": "/su-j",
         "body": "𝗃",
@@ -1765,7 +1765,7 @@
             "\r"
         ]
     },
-    "1D5C4": {
+    "1D5C4*": {
         "scope": "latex",
         "prefix": "/su-k",
         "body": "𝗄",
@@ -1775,7 +1775,7 @@
             "\r"
         ]
     },
-    "1D5C5": {
+    "1D5C5*": {
         "scope": "latex",
         "prefix": "/su-l",
         "body": "𝗅",
@@ -1785,7 +1785,7 @@
             "\r"
         ]
     },
-    "1D5C6": {
+    "1D5C6*": {
         "scope": "latex",
         "prefix": "/su-m",
         "body": "𝗆",
@@ -1795,7 +1795,7 @@
             "\r"
         ]
     },
-    "1D5C7": {
+    "1D5C7*": {
         "scope": "latex",
         "prefix": "/su-n",
         "body": "𝗇",
@@ -1805,7 +1805,7 @@
             "\r"
         ]
     },
-    "1D5C8": {
+    "1D5C8*": {
         "scope": "latex",
         "prefix": "/su-o",
         "body": "𝗈",
@@ -1815,7 +1815,7 @@
             "\r"
         ]
     },
-    "1D5C9": {
+    "1D5C9*": {
         "scope": "latex",
         "prefix": "/su-p",
         "body": "𝗉",
@@ -1825,7 +1825,7 @@
             "\r"
         ]
     },
-    "1D5CA": {
+    "1D5CA*": {
         "scope": "latex",
         "prefix": "/su-q",
         "body": "𝗊",
@@ -1835,7 +1835,7 @@
             "\r"
         ]
     },
-    "1D5CB": {
+    "1D5CB*": {
         "scope": "latex",
         "prefix": "/su-r",
         "body": "𝗋",
@@ -1845,7 +1845,7 @@
             "\r"
         ]
     },
-    "1D5CC": {
+    "1D5CC*": {
         "scope": "latex",
         "prefix": "/su-s",
         "body": "𝗌",
@@ -1855,7 +1855,7 @@
             "\r"
         ]
     },
-    "1D5CD": {
+    "1D5CD*": {
         "scope": "latex",
         "prefix": "/su-t",
         "body": "𝗍",
@@ -1865,7 +1865,7 @@
             "\r"
         ]
     },
-    "1D5CE": {
+    "1D5CE*": {
         "scope": "latex",
         "prefix": "/su-u",
         "body": "𝗎",
@@ -1875,7 +1875,7 @@
             "\r"
         ]
     },
-    "1D5CF": {
+    "1D5CF*": {
         "scope": "latex",
         "prefix": "/su-v",
         "body": "𝗏",
@@ -1885,7 +1885,7 @@
             "\r"
         ]
     },
-    "1D5D0": {
+    "1D5D0*": {
         "scope": "latex",
         "prefix": "/su-w",
         "body": "𝗐",
@@ -1895,7 +1895,7 @@
             "\r"
         ]
     },
-    "1D5D1": {
+    "1D5D1*": {
         "scope": "latex",
         "prefix": "/su-x",
         "body": "𝗑",
@@ -1905,7 +1905,7 @@
             "\r"
         ]
     },
-    "1D5D2": {
+    "1D5D2*": {
         "scope": "latex",
         "prefix": "/su-y",
         "body": "𝗒",
@@ -1915,7 +1915,7 @@
             "\r"
         ]
     },
-    "1D5D3": {
+    "1D5D3*": {
         "scope": "latex",
         "prefix": "/su-z",
         "body": "𝗓",
@@ -1926,7 +1926,7 @@
         ]
     },
     // \symbfsfup
-    "1D5D4": {
+    "1D5D4*": {
         "scope": "latex",
         "prefix": "/bsu-A",
         "body": "𝗔",
@@ -1936,7 +1936,7 @@
             "\r"
         ]
     },
-    "1D5D5": {
+    "1D5D5*": {
         "scope": "latex",
         "prefix": "/bsu-B",
         "body": "𝗕",
@@ -1946,7 +1946,7 @@
             "\r"
         ]
     },
-    "1D5D6": {
+    "1D5D6*": {
         "scope": "latex",
         "prefix": "/bsu-C",
         "body": "𝗖",
@@ -1956,7 +1956,7 @@
             "\r"
         ]
     },
-    "1D5D7": {
+    "1D5D7*": {
         "scope": "latex",
         "prefix": "/bsu-D",
         "body": "𝗗",
@@ -1966,7 +1966,7 @@
             "\r"
         ]
     },
-    "1D5D8": {
+    "1D5D8*": {
         "scope": "latex",
         "prefix": "/bsu-E",
         "body": "𝗘",
@@ -1976,7 +1976,7 @@
             "\r"
         ]
     },
-    "1D5D9": {
+    "1D5D9*": {
         "scope": "latex",
         "prefix": "/bsu-F",
         "body": "𝗙",
@@ -1986,7 +1986,7 @@
             "\r"
         ]
     },
-    "1D5DA": {
+    "1D5DA*": {
         "scope": "latex",
         "prefix": "/bsu-G",
         "body": "𝗚",
@@ -1996,7 +1996,7 @@
             "\r"
         ]
     },
-    "1D5DB": {
+    "1D5DB*": {
         "scope": "latex",
         "prefix": "/bsu-H",
         "body": "𝗛",
@@ -2006,7 +2006,7 @@
             "\r"
         ]
     },
-    "1D5DC": {
+    "1D5DC*": {
         "scope": "latex",
         "prefix": "/bsu-I",
         "body": "𝗜",
@@ -2016,7 +2016,7 @@
             "\r"
         ]
     },
-    "1D5DD": {
+    "1D5DD*": {
         "scope": "latex",
         "prefix": "/bsu-J",
         "body": "𝗝",
@@ -2026,7 +2026,7 @@
             "\r"
         ]
     },
-    "1D5DE": {
+    "1D5DE*": {
         "scope": "latex",
         "prefix": "/bsu-K",
         "body": "𝗞",
@@ -2036,7 +2036,7 @@
             "\r"
         ]
     },
-    "1D5DF": {
+    "1D5DF*": {
         "scope": "latex",
         "prefix": "/bsu-L",
         "body": "𝗟",
@@ -2046,7 +2046,7 @@
             "\r"
         ]
     },
-    "1D5E0": {
+    "1D5E0*": {
         "scope": "latex",
         "prefix": "/bsu-M",
         "body": "𝗠",
@@ -2056,7 +2056,7 @@
             "\r"
         ]
     },
-    "1D5E1": {
+    "1D5E1*": {
         "scope": "latex",
         "prefix": "/bsu-N",
         "body": "𝗡",
@@ -2066,7 +2066,7 @@
             "\r"
         ]
     },
-    "1D5E2": {
+    "1D5E2*": {
         "scope": "latex",
         "prefix": "/bsu-O",
         "body": "𝗢",
@@ -2076,7 +2076,7 @@
             "\r"
         ]
     },
-    "1D5E3": {
+    "1D5E3*": {
         "scope": "latex",
         "prefix": "/bsu-P",
         "body": "𝗣",
@@ -2086,7 +2086,7 @@
             "\r"
         ]
     },
-    "1D5E4": {
+    "1D5E4*": {
         "scope": "latex",
         "prefix": "/bsu-Q",
         "body": "𝗤",
@@ -2096,7 +2096,7 @@
             "\r"
         ]
     },
-    "1D5E5": {
+    "1D5E5*": {
         "scope": "latex",
         "prefix": "/bsu-R",
         "body": "𝗥",
@@ -2106,7 +2106,7 @@
             "\r"
         ]
     },
-    "1D5E6": {
+    "1D5E6*": {
         "scope": "latex",
         "prefix": "/bsu-S",
         "body": "𝗦",
@@ -2116,7 +2116,7 @@
             "\r"
         ]
     },
-    "1D5E7": {
+    "1D5E7*": {
         "scope": "latex",
         "prefix": "/bsu-T",
         "body": "𝗧",
@@ -2126,7 +2126,7 @@
             "\r"
         ]
     },
-    "1D5E8": {
+    "1D5E8*": {
         "scope": "latex",
         "prefix": "/bsu-U",
         "body": "𝗨",
@@ -2136,7 +2136,7 @@
             "\r"
         ]
     },
-    "1D5E9": {
+    "1D5E9*": {
         "scope": "latex",
         "prefix": "/bsu-V",
         "body": "𝗩",
@@ -2146,7 +2146,7 @@
             "\r"
         ]
     },
-    "1D5EA": {
+    "1D5EA*": {
         "scope": "latex",
         "prefix": "/bsu-W",
         "body": "𝗪",
@@ -2156,7 +2156,7 @@
             "\r"
         ]
     },
-    "1D5EB": {
+    "1D5EB*": {
         "scope": "latex",
         "prefix": "/bsu-X",
         "body": "𝗫",
@@ -2166,7 +2166,7 @@
             "\r"
         ]
     },
-    "1D5EC": {
+    "1D5EC*": {
         "scope": "latex",
         "prefix": "/bsu-Y",
         "body": "𝗬",
@@ -2176,7 +2176,7 @@
             "\r"
         ]
     },
-    "1D5ED": {
+    "1D5ED*": {
         "scope": "latex",
         "prefix": "/bsu-Z",
         "body": "𝗭",
@@ -2186,7 +2186,7 @@
             "\r"
         ]
     },
-    "1D5EE": {
+    "1D5EE*": {
         "scope": "latex",
         "prefix": "/bsu-a",
         "body": "𝗮",
@@ -2196,7 +2196,7 @@
             "\r"
         ]
     },
-    "1D5EF": {
+    "1D5EF*": {
         "scope": "latex",
         "prefix": "/bsu-b",
         "body": "𝗯",
@@ -2206,7 +2206,7 @@
             "\r"
         ]
     },
-    "1D5F0": {
+    "1D5F0*": {
         "scope": "latex",
         "prefix": "/bsu-c",
         "body": "𝗰",
@@ -2216,7 +2216,7 @@
             "\r"
         ]
     },
-    "1D5F1": {
+    "1D5F1*": {
         "scope": "latex",
         "prefix": "/bsu-d",
         "body": "𝗱",
@@ -2226,7 +2226,7 @@
             "\r"
         ]
     },
-    "1D5F2": {
+    "1D5F2*": {
         "scope": "latex",
         "prefix": "/bsu-e",
         "body": "𝗲",
@@ -2236,7 +2236,7 @@
             "\r"
         ]
     },
-    "1D5F3": {
+    "1D5F3*": {
         "scope": "latex",
         "prefix": "/bsu-f",
         "body": "𝗳",
@@ -2246,7 +2246,7 @@
             "\r"
         ]
     },
-    "1D5F4": {
+    "1D5F4*": {
         "scope": "latex",
         "prefix": "/bsu-g",
         "body": "𝗴",
@@ -2256,7 +2256,7 @@
             "\r"
         ]
     },
-    "1D5F5": {
+    "1D5F5*": {
         "scope": "latex",
         "prefix": "/bsu-h",
         "body": "𝗵",
@@ -2266,7 +2266,7 @@
             "\r"
         ]
     },
-    "1D5F6": {
+    "1D5F6*": {
         "scope": "latex",
         "prefix": "/bsu-i",
         "body": "𝗶",
@@ -2276,7 +2276,7 @@
             "\r"
         ]
     },
-    "1D5F7": {
+    "1D5F7*": {
         "scope": "latex",
         "prefix": "/bsu-j",
         "body": "𝗷",
@@ -2286,7 +2286,7 @@
             "\r"
         ]
     },
-    "1D5F8": {
+    "1D5F8*": {
         "scope": "latex",
         "prefix": "/bsu-k",
         "body": "𝗸",
@@ -2296,7 +2296,7 @@
             "\r"
         ]
     },
-    "1D5F9": {
+    "1D5F9*": {
         "scope": "latex",
         "prefix": "/bsu-l",
         "body": "𝗹",
@@ -2306,7 +2306,7 @@
             "\r"
         ]
     },
-    "1D5FA": {
+    "1D5FA*": {
         "scope": "latex",
         "prefix": "/bsu-m",
         "body": "𝗺",
@@ -2316,7 +2316,7 @@
             "\r"
         ]
     },
-    "1D5FB": {
+    "1D5FB*": {
         "scope": "latex",
         "prefix": "/bsu-n",
         "body": "𝗻",
@@ -2326,7 +2326,7 @@
             "\r"
         ]
     },
-    "1D5FC": {
+    "1D5FC*": {
         "scope": "latex",
         "prefix": "/bsu-o",
         "body": "𝗼",
@@ -2336,7 +2336,7 @@
             "\r"
         ]
     },
-    "1D5FD": {
+    "1D5FD*": {
         "scope": "latex",
         "prefix": "/bsu-p",
         "body": "𝗽",
@@ -2346,7 +2346,7 @@
             "\r"
         ]
     },
-    "1D5FE": {
+    "1D5FE*": {
         "scope": "latex",
         "prefix": "/bsu-q",
         "body": "𝗾",
@@ -2356,7 +2356,7 @@
             "\r"
         ]
     },
-    "1D5FF": {
+    "1D5FF*": {
         "scope": "latex",
         "prefix": "/bsu-r",
         "body": "𝗿",
@@ -2366,7 +2366,7 @@
             "\r"
         ]
     },
-    "1D600": {
+    "1D600*": {
         "scope": "latex",
         "prefix": "/bsu-s",
         "body": "𝘀",
@@ -2376,7 +2376,7 @@
             "\r"
         ]
     },
-    "1D601": {
+    "1D601*": {
         "scope": "latex",
         "prefix": "/bsu-t",
         "body": "𝘁",
@@ -2386,7 +2386,7 @@
             "\r"
         ]
     },
-    "1D602": {
+    "1D602*": {
         "scope": "latex",
         "prefix": "/bsu-u",
         "body": "𝘂",
@@ -2396,7 +2396,7 @@
             "\r"
         ]
     },
-    "1D603": {
+    "1D603*": {
         "scope": "latex",
         "prefix": "/bsu-v",
         "body": "𝘃",
@@ -2406,7 +2406,7 @@
             "\r"
         ]
     },
-    "1D604": {
+    "1D604*": {
         "scope": "latex",
         "prefix": "/bsu-w",
         "body": "𝘄",
@@ -2416,7 +2416,7 @@
             "\r"
         ]
     },
-    "1D605": {
+    "1D605*": {
         "scope": "latex",
         "prefix": "/bsu-x",
         "body": "𝘅",
@@ -2426,7 +2426,7 @@
             "\r"
         ]
     },
-    "1D606": {
+    "1D606*": {
         "scope": "latex",
         "prefix": "/bsu-y",
         "body": "𝘆",
@@ -2436,7 +2436,7 @@
             "\r"
         ]
     },
-    "1D607": {
+    "1D607*": {
         "scope": "latex",
         "prefix": "/bsu-z",
         "body": "𝘇",
@@ -2447,7 +2447,7 @@
         ]
     },
     // \symtt
-    "1D670": {
+    "1D670*": {
         "scope": "latex",
         "prefix": "/tt-A",
         "body": "𝙰",
@@ -2457,7 +2457,7 @@
             "\r"
         ]
     },
-    "1D671": {
+    "1D671*": {
         "scope": "latex",
         "prefix": "/tt-B",
         "body": "𝙱",
@@ -2467,7 +2467,7 @@
             "\r"
         ]
     },
-    "1D672": {
+    "1D672*": {
         "scope": "latex",
         "prefix": "/tt-C",
         "body": "𝙲",
@@ -2477,7 +2477,7 @@
             "\r"
         ]
     },
-    "1D673": {
+    "1D673*": {
         "scope": "latex",
         "prefix": "/tt-D",
         "body": "𝙳",
@@ -2487,7 +2487,7 @@
             "\r"
         ]
     },
-    "1D674": {
+    "1D674*": {
         "scope": "latex",
         "prefix": "/tt-E",
         "body": "𝙴",
@@ -2497,7 +2497,7 @@
             "\r"
         ]
     },
-    "1D675": {
+    "1D675*": {
         "scope": "latex",
         "prefix": "/tt-F",
         "body": "𝙵",
@@ -2507,7 +2507,7 @@
             "\r"
         ]
     },
-    "1D676": {
+    "1D676*": {
         "scope": "latex",
         "prefix": "/tt-G",
         "body": "𝙶",
@@ -2517,7 +2517,7 @@
             "\r"
         ]
     },
-    "1D677": {
+    "1D677*": {
         "scope": "latex",
         "prefix": "/tt-H",
         "body": "𝙷",
@@ -2527,7 +2527,7 @@
             "\r"
         ]
     },
-    "1D678": {
+    "1D678*": {
         "scope": "latex",
         "prefix": "/tt-I",
         "body": "𝙸",
@@ -2537,7 +2537,7 @@
             "\r"
         ]
     },
-    "1D679": {
+    "1D679*": {
         "scope": "latex",
         "prefix": "/tt-J",
         "body": "𝙹",
@@ -2547,7 +2547,7 @@
             "\r"
         ]
     },
-    "1D67A": {
+    "1D67A*": {
         "scope": "latex",
         "prefix": "/tt-K",
         "body": "𝙺",
@@ -2557,7 +2557,7 @@
             "\r"
         ]
     },
-    "1D67B": {
+    "1D67B*": {
         "scope": "latex",
         "prefix": "/tt-L",
         "body": "𝙻",
@@ -2567,7 +2567,7 @@
             "\r"
         ]
     },
-    "1D67C": {
+    "1D67C*": {
         "scope": "latex",
         "prefix": "/tt-M",
         "body": "𝙼",
@@ -2577,7 +2577,7 @@
             "\r"
         ]
     },
-    "1D67D": {
+    "1D67D*": {
         "scope": "latex",
         "prefix": "/tt-N",
         "body": "𝙽",
@@ -2587,7 +2587,7 @@
             "\r"
         ]
     },
-    "1D67E": {
+    "1D67E*": {
         "scope": "latex",
         "prefix": "/tt-O",
         "body": "𝙾",
@@ -2597,7 +2597,7 @@
             "\r"
         ]
     },
-    "1D67F": {
+    "1D67F*": {
         "scope": "latex",
         "prefix": "/tt-P",
         "body": "𝙿",
@@ -2607,7 +2607,7 @@
             "\r"
         ]
     },
-    "1D680": {
+    "1D680*": {
         "scope": "latex",
         "prefix": "/tt-Q",
         "body": "𝚀",
@@ -2617,7 +2617,7 @@
             "\r"
         ]
     },
-    "1D681": {
+    "1D681*": {
         "scope": "latex",
         "prefix": "/tt-R",
         "body": "𝚁",
@@ -2627,7 +2627,7 @@
             "\r"
         ]
     },
-    "1D682": {
+    "1D682*": {
         "scope": "latex",
         "prefix": "/tt-S",
         "body": "𝚂",
@@ -2637,7 +2637,7 @@
             "\r"
         ]
     },
-    "1D683": {
+    "1D683*": {
         "scope": "latex",
         "prefix": "/tt-T",
         "body": "𝚃",
@@ -2647,7 +2647,7 @@
             "\r"
         ]
     },
-    "1D684": {
+    "1D684*": {
         "scope": "latex",
         "prefix": "/tt-U",
         "body": "𝚄",
@@ -2657,7 +2657,7 @@
             "\r"
         ]
     },
-    "1D685": {
+    "1D685*": {
         "scope": "latex",
         "prefix": "/tt-V",
         "body": "𝚅",
@@ -2667,7 +2667,7 @@
             "\r"
         ]
     },
-    "1D686": {
+    "1D686*": {
         "scope": "latex",
         "prefix": "/tt-W",
         "body": "𝚆",
@@ -2677,7 +2677,7 @@
             "\r"
         ]
     },
-    "1D687": {
+    "1D687*": {
         "scope": "latex",
         "prefix": "/tt-X",
         "body": "𝚇",
@@ -2687,7 +2687,7 @@
             "\r"
         ]
     },
-    "1D688": {
+    "1D688*": {
         "scope": "latex",
         "prefix": "/tt-Y",
         "body": "𝚈",
@@ -2697,7 +2697,7 @@
             "\r"
         ]
     },
-    "1D689": {
+    "1D689*": {
         "scope": "latex",
         "prefix": "/tt-Z",
         "body": "𝚉",
@@ -2707,7 +2707,7 @@
             "\r"
         ]
     },
-    "1D68A": {
+    "1D68A*": {
         "scope": "latex",
         "prefix": "/tt-a",
         "body": "𝚊",
@@ -2717,7 +2717,7 @@
             "\r"
         ]
     },
-    "1D68B": {
+    "1D68B*": {
         "scope": "latex",
         "prefix": "/tt-b",
         "body": "𝚋",
@@ -2727,7 +2727,7 @@
             "\r"
         ]
     },
-    "1D68C": {
+    "1D68C*": {
         "scope": "latex",
         "prefix": "/tt-c",
         "body": "𝚌",
@@ -2737,7 +2737,7 @@
             "\r"
         ]
     },
-    "1D68D": {
+    "1D68D*": {
         "scope": "latex",
         "prefix": "/tt-d",
         "body": "𝚍",
@@ -2747,7 +2747,7 @@
             "\r"
         ]
     },
-    "1D68E": {
+    "1D68E*": {
         "scope": "latex",
         "prefix": "/tt-e",
         "body": "𝚎",
@@ -2757,7 +2757,7 @@
             "\r"
         ]
     },
-    "1D68F": {
+    "1D68F*": {
         "scope": "latex",
         "prefix": "/tt-f",
         "body": "𝚏",
@@ -2767,7 +2767,7 @@
             "\r"
         ]
     },
-    "1D690": {
+    "1D690*": {
         "scope": "latex",
         "prefix": "/tt-g",
         "body": "𝚐",
@@ -2777,7 +2777,7 @@
             "\r"
         ]
     },
-    "1D691": {
+    "1D691*": {
         "scope": "latex",
         "prefix": "/tt-h",
         "body": "𝚑",
@@ -2787,7 +2787,7 @@
             "\r"
         ]
     },
-    "1D692": {
+    "1D692*": {
         "scope": "latex",
         "prefix": "/tt-i",
         "body": "𝚒",
@@ -2797,7 +2797,7 @@
             "\r"
         ]
     },
-    "1D693": {
+    "1D693*": {
         "scope": "latex",
         "prefix": "/tt-j",
         "body": "𝚓",
@@ -2807,7 +2807,7 @@
             "\r"
         ]
     },
-    "1D694": {
+    "1D694*": {
         "scope": "latex",
         "prefix": "/tt-k",
         "body": "𝚔",
@@ -2817,7 +2817,7 @@
             "\r"
         ]
     },
-    "1D695": {
+    "1D695*": {
         "scope": "latex",
         "prefix": "/tt-l",
         "body": "𝚕",
@@ -2827,7 +2827,7 @@
             "\r"
         ]
     },
-    "1D696": {
+    "1D696*": {
         "scope": "latex",
         "prefix": "/tt-m",
         "body": "𝚖",
@@ -2837,7 +2837,7 @@
             "\r"
         ]
     },
-    "1D697": {
+    "1D697*": {
         "scope": "latex",
         "prefix": "/tt-n",
         "body": "𝚗",
@@ -2847,7 +2847,7 @@
             "\r"
         ]
     },
-    "1D698": {
+    "1D698*": {
         "scope": "latex",
         "prefix": "/tt-o",
         "body": "𝚘",
@@ -2857,7 +2857,7 @@
             "\r"
         ]
     },
-    "1D699": {
+    "1D699*": {
         "scope": "latex",
         "prefix": "/tt-p",
         "body": "𝚙",
@@ -2867,7 +2867,7 @@
             "\r"
         ]
     },
-    "1D69A": {
+    "1D69A*": {
         "scope": "latex",
         "prefix": "/tt-q",
         "body": "𝚚",
@@ -2877,7 +2877,7 @@
             "\r"
         ]
     },
-    "1D69B": {
+    "1D69B*": {
         "scope": "latex",
         "prefix": "/tt-r",
         "body": "𝚛",
@@ -2887,7 +2887,7 @@
             "\r"
         ]
     },
-    "1D69C": {
+    "1D69C*": {
         "scope": "latex",
         "prefix": "/tt-s",
         "body": "𝚜",
@@ -2897,7 +2897,7 @@
             "\r"
         ]
     },
-    "1D69D": {
+    "1D69D*": {
         "scope": "latex",
         "prefix": "/tt-t",
         "body": "𝚝",
@@ -2907,7 +2907,7 @@
             "\r"
         ]
     },
-    "1D69E": {
+    "1D69E*": {
         "scope": "latex",
         "prefix": "/tt-u",
         "body": "𝚞",
@@ -2917,7 +2917,7 @@
             "\r"
         ]
     },
-    "1D69F": {
+    "1D69F*": {
         "scope": "latex",
         "prefix": "/tt-v",
         "body": "𝚟",
@@ -2927,7 +2927,7 @@
             "\r"
         ]
     },
-    "1D6A0": {
+    "1D6A0*": {
         "scope": "latex",
         "prefix": "/tt-w",
         "body": "𝚠",
@@ -2937,7 +2937,7 @@
             "\r"
         ]
     },
-    "1D6A1": {
+    "1D6A1*": {
         "scope": "latex",
         "prefix": "/tt-x",
         "body": "𝚡",
@@ -2947,7 +2947,7 @@
             "\r"
         ]
     },
-    "1D6A2": {
+    "1D6A2*": {
         "scope": "latex",
         "prefix": "/tt-y",
         "body": "𝚢",
@@ -2957,7 +2957,7 @@
             "\r"
         ]
     },
-    "1D6A3": {
+    "1D6A3*": {
         "scope": "latex",
         "prefix": "/tt-z",
         "body": "𝚣",
@@ -2968,7 +2968,7 @@
         ]
     },
     // \symbb
-    "1D538": {
+    "1D538*": {
         "scope": "latex",
         "prefix": "/bb-A",
         "body": "𝔸",
@@ -2978,7 +2978,7 @@
             "\r"
         ]
     },
-    "1D539": {
+    "1D539*": {
         "scope": "latex",
         "prefix": "/bb-B",
         "body": "𝔹",
@@ -2988,7 +2988,7 @@
             "\r"
         ]
     },
-    "02102": {
+    "02102*": {
         "scope": "latex",
         "prefix": "/bb-C",
         "body": "ℂ",
@@ -2998,7 +2998,7 @@
             "\r"
         ]
     },
-    "1D53B": {
+    "1D53B*": {
         "scope": "latex",
         "prefix": "/bb-D",
         "body": "𝔻",
@@ -3008,7 +3008,7 @@
             "\r"
         ]
     },
-    "1D53C": {
+    "1D53C*": {
         "scope": "latex",
         "prefix": "/bb-E",
         "body": "𝔼",
@@ -3018,7 +3018,7 @@
             "\r"
         ]
     },
-    "1D53D": {
+    "1D53D*": {
         "scope": "latex",
         "prefix": "/bb-F",
         "body": "𝔽",
@@ -3028,7 +3028,7 @@
             "\r"
         ]
     },
-    "1D53E": {
+    "1D53E*": {
         "scope": "latex",
         "prefix": "/bb-G",
         "body": "𝔾",
@@ -3038,7 +3038,7 @@
             "\r"
         ]
     },
-    "0210D": {
+    "0210D*": {
         "scope": "latex",
         "prefix": "/bb-H",
         "body": "ℍ",
@@ -3048,7 +3048,7 @@
             "\r"
         ]
     },
-    "1D540": {
+    "1D540*": {
         "scope": "latex",
         "prefix": "/bb-I",
         "body": "𝕀",
@@ -3058,7 +3058,7 @@
             "\r"
         ]
     },
-    "1D541": {
+    "1D541*": {
         "scope": "latex",
         "prefix": "/bb-J",
         "body": "𝕁",
@@ -3068,7 +3068,7 @@
             "\r"
         ]
     },
-    "1D542": {
+    "1D542*": {
         "scope": "latex",
         "prefix": "/bb-K",
         "body": "𝕂",
@@ -3078,7 +3078,7 @@
             "\r"
         ]
     },
-    "1D543": {
+    "1D543*": {
         "scope": "latex",
         "prefix": "/bb-L",
         "body": "𝕃",
@@ -3088,7 +3088,7 @@
             "\r"
         ]
     },
-    "1D544": {
+    "1D544*": {
         "scope": "latex",
         "prefix": "/bb-M",
         "body": "𝕄",
@@ -3098,7 +3098,7 @@
             "\r"
         ]
     },
-    "02115": {
+    "02115*": {
         "scope": "latex",
         "prefix": "/bb-N",
         "body": "ℕ",
@@ -3108,7 +3108,7 @@
             "\r"
         ]
     },
-    "1D546": {
+    "1D546*": {
         "scope": "latex",
         "prefix": "/bb-O",
         "body": "𝕆",
@@ -3118,7 +3118,7 @@
             "\r"
         ]
     },
-    "02119": {
+    "02119*": {
         "scope": "latex",
         "prefix": "/bb-P",
         "body": "ℙ",
@@ -3128,7 +3128,7 @@
             "\r"
         ]
     },
-    "0211A": {
+    "0211A*": {
         "scope": "latex",
         "prefix": "/bb-Q",
         "body": "ℚ",
@@ -3138,7 +3138,7 @@
             "\r"
         ]
     },
-    "0211D": {
+    "0211D*": {
         "scope": "latex",
         "prefix": "/bb-R",
         "body": "ℝ",
@@ -3148,7 +3148,7 @@
             "\r"
         ]
     },
-    "1D54A": {
+    "1D54A*": {
         "scope": "latex",
         "prefix": "/bb-S",
         "body": "𝕊",
@@ -3158,7 +3158,7 @@
             "\r"
         ]
     },
-    "1D54B": {
+    "1D54B*": {
         "scope": "latex",
         "prefix": "/bb-T",
         "body": "𝕋",
@@ -3168,7 +3168,7 @@
             "\r"
         ]
     },
-    "1D54C": {
+    "1D54C*": {
         "scope": "latex",
         "prefix": "/bb-U",
         "body": "𝕌",
@@ -3178,7 +3178,7 @@
             "\r"
         ]
     },
-    "1D54D": {
+    "1D54D*": {
         "scope": "latex",
         "prefix": "/bb-V",
         "body": "𝕍",
@@ -3188,7 +3188,7 @@
             "\r"
         ]
     },
-    "1D54E": {
+    "1D54E*": {
         "scope": "latex",
         "prefix": "/bb-W",
         "body": "𝕎",
@@ -3198,7 +3198,7 @@
             "\r"
         ]
     },
-    "1D54F": {
+    "1D54F*": {
         "scope": "latex",
         "prefix": "/bb-X",
         "body": "𝕏",
@@ -3208,7 +3208,7 @@
             "\r"
         ]
     },
-    "1D550": {
+    "1D550*": {
         "scope": "latex",
         "prefix": "/bb-Y",
         "body": "𝕐",
@@ -3218,7 +3218,7 @@
             "\r"
         ]
     },
-    "02124": {
+    "02124*": {
         "scope": "latex",
         "prefix": "/bb-Z",
         "body": "ℤ",
@@ -3228,7 +3228,7 @@
             "\r"
         ]
     },
-    "1D552": {
+    "1D552*": {
         "scope": "latex",
         "prefix": "/bb-a",
         "body": "𝕒",
@@ -3238,7 +3238,7 @@
             "\r"
         ]
     },
-    "1D553": {
+    "1D553*": {
         "scope": "latex",
         "prefix": "/bb-b",
         "body": "𝕓",
@@ -3248,7 +3248,7 @@
             "\r"
         ]
     },
-    "1D554": {
+    "1D554*": {
         "scope": "latex",
         "prefix": "/bb-c",
         "body": "𝕔",
@@ -3258,7 +3258,7 @@
             "\r"
         ]
     },
-    "1D555": {
+    "1D555*": {
         "scope": "latex",
         "prefix": "/bb-d",
         "body": "𝕕",
@@ -3268,7 +3268,7 @@
             "\r"
         ]
     },
-    "1D556": {
+    "1D556*": {
         "scope": "latex",
         "prefix": "/bb-e",
         "body": "𝕖",
@@ -3278,7 +3278,7 @@
             "\r"
         ]
     },
-    "1D557": {
+    "1D557*": {
         "scope": "latex",
         "prefix": "/bb-f",
         "body": "𝕗",
@@ -3288,7 +3288,7 @@
             "\r"
         ]
     },
-    "1D558": {
+    "1D558*": {
         "scope": "latex",
         "prefix": "/bb-g",
         "body": "𝕘",
@@ -3298,7 +3298,7 @@
             "\r"
         ]
     },
-    "1D559": {
+    "1D559*": {
         "scope": "latex",
         "prefix": "/bb-h",
         "body": "𝕙",
@@ -3308,7 +3308,7 @@
             "\r"
         ]
     },
-    "1D55A": {
+    "1D55A*": {
         "scope": "latex",
         "prefix": "/bb-i",
         "body": "𝕚",
@@ -3318,7 +3318,7 @@
             "\r"
         ]
     },
-    "1D55B": {
+    "1D55B*": {
         "scope": "latex",
         "prefix": "/bb-j",
         "body": "𝕛",
@@ -3328,7 +3328,7 @@
             "\r"
         ]
     },
-    "1D55C": {
+    "1D55C*": {
         "scope": "latex",
         "prefix": "/bb-k",
         "body": "𝕜",
@@ -3338,7 +3338,7 @@
             "\r"
         ]
     },
-    "1D55D": {
+    "1D55D*": {
         "scope": "latex",
         "prefix": "/bb-l",
         "body": "𝕝",
@@ -3348,7 +3348,7 @@
             "\r"
         ]
     },
-    "1D55E": {
+    "1D55E*": {
         "scope": "latex",
         "prefix": "/bb-m",
         "body": "𝕞",
@@ -3358,7 +3358,7 @@
             "\r"
         ]
     },
-    "1D55F": {
+    "1D55F*": {
         "scope": "latex",
         "prefix": "/bb-n",
         "body": "𝕟",
@@ -3368,7 +3368,7 @@
             "\r"
         ]
     },
-    "1D560": {
+    "1D560*": {
         "scope": "latex",
         "prefix": "/bb-o",
         "body": "𝕠",
@@ -3378,7 +3378,7 @@
             "\r"
         ]
     },
-    "1D561": {
+    "1D561*": {
         "scope": "latex",
         "prefix": "/bb-p",
         "body": "𝕡",
@@ -3388,7 +3388,7 @@
             "\r"
         ]
     },
-    "1D562": {
+    "1D562*": {
         "scope": "latex",
         "prefix": "/bb-q",
         "body": "𝕢",
@@ -3398,7 +3398,7 @@
             "\r"
         ]
     },
-    "1D563": {
+    "1D563*": {
         "scope": "latex",
         "prefix": "/bb-r",
         "body": "𝕣",
@@ -3408,7 +3408,7 @@
             "\r"
         ]
     },
-    "1D564": {
+    "1D564*": {
         "scope": "latex",
         "prefix": "/bb-s",
         "body": "𝕤",
@@ -3418,7 +3418,7 @@
             "\r"
         ]
     },
-    "1D565": {
+    "1D565*": {
         "scope": "latex",
         "prefix": "/bb-t",
         "body": "𝕥",
@@ -3428,7 +3428,7 @@
             "\r"
         ]
     },
-    "1D566": {
+    "1D566*": {
         "scope": "latex",
         "prefix": "/bb-u",
         "body": "𝕦",
@@ -3438,7 +3438,7 @@
             "\r"
         ]
     },
-    "1D567": {
+    "1D567*": {
         "scope": "latex",
         "prefix": "/bb-v",
         "body": "𝕧",
@@ -3448,7 +3448,7 @@
             "\r"
         ]
     },
-    "1D568": {
+    "1D568*": {
         "scope": "latex",
         "prefix": "/bb-w",
         "body": "𝕨",
@@ -3458,7 +3458,7 @@
             "\r"
         ]
     },
-    "1D569": {
+    "1D569*": {
         "scope": "latex",
         "prefix": "/bb-x",
         "body": "𝕩",
@@ -3468,7 +3468,7 @@
             "\r"
         ]
     },
-    "1D56A": {
+    "1D56A*": {
         "scope": "latex",
         "prefix": "/bb-y",
         "body": "𝕪",
@@ -3478,7 +3478,7 @@
             "\r"
         ]
     },
-    "1D56B": {
+    "1D56B*": {
         "scope": "latex",
         "prefix": "/bb-z",
         "body": "𝕫",
@@ -3489,7 +3489,7 @@
         ]
     },
     // \symscr
-    "1D49C": {
+    "1D49C*": {
         "scope": "latex",
         "prefix": "/sc-A",
         "body": "𝒜",
@@ -3499,7 +3499,7 @@
             "\r"
         ]
     },
-    "0212C": {
+    "0212C*": {
         "scope": "latex",
         "prefix": "/sc-B",
         "body": "ℬ",
@@ -3509,7 +3509,7 @@
             "\r"
         ]
     },
-    "1D49E": {
+    "1D49E*": {
         "scope": "latex",
         "prefix": "/sc-C",
         "body": "𝒞",
@@ -3519,7 +3519,7 @@
             "\r"
         ]
     },
-    "1D49F": {
+    "1D49F*": {
         "scope": "latex",
         "prefix": "/sc-D",
         "body": "𝒟",
@@ -3529,7 +3529,7 @@
             "\r"
         ]
     },
-    "02130": {
+    "02130*": {
         "scope": "latex",
         "prefix": "/sc-E",
         "body": "ℰ",
@@ -3539,7 +3539,7 @@
             "\r"
         ]
     },
-    "02131": {
+    "02131*": {
         "scope": "latex",
         "prefix": "/sc-F",
         "body": "ℱ",
@@ -3549,7 +3549,7 @@
             "\r"
         ]
     },
-    "1D4A2": {
+    "1D4A2*": {
         "scope": "latex",
         "prefix": "/sc-G",
         "body": "𝒢",
@@ -3559,7 +3559,7 @@
             "\r"
         ]
     },
-    "0210B": {
+    "0210B*": {
         "scope": "latex",
         "prefix": "/sc-H",
         "body": "ℋ",
@@ -3569,7 +3569,7 @@
             "\r"
         ]
     },
-    "02110": {
+    "02110*": {
         "scope": "latex",
         "prefix": "/sc-I",
         "body": "ℐ",
@@ -3579,7 +3579,7 @@
             "\r"
         ]
     },
-    "1D4A5": {
+    "1D4A5*": {
         "scope": "latex",
         "prefix": "/sc-J",
         "body": "𝒥",
@@ -3589,7 +3589,7 @@
             "\r"
         ]
     },
-    "1D4A6": {
+    "1D4A6*": {
         "scope": "latex",
         "prefix": "/sc-K",
         "body": "𝒦",
@@ -3599,7 +3599,7 @@
             "\r"
         ]
     },
-    "02112": {
+    "02112*": {
         "scope": "latex",
         "prefix": "/sc-L",
         "body": "ℒ",
@@ -3609,7 +3609,7 @@
             "\r"
         ]
     },
-    "02133": {
+    "02133*": {
         "scope": "latex",
         "prefix": "/sc-M",
         "body": "ℳ",
@@ -3619,7 +3619,7 @@
             "\r"
         ]
     },
-    "1D4A9": {
+    "1D4A9*": {
         "scope": "latex",
         "prefix": "/sc-N",
         "body": "𝒩",
@@ -3629,7 +3629,7 @@
             "\r"
         ]
     },
-    "1D4AA": {
+    "1D4AA*": {
         "scope": "latex",
         "prefix": "/sc-O",
         "body": "𝒪",
@@ -3639,7 +3639,7 @@
             "\r"
         ]
     },
-    "1D4AB": {
+    "1D4AB*": {
         "scope": "latex",
         "prefix": "/sc-P",
         "body": "𝒫",
@@ -3649,7 +3649,7 @@
             "\r"
         ]
     },
-    "1D4AC": {
+    "1D4AC*": {
         "scope": "latex",
         "prefix": "/sc-Q",
         "body": "𝒬",
@@ -3659,7 +3659,7 @@
             "\r"
         ]
     },
-    "0211B": {
+    "0211B*": {
         "scope": "latex",
         "prefix": "/sc-R",
         "body": "ℛ",
@@ -3670,7 +3670,7 @@
         ]
     },
 
-    "1D4AE": {
+    "1D4AE*": {
         "scope": "latex",
         "prefix": "/sc-S",
         "body": "𝒮",
@@ -3680,7 +3680,7 @@
             "\r"
         ]
     },
-    "1D4AF": {
+    "1D4AF*": {
         "scope": "latex",
         "prefix": "/sc-T",
         "body": "𝒯",
@@ -3690,7 +3690,7 @@
             "\r"
         ]
     },
-    "1D4B0": {
+    "1D4B0*": {
         "scope": "latex",
         "prefix": "/sc-U",
         "body": "𝒰",
@@ -3700,7 +3700,7 @@
             "\r"
         ]
     },
-    "1D4B1": {
+    "1D4B1*": {
         "scope": "latex",
         "prefix": "/sc-V",
         "body": "𝒱",
@@ -3710,7 +3710,7 @@
             "\r"
         ]
     },
-    "1D4B2": {
+    "1D4B2*": {
         "scope": "latex",
         "prefix": "/sc-W",
         "body": "𝒲",
@@ -3720,7 +3720,7 @@
             "\r"
         ]
     },
-    "1D4B3": {
+    "1D4B3*": {
         "scope": "latex",
         "prefix": "/sc-X",
         "body": "𝒳",
@@ -3730,7 +3730,7 @@
             "\r"
         ]
     },
-    "1D4B4": {
+    "1D4B4*": {
         "scope": "latex",
         "prefix": "/sc-Y",
         "body": "𝒴",
@@ -3740,7 +3740,7 @@
             "\r"
         ]
     },
-    "1D4B5": {
+    "1D4B5*": {
         "scope": "latex",
         "prefix": "/sc-Z",
         "body": "𝒵",
@@ -3750,7 +3750,7 @@
             "\r"
         ]
     },
-    "1D4B6": {
+    "1D4B6*": {
         "scope": "latex",
         "prefix": "/sc-a",
         "body": "𝒶",
@@ -3760,7 +3760,7 @@
             "\r"
         ]
     },
-    "1D4B7": {
+    "1D4B7*": {
         "scope": "latex",
         "prefix": "/sc-b",
         "body": "𝒷",
@@ -3770,7 +3770,7 @@
             "\r"
         ]
     },
-    "1D4B8": {
+    "1D4B8*": {
         "scope": "latex",
         "prefix": "/sc-c",
         "body": "𝒸",
@@ -3780,7 +3780,7 @@
             "\r"
         ]
     },
-    "1D4B9": {
+    "1D4B9*": {
         "scope": "latex",
         "prefix": "/sc-d",
         "body": "𝒹",
@@ -3790,7 +3790,7 @@
             "\r"
         ]
     },
-    "0212F": {
+    "0212F*": {
         "scope": "latex",
         "prefix": "/sc-e",
         "body": "ℯ",
@@ -3800,7 +3800,7 @@
             "\r"
         ]
     },
-    "1D4BB": {
+    "1D4BB*": {
         "scope": "latex",
         "prefix": "/sc-f",
         "body": "𝒻",
@@ -3810,7 +3810,7 @@
             "\r"
         ]
     },
-    "0210A": {
+    "0210A*": {
         "scope": "latex",
         "prefix": "/sc-g",
         "body": "ℊ",
@@ -3820,7 +3820,7 @@
             "\r"
         ]
     },
-    "1D4BD": {
+    "1D4BD*": {
         "scope": "latex",
         "prefix": "/sc-h",
         "body": "𝒽",
@@ -3830,7 +3830,7 @@
             "\r"
         ]
     },
-    "1D4BE": {
+    "1D4BE*": {
         "scope": "latex",
         "prefix": "/sc-i",
         "body": "𝒾",
@@ -3840,7 +3840,7 @@
             "\r"
         ]
     },
-    "1D4BF": {
+    "1D4BF*": {
         "scope": "latex",
         "prefix": "/sc-j",
         "body": "𝒿",
@@ -3850,7 +3850,7 @@
             "\r"
         ]
     },
-    "1D4C0": {
+    "1D4C0*": {
         "scope": "latex",
         "prefix": "/sc-k",
         "body": "𝓀",
@@ -3860,7 +3860,7 @@
             "\r"
         ]
     },
-    "1D4C1": {
+    "1D4C1*": {
         "scope": "latex",
         "prefix": "/sc-l",
         "body": "𝓁",
@@ -3870,7 +3870,7 @@
             "\r"
         ]
     },
-    "1D4C2": {
+    "1D4C2*": {
         "scope": "latex",
         "prefix": "/sc-m",
         "body": "𝓂",
@@ -3880,7 +3880,7 @@
             "\r"
         ]
     },
-    "1D4C3": {
+    "1D4C3*": {
         "scope": "latex",
         "prefix": "/sc-n",
         "body": "𝓃",
@@ -3890,7 +3890,7 @@
             "\r"
         ]
     },
-    "02134": {
+    "02134*": {
         "scope": "latex",
         "prefix": "/sc-o",
         "body": "ℴ",
@@ -3900,7 +3900,7 @@
             "\r"
         ]
     },
-    "1D4C5": {
+    "1D4C5*": {
         "scope": "latex",
         "prefix": "/sc-p",
         "body": "𝓅",
@@ -3910,7 +3910,7 @@
             "\r"
         ]
     },
-    "1D4C6": {
+    "1D4C6*": {
         "scope": "latex",
         "prefix": "/sc-q",
         "body": "𝓆",
@@ -3920,7 +3920,7 @@
             "\r"
         ]
     },
-    "1D4C7": {
+    "1D4C7*": {
         "scope": "latex",
         "prefix": "/sc-r",
         "body": "𝓇",
@@ -3930,7 +3930,7 @@
             "\r"
         ]
     },
-    "1D4C8": {
+    "1D4C8*": {
         "scope": "latex",
         "prefix": "/sc-s",
         "body": "𝓈",
@@ -3940,7 +3940,7 @@
             "\r"
         ]
     },
-    "1D4C9": {
+    "1D4C9*": {
         "scope": "latex",
         "prefix": "/sc-t",
         "body": "𝓉",
@@ -3950,7 +3950,7 @@
             "\r"
         ]
     },
-    "1D4CA": {
+    "1D4CA*": {
         "scope": "latex",
         "prefix": "/sc-u",
         "body": "𝓊",
@@ -3960,7 +3960,7 @@
             "\r"
         ]
     },
-    "1D4CB": {
+    "1D4CB*": {
         "scope": "latex",
         "prefix": "/sc-v",
         "body": "𝓋",
@@ -3970,7 +3970,7 @@
             "\r"
         ]
     },
-    "1D4CC": {
+    "1D4CC*": {
         "scope": "latex",
         "prefix": "/sc-w",
         "body": "𝓌",
@@ -3980,7 +3980,7 @@
             "\r"
         ]
     },
-    "1D4CD": {
+    "1D4CD*": {
         "scope": "latex",
         "prefix": "/sc-x",
         "body": "𝓍",
@@ -3990,7 +3990,7 @@
             "\r"
         ]
     },
-    "1D4CE": {
+    "1D4CE*": {
         "scope": "latex",
         "prefix": "/sc-y",
         "body": "𝓎",
@@ -4000,7 +4000,7 @@
             "\r"
         ]
     },
-    "1D4CF": {
+    "1D4CF*": {
         "scope": "latex",
         "prefix": "/sc-z",
         "body": "𝓏",
@@ -4011,7 +4011,7 @@
         ]
     },
     // \symbfscr
-    "1D4D0": {
+    "1D4D0*": {
         "scope": "latex",
         "prefix": "/bsc-A",
         "body": "𝓐",
@@ -4021,7 +4021,7 @@
             "\r"
         ]
     },
-    "1D4D1": {
+    "1D4D1*": {
         "scope": "latex",
         "prefix": "/bsc-B",
         "body": "𝓑",
@@ -4031,7 +4031,7 @@
             "\r"
         ]
     },
-    "1D4D2": {
+    "1D4D2*": {
         "scope": "latex",
         "prefix": "/bsc-C",
         "body": "𝓒",
@@ -4041,7 +4041,7 @@
             "\r"
         ]
     },
-    "1D4D3": {
+    "1D4D3*": {
         "scope": "latex",
         "prefix": "/bsc-D",
         "body": "𝓓",
@@ -4051,7 +4051,7 @@
             "\r"
         ]
     },
-    "1D4D4": {
+    "1D4D4*": {
         "scope": "latex",
         "prefix": "/bsc-E",
         "body": "𝓔",
@@ -4061,7 +4061,7 @@
             "\r"
         ]
     },
-    "1D4D5": {
+    "1D4D5*": {
         "scope": "latex",
         "prefix": "/bsc-F",
         "body": "𝓕",
@@ -4071,7 +4071,7 @@
             "\r"
         ]
     },
-    "1D4D6": {
+    "1D4D6*": {
         "scope": "latex",
         "prefix": "/bsc-G",
         "body": "𝓖",
@@ -4081,7 +4081,7 @@
             "\r"
         ]
     },
-    "1D4D7": {
+    "1D4D7*": {
         "scope": "latex",
         "prefix": "/bsc-H",
         "body": "𝓗",
@@ -4091,7 +4091,7 @@
             "\r"
         ]
     },
-    "1D4D8": {
+    "1D4D8*": {
         "scope": "latex",
         "prefix": "/bsc-I",
         "body": "𝓘",
@@ -4101,7 +4101,7 @@
             "\r"
         ]
     },
-    "1D4D9": {
+    "1D4D9*": {
         "scope": "latex",
         "prefix": "/bsc-J",
         "body": "𝓙",
@@ -4111,7 +4111,7 @@
             "\r"
         ]
     },
-    "1D4DA": {
+    "1D4DA*": {
         "scope": "latex",
         "prefix": "/bsc-K",
         "body": "𝓚",
@@ -4121,7 +4121,7 @@
             "\r"
         ]
     },
-    "1D4DB": {
+    "1D4DB*": {
         "scope": "latex",
         "prefix": "/bsc-L",
         "body": "𝓛",
@@ -4131,7 +4131,7 @@
             "\r"
         ]
     },
-    "1D4DC": {
+    "1D4DC*": {
         "scope": "latex",
         "prefix": "/bsc-M",
         "body": "𝓜",
@@ -4141,7 +4141,7 @@
             "\r"
         ]
     },
-    "1D4DD": {
+    "1D4DD*": {
         "scope": "latex",
         "prefix": "/bsc-N",
         "body": "𝓝",
@@ -4151,7 +4151,7 @@
             "\r"
         ]
     },
-    "1D4DE": {
+    "1D4DE*": {
         "scope": "latex",
         "prefix": "/bsc-O",
         "body": "𝓞",
@@ -4161,7 +4161,7 @@
             "\r"
         ]
     },
-    "1D4DF": {
+    "1D4DF*": {
         "scope": "latex",
         "prefix": "/bsc-P",
         "body": "𝓟",
@@ -4171,7 +4171,7 @@
             "\r"
         ]
     },
-    "1D4E0": {
+    "1D4E0*": {
         "scope": "latex",
         "prefix": "/bsc-Q",
         "body": "𝓠",
@@ -4181,7 +4181,7 @@
             "\r"
         ]
     },
-    "1D4E1": {
+    "1D4E1*": {
         "scope": "latex",
         "prefix": "/bsc-R",
         "body": "𝓡",
@@ -4191,7 +4191,7 @@
             "\r"
         ]
     },
-    "1D4E2": {
+    "1D4E2*": {
         "scope": "latex",
         "prefix": "/bsc-S",
         "body": "𝓢",
@@ -4201,7 +4201,7 @@
             "\r"
         ]
     },
-    "1D4E3": {
+    "1D4E3*": {
         "scope": "latex",
         "prefix": "/bsc-T",
         "body": "𝓣",
@@ -4211,7 +4211,7 @@
             "\r"
         ]
     },
-    "1D4E4": {
+    "1D4E4*": {
         "scope": "latex",
         "prefix": "/bsc-U",
         "body": "𝓤",
@@ -4221,7 +4221,7 @@
             "\r"
         ]
     },
-    "1D4E5": {
+    "1D4E5*": {
         "scope": "latex",
         "prefix": "/bsc-V",
         "body": "𝓥",
@@ -4231,7 +4231,7 @@
             "\r"
         ]
     },
-    "1D4E6": {
+    "1D4E6*": {
         "scope": "latex",
         "prefix": "/bsc-W",
         "body": "𝓦",
@@ -4241,7 +4241,7 @@
             "\r"
         ]
     },
-    "1D4E7": {
+    "1D4E7*": {
         "scope": "latex",
         "prefix": "/bsc-X",
         "body": "𝓧",
@@ -4251,7 +4251,7 @@
             "\r"
         ]
     },
-    "1D4E8": {
+    "1D4E8*": {
         "scope": "latex",
         "prefix": "/bsc-Y",
         "body": "𝓨",
@@ -4261,7 +4261,7 @@
             "\r"
         ]
     },
-    "1D4E9": {
+    "1D4E9*": {
         "scope": "latex",
         "prefix": "/bsc-Z",
         "body": "𝓩",
@@ -4271,7 +4271,7 @@
             "\r"
         ]
     },
-    "1D4EA": {
+    "1D4EA*": {
         "scope": "latex",
         "prefix": "/bsc-a",
         "body": "𝓪",
@@ -4281,7 +4281,7 @@
             "\r"
         ]
     },
-    "1D4EB": {
+    "1D4EB*": {
         "scope": "latex",
         "prefix": "/bsc-b",
         "body": "𝓫",
@@ -4291,7 +4291,7 @@
             "\r"
         ]
     },
-    "1D4EC": {
+    "1D4EC*": {
         "scope": "latex",
         "prefix": "/bsc-c",
         "body": "𝓬",
@@ -4301,7 +4301,7 @@
             "\r"
         ]
     },
-    "1D4ED": {
+    "1D4ED*": {
         "scope": "latex",
         "prefix": "/bsc-d",
         "body": "𝓭",
@@ -4311,7 +4311,7 @@
             "\r"
         ]
     },
-    "1D4EE": {
+    "1D4EE*": {
         "scope": "latex",
         "prefix": "/bsc-e",
         "body": "𝓮",
@@ -4321,7 +4321,7 @@
             "\r"
         ]
     },
-    "1D4EF": {
+    "1D4EF*": {
         "scope": "latex",
         "prefix": "/bsc-f",
         "body": "𝓯",
@@ -4331,7 +4331,7 @@
             "\r"
         ]
     },
-    "1D4F0": {
+    "1D4F0*": {
         "scope": "latex",
         "prefix": "/bsc-g",
         "body": "𝓰",
@@ -4341,7 +4341,7 @@
             "\r"
         ]
     },
-    "1D4F1": {
+    "1D4F1*": {
         "scope": "latex",
         "prefix": "/bsc-h",
         "body": "𝓱",
@@ -4351,7 +4351,7 @@
             "\r"
         ]
     },
-    "1D4F2": {
+    "1D4F2*": {
         "scope": "latex",
         "prefix": "/bsc-i",
         "body": "𝓲",
@@ -4361,7 +4361,7 @@
             "\r"
         ]
     },
-    "1D4F3": {
+    "1D4F3*": {
         "scope": "latex",
         "prefix": "/bsc-j",
         "body": "𝓳",
@@ -4371,7 +4371,7 @@
             "\r"
         ]
     },
-    "1D4F4": {
+    "1D4F4*": {
         "scope": "latex",
         "prefix": "/bsc-k",
         "body": "𝓴",
@@ -4381,7 +4381,7 @@
             "\r"
         ]
     },
-    "1D4F5": {
+    "1D4F5*": {
         "scope": "latex",
         "prefix": "/bsc-l",
         "body": "𝓵",
@@ -4391,7 +4391,7 @@
             "\r"
         ]
     },
-    "1D4F6": {
+    "1D4F6*": {
         "scope": "latex",
         "prefix": "/bsc-m",
         "body": "𝓶",
@@ -4401,7 +4401,7 @@
             "\r"
         ]
     },
-    "1D4F7": {
+    "1D4F7*": {
         "scope": "latex",
         "prefix": "/bsc-n",
         "body": "𝓷",
@@ -4411,7 +4411,7 @@
             "\r"
         ]
     },
-    "1D4F8": {
+    "1D4F8*": {
         "scope": "latex",
         "prefix": "/bsc-o",
         "body": "𝓸",
@@ -4421,7 +4421,7 @@
             "\r"
         ]
     },
-    "1D4F9": {
+    "1D4F9*": {
         "scope": "latex",
         "prefix": "/bsc-p",
         "body": "𝓹",
@@ -4431,7 +4431,7 @@
             "\r"
         ]
     },
-    "1D4FA": {
+    "1D4FA*": {
         "scope": "latex",
         "prefix": "/bsc-q",
         "body": "𝓺",
@@ -4441,7 +4441,7 @@
             "\r"
         ]
     },
-    "1D4FB": {
+    "1D4FB*": {
         "scope": "latex",
         "prefix": "/bsc-r",
         "body": "𝓻",
@@ -4451,7 +4451,7 @@
             "\r"
         ]
     },
-    "1D4FC": {
+    "1D4FC*": {
         "scope": "latex",
         "prefix": "/bsc-s",
         "body": "𝓼",
@@ -4461,7 +4461,7 @@
             "\r"
         ]
     },
-    "1D4FD": {
+    "1D4FD*": {
         "scope": "latex",
         "prefix": "/bsc-t",
         "body": "𝓽",
@@ -4471,7 +4471,7 @@
             "\r"
         ]
     },
-    "1D4FE": {
+    "1D4FE*": {
         "scope": "latex",
         "prefix": "/bsc-u",
         "body": "𝓾",
@@ -4481,7 +4481,7 @@
             "\r"
         ]
     },
-    "1D4FF": {
+    "1D4FF*": {
         "scope": "latex",
         "prefix": "/bsc-v",
         "body": "𝓿",
@@ -4491,7 +4491,7 @@
             "\r"
         ]
     },
-    "1D500": {
+    "1D500*": {
         "scope": "latex",
         "prefix": "/bsc-w",
         "body": "𝔀",
@@ -4501,7 +4501,7 @@
             "\r"
         ]
     },
-    "1D501": {
+    "1D501*": {
         "scope": "latex",
         "prefix": "/bsc-x",
         "body": "𝔁",
@@ -4511,7 +4511,7 @@
             "\r"
         ]
     },
-    "1D502": {
+    "1D502*": {
         "scope": "latex",
         "prefix": "/bsc-y",
         "body": "𝔂",
@@ -4521,7 +4521,7 @@
             "\r"
         ]
     },
-    "1D503": {
+    "1D503*": {
         "scope": "latex",
         "prefix": "/bsc-z",
         "body": "𝔃",
@@ -4532,7 +4532,7 @@
         ]
     },
     // \symfrak
-    "1D504": {
+    "1D504*": {
         "scope": "latex",
         "prefix": "/fr-A",
         "body": "𝔄",
@@ -4542,7 +4542,7 @@
             "\r"
         ]
     },
-    "1D505": {
+    "1D505*": {
         "scope": "latex",
         "prefix": "/fr-B",
         "body": "𝔅",
@@ -4552,7 +4552,7 @@
             "\r"
         ]
     },
-    "0212D": {
+    "0212D*": {
         "scope": "latex",
         "prefix": "/fr-C",
         "body": "ℭ",
@@ -4562,7 +4562,7 @@
             "\r"
         ]
     },
-    "1D507": {
+    "1D507*": {
         "scope": "latex",
         "prefix": "/fr-D",
         "body": "𝔇",
@@ -4572,7 +4572,7 @@
             "\r"
         ]
     },
-    "1D508": {
+    "1D508*": {
         "scope": "latex",
         "prefix": "/fr-E",
         "body": "𝔈",
@@ -4582,7 +4582,7 @@
             "\r"
         ]
     },
-    "1D509": {
+    "1D509*": {
         "scope": "latex",
         "prefix": "/fr-F",
         "body": "𝔉",
@@ -4592,7 +4592,7 @@
             "\r"
         ]
     },
-    "1D50A": {
+    "1D50A*": {
         "scope": "latex",
         "prefix": "/fr-G",
         "body": "𝔊",
@@ -4602,7 +4602,7 @@
             "\r"
         ]
     },
-    "0210C": {
+    "0210C*": {
         "scope": "latex",
         "prefix": "/fr-H",
         "body": "ℌ",
@@ -4612,7 +4612,7 @@
             "\r"
         ]
     },
-    "02111": {
+    "02111*": {
         "scope": "latex",
         "prefix": "/fr-I",
         "body": "ℑ",
@@ -4622,7 +4622,7 @@
             "\r"
         ]
     },
-    "1D50D": {
+    "1D50D*": {
         "scope": "latex",
         "prefix": "/fr-J",
         "body": "𝔍",
@@ -4632,7 +4632,7 @@
             "\r"
         ]
     },
-    "1D50E": {
+    "1D50E*": {
         "scope": "latex",
         "prefix": "/fr-K",
         "body": "𝔎",
@@ -4642,7 +4642,7 @@
             "\r"
         ]
     },
-    "1D50F": {
+    "1D50F*": {
         "scope": "latex",
         "prefix": "/fr-L",
         "body": "𝔏",
@@ -4652,7 +4652,7 @@
             "\r"
         ]
     },
-    "1D510": {
+    "1D510*": {
         "scope": "latex",
         "prefix": "/fr-M",
         "body": "𝔐",
@@ -4662,7 +4662,7 @@
             "\r"
         ]
     },
-    "1D511": {
+    "1D511*": {
         "scope": "latex",
         "prefix": "/fr-N",
         "body": "𝔑",
@@ -4672,7 +4672,7 @@
             "\r"
         ]
     },
-    "1D512": {
+    "1D512*": {
         "scope": "latex",
         "prefix": "/fr-O",
         "body": "𝔒",
@@ -4682,7 +4682,7 @@
             "\r"
         ]
     },
-    "1D513": {
+    "1D513*": {
         "scope": "latex",
         "prefix": "/fr-P",
         "body": "𝔓",
@@ -4692,7 +4692,7 @@
             "\r"
         ]
     },
-    "1D514": {
+    "1D514*": {
         "scope": "latex",
         "prefix": "/fr-Q",
         "body": "𝔔",
@@ -4702,7 +4702,7 @@
             "\r"
         ]
     },
-    "0211C": {
+    "0211C*": {
         "scope": "latex",
         "prefix": "/fr-R",
         "body": "ℜ",
@@ -4712,7 +4712,7 @@
             "\r"
         ]
     },
-    "1D516": {
+    "1D516*": {
         "scope": "latex",
         "prefix": "/fr-S",
         "body": "𝔖",
@@ -4722,7 +4722,7 @@
             "\r"
         ]
     },
-    "1D517": {
+    "1D517*": {
         "scope": "latex",
         "prefix": "/fr-T",
         "body": "𝔗",
@@ -4732,7 +4732,7 @@
             "\r"
         ]
     },
-    "1D518": {
+    "1D518*": {
         "scope": "latex",
         "prefix": "/fr-U",
         "body": "𝔘",
@@ -4742,7 +4742,7 @@
             "\r"
         ]
     },
-    "1D519": {
+    "1D519*": {
         "scope": "latex",
         "prefix": "/fr-V",
         "body": "𝔙",
@@ -4752,7 +4752,7 @@
             "\r"
         ]
     },
-    "1D51A": {
+    "1D51A*": {
         "scope": "latex",
         "prefix": "/fr-W",
         "body": "𝔚",
@@ -4762,7 +4762,7 @@
             "\r"
         ]
     },
-    "1D51B": {
+    "1D51B*": {
         "scope": "latex",
         "prefix": "/fr-X",
         "body": "𝔛",
@@ -4772,7 +4772,7 @@
             "\r"
         ]
     },
-    "1D51C": {
+    "1D51C*": {
         "scope": "latex",
         "prefix": "/fr-Y",
         "body": "𝔜",
@@ -4782,7 +4782,7 @@
             "\r"
         ]
     },
-    "02128": {
+    "02128*": {
         "scope": "latex",
         "prefix": "/fr-Z",
         "body": "ℨ",
@@ -4792,7 +4792,7 @@
             "\r"
         ]
     },
-    "1D51E": {
+    "1D51E*": {
         "scope": "latex",
         "prefix": "/fr-a",
         "body": "𝔞",
@@ -4802,7 +4802,7 @@
             "\r"
         ]
     },
-    "1D51F": {
+    "1D51F*": {
         "scope": "latex",
         "prefix": "/fr-b",
         "body": "𝔟",
@@ -4812,7 +4812,7 @@
             "\r"
         ]
     },
-    "1D520": {
+    "1D520*": {
         "scope": "latex",
         "prefix": "/fr-c",
         "body": "𝔠",
@@ -4822,7 +4822,7 @@
             "\r"
         ]
     },
-    "1D521": {
+    "1D521*": {
         "scope": "latex",
         "prefix": "/fr-d",
         "body": "𝔡",
@@ -4832,7 +4832,7 @@
             "\r"
         ]
     },
-    "1D522": {
+    "1D522*": {
         "scope": "latex",
         "prefix": "/fr-e",
         "body": "𝔢",
@@ -4842,7 +4842,7 @@
             "\r"
         ]
     },
-    "1D523": {
+    "1D523*": {
         "scope": "latex",
         "prefix": "/fr-f",
         "body": "𝔣",
@@ -4852,7 +4852,7 @@
             "\r"
         ]
     },
-    "1D524": {
+    "1D524*": {
         "scope": "latex",
         "prefix": "/fr-g",
         "body": "𝔤",
@@ -4862,7 +4862,7 @@
             "\r"
         ]
     },
-    "1D525": {
+    "1D525*": {
         "scope": "latex",
         "prefix": "/fr-h",
         "body": "𝔥",
@@ -4872,7 +4872,7 @@
             "\r"
         ]
     },
-    "1D526": {
+    "1D526*": {
         "scope": "latex",
         "prefix": "/fr-i",
         "body": "𝔦",
@@ -4882,7 +4882,7 @@
             "\r"
         ]
     },
-    "1D527": {
+    "1D527*": {
         "scope": "latex",
         "prefix": "/fr-j",
         "body": "𝔧",
@@ -4892,7 +4892,7 @@
             "\r"
         ]
     },
-    "1D528": {
+    "1D528*": {
         "scope": "latex",
         "prefix": "/fr-k",
         "body": "𝔨",
@@ -4902,7 +4902,7 @@
             "\r"
         ]
     },
-    "1D529": {
+    "1D529*": {
         "scope": "latex",
         "prefix": "/fr-l",
         "body": "𝔩",
@@ -4912,7 +4912,7 @@
             "\r"
         ]
     },
-    "1D52A": {
+    "1D52A*": {
         "scope": "latex",
         "prefix": "/fr-m",
         "body": "𝔪",
@@ -4922,7 +4922,7 @@
             "\r"
         ]
     },
-    "1D52B": {
+    "1D52B*": {
         "scope": "latex",
         "prefix": "/fr-n",
         "body": "𝔫",
@@ -4932,7 +4932,7 @@
             "\r"
         ]
     },
-    "1D52C": {
+    "1D52C*": {
         "scope": "latex",
         "prefix": "/fr-o",
         "body": "𝔬",
@@ -4942,7 +4942,7 @@
             "\r"
         ]
     },
-    "1D52D": {
+    "1D52D*": {
         "scope": "latex",
         "prefix": "/fr-p",
         "body": "𝔭",
@@ -4952,7 +4952,7 @@
             "\r"
         ]
     },
-    "1D52E": {
+    "1D52E*": {
         "scope": "latex",
         "prefix": "/fr-q",
         "body": "𝔮",
@@ -4962,7 +4962,7 @@
             "\r"
         ]
     },
-    "1D52F": {
+    "1D52F*": {
         "scope": "latex",
         "prefix": "/fr-r",
         "body": "𝔯",
@@ -4972,7 +4972,7 @@
             "\r"
         ]
     },
-    "1D530": {
+    "1D530*": {
         "scope": "latex",
         "prefix": "/fr-s",
         "body": "𝔰",
@@ -4982,7 +4982,7 @@
             "\r"
         ]
     },
-    "1D531": {
+    "1D531*": {
         "scope": "latex",
         "prefix": "/fr-t",
         "body": "𝔱",
@@ -4992,7 +4992,7 @@
             "\r"
         ]
     },
-    "1D532": {
+    "1D532*": {
         "scope": "latex",
         "prefix": "/fr-u",
         "body": "𝔲",
@@ -5002,7 +5002,7 @@
             "\r"
         ]
     },
-    "1D533": {
+    "1D533*": {
         "scope": "latex",
         "prefix": "/fr-v",
         "body": "𝔳",
@@ -5012,7 +5012,7 @@
             "\r"
         ]
     },
-    "1D534": {
+    "1D534*": {
         "scope": "latex",
         "prefix": "/fr-w",
         "body": "𝔴",
@@ -5022,7 +5022,7 @@
             "\r"
         ]
     },
-    "1D535": {
+    "1D535*": {
         "scope": "latex",
         "prefix": "/fr-x",
         "body": "𝔵",
@@ -5032,7 +5032,7 @@
             "\r"
         ]
     },
-    "1D536": {
+    "1D536*": {
         "scope": "latex",
         "prefix": "/fr-y",
         "body": "𝔶",
@@ -5042,7 +5042,7 @@
             "\r"
         ]
     },
-    "1D537": {
+    "1D537*": {
         "scope": "latex",
         "prefix": "/fr-z",
         "body": "𝔷",
@@ -5053,7 +5053,7 @@
         ]
     },
     // \symbffrak
-    "1D56C": {
+    "1D56C*": {
         "scope": "latex",
         "prefix": "/bfr-A",
         "body": "𝕬",
@@ -5063,7 +5063,7 @@
             "\r"
         ]
     },
-    "1D56D": {
+    "1D56D*": {
         "scope": "latex",
         "prefix": "/bfr-B",
         "body": "𝕭",
@@ -5073,7 +5073,7 @@
             "\r"
         ]
     },
-    "1D56E": {
+    "1D56E*": {
         "scope": "latex",
         "prefix": "/bfr-C",
         "body": "𝕮",
@@ -5083,7 +5083,7 @@
             "\r"
         ]
     },
-    "1D56F": {
+    "1D56F*": {
         "scope": "latex",
         "prefix": "/bfr-D",
         "body": "𝕯",
@@ -5093,7 +5093,7 @@
             "\r"
         ]
     },
-    "1D570": {
+    "1D570*": {
         "scope": "latex",
         "prefix": "/bfr-E",
         "body": "𝕰",
@@ -5103,7 +5103,7 @@
             "\r"
         ]
     },
-    "1D571": {
+    "1D571*": {
         "scope": "latex",
         "prefix": "/bfr-F",
         "body": "𝕱",
@@ -5113,7 +5113,7 @@
             "\r"
         ]
     },
-    "1D572": {
+    "1D572*": {
         "scope": "latex",
         "prefix": "/bfr-G",
         "body": "𝕲",
@@ -5123,7 +5123,7 @@
             "\r"
         ]
     },
-    "1D573": {
+    "1D573*": {
         "scope": "latex",
         "prefix": "/bfr-H",
         "body": "𝕳",
@@ -5133,7 +5133,7 @@
             "\r"
         ]
     },
-    "1D574": {
+    "1D574*": {
         "scope": "latex",
         "prefix": "/bfr-I",
         "body": "𝕴",
@@ -5143,7 +5143,7 @@
             "\r"
         ]
     },
-    "1D575": {
+    "1D575*": {
         "scope": "latex",
         "prefix": "/bfr-J",
         "body": "𝕵",
@@ -5153,7 +5153,7 @@
             "\r"
         ]
     },
-    "1D576": {
+    "1D576*": {
         "scope": "latex",
         "prefix": "/bfr-K",
         "body": "𝕶",
@@ -5163,7 +5163,7 @@
             "\r"
         ]
     },
-    "1D577": {
+    "1D577*": {
         "scope": "latex",
         "prefix": "/bfr-L",
         "body": "𝕷",
@@ -5173,7 +5173,7 @@
             "\r"
         ]
     },
-    "1D578": {
+    "1D578*": {
         "scope": "latex",
         "prefix": "/bfr-M",
         "body": "𝕸",
@@ -5183,7 +5183,7 @@
             "\r"
         ]
     },
-    "1D579": {
+    "1D579*": {
         "scope": "latex",
         "prefix": "/bfr-N",
         "body": "𝕹",
@@ -5193,7 +5193,7 @@
             "\r"
         ]
     },
-    "1D57A": {
+    "1D57A*": {
         "scope": "latex",
         "prefix": "/bfr-O",
         "body": "𝕺",
@@ -5203,7 +5203,7 @@
             "\r"
         ]
     },
-    "1D57B": {
+    "1D57B*": {
         "scope": "latex",
         "prefix": "/bfr-P",
         "body": "𝕻",
@@ -5213,7 +5213,7 @@
             "\r"
         ]
     },
-    "1D57C": {
+    "1D57C*": {
         "scope": "latex",
         "prefix": "/bfr-Q",
         "body": "𝕼",
@@ -5223,7 +5223,7 @@
             "\r"
         ]
     },
-    "1D57D": {
+    "1D57D*": {
         "scope": "latex",
         "prefix": "/bfr-R",
         "body": "𝕽",
@@ -5233,7 +5233,7 @@
             "\r"
         ]
     },
-    "1D57E": {
+    "1D57E*": {
         "scope": "latex",
         "prefix": "/bfr-S",
         "body": "𝕾",
@@ -5243,7 +5243,7 @@
             "\r"
         ]
     },
-    "1D57F": {
+    "1D57F*": {
         "scope": "latex",
         "prefix": "/bfr-T",
         "body": "𝕿",
@@ -5253,7 +5253,7 @@
             "\r"
         ]
     },
-    "1D580": {
+    "1D580*": {
         "scope": "latex",
         "prefix": "/bfr-U",
         "body": "𝖀",
@@ -5263,7 +5263,7 @@
             "\r"
         ]
     },
-    "1D581": {
+    "1D581*": {
         "scope": "latex",
         "prefix": "/bfr-V",
         "body": "𝖁",
@@ -5273,7 +5273,7 @@
             "\r"
         ]
     },
-    "1D582": {
+    "1D582*": {
         "scope": "latex",
         "prefix": "/bfr-W",
         "body": "𝖂",
@@ -5283,7 +5283,7 @@
             "\r"
         ]
     },
-    "1D583": {
+    "1D583*": {
         "scope": "latex",
         "prefix": "/bfr-X",
         "body": "𝖃",
@@ -5293,7 +5293,7 @@
             "\r"
         ]
     },
-    "1D584": {
+    "1D584*": {
         "scope": "latex",
         "prefix": "/bfr-Y",
         "body": "𝖄",
@@ -5303,7 +5303,7 @@
             "\r"
         ]
     },
-    "1D585": {
+    "1D585*": {
         "scope": "latex",
         "prefix": "/bfr-Z",
         "body": "𝖅",
@@ -5313,7 +5313,7 @@
             "\r"
         ]
     },
-    "1D586": {
+    "1D586*": {
         "scope": "latex",
         "prefix": "/bfr-a",
         "body": "𝖆",
@@ -5323,7 +5323,7 @@
             "\r"
         ]
     },
-    "1D587": {
+    "1D587*": {
         "scope": "latex",
         "prefix": "/bfr-b",
         "body": "𝖇",
@@ -5333,7 +5333,7 @@
             "\r"
         ]
     },
-    "1D588": {
+    "1D588*": {
         "scope": "latex",
         "prefix": "/bfr-c",
         "body": "𝖈",
@@ -5343,7 +5343,7 @@
             "\r"
         ]
     },
-    "1D589": {
+    "1D589*": {
         "scope": "latex",
         "prefix": "/bfr-d",
         "body": "𝖉",
@@ -5353,7 +5353,7 @@
             "\r"
         ]
     },
-    "1D58A": {
+    "1D58A*": {
         "scope": "latex",
         "prefix": "/bfr-e",
         "body": "𝖊",
@@ -5363,7 +5363,7 @@
             "\r"
         ]
     },
-    "1D58B": {
+    "1D58B*": {
         "scope": "latex",
         "prefix": "/bfr-f",
         "body": "𝖋",
@@ -5373,7 +5373,7 @@
             "\r"
         ]
     },
-    "1D58C": {
+    "1D58C*": {
         "scope": "latex",
         "prefix": "/bfr-g",
         "body": "𝖌",
@@ -5383,7 +5383,7 @@
             "\r"
         ]
     },
-    "1D58D": {
+    "1D58D*": {
         "scope": "latex",
         "prefix": "/bfr-h",
         "body": "𝖍",
@@ -5393,7 +5393,7 @@
             "\r"
         ]
     },
-    "1D58E": {
+    "1D58E*": {
         "scope": "latex",
         "prefix": "/bfr-i",
         "body": "𝖎",
@@ -5403,7 +5403,7 @@
             "\r"
         ]
     },
-    "1D58F": {
+    "1D58F*": {
         "scope": "latex",
         "prefix": "/bfr-j",
         "body": "𝖏",
@@ -5413,7 +5413,7 @@
             "\r"
         ]
     },
-    "1D590": {
+    "1D590*": {
         "scope": "latex",
         "prefix": "/bfr-k",
         "body": "𝖐",
@@ -5423,7 +5423,7 @@
             "\r"
         ]
     },
-    "1D591": {
+    "1D591*": {
         "scope": "latex",
         "prefix": "/bfr-l",
         "body": "𝖑",
@@ -5433,7 +5433,7 @@
             "\r"
         ]
     },
-    "1D592": {
+    "1D592*": {
         "scope": "latex",
         "prefix": "/bfr-m",
         "body": "𝖒",
@@ -5443,7 +5443,7 @@
             "\r"
         ]
     },
-    "1D593": {
+    "1D593*": {
         "scope": "latex",
         "prefix": "/bfr-n",
         "body": "𝖓",
@@ -5453,7 +5453,7 @@
             "\r"
         ]
     },
-    "1D594": {
+    "1D594*": {
         "scope": "latex",
         "prefix": "/bfr-o",
         "body": "𝖔",
@@ -5463,7 +5463,7 @@
             "\r"
         ]
     },
-    "1D595": {
+    "1D595*": {
         "scope": "latex",
         "prefix": "/bfr-p",
         "body": "𝖕",
@@ -5473,7 +5473,7 @@
             "\r"
         ]
     },
-    "1D596": {
+    "1D596*": {
         "scope": "latex",
         "prefix": "/bfr-q",
         "body": "𝖖",
@@ -5483,7 +5483,7 @@
             "\r"
         ]
     },
-    "1D597": {
+    "1D597*": {
         "scope": "latex",
         "prefix": "/bfr-r",
         "body": "𝖗",
@@ -5493,7 +5493,7 @@
             "\r"
         ]
     },
-    "1D598": {
+    "1D598*": {
         "scope": "latex",
         "prefix": "/bfr-s",
         "body": "𝖘",
@@ -5503,7 +5503,7 @@
             "\r"
         ]
     },
-    "1D599": {
+    "1D599*": {
         "scope": "latex",
         "prefix": "/bfr-t",
         "body": "𝖙",
@@ -5513,7 +5513,7 @@
             "\r"
         ]
     },
-    "1D59A": {
+    "1D59A*": {
         "scope": "latex",
         "prefix": "/bfr-u",
         "body": "𝖚",
@@ -5523,7 +5523,7 @@
             "\r"
         ]
     },
-    "1D59B": {
+    "1D59B*": {
         "scope": "latex",
         "prefix": "/bfr-v",
         "body": "𝖛",
@@ -5533,7 +5533,7 @@
             "\r"
         ]
     },
-    "1D59C": {
+    "1D59C*": {
         "scope": "latex",
         "prefix": "/bfr-w",
         "body": "𝖜",
@@ -5543,7 +5543,7 @@
             "\r"
         ]
     },
-    "1D59D": {
+    "1D59D*": {
         "scope": "latex",
         "prefix": "/bfr-x",
         "body": "𝖝",
@@ -5553,7 +5553,7 @@
             "\r"
         ]
     },
-    "1D59E": {
+    "1D59E*": {
         "scope": "latex",
         "prefix": "/bfr-y",
         "body": "𝖞",
@@ -5563,7 +5563,7 @@
             "\r"
         ]
     },
-    "1D59F": {
+    "1D59F*": {
         "scope": "latex",
         "prefix": "/bfr-z",
         "body": "𝖟",
@@ -5574,7 +5574,7 @@
         ]
     },
     // \symit
-    "1D434": {
+    "1D434*": {
         "scope": "latex",
         "prefix": ["/i-A", "/A"],
         "body": "𝐴",
@@ -5584,7 +5584,7 @@
             "\r"
         ]
     },
-    "1D435": {
+    "1D435*": {
         "scope": "latex",
         "prefix": ["/i-B", "/B"],
         "body": "𝐵",
@@ -5594,7 +5594,7 @@
             "\r"
         ]
     },
-    "1D436": {
+    "1D436*": {
         "scope": "latex",
         "prefix": ["/i-C", "/C"],
         "body": "𝐶",
@@ -5604,7 +5604,7 @@
             "\r"
         ]
     },
-    "1D437": {
+    "1D437*": {
         "scope": "latex",
         "prefix": ["/i-D", "/D"],
         "body": "𝐷",
@@ -5614,7 +5614,7 @@
             "\r"
         ]
     },
-    "1D438": {
+    "1D438*": {
         "scope": "latex",
         "prefix": ["/i-E", "/E"],
         "body": "𝐸",
@@ -5624,7 +5624,7 @@
             "\r"
         ]
     },
-    "1D439": {
+    "1D439*": {
         "scope": "latex",
         "prefix": ["/i-F", "/F"],
         "body": "𝐹",
@@ -5634,7 +5634,7 @@
             "\r"
         ]
     },
-    "1D43A": {
+    "1D43A*": {
         "scope": "latex",
         "prefix": ["/i-G", "/G"],
         "body": "𝐺",
@@ -5644,7 +5644,7 @@
             "\r"
         ]
     },
-    "1D43B": {
+    "1D43B*": {
         "scope": "latex",
         "prefix": ["/i-H", "/H"],
         "body": "𝐻",
@@ -5654,7 +5654,7 @@
             "\r"
         ]
     },
-    "1D43C": {
+    "1D43C*": {
         "scope": "latex",
         "prefix": ["/i-I", "/I"],
         "body": "𝐼",
@@ -5664,7 +5664,7 @@
             "\r"
         ]
     },
-    "1D43D": {
+    "1D43D*": {
         "scope": "latex",
         "prefix": ["/i-J", "/J"],
         "body": "𝐽",
@@ -5674,7 +5674,7 @@
             "\r"
         ]
     },
-    "1D43E": {
+    "1D43E*": {
         "scope": "latex",
         "prefix": ["/i-K", "/K"],
         "body": "𝐾",
@@ -5684,7 +5684,7 @@
             "\r"
         ]
     },
-    "1D43F": {
+    "1D43F*": {
         "scope": "latex",
         "prefix": ["/i-L", "/L"],
         "body": "𝐿",
@@ -5694,7 +5694,7 @@
             "\r"
         ]
     },
-    "1D440": {
+    "1D440*": {
         "scope": "latex",
         "prefix": ["/i-M", "/M"],
         "body": "𝑀",
@@ -5704,7 +5704,7 @@
             "\r"
         ]
     },
-    "1D441": {
+    "1D441*": {
         "scope": "latex",
         "prefix": ["/i-N", "/N"],
         "body": "𝑁",
@@ -5714,7 +5714,7 @@
             "\r"
         ]
     },
-    "1D442": {
+    "1D442*": {
         "scope": "latex",
         "prefix": ["/i-O", "/O"],
         "body": "𝑂",
@@ -5724,7 +5724,7 @@
             "\r"
         ]
     },
-    "1D443": {
+    "1D443*": {
         "scope": "latex",
         "prefix": ["/i-P", "/P"],
         "body": "𝑃",
@@ -5734,7 +5734,7 @@
             "\r"
         ]
     },
-    "1D444": {
+    "1D444*": {
         "scope": "latex",
         "prefix": ["/i-Q", "/Q"],
         "body": "𝑄",
@@ -5744,7 +5744,7 @@
             "\r"
         ]
     },
-    "1D445": {
+    "1D445*": {
         "scope": "latex",
         "prefix": ["/i-R", "/R"],
         "body": "𝑅",
@@ -5754,7 +5754,7 @@
             "\r"
         ]
     },
-    "1D446": {
+    "1D446*": {
         "scope": "latex",
         "prefix": ["/i-S", "/S"],
         "body": "𝑆",
@@ -5764,7 +5764,7 @@
             "\r"
         ]
     },
-    "1D447": {
+    "1D447*": {
         "scope": "latex",
         "prefix": ["/i-T", "/T"],
         "body": "𝑇",
@@ -5774,7 +5774,7 @@
             "\r"
         ]
     },
-    "1D448": {
+    "1D448*": {
         "scope": "latex",
         "prefix": ["/i-U", "/U"],
         "body": "𝑈",
@@ -5784,7 +5784,7 @@
             "\r"
         ]
     },
-    "1D449": {
+    "1D449*": {
         "scope": "latex",
         "prefix": ["/i-V", "/V"],
         "body": "𝑉",
@@ -5794,7 +5794,7 @@
             "\r"
         ]
     },
-    "1D44A": {
+    "1D44A*": {
         "scope": "latex",
         "prefix": ["/i-W", "/W"],
         "body": "𝑊",
@@ -5804,7 +5804,7 @@
             "\r"
         ]
     },
-    "1D44B": {
+    "1D44B*": {
         "scope": "latex",
         "prefix": ["/i-X", "/X"],
         "body": "𝑋",
@@ -5814,7 +5814,7 @@
             "\r"
         ]
     },
-    "1D44C": {
+    "1D44C*": {
         "scope": "latex",
         "prefix": ["/i-Y", "/Y"],
         "body": "𝑌",
@@ -5824,7 +5824,7 @@
             "\r"
         ]
     },
-    "1D44D": {
+    "1D44D*": {
         "scope": "latex",
         "prefix": ["/i-Z", "/Z"],
         "body": "𝑍",
@@ -5834,7 +5834,7 @@
             "\r"
         ]
     },
-    "1D44E": {
+    "1D44E*": {
         "scope": "latex",
         "prefix": ["/i-a", "/a"],
         "body": "𝑎",
@@ -5844,7 +5844,7 @@
             "\r"
         ]
     },
-    "1D44F": {
+    "1D44F*": {
         "scope": "latex",
         "prefix": ["/i-b", "/b"],
         "body": "𝑏",
@@ -5854,7 +5854,7 @@
             "\r"
         ]
     },
-    "1D450": {
+    "1D450*": {
         "scope": "latex",
         "prefix": ["/i-c", "/c"],
         "body": "𝑐",
@@ -5864,7 +5864,7 @@
             "\r"
         ]
     },
-    "1D451": {
+    "1D451*": {
         "scope": "latex",
         "prefix": ["/i-d", "/d"],
         "body": "𝑑",
@@ -5874,7 +5874,7 @@
             "\r"
         ]
     },
-    "1D452": {
+    "1D452*": {
         "scope": "latex",
         "prefix": ["/i-e", "/e"],
         "body": "𝑒",
@@ -5884,7 +5884,7 @@
             "\r"
         ]
     },
-    "1D453": {
+    "1D453*": {
         "scope": "latex",
         "prefix": ["/i-f", "/f"],
         "body": "𝑓",
@@ -5894,7 +5894,7 @@
             "\r"
         ]
     },
-    "1D454": {
+    "1D454*": {
         "scope": "latex",
         "prefix": ["/i-g", "/g"],
         "body": "𝑔",
@@ -5904,7 +5904,7 @@
             "\r"
         ]
     },
-    "0210E": {
+    "0210E*": {
         "scope": "latex",
         "prefix": ["/i-h", "/h"],
         "body": "ℎ",
@@ -5914,7 +5914,7 @@
             "\r"
         ]
     },
-    "1D456": {
+    "1D456*": {
         "scope": "latex",
         "prefix": ["/i-i", "/i"],
         "body": "𝑖",
@@ -5924,7 +5924,7 @@
             "\r"
         ]
     },
-    "1D457": {
+    "1D457*": {
         "scope": "latex",
         "prefix": ["/i-j", "/j"],
         "body": "𝑗",
@@ -5934,7 +5934,7 @@
             "\r"
         ]
     },
-    "1D458": {
+    "1D458*": {
         "scope": "latex",
         "prefix": ["/i-k", "/k"],
         "body": "𝑘",
@@ -5944,7 +5944,7 @@
             "\r"
         ]
     },
-    "1D459": {
+    "1D459*": {
         "scope": "latex",
         "prefix": ["/i-l", "/l"],
         "body": "𝑙",
@@ -5954,7 +5954,7 @@
             "\r"
         ]
     },
-    "1D45A": {
+    "1D45A*": {
         "scope": "latex",
         "prefix": ["/i-m", "/m"],
         "body": "𝑚",
@@ -5964,7 +5964,7 @@
             "\r"
         ]
     },
-    "1D45B": {
+    "1D45B*": {
         "scope": "latex",
         "prefix": ["/i-n", "/n"],
         "body": "𝑛",
@@ -5974,7 +5974,7 @@
             "\r"
         ]
     },
-    "1D45C": {
+    "1D45C*": {
         "scope": "latex",
         "prefix": ["/i-o", "/o"],
         "body": "𝑜",
@@ -5984,7 +5984,7 @@
             "\r"
         ]
     },
-    "1D45D": {
+    "1D45D*": {
         "scope": "latex",
         "prefix": ["/i-p", "/p"],
         "body": "𝑝",
@@ -5994,7 +5994,7 @@
             "\r"
         ]
     },
-    "1D45E": {
+    "1D45E*": {
         "scope": "latex",
         "prefix": ["/i-q", "/q"],
         "body": "𝑞",
@@ -6004,7 +6004,7 @@
             "\r"
         ]
     },
-    "1D45F": {
+    "1D45F*": {
         "scope": "latex",
         "prefix": ["/i-r", "/r"],
         "body": "𝑟",
@@ -6014,7 +6014,7 @@
             "\r"
         ]
     },
-    "1D460": {
+    "1D460*": {
         "scope": "latex",
         "prefix": ["/i-s", "/s"],
         "body": "𝑠",
@@ -6024,7 +6024,7 @@
             "\r"
         ]
     },
-    "1D461": {
+    "1D461*": {
         "scope": "latex",
         "prefix": ["/i-t", "/t"],
         "body": "𝑡",
@@ -6034,7 +6034,7 @@
             "\r"
         ]
     },
-    "1D462": {
+    "1D462*": {
         "scope": "latex",
         "prefix": ["/i-u", "/u"],
         "body": "𝑢",
@@ -6044,7 +6044,7 @@
             "\r"
         ]
     },
-    "1D463": {
+    "1D463*": {
         "scope": "latex",
         "prefix": ["/i-v", "/v"],
         "body": "𝑣",
@@ -6054,7 +6054,7 @@
             "\r"
         ]
     },
-    "1D464": {
+    "1D464*": {
         "scope": "latex",
         "prefix": ["/i-w", "/w"],
         "body": "𝑤",
@@ -6064,7 +6064,7 @@
             "\r"
         ]
     },
-    "1D465": {
+    "1D465*": {
         "scope": "latex",
         "prefix": ["/i-x", "/x"],
         "body": "𝑥",
@@ -6074,7 +6074,7 @@
             "\r"
         ]
     },
-    "1D466": {
+    "1D466*": {
         "scope": "latex",
         "prefix": ["/i-y", "/y"],
         "body": "𝑦",
@@ -6084,7 +6084,7 @@
             "\r"
         ]
     },
-    "1D467": {
+    "1D467*": {
         "scope": "latex",
         "prefix": ["/i-z", "/z"],
         "body": "𝑧",
@@ -6095,7 +6095,7 @@
         ]
     },
     // \symbfit
-    "1D468": {
+    "1D468*": {
         "scope": "latex",
         "prefix": ["/bi-A", "/b-A"],
         "body": "𝑨",
@@ -6105,7 +6105,7 @@
             "\r"
         ]
     },
-    "1D469": {
+    "1D469*": {
         "scope": "latex",
         "prefix": ["/bi-B", "/b-B"],
         "body": "𝑩",
@@ -6115,7 +6115,7 @@
             "\r"
         ]
     },
-    "1D46A": {
+    "1D46A*": {
         "scope": "latex",
         "prefix": ["/bi-C", "/b-C"],
         "body": "𝑪",
@@ -6125,7 +6125,7 @@
             "\r"
         ]
     },
-    "1D46B": {
+    "1D46B*": {
         "scope": "latex",
         "prefix": ["/bi-D", "/b-D"],
         "body": "𝑫",
@@ -6135,7 +6135,7 @@
             "\r"
         ]
     },
-    "1D46C": {
+    "1D46C*": {
         "scope": "latex",
         "prefix": ["/bi-E", "/b-E"],
         "body": "𝑬",
@@ -6145,7 +6145,7 @@
             "\r"
         ]
     },
-    "1D46D": {
+    "1D46D*": {
         "scope": "latex",
         "prefix": ["/bi-F", "/b-F"],
         "body": "𝑭",
@@ -6155,7 +6155,7 @@
             "\r"
         ]
     },
-    "1D46E": {
+    "1D46E*": {
         "scope": "latex",
         "prefix": ["/bi-G", "/b-G"],
         "body": "𝑮",
@@ -6165,7 +6165,7 @@
             "\r"
         ]
     },
-    "1D46F": {
+    "1D46F*": {
         "scope": "latex",
         "prefix": ["/bi-H", "/b-H"],
         "body": "𝑯",
@@ -6175,7 +6175,7 @@
             "\r"
         ]
     },
-    "1D470": {
+    "1D470*": {
         "scope": "latex",
         "prefix": ["/bi-I", "/b-I"],
         "body": "𝑰",
@@ -6185,7 +6185,7 @@
             "\r"
         ]
     },
-    "1D471": {
+    "1D471*": {
         "scope": "latex",
         "prefix": ["/bi-J", "/b-J"],
         "body": "𝑱",
@@ -6195,7 +6195,7 @@
             "\r"
         ]
     },
-    "1D472": {
+    "1D472*": {
         "scope": "latex",
         "prefix": ["/bi-K", "/b-K"],
         "body": "𝑲",
@@ -6205,7 +6205,7 @@
             "\r"
         ]
     },
-    "1D473": {
+    "1D473*": {
         "scope": "latex",
         "prefix": ["/bi-L", "/b-L"],
         "body": "𝑳",
@@ -6215,7 +6215,7 @@
             "\r"
         ]
     },
-    "1D474": {
+    "1D474*": {
         "scope": "latex",
         "prefix": ["/bi-M", "/b-M"],
         "body": "𝑴",
@@ -6225,7 +6225,7 @@
             "\r"
         ]
     },
-    "1D475": {
+    "1D475*": {
         "scope": "latex",
         "prefix": ["/bi-N", "/b-N"],
         "body": "𝑵",
@@ -6235,7 +6235,7 @@
             "\r"
         ]
     },
-    "1D476": {
+    "1D476*": {
         "scope": "latex",
         "prefix": ["/bi-O", "/b-O"],
         "body": "𝑶",
@@ -6245,7 +6245,7 @@
             "\r"
         ]
     },
-    "1D477": {
+    "1D477*": {
         "scope": "latex",
         "prefix": ["/bi-P", "/b-P"],
         "body": "𝑷",
@@ -6255,7 +6255,7 @@
             "\r"
         ]
     },
-    "1D478": {
+    "1D478*": {
         "scope": "latex",
         "prefix": ["/bi-Q", "/b-Q"],
         "body": "𝑸",
@@ -6265,7 +6265,7 @@
             "\r"
         ]
     },
-    "1D479": {
+    "1D479*": {
         "scope": "latex",
         "prefix": ["/bi-R", "/b-R"],
         "body": "𝑹",
@@ -6275,7 +6275,7 @@
             "\r"
         ]
     },
-    "1D47A": {
+    "1D47A*": {
         "scope": "latex",
         "prefix": ["/bi-S", "/b-S"],
         "body": "𝑺",
@@ -6285,7 +6285,7 @@
             "\r"
         ]
     },
-    "1D47B": {
+    "1D47B*": {
         "scope": "latex",
         "prefix": ["/bi-T", "/b-T"],
         "body": "𝑻",
@@ -6295,7 +6295,7 @@
             "\r"
         ]
     },
-    "1D47C": {
+    "1D47C*": {
         "scope": "latex",
         "prefix": ["/bi-U", "/b-U"],
         "body": "𝑼",
@@ -6305,7 +6305,7 @@
             "\r"
         ]
     },
-    "1D47D": {
+    "1D47D*": {
         "scope": "latex",
         "prefix": ["/bi-V", "/b-V"],
         "body": "𝑽",
@@ -6315,7 +6315,7 @@
             "\r"
         ]
     },
-    "1D47E": {
+    "1D47E*": {
         "scope": "latex",
         "prefix": ["/bi-W", "/b-W"],
         "body": "𝑾",
@@ -6325,7 +6325,7 @@
             "\r"
         ]
     },
-    "1D47F": {
+    "1D47F*": {
         "scope": "latex",
         "prefix": ["/bi-X", "/b-X"],
         "body": "𝑿",
@@ -6335,7 +6335,7 @@
             "\r"
         ]
     },
-    "1D480": {
+    "1D480*": {
         "scope": "latex",
         "prefix": ["/bi-Y", "/b-Y"],
         "body": "𝒀",
@@ -6345,7 +6345,7 @@
             "\r"
         ]
     },
-    "1D481": {
+    "1D481*": {
         "scope": "latex",
         "prefix": ["/bi-Z", "/b-Z"],
         "body": "𝒁",
@@ -6355,7 +6355,7 @@
             "\r"
         ]
     },
-    "1D482": {
+    "1D482*": {
         "scope": "latex",
         "prefix": ["/bi-a", "/b-a"],
         "body": "𝒂",
@@ -6365,7 +6365,7 @@
             "\r"
         ]
     },
-    "1D483": {
+    "1D483*": {
         "scope": "latex",
         "prefix": ["/bi-b", "/b-b"],
         "body": "𝒃",
@@ -6375,7 +6375,7 @@
             "\r"
         ]
     },
-    "1D484": {
+    "1D484*": {
         "scope": "latex",
         "prefix": ["/bi-c", "/b-c"],
         "body": "𝒄",
@@ -6385,7 +6385,7 @@
             "\r"
         ]
     },
-    "1D485": {
+    "1D485*": {
         "scope": "latex",
         "prefix": ["/bi-d", "/b-d"],
         "body": "𝒅",
@@ -6395,7 +6395,7 @@
             "\r"
         ]
     },
-    "1D486": {
+    "1D486*": {
         "scope": "latex",
         "prefix": ["/bi-e", "/b-e"],
         "body": "𝒆",
@@ -6405,7 +6405,7 @@
             "\r"
         ]
     },
-    "1D487": {
+    "1D487*": {
         "scope": "latex",
         "prefix": ["/bi-f", "/b-f"],
         "body": "𝒇",
@@ -6415,7 +6415,7 @@
             "\r"
         ]
     },
-    "1D488": {
+    "1D488*": {
         "scope": "latex",
         "prefix": ["/bi-g", "/b-g"],
         "body": "𝒈",
@@ -6425,7 +6425,7 @@
             "\r"
         ]
     },
-    "1D489": {
+    "1D489*": {
         "scope": "latex",
         "prefix": ["/bi-h", "/b-h"],
         "body": "𝒉",
@@ -6435,7 +6435,7 @@
             "\r"
         ]
     },
-    "1D48A": {
+    "1D48A*": {
         "scope": "latex",
         "prefix": ["/bi-i", "/b-i"],
         "body": "𝒊",
@@ -6445,7 +6445,7 @@
             "\r"
         ]
     },
-    "1D48B": {
+    "1D48B*": {
         "scope": "latex",
         "prefix": ["/bi-j", "/b-j"],
         "body": "𝒋",
@@ -6455,7 +6455,7 @@
             "\r"
         ]
     },
-    "1D48C": {
+    "1D48C*": {
         "scope": "latex",
         "prefix": ["/bi-k", "/b-k"],
         "body": "𝒌",
@@ -6465,7 +6465,7 @@
             "\r"
         ]
     },
-    "1D48D": {
+    "1D48D*": {
         "scope": "latex",
         "prefix": ["/bi-l", "/b-l"],
         "body": "𝒍",
@@ -6475,7 +6475,7 @@
             "\r"
         ]
     },
-    "1D48E": {
+    "1D48E*": {
         "scope": "latex",
         "prefix": ["/bi-m", "/b-m"],
         "body": "𝒎",
@@ -6485,7 +6485,7 @@
             "\r"
         ]
     },
-    "1D48F": {
+    "1D48F*": {
         "scope": "latex",
         "prefix": ["/bi-n", "/b-n"],
         "body": "𝒏",
@@ -6495,7 +6495,7 @@
             "\r"
         ]
     },
-    "1D490": {
+    "1D490*": {
         "scope": "latex",
         "prefix": ["/bi-o", "/b-o"],
         "body": "𝒐",
@@ -6505,7 +6505,7 @@
             "\r"
         ]
     },
-    "1D491": {
+    "1D491*": {
         "scope": "latex",
         "prefix": ["/bi-p", "/b-p"],
         "body": "𝒑",
@@ -6515,7 +6515,7 @@
             "\r"
         ]
     },
-    "1D492": {
+    "1D492*": {
         "scope": "latex",
         "prefix": ["/bi-q", "/b-q"],
         "body": "𝒒",
@@ -6525,7 +6525,7 @@
             "\r"
         ]
     },
-    "1D493": {
+    "1D493*": {
         "scope": "latex",
         "prefix": ["/bi-r", "/b-r"],
         "body": "𝒓",
@@ -6535,7 +6535,7 @@
             "\r"
         ]
     },
-    "1D494": {
+    "1D494*": {
         "scope": "latex",
         "prefix": ["/bi-s", "/b-s"],
         "body": "𝒔",
@@ -6545,7 +6545,7 @@
             "\r"
         ]
     },
-    "1D495": {
+    "1D495*": {
         "scope": "latex",
         "prefix": ["/bi-t", "/b-t"],
         "body": "𝒕",
@@ -6555,7 +6555,7 @@
             "\r"
         ]
     },
-    "1D496": {
+    "1D496*": {
         "scope": "latex",
         "prefix": ["/bi-u", "/b-u"],
         "body": "𝒖",
@@ -6565,7 +6565,7 @@
             "\r"
         ]
     },
-    "1D497": {
+    "1D497*": {
         "scope": "latex",
         "prefix": ["/bi-v", "/b-v"],
         "body": "𝒗",
@@ -6575,7 +6575,7 @@
             "\r"
         ]
     },
-    "1D498": {
+    "1D498*": {
         "scope": "latex",
         "prefix": ["/bi-w", "/b-w"],
         "body": "𝒘",
@@ -6585,7 +6585,7 @@
             "\r"
         ]
     },
-    "1D499": {
+    "1D499*": {
         "scope": "latex",
         "prefix": ["/bi-x", "/b-x"],
         "body": "𝒙",
@@ -6595,7 +6595,7 @@
             "\r"
         ]
     },
-    "1D49A": {
+    "1D49A*": {
         "scope": "latex",
         "prefix": ["/bi-y", "/b-y"],
         "body": "𝒚",
@@ -6605,7 +6605,7 @@
             "\r"
         ]
     },
-    "1D49B": {
+    "1D49B*": {
         "scope": "latex",
         "prefix": ["/bi-z", "/b-z"],
         "body": "𝒛",
@@ -6616,7 +6616,7 @@
         ]
     },
     // \symsfit
-    "1D608": {
+    "1D608*": {
         "scope": "latex",
         "prefix": ["/si-A", "/s-A"],
         "body": "𝘈",
@@ -6626,7 +6626,7 @@
             "\r"
         ]
     },
-    "1D609": {
+    "1D609*": {
         "scope": "latex",
         "prefix": ["/si-B", "/s-B"],
         "body": "𝘉",
@@ -6636,7 +6636,7 @@
             "\r"
         ]
     },
-    "1D60A": {
+    "1D60A*": {
         "scope": "latex",
         "prefix": ["/si-C", "/s-C"],
         "body": "𝘊",
@@ -6646,7 +6646,7 @@
             "\r"
         ]
     },
-    "1D60B": {
+    "1D60B*": {
         "scope": "latex",
         "prefix": ["/si-D", "/s-D"],
         "body": "𝘋",
@@ -6656,7 +6656,7 @@
             "\r"
         ]
     },
-    "1D60C": {
+    "1D60C*": {
         "scope": "latex",
         "prefix": ["/si-E", "/s-E"],
         "body": "𝘌",
@@ -6666,7 +6666,7 @@
             "\r"
         ]
     },
-    "1D60D": {
+    "1D60D*": {
         "scope": "latex",
         "prefix": ["/si-F", "/s-F"],
         "body": "𝘍",
@@ -6676,7 +6676,7 @@
             "\r"
         ]
     },
-    "1D60E": {
+    "1D60E*": {
         "scope": "latex",
         "prefix": ["/si-G", "/s-G"],
         "body": "𝘎",
@@ -6686,7 +6686,7 @@
             "\r"
         ]
     },
-    "1D60F": {
+    "1D60F*": {
         "scope": "latex",
         "prefix": ["/si-H", "/s-H"],
         "body": "𝘏",
@@ -6696,7 +6696,7 @@
             "\r"
         ]
     },
-    "1D610": {
+    "1D610*": {
         "scope": "latex",
         "prefix": ["/si-I", "/s-I"],
         "body": "𝘐",
@@ -6706,7 +6706,7 @@
             "\r"
         ]
     },
-    "1D611": {
+    "1D611*": {
         "scope": "latex",
         "prefix": ["/si-J", "/s-J"],
         "body": "𝘑",
@@ -6716,7 +6716,7 @@
             "\r"
         ]
     },
-    "1D612": {
+    "1D612*": {
         "scope": "latex",
         "prefix": ["/si-K", "/s-K"],
         "body": "𝘒",
@@ -6726,7 +6726,7 @@
             "\r"
         ]
     },
-    "1D613": {
+    "1D613*": {
         "scope": "latex",
         "prefix": ["/si-L", "/s-L"],
         "body": "𝘓",
@@ -6736,7 +6736,7 @@
             "\r"
         ]
     },
-    "1D614": {
+    "1D614*": {
         "scope": "latex",
         "prefix": ["/si-M", "/s-M"],
         "body": "𝘔",
@@ -6746,7 +6746,7 @@
             "\r"
         ]
     },
-    "1D615": {
+    "1D615*": {
         "scope": "latex",
         "prefix": ["/si-N", "/s-N"],
         "body": "𝘕",
@@ -6756,7 +6756,7 @@
             "\r"
         ]
     },
-    "1D616": {
+    "1D616*": {
         "scope": "latex",
         "prefix": ["/si-O", "/s-O"],
         "body": "𝘖",
@@ -6766,7 +6766,7 @@
             "\r"
         ]
     },
-    "1D617": {
+    "1D617*": {
         "scope": "latex",
         "prefix": ["/si-P", "/s-P"],
         "body": "𝘗",
@@ -6776,7 +6776,7 @@
             "\r"
         ]
     },
-    "1D618": {
+    "1D618*": {
         "scope": "latex",
         "prefix": ["/si-Q", "/s-Q"],
         "body": "𝘘",
@@ -6786,7 +6786,7 @@
             "\r"
         ]
     },
-    "1D619": {
+    "1D619*": {
         "scope": "latex",
         "prefix": ["/si-R", "/s-R"],
         "body": "𝘙",
@@ -6796,7 +6796,7 @@
             "\r"
         ]
     },
-    "1D61A": {
+    "1D61A*": {
         "scope": "latex",
         "prefix": ["/si-S", "/s-S"],
         "body": "𝘚",
@@ -6806,7 +6806,7 @@
             "\r"
         ]
     },
-    "1D61B": {
+    "1D61B*": {
         "scope": "latex",
         "prefix": ["/si-T", "/s-T"],
         "body": "𝘛",
@@ -6816,7 +6816,7 @@
             "\r"
         ]
     },
-    "1D61C": {
+    "1D61C*": {
         "scope": "latex",
         "prefix": ["/si-U", "/s-U"],
         "body": "𝘜",
@@ -6826,7 +6826,7 @@
             "\r"
         ]
     },
-    "1D61D": {
+    "1D61D*": {
         "scope": "latex",
         "prefix": ["/si-V", "/s-V"],
         "body": "𝘝",
@@ -6836,7 +6836,7 @@
             "\r"
         ]
     },
-    "1D61E": {
+    "1D61E*": {
         "scope": "latex",
         "prefix": ["/si-W", "/s-W"],
         "body": "𝘞",
@@ -6846,7 +6846,7 @@
             "\r"
         ]
     },
-    "1D61F": {
+    "1D61F*": {
         "scope": "latex",
         "prefix": ["/si-X", "/s-X"],
         "body": "𝘟",
@@ -6856,7 +6856,7 @@
             "\r"
         ]
     },
-    "1D620": {
+    "1D620*": {
         "scope": "latex",
         "prefix": ["/si-Y", "/s-Y"],
         "body": "𝘠",
@@ -6866,7 +6866,7 @@
             "\r"
         ]
     },
-    "1D621": {
+    "1D621*": {
         "scope": "latex",
         "prefix": ["/si-Z", "/s-Z"],
         "body": "𝘡",
@@ -6876,7 +6876,7 @@
             "\r"
         ]
     },
-    "1D622": {
+    "1D622*": {
         "scope": "latex",
         "prefix": ["/si-a", "/s-a"],
         "body": "𝘢",
@@ -6886,7 +6886,7 @@
             "\r"
         ]
     },
-    "1D623": {
+    "1D623*": {
         "scope": "latex",
         "prefix": ["/si-b", "/s-b"],
         "body": "𝘣",
@@ -6896,7 +6896,7 @@
             "\r"
         ]
     },
-    "1D624": {
+    "1D624*": {
         "scope": "latex",
         "prefix": ["/si-c", "/s-c"],
         "body": "𝘤",
@@ -6906,7 +6906,7 @@
             "\r"
         ]
     },
-    "1D625": {
+    "1D625*": {
         "scope": "latex",
         "prefix": ["/si-d", "/s-d"],
         "body": "𝘥",
@@ -6916,7 +6916,7 @@
             "\r"
         ]
     },
-    "1D626": {
+    "1D626*": {
         "scope": "latex",
         "prefix": ["/si-e", "/s-e"],
         "body": "𝘦",
@@ -6926,7 +6926,7 @@
             "\r"
         ]
     },
-    "1D627": {
+    "1D627*": {
         "scope": "latex",
         "prefix": ["/si-f", "/s-f"],
         "body": "𝘧",
@@ -6936,7 +6936,7 @@
             "\r"
         ]
     },
-    "1D628": {
+    "1D628*": {
         "scope": "latex",
         "prefix": ["/si-g", "/s-g"],
         "body": "𝘨",
@@ -6946,7 +6946,7 @@
             "\r"
         ]
     },
-    "1D629": {
+    "1D629*": {
         "scope": "latex",
         "prefix": ["/si-h", "/s-h"],
         "body": "𝘩",
@@ -6956,7 +6956,7 @@
             "\r"
         ]
     },
-    "1D62A": {
+    "1D62A*": {
         "scope": "latex",
         "prefix": ["/si-i", "/s-i"],
         "body": "𝘪",
@@ -6966,7 +6966,7 @@
             "\r"
         ]
     },
-    "1D62B": {
+    "1D62B*": {
         "scope": "latex",
         "prefix": ["/si-j", "/s-j"],
         "body": "𝘫",
@@ -6976,7 +6976,7 @@
             "\r"
         ]
     },
-    "1D62C": {
+    "1D62C*": {
         "scope": "latex",
         "prefix": ["/si-k", "/s-k"],
         "body": "𝘬",
@@ -6986,7 +6986,7 @@
             "\r"
         ]
     },
-    "1D62D": {
+    "1D62D*": {
         "scope": "latex",
         "prefix": ["/si-l", "/s-l"],
         "body": "𝘭",
@@ -6996,7 +6996,7 @@
             "\r"
         ]
     },
-    "1D62E": {
+    "1D62E*": {
         "scope": "latex",
         "prefix": ["/si-m", "/s-m"],
         "body": "𝘮",
@@ -7006,7 +7006,7 @@
             "\r"
         ]
     },
-    "1D62F": {
+    "1D62F*": {
         "scope": "latex",
         "prefix": ["/si-n", "/s-n"],
         "body": "𝘯",
@@ -7016,7 +7016,7 @@
             "\r"
         ]
     },
-    "1D630": {
+    "1D630*": {
         "scope": "latex",
         "prefix": ["/si-o", "/s-o"],
         "body": "𝘰",
@@ -7026,7 +7026,7 @@
             "\r"
         ]
     },
-    "1D631": {
+    "1D631*": {
         "scope": "latex",
         "prefix": ["/si-p", "/s-p"],
         "body": "𝘱",
@@ -7036,7 +7036,7 @@
             "\r"
         ]
     },
-    "1D632": {
+    "1D632*": {
         "scope": "latex",
         "prefix": ["/si-q", "/s-q"],
         "body": "𝘲",
@@ -7046,7 +7046,7 @@
             "\r"
         ]
     },
-    "1D633": {
+    "1D633*": {
         "scope": "latex",
         "prefix": ["/si-r", "/s-r"],
         "body": "𝘳",
@@ -7056,7 +7056,7 @@
             "\r"
         ]
     },
-    "1D634": {
+    "1D634*": {
         "scope": "latex",
         "prefix": ["/si-s", "/s-s"],
         "body": "𝘴",
@@ -7066,7 +7066,7 @@
             "\r"
         ]
     },
-    "1D635": {
+    "1D635*": {
         "scope": "latex",
         "prefix": ["/si-t", "/s-t"],
         "body": "𝘵",
@@ -7076,7 +7076,7 @@
             "\r"
         ]
     },
-    "1D636": {
+    "1D636*": {
         "scope": "latex",
         "prefix": ["/si-u", "/s-u"],
         "body": "𝘶",
@@ -7086,7 +7086,7 @@
             "\r"
         ]
     },
-    "1D637": {
+    "1D637*": {
         "scope": "latex",
         "prefix": ["/si-v", "/s-v"],
         "body": "𝘷",
@@ -7096,7 +7096,7 @@
             "\r"
         ]
     },
-    "1D638": {
+    "1D638*": {
         "scope": "latex",
         "prefix": ["/si-w", "/s-w"],
         "body": "𝘸",
@@ -7106,7 +7106,7 @@
             "\r"
         ]
     },
-    "1D639": {
+    "1D639*": {
         "scope": "latex",
         "prefix": ["/si-x", "/s-x"],
         "body": "𝘹",
@@ -7116,7 +7116,7 @@
             "\r"
         ]
     },
-    "1D63A": {
+    "1D63A*": {
         "scope": "latex",
         "prefix": ["/si-y", "/s-y"],
         "body": "𝘺",
@@ -7126,7 +7126,7 @@
             "\r"
         ]
     },
-    "1D63B": {
+    "1D63B*": {
         "scope": "latex",
         "prefix": ["/si-z", "/s-z"],
         "body": "𝘻",
@@ -7137,7 +7137,7 @@
         ]
     },
     // \symbfsfit
-    "1D63C": {
+    "1D63C*": {
         "scope": "latex",
         "prefix": ["/bsi-A", "/bs-A"],
         "body": "𝘼",
@@ -7147,7 +7147,7 @@
             "\r"
         ]
     },
-    "1D63D": {
+    "1D63D*": {
         "scope": "latex",
         "prefix": ["/bsi-B", "/bs-B"],
         "body": "𝘽",
@@ -7157,7 +7157,7 @@
             "\r"
         ]
     },
-    "1D63E": {
+    "1D63E*": {
         "scope": "latex",
         "prefix": ["/bsi-C", "/bs-C"],
         "body": "𝘾",
@@ -7167,7 +7167,7 @@
             "\r"
         ]
     },
-    "1D63F": {
+    "1D63F*": {
         "scope": "latex",
         "prefix": ["/bsi-D", "/bs-D"],
         "body": "𝘿",
@@ -7177,7 +7177,7 @@
             "\r"
         ]
     },
-    "1D640": {
+    "1D640*": {
         "scope": "latex",
         "prefix": ["/bsi-E", "/bs-E"],
         "body": "𝙀",
@@ -7187,7 +7187,7 @@
             "\r"
         ]
     },
-    "1D641": {
+    "1D641*": {
         "scope": "latex",
         "prefix": ["/bsi-F", "/bs-F"],
         "body": "𝙁",
@@ -7197,7 +7197,7 @@
             "\r"
         ]
     },
-    "1D642": {
+    "1D642*": {
         "scope": "latex",
         "prefix": ["/bsi-G", "/bs-G"],
         "body": "𝙂",
@@ -7207,7 +7207,7 @@
             "\r"
         ]
     },
-    "1D643": {
+    "1D643*": {
         "scope": "latex",
         "prefix": ["/bsi-H", "/bs-H"],
         "body": "𝙃",
@@ -7217,7 +7217,7 @@
             "\r"
         ]
     },
-    "1D644": {
+    "1D644*": {
         "scope": "latex",
         "prefix": ["/bsi-I", "/bs-I"],
         "body": "𝙄",
@@ -7227,7 +7227,7 @@
             "\r"
         ]
     },
-    "1D645": {
+    "1D645*": {
         "scope": "latex",
         "prefix": ["/bsi-J", "/bs-J"],
         "body": "𝙅",
@@ -7237,7 +7237,7 @@
             "\r"
         ]
     },
-    "1D646": {
+    "1D646*": {
         "scope": "latex",
         "prefix": ["/bsi-K", "/bs-K"],
         "body": "𝙆",
@@ -7247,7 +7247,7 @@
             "\r"
         ]
     },
-    "1D647": {
+    "1D647*": {
         "scope": "latex",
         "prefix": ["/bsi-L", "/bs-L"],
         "body": "𝙇",
@@ -7257,7 +7257,7 @@
             "\r"
         ]
     },
-    "1D648": {
+    "1D648*": {
         "scope": "latex",
         "prefix": ["/bsi-M", "/bs-M"],
         "body": "𝙈",
@@ -7267,7 +7267,7 @@
             "\r"
         ]
     },
-    "1D649": {
+    "1D649*": {
         "scope": "latex",
         "prefix": ["/bsi-N", "/bs-N"],
         "body": "𝙉",
@@ -7277,7 +7277,7 @@
             "\r"
         ]
     },
-    "1D64A": {
+    "1D64A*": {
         "scope": "latex",
         "prefix": ["/bsi-O", "/bs-O"],
         "body": "𝙊",
@@ -7287,7 +7287,7 @@
             "\r"
         ]
     },
-    "1D64B": {
+    "1D64B*": {
         "scope": "latex",
         "prefix": ["/bsi-P", "/bs-P"],
         "body": "𝙋",
@@ -7297,7 +7297,7 @@
             "\r"
         ]
     },
-    "1D64C": {
+    "1D64C*": {
         "scope": "latex",
         "prefix": ["/bsi-Q", "/bs-Q"],
         "body": "𝙌",
@@ -7307,7 +7307,7 @@
             "\r"
         ]
     },
-    "1D64D": {
+    "1D64D*": {
         "scope": "latex",
         "prefix": ["/bsi-R", "/bs-R"],
         "body": "𝙍",
@@ -7317,7 +7317,7 @@
             "\r"
         ]
     },
-    "1D64E": {
+    "1D64E*": {
         "scope": "latex",
         "prefix": ["/bsi-S", "/bs-S"],
         "body": "𝙎",
@@ -7327,7 +7327,7 @@
             "\r"
         ]
     },
-    "1D64F": {
+    "1D64F*": {
         "scope": "latex",
         "prefix": ["/bsi-T", "/bs-T"],
         "body": "𝙏",
@@ -7337,7 +7337,7 @@
             "\r"
         ]
     },
-    "1D650": {
+    "1D650*": {
         "scope": "latex",
         "prefix": ["/bsi-U", "/bs-U"],
         "body": "𝙐",
@@ -7347,7 +7347,7 @@
             "\r"
         ]
     },
-    "1D651": {
+    "1D651*": {
         "scope": "latex",
         "prefix": ["/bsi-V", "/bs-V"],
         "body": "𝙑",
@@ -7357,7 +7357,7 @@
             "\r"
         ]
     },
-    "1D652": {
+    "1D652*": {
         "scope": "latex",
         "prefix": ["/bsi-W", "/bs-W"],
         "body": "𝙒",
@@ -7367,7 +7367,7 @@
             "\r"
         ]
     },
-    "1D653": {
+    "1D653*": {
         "scope": "latex",
         "prefix": ["/bsi-X", "/bs-X"],
         "body": "𝙓",
@@ -7377,7 +7377,7 @@
             "\r"
         ]
     },
-    "1D654": {
+    "1D654*": {
         "scope": "latex",
         "prefix": ["/bsi-Y", "/bs-Y"],
         "body": "𝙔",
@@ -7387,7 +7387,7 @@
             "\r"
         ]
     },
-    "1D655": {
+    "1D655*": {
         "scope": "latex",
         "prefix": ["/bsi-Z", "/bs-Z"],
         "body": "𝙕",
@@ -7397,7 +7397,7 @@
             "\r"
         ]
     },
-    "1D656": {
+    "1D656*": {
         "scope": "latex",
         "prefix": ["/bsi-a", "/bs-a"],
         "body": "𝙖",
@@ -7407,7 +7407,7 @@
             "\r"
         ]
     },
-    "1D657": {
+    "1D657*": {
         "scope": "latex",
         "prefix": ["/bsi-b", "/bs-b"],
         "body": "𝙗",
@@ -7417,7 +7417,7 @@
             "\r"
         ]
     },
-    "1D658": {
+    "1D658*": {
         "scope": "latex",
         "prefix": ["/bsi-c", "/bs-c"],
         "body": "𝙘",
@@ -7427,7 +7427,7 @@
             "\r"
         ]
     },
-    "1D659": {
+    "1D659*": {
         "scope": "latex",
         "prefix": ["/bsi-d", "/bs-d"],
         "body": "𝙙",
@@ -7437,7 +7437,7 @@
             "\r"
         ]
     },
-    "1D65A": {
+    "1D65A*": {
         "scope": "latex",
         "prefix": ["/bsi-e", "/bs-e"],
         "body": "𝙚",
@@ -7447,7 +7447,7 @@
             "\r"
         ]
     },
-    "1D65B": {
+    "1D65B*": {
         "scope": "latex",
         "prefix": ["/bsi-f", "/bs-f"],
         "body": "𝙛",
@@ -7457,7 +7457,7 @@
             "\r"
         ]
     },
-    "1D65C": {
+    "1D65C*": {
         "scope": "latex",
         "prefix": ["/bsi-g", "/bs-g"],
         "body": "𝙜",
@@ -7467,7 +7467,7 @@
             "\r"
         ]
     },
-    "1D65D": {
+    "1D65D*": {
         "scope": "latex",
         "prefix": ["/bsi-h", "/bs-h"],
         "body": "𝙝",
@@ -7477,7 +7477,7 @@
             "\r"
         ]
     },
-    "1D65E": {
+    "1D65E*": {
         "scope": "latex",
         "prefix": ["/bsi-i", "/bs-i"],
         "body": "𝙞",
@@ -7487,7 +7487,7 @@
             "\r"
         ]
     },
-    "1D65F": {
+    "1D65F*": {
         "scope": "latex",
         "prefix": ["/bsi-j", "/bs-j"],
         "body": "𝙟",
@@ -7497,7 +7497,7 @@
             "\r"
         ]
     },
-    "1D660": {
+    "1D660*": {
         "scope": "latex",
         "prefix": ["/bsi-k", "/bs-k"],
         "body": "𝙠",
@@ -7507,7 +7507,7 @@
             "\r"
         ]
     },
-    "1D661": {
+    "1D661*": {
         "scope": "latex",
         "prefix": ["/bsi-l", "/bs-l"],
         "body": "𝙡",
@@ -7517,7 +7517,7 @@
             "\r"
         ]
     },
-    "1D662": {
+    "1D662*": {
         "scope": "latex",
         "prefix": ["/bsi-m", "/bs-m"],
         "body": "𝙢",
@@ -7527,7 +7527,7 @@
             "\r"
         ]
     },
-    "1D663": {
+    "1D663*": {
         "scope": "latex",
         "prefix": ["/bsi-n", "/bs-n"],
         "body": "𝙣",
@@ -7537,7 +7537,7 @@
             "\r"
         ]
     },
-    "1D664": {
+    "1D664*": {
         "scope": "latex",
         "prefix": ["/bsi-o", "/bs-o"],
         "body": "𝙤",
@@ -7547,7 +7547,7 @@
             "\r"
         ]
     },
-    "1D665": {
+    "1D665*": {
         "scope": "latex",
         "prefix": ["/bsi-p", "/bs-p"],
         "body": "𝙥",
@@ -7557,7 +7557,7 @@
             "\r"
         ]
     },
-    "1D666": {
+    "1D666*": {
         "scope": "latex",
         "prefix": ["/bsi-q", "/bs-q"],
         "body": "𝙦",
@@ -7567,7 +7567,7 @@
             "\r"
         ]
     },
-    "1D667": {
+    "1D667*": {
         "scope": "latex",
         "prefix": ["/bsi-r", "/bs-r"],
         "body": "𝙧",
@@ -7577,7 +7577,7 @@
             "\r"
         ]
     },
-    "1D668": {
+    "1D668*": {
         "scope": "latex",
         "prefix": ["/bsi-s", "/bs-s"],
         "body": "𝙨",
@@ -7587,7 +7587,7 @@
             "\r"
         ]
     },
-    "1D669": {
+    "1D669*": {
         "scope": "latex",
         "prefix": ["/bsi-t", "/bs-t"],
         "body": "𝙩",
@@ -7597,7 +7597,7 @@
             "\r"
         ]
     },
-    "1D66A": {
+    "1D66A*": {
         "scope": "latex",
         "prefix": ["/bsi-u", "/bs-u"],
         "body": "𝙪",
@@ -7607,7 +7607,7 @@
             "\r"
         ]
     },
-    "1D66B": {
+    "1D66B*": {
         "scope": "latex",
         "prefix": ["/bsi-v", "/bs-v"],
         "body": "𝙫",
@@ -7617,7 +7617,7 @@
             "\r"
         ]
     },
-    "1D66C": {
+    "1D66C*": {
         "scope": "latex",
         "prefix": ["/bsi-w", "/bs-w"],
         "body": "𝙬",
@@ -7627,7 +7627,7 @@
             "\r"
         ]
     },
-    "1D66D": {
+    "1D66D*": {
         "scope": "latex",
         "prefix": ["/bsi-x", "/bs-x"],
         "body": "𝙭",
@@ -7637,7 +7637,7 @@
             "\r"
         ]
     },
-    "1D66E": {
+    "1D66E*": {
         "scope": "latex",
         "prefix": ["/bsi-y", "/bs-y"],
         "body": "𝙮",
@@ -7647,7 +7647,7 @@
             "\r"
         ]
     },
-    "1D66F": {
+    "1D66F*": {
         "scope": "latex",
         "prefix": ["/bsi-z", "/bs-z"],
         "body": "𝙯",
@@ -7658,7 +7658,7 @@
         ]
     },
     // \symbbit
-    "02145": {
+    "02145*": {
         "scope": "latex",
         "prefix": "/bbi-D",
         "body": "ⅅ",
@@ -7668,7 +7668,7 @@
             "\r"
         ]
     },
-    "02146": {
+    "02146*": {
         "scope": "latex",
         "prefix": "/bbi-d",
         "body": "ⅆ",
@@ -7678,7 +7678,7 @@
             "\r"
         ]
     },
-    "02147": {
+    "02147*": {
         "scope": "latex",
         "prefix": "/bbi-e",
         "body": "ⅇ",
@@ -7688,7 +7688,7 @@
             "\r"
         ]
     },
-    "02148": {
+    "02148*": {
         "scope": "latex",
         "prefix": "/bbi-i",
         "body": "ⅈ",
@@ -7698,7 +7698,7 @@
             "\r"
         ]
     },
-    "02149": {
+    "02149*": {
         "scope": "latex",
         "prefix": "/bbi-j",
         "body": "ⅉ",
@@ -7731,7 +7731,7 @@
 //     (\symbfsfit): /mbfitsans* → /bsi-*, /bs-*
 // 
     // \symup
-    "00391": {
+    "00391*": {
         "scope": "latex",
         "prefix": "/u-Alpha",
         "body": "Α",
@@ -7741,7 +7741,7 @@
             "\r"
         ]
     },
-    "00392": {
+    "00392*": {
         "scope": "latex",
         "prefix": "/u-Beta",
         "body": "Β",
@@ -7751,7 +7751,7 @@
             "\r"
         ]
     },
-    "00393": {
+    "00393*": {
         "scope": "latex",
         "prefix": "/u-Gamma",
         "body": "Γ",
@@ -7761,7 +7761,7 @@
             "\r"
         ]
     },
-    "00394": {
+    "00394*": {
         "scope": "latex",
         "prefix": "/u-Delta",
         "body": "Δ",
@@ -7771,7 +7771,7 @@
             "\r"
         ]
     },
-    "00395": {
+    "00395*": {
         "scope": "latex",
         "prefix": "/u-Epsilon",
         "body": "Ε",
@@ -7781,7 +7781,7 @@
             "\r"
         ]
     },
-    "00396": {
+    "00396*": {
         "scope": "latex",
         "prefix": "/u-Zeta",
         "body": "Ζ",
@@ -7791,7 +7791,7 @@
             "\r"
         ]
     },
-    "00397": {
+    "00397*": {
         "scope": "latex",
         "prefix": "/u-Eta",
         "body": "Η",
@@ -7801,7 +7801,7 @@
             "\r"
         ]
     },
-    "00398": {
+    "00398*": {
         "scope": "latex",
         "prefix": "/u-Theta",
         "body": "Θ",
@@ -7811,7 +7811,7 @@
             "\r"
         ]
     },
-    "00399": {
+    "00399*": {
         "scope": "latex",
         "prefix": "/u-Iota",
         "body": "Ι",
@@ -7821,7 +7821,7 @@
             "\r"
         ]
     },
-    "0039A": {
+    "0039A*": {
         "scope": "latex",
         "prefix": "/u-Kappa",
         "body": "Κ",
@@ -7831,7 +7831,7 @@
             "\r"
         ]
     },
-    "0039B": {
+    "0039B*": {
         "scope": "latex",
         "prefix": "/u-Lambda",
         "body": "Λ",
@@ -7841,7 +7841,7 @@
             "\r"
         ]
     },
-    "0039C": {
+    "0039C*": {
         "scope": "latex",
         "prefix": "/u-Mu",
         "body": "Μ",
@@ -7851,7 +7851,7 @@
             "\r"
         ]
     },
-    "0039D": {
+    "0039D*": {
         "scope": "latex",
         "prefix": "/u-Nu",
         "body": "Ν",
@@ -7861,7 +7861,7 @@
             "\r"
         ]
     },
-    "0039E": {
+    "0039E*": {
         "scope": "latex",
         "prefix": "/u-Xi",
         "body": "Ξ",
@@ -7871,7 +7871,7 @@
             "\r"
         ]
     },
-    "0039F": {
+    "0039F*": {
         "scope": "latex",
         "prefix": "/u-Omicron",
         "body": "Ο",
@@ -7881,7 +7881,7 @@
             "\r"
         ]
     },
-    "003A0": {
+    "003A0*": {
         "scope": "latex",
         "prefix": "/u-Pi",
         "body": "Π",
@@ -7891,7 +7891,7 @@
             "\r"
         ]
     },
-    "003A1": {
+    "003A1*": {
         "scope": "latex",
         "prefix": "/u-Rho",
         "body": "Ρ",
@@ -7901,7 +7901,7 @@
             "\r"
         ]
     },
-    "003F4": {
+    "003F4*": {
         "scope": "latex",
         "prefix": "/u-varTheta",
         "body": "ϴ",
@@ -7911,7 +7911,7 @@
             "\r"
         ]
     },
-    "003A3": {
+    "003A3*": {
         "scope": "latex",
         "prefix": "/u-Sigma",
         "body": "Σ",
@@ -7921,7 +7921,7 @@
             "\r"
         ]
     },
-    "003A4": {
+    "003A4*": {
         "scope": "latex",
         "prefix": "/u-Tau",
         "body": "Τ",
@@ -7931,7 +7931,7 @@
             "\r"
         ]
     },
-    "003A5": {
+    "003A5*": {
         "scope": "latex",
         "prefix": "/u-Upsilon",
         "body": "Υ",
@@ -7941,7 +7941,7 @@
             "\r"
         ]
     },
-    "003A6": {
+    "003A6*": {
         "scope": "latex",
         "prefix": "/u-Phi",
         "body": "Φ",
@@ -7951,7 +7951,7 @@
             "\r"
         ]
     },
-    "003A7": {
+    "003A7*": {
         "scope": "latex",
         "prefix": "/u-Chi",
         "body": "Χ",
@@ -7961,7 +7961,7 @@
             "\r"
         ]
     },
-    "003A8": {
+    "003A8*": {
         "scope": "latex",
         "prefix": "/u-Psi",
         "body": "Ψ",
@@ -7971,7 +7971,7 @@
             "\r"
         ]
     },
-    "003A9": {
+    "003A9*": {
         "scope": "latex",
         "prefix": "/u-Omega",
         "body": "Ω",
@@ -7981,7 +7981,7 @@
             "\r"
         ]
     },
-    "003DC": {
+    "003DC*": {
         "scope": "latex",
         "prefix": "/u-Digamma",
         "body": "Ϝ",
@@ -7991,7 +7991,7 @@
             "\r"
         ]
     },
-    "003B1": {
+    "003B1*": {
         "scope": "latex",
         "prefix": "/u-alpha",
         "body": "α",
@@ -8001,7 +8001,7 @@
             "\r"
         ]
     },
-    "003B2": {
+    "003B2*": {
         "scope": "latex",
         "prefix": "/u-beta",
         "body": "β",
@@ -8011,7 +8011,7 @@
             "\r"
         ]
     },
-    "003B3": {
+    "003B3*": {
         "scope": "latex",
         "prefix": "/u-gamma",
         "body": "γ",
@@ -8021,7 +8021,7 @@
             "\r"
         ]
     },
-    "003B4": {
+    "003B4*": {
         "scope": "latex",
         "prefix": "/u-delta",
         "body": "δ",
@@ -8031,7 +8031,7 @@
             "\r"
         ]
     },
-    "003B5": {
+    "003B5*": {
         "scope": "latex",
         "prefix": "/u-varepsilon",
         "body": "ε",
@@ -8041,7 +8041,7 @@
             "\r"
         ]
     },
-    "003B6": {
+    "003B6*": {
         "scope": "latex",
         "prefix": "/u-zeta",
         "body": "ζ",
@@ -8051,7 +8051,7 @@
             "\r"
         ]
     },
-    "003B7": {
+    "003B7*": {
         "scope": "latex",
         "prefix": "/u-eta",
         "body": "η",
@@ -8061,7 +8061,7 @@
             "\r"
         ]
     },
-    "003B8": {
+    "003B8*": {
         "scope": "latex",
         "prefix": "/u-theta",
         "body": "θ",
@@ -8071,7 +8071,7 @@
             "\r"
         ]
     },
-    "003B9": {
+    "003B9*": {
         "scope": "latex",
         "prefix": "/u-iota",
         "body": "ι",
@@ -8081,7 +8081,7 @@
             "\r"
         ]
     },
-    "003BA": {
+    "003BA*": {
         "scope": "latex",
         "prefix": "/u-kappa",
         "body": "κ",
@@ -8091,7 +8091,7 @@
             "\r"
         ]
     },
-    "003BB": {
+    "003BB*": {
         "scope": "latex",
         "prefix": "/u-lambda",
         "body": "λ",
@@ -8101,7 +8101,7 @@
             "\r"
         ]
     },
-    "003BC": {
+    "003BC*": {
         "scope": "latex",
         "prefix": "/u-mu",
         "body": "μ",
@@ -8111,7 +8111,7 @@
             "\r"
         ]
     },
-    "003BD": {
+    "003BD*": {
         "scope": "latex",
         "prefix": "/u-nu",
         "body": "ν",
@@ -8121,7 +8121,7 @@
             "\r"
         ]
     },
-    "003BE": {
+    "003BE*": {
         "scope": "latex",
         "prefix": "/u-xi",
         "body": "ξ",
@@ -8131,7 +8131,7 @@
             "\r"
         ]
     },
-    "003BF": {
+    "003BF*": {
         "scope": "latex",
         "prefix": "/u-omicron",
         "body": "ο",
@@ -8141,7 +8141,7 @@
             "\r"
         ]
     },
-    "003C0": {
+    "003C0*": {
         "scope": "latex",
         "prefix": "/u-pi",
         "body": "π",
@@ -8151,7 +8151,7 @@
             "\r"
         ]
     },
-    "003C1": {
+    "003C1*": {
         "scope": "latex",
         "prefix": "/u-rho",
         "body": "ρ",
@@ -8161,7 +8161,7 @@
             "\r"
         ]
     },
-    "003C2": {
+    "003C2*": {
         "scope": "latex",
         "prefix": "/u-varsigma",
         "body": "ς",
@@ -8171,7 +8171,7 @@
             "\r"
         ]
     },
-    "003C3": {
+    "003C3*": {
         "scope": "latex",
         "prefix": "/u-sigma",
         "body": "σ",
@@ -8181,7 +8181,7 @@
             "\r"
         ]
     },
-    "003C4": {
+    "003C4*": {
         "scope": "latex",
         "prefix": "/u-tau",
         "body": "τ",
@@ -8191,7 +8191,7 @@
             "\r"
         ]
     },
-    "003C5": {
+    "003C5*": {
         "scope": "latex",
         "prefix": "/u-upsilon",
         "body": "υ",
@@ -8201,7 +8201,7 @@
             "\r"
         ]
     },
-    "003C6": {
+    "003C6*": {
         "scope": "latex",
         "prefix": "/u-varphi",
         "body": "φ",
@@ -8211,7 +8211,7 @@
             "\r"
         ]
     },
-    "003C7": {
+    "003C7*": {
         "scope": "latex",
         "prefix": "/u-chi",
         "body": "χ",
@@ -8221,7 +8221,7 @@
             "\r"
         ]
     },
-    "003C8": {
+    "003C8*": {
         "scope": "latex",
         "prefix": "/u-psi",
         "body": "ψ",
@@ -8231,7 +8231,7 @@
             "\r"
         ]
     },
-    "003C9": {
+    "003C9*": {
         "scope": "latex",
         "prefix": "/u-omega",
         "body": "ω",
@@ -8241,7 +8241,7 @@
             "\r"
         ]
     },
-    "003F5": {
+    "003F5*": {
         "scope": "latex",
         "prefix": "/u-epsilon",
         "body": "ϵ",
@@ -8251,7 +8251,7 @@
             "\r"
         ]
     },
-    "003D1": {
+    "003D1*": {
         "scope": "latex",
         "prefix": "/u-vartheta",
         "body": "ϑ",
@@ -8261,7 +8261,7 @@
             "\r"
         ]
     },
-    "003F0": {
+    "003F0*": {
         "scope": "latex",
         "prefix": "/u-varkappa",
         "body": "ϰ",
@@ -8271,7 +8271,7 @@
             "\r"
         ]
     },
-    "003D5": {
+    "003D5*": {
         "scope": "latex",
         "prefix": "/u-phi",
         "body": "ϕ",
@@ -8281,7 +8281,7 @@
             "\r"
         ]
     },
-    "003F1": {
+    "003F1*": {
         "scope": "latex",
         "prefix": "/u-varrho",
         "body": "ϱ",
@@ -8291,7 +8291,7 @@
             "\r"
         ]
     },
-    "003D6": {
+    "003D6*": {
         "scope": "latex",
         "prefix": "/u-varpi",
         "body": "ϖ",
@@ -8301,7 +8301,7 @@
             "\r"
         ]
     },
-    "003DD": {
+    "003DD*": {
         "scope": "latex",
         "prefix": "/u-digamma",
         "body": "ϝ",
@@ -8312,7 +8312,7 @@
         ]
     },
     // \symbfup
-    "1D6A8": {
+    "1D6A8*": {
         "scope": "latex",
         "prefix": "/bu-Alpha",
         "body": "𝚨",
@@ -8322,7 +8322,7 @@
             "\r"
         ]
     },
-    "1D6A9": {
+    "1D6A9*": {
         "scope": "latex",
         "prefix": "/bu-Beta",
         "body": "𝚩",
@@ -8332,7 +8332,7 @@
             "\r"
         ]
     },
-    "1D6AA": {
+    "1D6AA*": {
         "scope": "latex",
         "prefix": "/bu-Gamma",
         "body": "𝚪",
@@ -8342,7 +8342,7 @@
             "\r"
         ]
     },
-    "1D6AB": {
+    "1D6AB*": {
         "scope": "latex",
         "prefix": "/bu-Delta",
         "body": "𝚫",
@@ -8352,7 +8352,7 @@
             "\r"
         ]
     },
-    "1D6AC": {
+    "1D6AC*": {
         "scope": "latex",
         "prefix": "/bu-Epsilon",
         "body": "𝚬",
@@ -8362,7 +8362,7 @@
             "\r"
         ]
     },
-    "1D6AD": {
+    "1D6AD*": {
         "scope": "latex",
         "prefix": "/bu-Zeta",
         "body": "𝚭",
@@ -8372,7 +8372,7 @@
             "\r"
         ]
     },
-    "1D6AE": {
+    "1D6AE*": {
         "scope": "latex",
         "prefix": "/bu-Eta",
         "body": "𝚮",
@@ -8382,7 +8382,7 @@
             "\r"
         ]
     },
-    "1D6AF": {
+    "1D6AF*": {
         "scope": "latex",
         "prefix": "/bu-Theta",
         "body": "𝚯",
@@ -8392,7 +8392,7 @@
             "\r"
         ]
     },
-    "1D6B0": {
+    "1D6B0*": {
         "scope": "latex",
         "prefix": "/bu-Iota",
         "body": "𝚰",
@@ -8402,7 +8402,7 @@
             "\r"
         ]
     },
-    "1D6B1": {
+    "1D6B1*": {
         "scope": "latex",
         "prefix": "/bu-Kappa",
         "body": "𝚱",
@@ -8412,7 +8412,7 @@
             "\r"
         ]
     },
-    "1D6B2": {
+    "1D6B2*": {
         "scope": "latex",
         "prefix": "/bu-Lambda",
         "body": "𝚲",
@@ -8422,7 +8422,7 @@
             "\r"
         ]
     },
-    "1D6B3": {
+    "1D6B3*": {
         "scope": "latex",
         "prefix": "/bu-Mu",
         "body": "𝚳",
@@ -8432,7 +8432,7 @@
             "\r"
         ]
     },
-    "1D6B4": {
+    "1D6B4*": {
         "scope": "latex",
         "prefix": "/bu-Nu",
         "body": "𝚴",
@@ -8442,7 +8442,7 @@
             "\r"
         ]
     },
-    "1D6B5": {
+    "1D6B5*": {
         "scope": "latex",
         "prefix": "/bu-Xi",
         "body": "𝚵",
@@ -8452,7 +8452,7 @@
             "\r"
         ]
     },
-    "1D6B6": {
+    "1D6B6*": {
         "scope": "latex",
         "prefix": "/bu-Omicron",
         "body": "𝚶",
@@ -8462,7 +8462,7 @@
             "\r"
         ]
     },
-    "1D6B7": {
+    "1D6B7*": {
         "scope": "latex",
         "prefix": "/bu-Pi",
         "body": "𝚷",
@@ -8472,7 +8472,7 @@
             "\r"
         ]
     },
-    "1D6B8": {
+    "1D6B8*": {
         "scope": "latex",
         "prefix": "/bu-Rho",
         "body": "𝚸",
@@ -8482,7 +8482,7 @@
             "\r"
         ]
     },
-    "1D6B9": {
+    "1D6B9*": {
         "scope": "latex",
         "prefix": "/bu-varTheta",
         "body": "𝚹",
@@ -8492,7 +8492,7 @@
             "\r"
         ]
     },
-    "1D6BA": {
+    "1D6BA*": {
         "scope": "latex",
         "prefix": "/bu-Sigma",
         "body": "𝚺",
@@ -8502,7 +8502,7 @@
             "\r"
         ]
     },
-    "1D6BB": {
+    "1D6BB*": {
         "scope": "latex",
         "prefix": "/bu-Tau",
         "body": "𝚻",
@@ -8512,7 +8512,7 @@
             "\r"
         ]
     },
-    "1D6BC": {
+    "1D6BC*": {
         "scope": "latex",
         "prefix": "/bu-Upsilon",
         "body": "𝚼",
@@ -8522,7 +8522,7 @@
             "\r"
         ]
     },
-    "1D6BD": {
+    "1D6BD*": {
         "scope": "latex",
         "prefix": "/bu-Phi",
         "body": "𝚽",
@@ -8532,7 +8532,7 @@
             "\r"
         ]
     },
-    "1D6BE": {
+    "1D6BE*": {
         "scope": "latex",
         "prefix": "/bu-Chi",
         "body": "𝚾",
@@ -8542,7 +8542,7 @@
             "\r"
         ]
     },
-    "1D6BF": {
+    "1D6BF*": {
         "scope": "latex",
         "prefix": "/bu-Psi",
         "body": "𝚿",
@@ -8552,7 +8552,7 @@
             "\r"
         ]
     },
-    "1D6C0": {
+    "1D6C0*": {
         "scope": "latex",
         "prefix": "/bu-Omega",
         "body": "𝛀",
@@ -8562,7 +8562,7 @@
             "\r"
         ]
     },
-    "1D7CA": {
+    "1D7CA*": {
         "scope": "latex",
         "prefix": "/bu-Digamma",
         "body": "𝟊",
@@ -8572,7 +8572,7 @@
             "\r"
         ]
     },
-    "1D6C2": {
+    "1D6C2*": {
         "scope": "latex",
         "prefix": "/bu-alpha",
         "body": "𝛂",
@@ -8582,7 +8582,7 @@
             "\r"
         ]
     },
-    "1D6C3": {
+    "1D6C3*": {
         "scope": "latex",
         "prefix": "/bu-beta",
         "body": "𝛃",
@@ -8592,7 +8592,7 @@
             "\r"
         ]
     },
-    "1D6C4": {
+    "1D6C4*": {
         "scope": "latex",
         "prefix": "/bu-gamma",
         "body": "𝛄",
@@ -8602,7 +8602,7 @@
             "\r"
         ]
     },
-    "1D6C5": {
+    "1D6C5*": {
         "scope": "latex",
         "prefix": "/bu-delta",
         "body": "𝛅",
@@ -8612,7 +8612,7 @@
             "\r"
         ]
     },
-    "1D6C6": {
+    "1D6C6*": {
         "scope": "latex",
         "prefix": "/bu-varepsilon",
         "body": "𝛆",
@@ -8622,7 +8622,7 @@
             "\r"
         ]
     },
-    "1D6C7": {
+    "1D6C7*": {
         "scope": "latex",
         "prefix": "/bu-zeta",
         "body": "𝛇",
@@ -8632,7 +8632,7 @@
             "\r"
         ]
     },
-    "1D6C8": {
+    "1D6C8*": {
         "scope": "latex",
         "prefix": "/bu-eta",
         "body": "𝛈",
@@ -8642,7 +8642,7 @@
             "\r"
         ]
     },
-    "1D6C9": {
+    "1D6C9*": {
         "scope": "latex",
         "prefix": "/bu-theta",
         "body": "𝛉",
@@ -8652,7 +8652,7 @@
             "\r"
         ]
     },
-    "1D6CA": {
+    "1D6CA*": {
         "scope": "latex",
         "prefix": "/bu-iota",
         "body": "𝛊",
@@ -8662,7 +8662,7 @@
             "\r"
         ]
     },
-    "1D6CB": {
+    "1D6CB*": {
         "scope": "latex",
         "prefix": "/bu-kappa",
         "body": "𝛋",
@@ -8672,7 +8672,7 @@
             "\r"
         ]
     },
-    "1D6CC": {
+    "1D6CC*": {
         "scope": "latex",
         "prefix": "/bu-lambda",
         "body": "𝛌",
@@ -8682,7 +8682,7 @@
             "\r"
         ]
     },
-    "1D6CD": {
+    "1D6CD*": {
         "scope": "latex",
         "prefix": "/bu-mu",
         "body": "𝛍",
@@ -8692,7 +8692,7 @@
             "\r"
         ]
     },
-    "1D6CE": {
+    "1D6CE*": {
         "scope": "latex",
         "prefix": "/bu-nu",
         "body": "𝛎",
@@ -8702,7 +8702,7 @@
             "\r"
         ]
     },
-    "1D6CF": {
+    "1D6CF*": {
         "scope": "latex",
         "prefix": "/bu-xi",
         "body": "𝛏",
@@ -8712,7 +8712,7 @@
             "\r"
         ]
     },
-    "1D6D0": {
+    "1D6D0*": {
         "scope": "latex",
         "prefix": "/bu-omicron",
         "body": "𝛐",
@@ -8722,7 +8722,7 @@
             "\r"
         ]
     },
-    "1D6D1": {
+    "1D6D1*": {
         "scope": "latex",
         "prefix": "/bu-pi",
         "body": "𝛑",
@@ -8732,7 +8732,7 @@
             "\r"
         ]
     },
-    "1D6D2": {
+    "1D6D2*": {
         "scope": "latex",
         "prefix": "/bu-rho",
         "body": "𝛒",
@@ -8742,7 +8742,7 @@
             "\r"
         ]
     },
-    "1D6D3": {
+    "1D6D3*": {
         "scope": "latex",
         "prefix": "/bu-varsigma",
         "body": "𝛓",
@@ -8752,7 +8752,7 @@
             "\r"
         ]
     },
-    "1D6D4": {
+    "1D6D4*": {
         "scope": "latex",
         "prefix": "/bu-sigma",
         "body": "𝛔",
@@ -8762,7 +8762,7 @@
             "\r"
         ]
     },
-    "1D6D5": {
+    "1D6D5*": {
         "scope": "latex",
         "prefix": "/bu-tau",
         "body": "𝛕",
@@ -8772,7 +8772,7 @@
             "\r"
         ]
     },
-    "1D6D6": {
+    "1D6D6*": {
         "scope": "latex",
         "prefix": "/bu-upsilon",
         "body": "𝛖",
@@ -8782,7 +8782,7 @@
             "\r"
         ]
     },
-    "1D6D7": {
+    "1D6D7*": {
         "scope": "latex",
         "prefix": "/bu-varphi",
         "body": "𝛗",
@@ -8792,7 +8792,7 @@
             "\r"
         ]
     },
-    "1D6D8": {
+    "1D6D8*": {
         "scope": "latex",
         "prefix": "/bu-chi",
         "body": "𝛘",
@@ -8802,7 +8802,7 @@
             "\r"
         ]
     },
-    "1D6D9": {
+    "1D6D9*": {
         "scope": "latex",
         "prefix": "/bu-psi",
         "body": "𝛙",
@@ -8812,7 +8812,7 @@
             "\r"
         ]
     },
-    "1D6DA": {
+    "1D6DA*": {
         "scope": "latex",
         "prefix": "/bu-omega",
         "body": "𝛚",
@@ -8822,7 +8822,7 @@
             "\r"
         ]
     },
-    "1D6DC": {
+    "1D6DC*": {
         "scope": "latex",
         "prefix": "/bu-epsilon",
         "body": "𝛜",
@@ -8832,7 +8832,7 @@
             "\r"
         ]
     },
-    "1D6DD": {
+    "1D6DD*": {
         "scope": "latex",
         "prefix": "/bu-vartheta",
         "body": "𝛝",
@@ -8842,7 +8842,7 @@
             "\r"
         ]
     },
-    "1D6DE": {
+    "1D6DE*": {
         "scope": "latex",
         "prefix": "/bu-varkappa",
         "body": "𝛞",
@@ -8852,7 +8852,7 @@
             "\r"
         ]
     },
-    "1D6DF": {
+    "1D6DF*": {
         "scope": "latex",
         "prefix": "/bu-phi",
         "body": "𝛟",
@@ -8862,7 +8862,7 @@
             "\r"
         ]
     },
-    "1D6E0": {
+    "1D6E0*": {
         "scope": "latex",
         "prefix": "/bu-varrho",
         "body": "𝛠",
@@ -8872,7 +8872,7 @@
             "\r"
         ]
     },
-    "1D6E1": {
+    "1D6E1*": {
         "scope": "latex",
         "prefix": "/bu-varpi",
         "body": "𝛡",
@@ -8882,7 +8882,7 @@
             "\r"
         ]
     },
-    "1D7CB": {
+    "1D7CB*": {
         "scope": "latex",
         "prefix": "/bu-digamma",
         "body": "𝟋",
@@ -8893,7 +8893,7 @@
         ]
     },
     // \symbfsfup
-    "1D756": {
+    "1D756*": {
         "scope": "latex",
         "prefix": "/bsu-Alpha",
         "body": "𝝖",
@@ -8903,7 +8903,7 @@
             "\r"
         ]
     },
-    "1D757": {
+    "1D757*": {
         "scope": "latex",
         "prefix": "/bsu-Beta",
         "body": "𝝗",
@@ -8913,7 +8913,7 @@
             "\r"
         ]
     },
-    "1D758": {
+    "1D758*": {
         "scope": "latex",
         "prefix": "/bsu-Gamma",
         "body": "𝝘",
@@ -8923,7 +8923,7 @@
             "\r"
         ]
     },
-    "1D759": {
+    "1D759*": {
         "scope": "latex",
         "prefix": "/bsu-Delta",
         "body": "𝝙",
@@ -8933,7 +8933,7 @@
             "\r"
         ]
     },
-    "1D75A": {
+    "1D75A*": {
         "scope": "latex",
         "prefix": "/bsu-Epsilon",
         "body": "𝝚",
@@ -8943,7 +8943,7 @@
             "\r"
         ]
     },
-    "1D75B": {
+    "1D75B*": {
         "scope": "latex",
         "prefix": "/bsu-Zeta",
         "body": "𝝛",
@@ -8953,7 +8953,7 @@
             "\r"
         ]
     },
-    "1D75C": {
+    "1D75C*": {
         "scope": "latex",
         "prefix": "/bsu-Eta",
         "body": "𝝜",
@@ -8963,7 +8963,7 @@
             "\r"
         ]
     },
-    "1D75D": {
+    "1D75D*": {
         "scope": "latex",
         "prefix": "/bsu-Theta",
         "body": "𝝝",
@@ -8973,7 +8973,7 @@
             "\r"
         ]
     },
-    "1D75E": {
+    "1D75E*": {
         "scope": "latex",
         "prefix": "/bsu-Iota",
         "body": "𝝞",
@@ -8983,7 +8983,7 @@
             "\r"
         ]
     },
-    "1D75F": {
+    "1D75F*": {
         "scope": "latex",
         "prefix": "/bsu-Kappa",
         "body": "𝝟",
@@ -8993,7 +8993,7 @@
             "\r"
         ]
     },
-    "1D760": {
+    "1D760*": {
         "scope": "latex",
         "prefix": "/bsu-Lambda",
         "body": "𝝠",
@@ -9003,7 +9003,7 @@
             "\r"
         ]
     },
-    "1D761": {
+    "1D761*": {
         "scope": "latex",
         "prefix": "/bsu-Mu",
         "body": "𝝡",
@@ -9013,7 +9013,7 @@
             "\r"
         ]
     },
-    "1D762": {
+    "1D762*": {
         "scope": "latex",
         "prefix": "/bsu-Nu",
         "body": "𝝢",
@@ -9023,7 +9023,7 @@
             "\r"
         ]
     },
-    "1D763": {
+    "1D763*": {
         "scope": "latex",
         "prefix": "/bsu-Xi",
         "body": "𝝣",
@@ -9033,7 +9033,7 @@
             "\r"
         ]
     },
-    "1D764": {
+    "1D764*": {
         "scope": "latex",
         "prefix": "/bsu-Omicron",
         "body": "𝝤",
@@ -9043,7 +9043,7 @@
             "\r"
         ]
     },
-    "1D765": {
+    "1D765*": {
         "scope": "latex",
         "prefix": "/bsu-Pi",
         "body": "𝝥",
@@ -9053,7 +9053,7 @@
             "\r"
         ]
     },
-    "1D766": {
+    "1D766*": {
         "scope": "latex",
         "prefix": "/bsu-Rho",
         "body": "𝝦",
@@ -9063,7 +9063,7 @@
             "\r"
         ]
     },
-    "1D767": {
+    "1D767*": {
         "scope": "latex",
         "prefix": "/bsu-varTheta",
         "body": "𝝧",
@@ -9073,7 +9073,7 @@
             "\r"
         ]
     },
-    "1D768": {
+    "1D768*": {
         "scope": "latex",
         "prefix": "/bsu-Sigma",
         "body": "𝝨",
@@ -9083,7 +9083,7 @@
             "\r"
         ]
     },
-    "1D769": {
+    "1D769*": {
         "scope": "latex",
         "prefix": "/bsu-Tau",
         "body": "𝝩",
@@ -9093,7 +9093,7 @@
             "\r"
         ]
     },
-    "1D76A": {
+    "1D76A*": {
         "scope": "latex",
         "prefix": "/bsu-Upsilon",
         "body": "𝝪",
@@ -9103,7 +9103,7 @@
             "\r"
         ]
     },
-    "1D76B": {
+    "1D76B*": {
         "scope": "latex",
         "prefix": "/bsu-Phi",
         "body": "𝝫",
@@ -9113,7 +9113,7 @@
             "\r"
         ]
     },
-    "1D76C": {
+    "1D76C*": {
         "scope": "latex",
         "prefix": "/bsu-Chi",
         "body": "𝝬",
@@ -9123,7 +9123,7 @@
             "\r"
         ]
     },
-    "1D76D": {
+    "1D76D*": {
         "scope": "latex",
         "prefix": "/bsu-Psi",
         "body": "𝝭",
@@ -9133,7 +9133,7 @@
             "\r"
         ]
     },
-    "1D76E": {
+    "1D76E*": {
         "scope": "latex",
         "prefix": "/bsu-Omega",
         "body": "𝝮",
@@ -9143,7 +9143,7 @@
             "\r"
         ]
     },
-    "1D770": {
+    "1D770*": {
         "scope": "latex",
         "prefix": "/bsu-alpha",
         "body": "𝝰",
@@ -9153,7 +9153,7 @@
             "\r"
         ]
     },
-    "1D771": {
+    "1D771*": {
         "scope": "latex",
         "prefix": "/bsu-beta",
         "body": "𝝱",
@@ -9163,7 +9163,7 @@
             "\r"
         ]
     },
-    "1D772": {
+    "1D772*": {
         "scope": "latex",
         "prefix": "/bsu-gamma",
         "body": "𝝲",
@@ -9173,7 +9173,7 @@
             "\r"
         ]
     },
-    "1D773": {
+    "1D773*": {
         "scope": "latex",
         "prefix": "/bsu-delta",
         "body": "𝝳",
@@ -9183,7 +9183,7 @@
             "\r"
         ]
     },
-    "1D774": {
+    "1D774*": {
         "scope": "latex",
         "prefix": "/bsu-varepsilon",
         "body": "𝝴",
@@ -9193,7 +9193,7 @@
             "\r"
         ]
     },
-    "1D775": {
+    "1D775*": {
         "scope": "latex",
         "prefix": "/bsu-zeta",
         "body": "𝝵",
@@ -9203,7 +9203,7 @@
             "\r"
         ]
     },
-    "1D776": {
+    "1D776*": {
         "scope": "latex",
         "prefix": "/bsu-eta",
         "body": "𝝶",
@@ -9213,7 +9213,7 @@
             "\r"
         ]
     },
-    "1D777": {
+    "1D777*": {
         "scope": "latex",
         "prefix": "/bsu-theta",
         "body": "𝝷",
@@ -9223,7 +9223,7 @@
             "\r"
         ]
     },
-    "1D778": {
+    "1D778*": {
         "scope": "latex",
         "prefix": "/bsu-iota",
         "body": "𝝸",
@@ -9233,7 +9233,7 @@
             "\r"
         ]
     },
-    "1D779": {
+    "1D779*": {
         "scope": "latex",
         "prefix": "/bsu-kappa",
         "body": "𝝹",
@@ -9243,7 +9243,7 @@
             "\r"
         ]
     },
-    "1D77A": {
+    "1D77A*": {
         "scope": "latex",
         "prefix": "/bsu-lambda",
         "body": "𝝺",
@@ -9253,7 +9253,7 @@
             "\r"
         ]
     },
-    "1D77B": {
+    "1D77B*": {
         "scope": "latex",
         "prefix": "/bsu-mu",
         "body": "𝝻",
@@ -9263,7 +9263,7 @@
             "\r"
         ]
     },
-    "1D77C": {
+    "1D77C*": {
         "scope": "latex",
         "prefix": "/bsu-nu",
         "body": "𝝼",
@@ -9273,7 +9273,7 @@
             "\r"
         ]
     },
-    "1D77D": {
+    "1D77D*": {
         "scope": "latex",
         "prefix": "/bsu-xi",
         "body": "𝝽",
@@ -9283,7 +9283,7 @@
             "\r"
         ]
     },
-    "1D77E": {
+    "1D77E*": {
         "scope": "latex",
         "prefix": "/bsu-omicron",
         "body": "𝝾",
@@ -9293,7 +9293,7 @@
             "\r"
         ]
     },
-    "1D77F": {
+    "1D77F*": {
         "scope": "latex",
         "prefix": "/bsu-pi",
         "body": "𝝿",
@@ -9303,7 +9303,7 @@
             "\r"
         ]
     },
-    "1D780": {
+    "1D780*": {
         "scope": "latex",
         "prefix": "/bsu-rho",
         "body": "𝞀",
@@ -9313,7 +9313,7 @@
             "\r"
         ]
     },
-    "1D781": {
+    "1D781*": {
         "scope": "latex",
         "prefix": "/bsu-varsigma",
         "body": "𝞁",
@@ -9323,7 +9323,7 @@
             "\r"
         ]
     },
-    "1D782": {
+    "1D782*": {
         "scope": "latex",
         "prefix": "/bsu-sigma",
         "body": "𝞂",
@@ -9333,7 +9333,7 @@
             "\r"
         ]
     },
-    "1D783": {
+    "1D783*": {
         "scope": "latex",
         "prefix": "/bsu-tau",
         "body": "𝞃",
@@ -9343,7 +9343,7 @@
             "\r"
         ]
     },
-    "1D784": {
+    "1D784*": {
         "scope": "latex",
         "prefix": "/bsu-upsilon",
         "body": "𝞄",
@@ -9353,7 +9353,7 @@
             "\r"
         ]
     },
-    "1D785": {
+    "1D785*": {
         "scope": "latex",
         "prefix": "/bsu-varphi",
         "body": "𝞅",
@@ -9363,7 +9363,7 @@
             "\r"
         ]
     },
-    "1D786": {
+    "1D786*": {
         "scope": "latex",
         "prefix": "/bsu-chi",
         "body": "𝞆",
@@ -9373,7 +9373,7 @@
             "\r"
         ]
     },
-    "1D787": {
+    "1D787*": {
         "scope": "latex",
         "prefix": "/bsu-psi",
         "body": "𝞇",
@@ -9383,7 +9383,7 @@
             "\r"
         ]
     },
-    "1D788": {
+    "1D788*": {
         "scope": "latex",
         "prefix": "/bsu-omega",
         "body": "𝞈",
@@ -9393,7 +9393,7 @@
             "\r"
         ]
     },
-    "1D78A": {
+    "1D78A*": {
         "scope": "latex",
         "prefix": "/bsu-epsilon",
         "body": "𝞊",
@@ -9403,7 +9403,7 @@
             "\r"
         ]
     },
-    "1D78B": {
+    "1D78B*": {
         "scope": "latex",
         "prefix": "/bsu-vartheta",
         "body": "𝞋",
@@ -9413,7 +9413,7 @@
             "\r"
         ]
     },
-    "1D78C": {
+    "1D78C*": {
         "scope": "latex",
         "prefix": "/bsu-varkappa",
         "body": "𝞌",
@@ -9423,7 +9423,7 @@
             "\r"
         ]
     },
-    "1D78D": {
+    "1D78D*": {
         "scope": "latex",
         "prefix": "/bsu-phi",
         "body": "𝞍",
@@ -9433,7 +9433,7 @@
             "\r"
         ]
     },
-    "1D78E": {
+    "1D78E*": {
         "scope": "latex",
         "prefix": "/bsu-varrho",
         "body": "𝞎",
@@ -9443,7 +9443,7 @@
             "\r"
         ]
     },
-    "1D78F": {
+    "1D78F*": {
         "scope": "latex",
         "prefix": "/bsu-varpi",
         "body": "𝞏",
@@ -9454,7 +9454,7 @@
         ]
     },
     // \symbb
-    "0213C": {
+    "0213C*": {
         "scope": "latex",
         "prefix": "/bb-pi",
         "body": "ℼ",
@@ -9464,7 +9464,7 @@
             "\r"
         ]
     },
-    "0213D": {
+    "0213D*": {
         "scope": "latex",
         "prefix": "/bb-gamma",
         "body": "ℽ",
@@ -9474,7 +9474,7 @@
             "\r"
         ]
     },
-    "0213E": {
+    "0213E*": {
         "scope": "latex",
         "prefix": "/bb-Gamma",
         "body": "ℾ",
@@ -9484,7 +9484,7 @@
             "\r"
         ]
     },
-    "0213F": {
+    "0213F*": {
         "scope": "latex",
         "prefix": "/bb-Pi",
         "body": "ℿ",
@@ -9495,7 +9495,7 @@
         ]
     },
     // \symit
-    "1D6E2": {
+    "1D6E2*": {
         "scope": "latex",
         "prefix": ["/i-Alpha", "/Alpha"],
         "body": "𝛢",
@@ -9505,7 +9505,7 @@
             "\r"
         ]
     },
-    "1D6E3": {
+    "1D6E3*": {
         "scope": "latex",
         "prefix": ["/i-Beta", "/Beta"],
         "body": "𝛣",
@@ -9515,7 +9515,7 @@
             "\r"
         ]
     },
-    "1D6E4": {
+    "1D6E4*": {
         "scope": "latex",
         "prefix": ["/i-Gamma", "/Gamma"],
         "body": "𝛤",
@@ -9525,7 +9525,7 @@
             "\r"
         ]
     },
-    "1D6E5": {
+    "1D6E5*": {
         "scope": "latex",
         "prefix": ["/i-Delta", "/Delta"],
         "body": "𝛥",
@@ -9535,7 +9535,7 @@
             "\r"
         ]
     },
-    "1D6E6": {
+    "1D6E6*": {
         "scope": "latex",
         "prefix": ["/i-Epsilon", "/Epsilon"],
         "body": "𝛦",
@@ -9545,7 +9545,7 @@
             "\r"
         ]
     },
-    "1D6E7": {
+    "1D6E7*": {
         "scope": "latex",
         "prefix": ["/i-Zeta", "/Zeta"],
         "body": "𝛧",
@@ -9555,7 +9555,7 @@
             "\r"
         ]
     },
-    "1D6E8": {
+    "1D6E8*": {
         "scope": "latex",
         "prefix": ["/i-Eta", "/Eta"],
         "body": "𝛨",
@@ -9565,7 +9565,7 @@
             "\r"
         ]
     },
-    "1D6E9": {
+    "1D6E9*": {
         "scope": "latex",
         "prefix": ["/i-Theta", "/Theta"],
         "body": "𝛩",
@@ -9575,7 +9575,7 @@
             "\r"
         ]
     },
-    "1D6EA": {
+    "1D6EA*": {
         "scope": "latex",
         "prefix": ["/i-Iota", "/Iota"],
         "body": "𝛪",
@@ -9585,7 +9585,7 @@
             "\r"
         ]
     },
-    "1D6EB": {
+    "1D6EB*": {
         "scope": "latex",
         "prefix": ["/i-Kappa", "/Kappa"],
         "body": "𝛫",
@@ -9595,7 +9595,7 @@
             "\r"
         ]
     },
-    "1D6EC": {
+    "1D6EC*": {
         "scope": "latex",
         "prefix": ["/i-Lambda", "/Lambda"],
         "body": "𝛬",
@@ -9605,7 +9605,7 @@
             "\r"
         ]
     },
-    "1D6ED": {
+    "1D6ED*": {
         "scope": "latex",
         "prefix": ["/i-Mu", "/Mu"],
         "body": "𝛭",
@@ -9615,7 +9615,7 @@
             "\r"
         ]
     },
-    "1D6EE": {
+    "1D6EE*": {
         "scope": "latex",
         "prefix": ["/i-Nu", "/Nu"],
         "body": "𝛮",
@@ -9625,7 +9625,7 @@
             "\r"
         ]
     },
-    "1D6EF": {
+    "1D6EF*": {
         "scope": "latex",
         "prefix": ["/i-Xi", "/Xi"],
         "body": "𝛯",
@@ -9635,7 +9635,7 @@
             "\r"
         ]
     },
-    "1D6F0": {
+    "1D6F0*": {
         "scope": "latex",
         "prefix": ["/i-Omicron", "/Omicron"],
         "body": "𝛰",
@@ -9645,7 +9645,7 @@
             "\r"
         ]
     },
-    "1D6F1": {
+    "1D6F1*": {
         "scope": "latex",
         "prefix": ["/i-Pi", "/Pi"],
         "body": "𝛱",
@@ -9655,7 +9655,7 @@
             "\r"
         ]
     },
-    "1D6F2": {
+    "1D6F2*": {
         "scope": "latex",
         "prefix": ["/i-Rho", "/Rho"],
         "body": "𝛲",
@@ -9665,7 +9665,7 @@
             "\r"
         ]
     },
-    "1D6F3": {
+    "1D6F3*": {
         "scope": "latex",
         "prefix": ["/i-varTheta", "/varTheta"],
         "body": "𝛳",
@@ -9675,7 +9675,7 @@
             "\r"
         ]
     },
-    "1D6F4": {
+    "1D6F4*": {
         "scope": "latex",
         "prefix": ["/i-Sigma", "/Sigma"],
         "body": "𝛴",
@@ -9685,7 +9685,7 @@
             "\r"
         ]
     },
-    "1D6F5": {
+    "1D6F5*": {
         "scope": "latex",
         "prefix": ["/i-Tau", "/Tau"],
         "body": "𝛵",
@@ -9695,7 +9695,7 @@
             "\r"
         ]
     },
-    "1D6F6": {
+    "1D6F6*": {
         "scope": "latex",
         "prefix": ["/i-Upsilon", "/Upsilon"],
         "body": "𝛶",
@@ -9705,7 +9705,7 @@
             "\r"
         ]
     },
-    "1D6F7": {
+    "1D6F7*": {
         "scope": "latex",
         "prefix": ["/i-Phi", "/Phi"],
         "body": "𝛷",
@@ -9715,7 +9715,7 @@
             "\r"
         ]
     },
-    "1D6F8": {
+    "1D6F8*": {
         "scope": "latex",
         "prefix": ["/i-Chi", "/Chi"],
         "body": "𝛸",
@@ -9725,7 +9725,7 @@
             "\r"
         ]
     },
-    "1D6F9": {
+    "1D6F9*": {
         "scope": "latex",
         "prefix": ["/i-Psi", "/Psi"],
         "body": "𝛹",
@@ -9735,7 +9735,7 @@
             "\r"
         ]
     },
-    "1D6FA": {
+    "1D6FA*": {
         "scope": "latex",
         "prefix": ["/i-Omega", "/Omega"],
         "body": "𝛺",
@@ -9745,7 +9745,7 @@
             "\r"
         ]
     },
-    "1D6FC": {
+    "1D6FC*": {
         "scope": "latex",
         "prefix": ["/i-alpha", "/alpha"],
         "body": "𝛼",
@@ -9755,7 +9755,7 @@
             "\r"
         ]
     },
-    "1D6FD": {
+    "1D6FD*": {
         "scope": "latex",
         "prefix": ["/i-beta", "/beta"],
         "body": "𝛽",
@@ -9765,7 +9765,7 @@
             "\r"
         ]
     },
-    "1D6FE": {
+    "1D6FE*": {
         "scope": "latex",
         "prefix": ["/i-gamma", "/gamma"],
         "body": "𝛾",
@@ -9775,7 +9775,7 @@
             "\r"
         ]
     },
-    "1D6FF": {
+    "1D6FF*": {
         "scope": "latex",
         "prefix": ["/i-delta", "/delta"],
         "body": "𝛿",
@@ -9785,7 +9785,7 @@
             "\r"
         ]
     },
-    "1D700": {
+    "1D700*": {
         "scope": "latex",
         "prefix": ["/i-varepsilon", "/varepsilon"],
         "body": "𝜀",
@@ -9795,7 +9795,7 @@
             "\r"
         ]
     },
-    "1D701": {
+    "1D701*": {
         "scope": "latex",
         "prefix": ["/i-zeta", "/zeta"],
         "body": "𝜁",
@@ -9805,7 +9805,7 @@
             "\r"
         ]
     },
-    "1D702": {
+    "1D702*": {
         "scope": "latex",
         "prefix": ["/i-eta", "/eta"],
         "body": "𝜂",
@@ -9815,7 +9815,7 @@
             "\r"
         ]
     },
-    "1D703": {
+    "1D703*": {
         "scope": "latex",
         "prefix": ["/i-theta", "/theta"],
         "body": "𝜃",
@@ -9825,7 +9825,7 @@
             "\r"
         ]
     },
-    "1D704": {
+    "1D704*": {
         "scope": "latex",
         "prefix": ["/i-iota", "/iota"],
         "body": "𝜄",
@@ -9835,7 +9835,7 @@
             "\r"
         ]
     },
-    "1D705": {
+    "1D705*": {
         "scope": "latex",
         "prefix": ["/i-kappa", "/kappa"],
         "body": "𝜅",
@@ -9845,7 +9845,7 @@
             "\r"
         ]
     },
-    "1D706": {
+    "1D706*": {
         "scope": "latex",
         "prefix": ["/i-lambda", "/lambda"],
         "body": "𝜆",
@@ -9855,7 +9855,7 @@
             "\r"
         ]
     },
-    "1D707": {
+    "1D707*": {
         "scope": "latex",
         "prefix": ["/i-mu", "/mu"],
         "body": "𝜇",
@@ -9865,7 +9865,7 @@
             "\r"
         ]
     },
-    "1D708": {
+    "1D708*": {
         "scope": "latex",
         "prefix": ["/i-nu", "/nu"],
         "body": "𝜈",
@@ -9875,7 +9875,7 @@
             "\r"
         ]
     },
-    "1D709": {
+    "1D709*": {
         "scope": "latex",
         "prefix": ["/i-xi", "/xi"],
         "body": "𝜉",
@@ -9885,7 +9885,7 @@
             "\r"
         ]
     },
-    "1D70A": {
+    "1D70A*": {
         "scope": "latex",
         "prefix": ["/i-omicron", "/omicron"],
         "body": "𝜊",
@@ -9895,7 +9895,7 @@
             "\r"
         ]
     },
-    "1D70B": {
+    "1D70B*": {
         "scope": "latex",
         "prefix": ["/i-pi", "/pi"],
         "body": "𝜋",
@@ -9905,7 +9905,7 @@
             "\r"
         ]
     },
-    "1D70C": {
+    "1D70C*": {
         "scope": "latex",
         "prefix": ["/i-rho", "/rho"],
         "body": "𝜌",
@@ -9915,7 +9915,7 @@
             "\r"
         ]
     },
-    "1D70D": {
+    "1D70D*": {
         "scope": "latex",
         "prefix": ["/i-varsigma", "/varsigma"],
         "body": "𝜍",
@@ -9925,7 +9925,7 @@
             "\r"
         ]
     },
-    "1D70E": {
+    "1D70E*": {
         "scope": "latex",
         "prefix": ["/i-sigma", "/sigma"],
         "body": "𝜎",
@@ -9935,7 +9935,7 @@
             "\r"
         ]
     },
-    "1D70F": {
+    "1D70F*": {
         "scope": "latex",
         "prefix": ["/i-tau", "/tau"],
         "body": "𝜏",
@@ -9945,7 +9945,7 @@
             "\r"
         ]
     },
-    "1D710": {
+    "1D710*": {
         "scope": "latex",
         "prefix": ["/i-upsilon", "/upsilon"],
         "body": "𝜐",
@@ -9955,7 +9955,7 @@
             "\r"
         ]
     },
-    "1D711": {
+    "1D711*": {
         "scope": "latex",
         "prefix": ["/i-varphi", "/varphi"],
         "body": "𝜑",
@@ -9965,7 +9965,7 @@
             "\r"
         ]
     },
-    "1D712": {
+    "1D712*": {
         "scope": "latex",
         "prefix": ["/i-chi", "/chi"],
         "body": "𝜒",
@@ -9975,7 +9975,7 @@
             "\r"
         ]
     },
-    "1D713": {
+    "1D713*": {
         "scope": "latex",
         "prefix": ["/i-psi", "/psi"],
         "body": "𝜓",
@@ -9985,7 +9985,7 @@
             "\r"
         ]
     },
-    "1D714": {
+    "1D714*": {
         "scope": "latex",
         "prefix": ["/i-omega", "/omega"],
         "body": "𝜔",
@@ -9995,7 +9995,7 @@
             "\r"
         ]
     },
-    "1D716": {
+    "1D716*": {
         "scope": "latex",
         "prefix": ["/i-epsilon", "/epsilon"],
         "body": "𝜖",
@@ -10005,7 +10005,7 @@
             "\r"
         ]
     },
-    "1D717": {
+    "1D717*": {
         "scope": "latex",
         "prefix": ["/i-vartheta", "/vartheta"],
         "body": "𝜗",
@@ -10015,7 +10015,7 @@
             "\r"
         ]
     },
-    "1D718": {
+    "1D718*": {
         "scope": "latex",
         "prefix": ["/i-varkappa", "/varkappa"],
         "body": "𝜘",
@@ -10025,7 +10025,7 @@
             "\r"
         ]
     },
-    "1D719": {
+    "1D719*": {
         "scope": "latex",
         "prefix": ["/i-phi", "/phi"],
         "body": "𝜙",
@@ -10035,7 +10035,7 @@
             "\r"
         ]
     },
-    "1D71A": {
+    "1D71A*": {
         "scope": "latex",
         "prefix": ["/i-varrho", "/varrho"],
         "body": "𝜚",
@@ -10045,7 +10045,7 @@
             "\r"
         ]
     },
-    "1D71B": {
+    "1D71B*": {
         "scope": "latex",
         "prefix": ["/i-varpi", "/varpi"],
         "body": "𝜛",
@@ -10056,7 +10056,7 @@
         ]
     },
     // \symbfit
-    "1D71C": {
+    "1D71C*": {
         "scope": "latex",
         "prefix": ["/bi-Alpha", "/b-Alpha"],
         "body": "𝜜",
@@ -10066,7 +10066,7 @@
             "\r"
         ]
     },
-    "1D71D": {
+    "1D71D*": {
         "scope": "latex",
         "prefix": ["/bi-Beta", "/b-Beta"],
         "body": "𝜝",
@@ -10076,7 +10076,7 @@
             "\r"
         ]
     },
-    "1D71E": {
+    "1D71E*": {
         "scope": "latex",
         "prefix": ["/bi-Gamma", "/b-Gamma"],
         "body": "𝜞",
@@ -10086,7 +10086,7 @@
             "\r"
         ]
     },
-    "1D71F": {
+    "1D71F*": {
         "scope": "latex",
         "prefix": ["/bi-Delta", "/b-Delta"],
         "body": "𝜟",
@@ -10096,7 +10096,7 @@
             "\r"
         ]
     },
-    "1D720": {
+    "1D720*": {
         "scope": "latex",
         "prefix": ["/bi-Epsilon", "/b-Epsilon"],
         "body": "𝜠",
@@ -10106,7 +10106,7 @@
             "\r"
         ]
     },
-    "1D721": {
+    "1D721*": {
         "scope": "latex",
         "prefix": ["/bi-Zeta", "/b-Zeta"],
         "body": "𝜡",
@@ -10116,7 +10116,7 @@
             "\r"
         ]
     },
-    "1D722": {
+    "1D722*": {
         "scope": "latex",
         "prefix": ["/bi-Eta", "/b-Eta"],
         "body": "𝜢",
@@ -10126,7 +10126,7 @@
             "\r"
         ]
     },
-    "1D723": {
+    "1D723*": {
         "scope": "latex",
         "prefix": ["/bi-Theta", "/b-Theta"],
         "body": "𝜣",
@@ -10136,7 +10136,7 @@
             "\r"
         ]
     },
-    "1D724": {
+    "1D724*": {
         "scope": "latex",
         "prefix": ["/bi-Iota", "/b-Iota"],
         "body": "𝜤",
@@ -10146,7 +10146,7 @@
             "\r"
         ]
     },
-    "1D725": {
+    "1D725*": {
         "scope": "latex",
         "prefix": ["/bi-Kappa", "/b-Kappa"],
         "body": "𝜥",
@@ -10156,7 +10156,7 @@
             "\r"
         ]
     },
-    "1D726": {
+    "1D726*": {
         "scope": "latex",
         "prefix": ["/bi-Lambda", "/b-Lambda"],
         "body": "𝜦",
@@ -10166,7 +10166,7 @@
             "\r"
         ]
     },
-    "1D727": {
+    "1D727*": {
         "scope": "latex",
         "prefix": ["/bi-Mu", "/b-Mu"],
         "body": "𝜧",
@@ -10176,7 +10176,7 @@
             "\r"
         ]
     },
-    "1D728": {
+    "1D728*": {
         "scope": "latex",
         "prefix": ["/bi-Nu", "/b-Nu"],
         "body": "𝜨",
@@ -10186,7 +10186,7 @@
             "\r"
         ]
     },
-    "1D729": {
+    "1D729*": {
         "scope": "latex",
         "prefix": ["/bi-Xi", "/b-Xi"],
         "body": "𝜩",
@@ -10196,7 +10196,7 @@
             "\r"
         ]
     },
-    "1D72A": {
+    "1D72A*": {
         "scope": "latex",
         "prefix": ["/bi-Omicron", "/b-Omicron"],
         "body": "𝜪",
@@ -10206,7 +10206,7 @@
             "\r"
         ]
     },
-    "1D72B": {
+    "1D72B*": {
         "scope": "latex",
         "prefix": ["/bi-Pi", "/b-Pi"],
         "body": "𝜫",
@@ -10216,7 +10216,7 @@
             "\r"
         ]
     },
-    "1D72C": {
+    "1D72C*": {
         "scope": "latex",
         "prefix": ["/bi-Rho", "/b-Rho"],
         "body": "𝜬",
@@ -10226,7 +10226,7 @@
             "\r"
         ]
     },
-    "1D72D": {
+    "1D72D*": {
         "scope": "latex",
         "prefix": ["/bi-varTheta", "/b-varTheta"],
         "body": "𝜭",
@@ -10236,7 +10236,7 @@
             "\r"
         ]
     },
-    "1D72E": {
+    "1D72E*": {
         "scope": "latex",
         "prefix": ["/bi-Sigma", "/b-Sigma"],
         "body": "𝜮",
@@ -10246,7 +10246,7 @@
             "\r"
         ]
     },
-    "1D72F": {
+    "1D72F*": {
         "scope": "latex",
         "prefix": ["/bi-Tau", "/b-Tau"],
         "body": "𝜯",
@@ -10256,7 +10256,7 @@
             "\r"
         ]
     },
-    "1D730": {
+    "1D730*": {
         "scope": "latex",
         "prefix": ["/bi-Upsilon", "/b-Upsilon"],
         "body": "𝜰",
@@ -10266,7 +10266,7 @@
             "\r"
         ]
     },
-    "1D731": {
+    "1D731*": {
         "scope": "latex",
         "prefix": ["/bi-Phi", "/b-Phi"],
         "body": "𝜱",
@@ -10276,7 +10276,7 @@
             "\r"
         ]
     },
-    "1D732": {
+    "1D732*": {
         "scope": "latex",
         "prefix": ["/bi-Chi", "/b-Chi"],
         "body": "𝜲",
@@ -10286,7 +10286,7 @@
             "\r"
         ]
     },
-    "1D733": {
+    "1D733*": {
         "scope": "latex",
         "prefix": ["/bi-Psi", "/b-Psi"],
         "body": "𝜳",
@@ -10296,7 +10296,7 @@
             "\r"
         ]
     },
-    "1D734": {
+    "1D734*": {
         "scope": "latex",
         "prefix": ["/bi-Omega", "/b-Omega"],
         "body": "𝜴",
@@ -10306,7 +10306,7 @@
             "\r"
         ]
     },
-    "1D736": {
+    "1D736*": {
         "scope": "latex",
         "prefix": ["/bi-alpha", "/b-alpha"],
         "body": "𝜶",
@@ -10316,7 +10316,7 @@
             "\r"
         ]
     },
-    "1D737": {
+    "1D737*": {
         "scope": "latex",
         "prefix": ["/bi-beta", "/b-beta"],
         "body": "𝜷",
@@ -10326,7 +10326,7 @@
             "\r"
         ]
     },
-    "1D738": {
+    "1D738*": {
         "scope": "latex",
         "prefix": ["/bi-gamma", "/b-gamma"],
         "body": "𝜸",
@@ -10336,7 +10336,7 @@
             "\r"
         ]
     },
-    "1D739": {
+    "1D739*": {
         "scope": "latex",
         "prefix": ["/bi-delta", "/b-delta"],
         "body": "𝜹",
@@ -10346,7 +10346,7 @@
             "\r"
         ]
     },
-    "1D73A": {
+    "1D73A*": {
         "scope": "latex",
         "prefix": ["/bi-varepsilon", "/b-varepsilon"],
         "body": "𝜺",
@@ -10356,7 +10356,7 @@
             "\r"
         ]
     },
-    "1D73B": {
+    "1D73B*": {
         "scope": "latex",
         "prefix": ["/bi-zeta", "/b-zeta"],
         "body": "𝜻",
@@ -10366,7 +10366,7 @@
             "\r"
         ]
     },
-    "1D73C": {
+    "1D73C*": {
         "scope": "latex",
         "prefix": ["/bi-eta", "/b-eta"],
         "body": "𝜼",
@@ -10376,7 +10376,7 @@
             "\r"
         ]
     },
-    "1D73D": {
+    "1D73D*": {
         "scope": "latex",
         "prefix": ["/bi-theta", "/b-theta"],
         "body": "𝜽",
@@ -10386,7 +10386,7 @@
             "\r"
         ]
     },
-    "1D73E": {
+    "1D73E*": {
         "scope": "latex",
         "prefix": ["/bi-iota", "/b-iota"],
         "body": "𝜾",
@@ -10396,7 +10396,7 @@
             "\r"
         ]
     },
-    "1D73F": {
+    "1D73F*": {
         "scope": "latex",
         "prefix": ["/bi-kappa", "/b-kappa"],
         "body": "𝜿",
@@ -10406,7 +10406,7 @@
             "\r"
         ]
     },
-    "1D740": {
+    "1D740*": {
         "scope": "latex",
         "prefix": ["/bi-lambda", "/b-lambda"],
         "body": "𝝀",
@@ -10416,7 +10416,7 @@
             "\r"
         ]
     },
-    "1D741": {
+    "1D741*": {
         "scope": "latex",
         "prefix": ["/bi-mu", "/b-mu"],
         "body": "𝝁",
@@ -10426,7 +10426,7 @@
             "\r"
         ]
     },
-    "1D742": {
+    "1D742*": {
         "scope": "latex",
         "prefix": ["/bi-nu", "/b-nu"],
         "body": "𝝂",
@@ -10436,7 +10436,7 @@
             "\r"
         ]
     },
-    "1D743": {
+    "1D743*": {
         "scope": "latex",
         "prefix": ["/bi-xi", "/b-xi"],
         "body": "𝝃",
@@ -10446,7 +10446,7 @@
             "\r"
         ]
     },
-    "1D744": {
+    "1D744*": {
         "scope": "latex",
         "prefix": ["/bi-omicron", "/b-omicron"],
         "body": "𝝄",
@@ -10456,7 +10456,7 @@
             "\r"
         ]
     },
-    "1D745": {
+    "1D745*": {
         "scope": "latex",
         "prefix": ["/bi-pi", "/b-pi"],
         "body": "𝝅",
@@ -10466,7 +10466,7 @@
             "\r"
         ]
     },
-    "1D746": {
+    "1D746*": {
         "scope": "latex",
         "prefix": ["/bi-rho", "/b-rho"],
         "body": "𝝆",
@@ -10476,7 +10476,7 @@
             "\r"
         ]
     },
-    "1D747": {
+    "1D747*": {
         "scope": "latex",
         "prefix": ["/bi-varsigma", "/b-varsigma"],
         "body": "𝝇",
@@ -10486,7 +10486,7 @@
             "\r"
         ]
     },
-    "1D748": {
+    "1D748*": {
         "scope": "latex",
         "prefix": ["/bi-sigma", "/b-sigma"],
         "body": "𝝈",
@@ -10496,7 +10496,7 @@
             "\r"
         ]
     },
-    "1D749": {
+    "1D749*": {
         "scope": "latex",
         "prefix": ["/bi-tau", "/b-tau"],
         "body": "𝝉",
@@ -10506,7 +10506,7 @@
             "\r"
         ]
     },
-    "1D74A": {
+    "1D74A*": {
         "scope": "latex",
         "prefix": ["/bi-upsilon", "/b-upsilon"],
         "body": "𝝊",
@@ -10516,7 +10516,7 @@
             "\r"
         ]
     },
-    "1D74B": {
+    "1D74B*": {
         "scope": "latex",
         "prefix": ["/bi-varphi", "/b-varphi"],
         "body": "𝝋",
@@ -10526,7 +10526,7 @@
             "\r"
         ]
     },
-    "1D74C": {
+    "1D74C*": {
         "scope": "latex",
         "prefix": ["/bi-chi", "/b-chi"],
         "body": "𝝌",
@@ -10536,7 +10536,7 @@
             "\r"
         ]
     },
-    "1D74D": {
+    "1D74D*": {
         "scope": "latex",
         "prefix": ["/bi-psi", "/b-psi"],
         "body": "𝝍",
@@ -10546,7 +10546,7 @@
             "\r"
         ]
     },
-    "1D74E": {
+    "1D74E*": {
         "scope": "latex",
         "prefix": ["/bi-omega", "/b-omega"],
         "body": "𝝎",
@@ -10556,7 +10556,7 @@
             "\r"
         ]
     },
-    "1D750": {
+    "1D750*": {
         "scope": "latex",
         "prefix": ["/bi-epsilon", "/b-epsilon"],
         "body": "𝝐",
@@ -10566,7 +10566,7 @@
             "\r"
         ]
     },
-    "1D751": {
+    "1D751*": {
         "scope": "latex",
         "prefix": ["/bi-vartheta", "/b-vartheta"],
         "body": "𝝑",
@@ -10576,7 +10576,7 @@
             "\r"
         ]
     },
-    "1D752": {
+    "1D752*": {
         "scope": "latex",
         "prefix": ["/bi-varkappa", "/b-varkappa"],
         "body": "𝝒",
@@ -10586,7 +10586,7 @@
             "\r"
         ]
     },
-    "1D753": {
+    "1D753*": {
         "scope": "latex",
         "prefix": ["/bi-phi", "/b-phi"],
         "body": "𝝓",
@@ -10596,7 +10596,7 @@
             "\r"
         ]
     },
-    "1D754": {
+    "1D754*": {
         "scope": "latex",
         "prefix": ["/bi-varrho", "/b-varrho"],
         "body": "𝝔",
@@ -10606,7 +10606,7 @@
             "\r"
         ]
     },
-    "1D755": {
+    "1D755*": {
         "scope": "latex",
         "prefix": ["/bi-varpi", "/b-varpi"],
         "body": "𝝕",
@@ -10617,7 +10617,7 @@
         ]
     },
     // \symbfsfit
-    "1D790": {
+    "1D790*": {
         "scope": "latex",
         "prefix": ["/bsi-Alpha", "/bs-Alpha"],
         "body": "𝞐",
@@ -10627,7 +10627,7 @@
             "\r"
         ]
     },
-    "1D791": {
+    "1D791*": {
         "scope": "latex",
         "prefix": ["/bsi-Beta", "/bs-Beta"],
         "body": "𝞑",
@@ -10637,7 +10637,7 @@
             "\r"
         ]
     },
-    "1D792": {
+    "1D792*": {
         "scope": "latex",
         "prefix": ["/bsi-Gamma", "/bs-Gamma"],
         "body": "𝞒",
@@ -10647,7 +10647,7 @@
             "\r"
         ]
     },
-    "1D793": {
+    "1D793*": {
         "scope": "latex",
         "prefix": ["/bsi-Delta", "/bs-Delta"],
         "body": "𝞓",
@@ -10657,7 +10657,7 @@
             "\r"
         ]
     },
-    "1D794": {
+    "1D794*": {
         "scope": "latex",
         "prefix": ["/bsi-Epsilon", "/bs-Epsilon"],
         "body": "𝞔",
@@ -10667,7 +10667,7 @@
             "\r"
         ]
     },
-    "1D795": {
+    "1D795*": {
         "scope": "latex",
         "prefix": ["/bsi-Zeta", "/bs-Zeta"],
         "body": "𝞕",
@@ -10677,7 +10677,7 @@
             "\r"
         ]
     },
-    "1D796": {
+    "1D796*": {
         "scope": "latex",
         "prefix": ["/bsi-Eta", "/bs-Eta"],
         "body": "𝞖",
@@ -10687,7 +10687,7 @@
             "\r"
         ]
     },
-    "1D797": {
+    "1D797*": {
         "scope": "latex",
         "prefix": ["/bsi-Theta", "/bs-Theta"],
         "body": "𝞗",
@@ -10697,7 +10697,7 @@
             "\r"
         ]
     },
-    "1D798": {
+    "1D798*": {
         "scope": "latex",
         "prefix": ["/bsi-Iota", "/bs-Iota"],
         "body": "𝞘",
@@ -10707,7 +10707,7 @@
             "\r"
         ]
     },
-    "1D799": {
+    "1D799*": {
         "scope": "latex",
         "prefix": ["/bsi-Kappa", "/bs-Kappa"],
         "body": "𝞙",
@@ -10717,7 +10717,7 @@
             "\r"
         ]
     },
-    "1D79A": {
+    "1D79A*": {
         "scope": "latex",
         "prefix": ["/bsi-Lambda", "/bs-Lambda"],
         "body": "𝞚",
@@ -10727,7 +10727,7 @@
             "\r"
         ]
     },
-    "1D79B": {
+    "1D79B*": {
         "scope": "latex",
         "prefix": ["/bsi-Mu", "/bs-Mu"],
         "body": "𝞛",
@@ -10737,7 +10737,7 @@
             "\r"
         ]
     },
-    "1D79C": {
+    "1D79C*": {
         "scope": "latex",
         "prefix": ["/bsi-Nu", "/bs-Nu"],
         "body": "𝞜",
@@ -10747,7 +10747,7 @@
             "\r"
         ]
     },
-    "1D79D": {
+    "1D79D*": {
         "scope": "latex",
         "prefix": ["/bsi-Xi", "/bs-Xi"],
         "body": "𝞝",
@@ -10757,7 +10757,7 @@
             "\r"
         ]
     },
-    "1D79E": {
+    "1D79E*": {
         "scope": "latex",
         "prefix": ["/bsi-Omicron", "/bs-Omicron"],
         "body": "𝞞",
@@ -10767,7 +10767,7 @@
             "\r"
         ]
     },
-    "1D79F": {
+    "1D79F*": {
         "scope": "latex",
         "prefix": ["/bsi-Pi", "/bs-Pi"],
         "body": "𝞟",
@@ -10777,7 +10777,7 @@
             "\r"
         ]
     },
-    "1D7A0": {
+    "1D7A0*": {
         "scope": "latex",
         "prefix": ["/bsi-Rho", "/bs-Rho"],
         "body": "𝞠",
@@ -10787,7 +10787,7 @@
             "\r"
         ]
     },
-    "1D7A1": {
+    "1D7A1*": {
         "scope": "latex",
         "prefix": ["/bsi-varTheta", "/bs-varTheta"],
         "body": "𝞡",
@@ -10797,7 +10797,7 @@
             "\r"
         ]
     },
-    "1D7A2": {
+    "1D7A2*": {
         "scope": "latex",
         "prefix": ["/bsi-Sigma", "/bs-Sigma"],
         "body": "𝞢",
@@ -10807,7 +10807,7 @@
             "\r"
         ]
     },
-    "1D7A3": {
+    "1D7A3*": {
         "scope": "latex",
         "prefix": ["/bsi-Tau", "/bs-Tau"],
         "body": "𝞣",
@@ -10817,7 +10817,7 @@
             "\r"
         ]
     },
-    "1D7A4": {
+    "1D7A4*": {
         "scope": "latex",
         "prefix": ["/bsi-Upsilon", "/bs-Upsilon"],
         "body": "𝞤",
@@ -10827,7 +10827,7 @@
             "\r"
         ]
     },
-    "1D7A5": {
+    "1D7A5*": {
         "scope": "latex",
         "prefix": ["/bsi-Phi", "/bs-Phi"],
         "body": "𝞥",
@@ -10837,7 +10837,7 @@
             "\r"
         ]
     },
-    "1D7A6": {
+    "1D7A6*": {
         "scope": "latex",
         "prefix": ["/bsi-Chi", "/bs-Chi"],
         "body": "𝞦",
@@ -10847,7 +10847,7 @@
             "\r"
         ]
     },
-    "1D7A7": {
+    "1D7A7*": {
         "scope": "latex",
         "prefix": ["/bsi-Psi", "/bs-Psi"],
         "body": "𝞧",
@@ -10857,7 +10857,7 @@
             "\r"
         ]
     },
-    "1D7A8": {
+    "1D7A8*": {
         "scope": "latex",
         "prefix": ["/bsi-Omega", "/bs-Omega"],
         "body": "𝞨",
@@ -10867,7 +10867,7 @@
             "\r"
         ]
     },
-    "1D7AA": {
+    "1D7AA*": {
         "scope": "latex",
         "prefix": ["/bsi-alpha", "/bs-alpha"],
         "body": "𝞪",
@@ -10877,7 +10877,7 @@
             "\r"
         ]
     },
-    "1D7AB": {
+    "1D7AB*": {
         "scope": "latex",
         "prefix": ["/bsi-beta", "/bs-beta"],
         "body": "𝞫",
@@ -10887,7 +10887,7 @@
             "\r"
         ]
     },
-    "1D7AC": {
+    "1D7AC*": {
         "scope": "latex",
         "prefix": ["/bsi-gamma", "/bs-gamma"],
         "body": "𝞬",
@@ -10897,7 +10897,7 @@
             "\r"
         ]
     },
-    "1D7AD": {
+    "1D7AD*": {
         "scope": "latex",
         "prefix": ["/bsi-delta", "/bs-delta"],
         "body": "𝞭",
@@ -10907,7 +10907,7 @@
             "\r"
         ]
     },
-    "1D7AE": {
+    "1D7AE*": {
         "scope": "latex",
         "prefix": ["/bsi-varepsilon", "/bs-varepsilon"],
         "body": "𝞮",
@@ -10917,7 +10917,7 @@
             "\r"
         ]
     },
-    "1D7AF": {
+    "1D7AF*": {
         "scope": "latex",
         "prefix": ["/bsi-zeta", "/bs-zeta"],
         "body": "𝞯",
@@ -10927,7 +10927,7 @@
             "\r"
         ]
     },
-    "1D7B0": {
+    "1D7B0*": {
         "scope": "latex",
         "prefix": ["/bsi-eta", "/bs-eta"],
         "body": "𝞰",
@@ -10937,7 +10937,7 @@
             "\r"
         ]
     },
-    "1D7B1": {
+    "1D7B1*": {
         "scope": "latex",
         "prefix": ["/bsi-theta", "/bs-theta"],
         "body": "𝞱",
@@ -10947,7 +10947,7 @@
             "\r"
         ]
     },
-    "1D7B2": {
+    "1D7B2*": {
         "scope": "latex",
         "prefix": ["/bsi-iota", "/bs-iota"],
         "body": "𝞲",
@@ -10957,7 +10957,7 @@
             "\r"
         ]
     },
-    "1D7B3": {
+    "1D7B3*": {
         "scope": "latex",
         "prefix": ["/bsi-kappa", "/bs-kappa"],
         "body": "𝞳",
@@ -10967,7 +10967,7 @@
             "\r"
         ]
     },
-    "1D7B4": {
+    "1D7B4*": {
         "scope": "latex",
         "prefix": ["/bsi-lambda", "/bs-lambda"],
         "body": "𝞴",
@@ -10977,7 +10977,7 @@
             "\r"
         ]
     },
-    "1D7B5": {
+    "1D7B5*": {
         "scope": "latex",
         "prefix": ["/bsi-mu", "/bs-mu"],
         "body": "𝞵",
@@ -10987,7 +10987,7 @@
             "\r"
         ]
     },
-    "1D7B6": {
+    "1D7B6*": {
         "scope": "latex",
         "prefix": ["/bsi-nu", "/bs-nu"],
         "body": "𝞶",
@@ -10997,7 +10997,7 @@
             "\r"
         ]
     },
-    "1D7B7": {
+    "1D7B7*": {
         "scope": "latex",
         "prefix": ["/bsi-xi", "/bs-xi"],
         "body": "𝞷",
@@ -11007,7 +11007,7 @@
             "\r"
         ]
     },
-    "1D7B8": {
+    "1D7B8*": {
         "scope": "latex",
         "prefix": ["/bsi-omicron", "/bs-omicron"],
         "body": "𝞸",
@@ -11017,7 +11017,7 @@
             "\r"
         ]
     },
-    "1D7B9": {
+    "1D7B9*": {
         "scope": "latex",
         "prefix": ["/bsi-pi", "/bs-pi"],
         "body": "𝞹",
@@ -11027,7 +11027,7 @@
             "\r"
         ]
     },
-    "1D7BA": {
+    "1D7BA*": {
         "scope": "latex",
         "prefix": ["/bsi-rho", "/bs-rho"],
         "body": "𝞺",
@@ -11037,7 +11037,7 @@
             "\r"
         ]
     },
-    "1D7BB": {
+    "1D7BB*": {
         "scope": "latex",
         "prefix": ["/bsi-varsigma", "/bs-varsigma"],
         "body": "𝞻",
@@ -11047,7 +11047,7 @@
             "\r"
         ]
     },
-    "1D7BC": {
+    "1D7BC*": {
         "scope": "latex",
         "prefix": ["/bsi-sigma", "/bs-sigma"],
         "body": "𝞼",
@@ -11057,7 +11057,7 @@
             "\r"
         ]
     },
-    "1D7BD": {
+    "1D7BD*": {
         "scope": "latex",
         "prefix": ["/bsi-tau", "/bs-tau"],
         "body": "𝞽",
@@ -11067,7 +11067,7 @@
             "\r"
         ]
     },
-    "1D7BE": {
+    "1D7BE*": {
         "scope": "latex",
         "prefix": ["/bsi-upsilon", "/bs-upsilon"],
         "body": "𝞾",
@@ -11077,7 +11077,7 @@
             "\r"
         ]
     },
-    "1D7BF": {
+    "1D7BF*": {
         "scope": "latex",
         "prefix": ["/bsi-varphi", "/bs-varphi"],
         "body": "𝞿",
@@ -11087,7 +11087,7 @@
             "\r"
         ]
     },
-    "1D7C0": {
+    "1D7C0*": {
         "scope": "latex",
         "prefix": ["/bsi-chi", "/bs-chi"],
         "body": "𝟀",
@@ -11097,7 +11097,7 @@
             "\r"
         ]
     },
-    "1D7C1": {
+    "1D7C1*": {
         "scope": "latex",
         "prefix": ["/bsi-psi", "/bs-psi"],
         "body": "𝟁",
@@ -11107,7 +11107,7 @@
             "\r"
         ]
     },
-    "1D7C2": {
+    "1D7C2*": {
         "scope": "latex",
         "prefix": ["/bsi-omega", "/bs-omega"],
         "body": "𝟂",
@@ -11117,7 +11117,7 @@
             "\r"
         ]
     },
-    "1D7C4": {
+    "1D7C4*": {
         "scope": "latex",
         "prefix": ["/bsi-epsilon", "/bs-epsilon"],
         "body": "𝟄",
@@ -11127,7 +11127,7 @@
             "\r"
         ]
     },
-    "1D7C5": {
+    "1D7C5*": {
         "scope": "latex",
         "prefix": ["/bsi-vartheta", "/bs-vartheta"],
         "body": "𝟅",
@@ -11137,7 +11137,7 @@
             "\r"
         ]
     },
-    "1D7C6": {
+    "1D7C6*": {
         "scope": "latex",
         "prefix": ["/bsi-varkappa", "/bs-varkappa"],
         "body": "𝟆",
@@ -11147,7 +11147,7 @@
             "\r"
         ]
     },
-    "1D7C7": {
+    "1D7C7*": {
         "scope": "latex",
         "prefix": ["/bsi-phi", "/bs-phi"],
         "body": "𝟇",
@@ -11157,7 +11157,7 @@
             "\r"
         ]
     },
-    "1D7C8": {
+    "1D7C8*": {
         "scope": "latex",
         "prefix": ["/bsi-varrho", "/bs-varrho"],
         "body": "𝟈",
@@ -11167,7 +11167,7 @@
             "\r"
         ]
     },
-    "1D7C9": {
+    "1D7C9*": {
         "scope": "latex",
         "prefix": ["/bsi-varpi", "/bs-varpi"],
         "body": "𝟉",
@@ -11199,7 +11199,7 @@
 //     (\symbfsfit): /mbfitsans* → /bsi-*
 // 
     // \symup
-    "02207": {
+    "02207*": {
         "scope": "latex",
         "prefix": "/u-nabla",
         "body": "∇",
@@ -11209,7 +11209,7 @@
             "\r"
         ]
     },
-    "02202": {
+    "02202*": {
         "scope": "latex",
         "prefix": "/u-partial",
         "body": "∂",
@@ -11220,7 +11220,7 @@
         ]
     },
     // \symmbfup
-    "1D6C1": {
+    "1D6C1*": {
         "scope": "latex",
         "prefix": ["/bu-nabla", "/b-nabla"],
         "body": "𝛁",
@@ -11230,7 +11230,7 @@
             "\r"
         ]
     },
-    "1D6DB": {
+    "1D6DB*": {
         "scope": "latex",
         "prefix": ["/bu-partial", "/b-partial"],
         "body": "𝛛",
@@ -11241,7 +11241,7 @@
         ]
     },
     // \symbfsfup
-    "1D76F": {
+    "1D76F*": {
         "scope": "latex",
         "prefix": ["/bsu-nabla", "/bs-nabla"],
         "body": "𝝯",
@@ -11251,7 +11251,7 @@
             "\r"
         ]
     },
-    "1D789": {
+    "1D789*": {
         "scope": "latex",
         "prefix": ["/bsu-partial", "/bs-partial"],
         "body": "𝞉",
@@ -11262,7 +11262,7 @@
         ]
     },
     // \symit
-    "1D6FB": {
+    "1D6FB*": {
         "scope": "latex",
         "prefix": "/i-nabla",
         "body": "𝛻",
@@ -11272,7 +11272,7 @@
             "\r"
         ]
     },
-    "1D715": {
+    "1D715*": {
         "scope": "latex",
         "prefix": "/i-partial",
         "body": "𝜕",
@@ -11283,7 +11283,7 @@
         ]
     },
     // \symbfit
-    "1D735": {
+    "1D735*": {
         "scope": "latex",
         "prefix": "/bi-nabla",
         "body": "𝜵",
@@ -11293,7 +11293,7 @@
             "\r"
         ]
     },
-    "1D74F": {
+    "1D74F*": {
         "scope": "latex",
         "prefix": "/bi-partial",
         "body": "𝝏",
@@ -11304,7 +11304,7 @@
         ]
     },
     // \mbfitsans
-    "1D7A9": {
+    "1D7A9*": {
         "scope": "latex",
         "prefix": "/bsi-nabla",
         "body": "𝞩",
@@ -11314,7 +11314,7 @@
             "\r"
         ]
     },
-    "1D7C3": {
+    "1D7C3*": {
         "scope": "latex",
         "prefix": "/bsi-partial",
         "body": "𝟃",
