@@ -603,7 +603,7 @@
     },
     "02102": {
         "scope": "latex",
-        "prefix": ["/BbbC", "/bbbC"],
+        "prefix": "/BbbC",
         "body": "ℂ",
         "description": [
             "ℂ",
@@ -613,7 +613,7 @@
     },
     "0210A": {
         "scope": "latex",
-        "prefix": ["/mscrg", "/scrg"],
+        "prefix": "/mscrg",
         "body": "ℊ",
         "description": [
             "ℊ",
@@ -633,7 +633,7 @@
     },
     "0210C": {
         "scope": "latex",
-        "prefix": ["/mfrakH", "/frakH"],
+        "prefix": "/mfrakH",
         "body": "ℌ",
         "description": [
             "ℌ",
@@ -643,7 +643,7 @@
     },
     "0210D": {
         "scope": "latex",
-        "prefix": ["/BbbH", "/bbbH"],
+        "prefix": "/BbbH",
         "body": "ℍ",
         "description": [
             "ℍ",
@@ -663,7 +663,7 @@
     },
     "02110": {
         "scope": "latex",
-        "prefix": ["/mscrI", "/scrI"],
+        "prefix": "/mscrI",
         "body": "ℐ",
         "description": [
             "ℐ",
@@ -703,7 +703,7 @@
     },
     "02115": {
         "scope": "latex",
-        "prefix": ["/BbbN", "/bbbN"],
+        "prefix": "/BbbN",
         "body": "ℕ",
         "description": [
             "ℕ",
@@ -723,7 +723,7 @@
     },
     "02119": {
         "scope": "latex",
-        "prefix": ["/BbbP", "/bbbP"],
+        "prefix": "/BbbP",
         "body": "ℙ",
         "description": [
             "ℙ",
@@ -733,7 +733,7 @@
     },
     "0211A": {
         "scope": "latex",
-        "prefix": ["/BbbQ", "/bbbQ"],
+        "prefix": "/BbbQ",
         "body": "ℚ",
         "description": [
             "ℚ",
@@ -743,7 +743,7 @@
     },
     "0211B": {
         "scope": "latex",
-        "prefix": ["/mscrR", "/scrR"],
+        "prefix": "/mscrR",
         "body": "ℛ",
         "description": [
             "ℛ",
@@ -763,7 +763,7 @@
     },
     "0211D": {
         "scope": "latex",
-        "prefix": ["/BbbR", "/bbbR"],
+        "prefix": "/BbbR",
         "body": "ℝ",
         "description": [
             "ℝ",
@@ -773,7 +773,7 @@
     },
     "02124": {
         "scope": "latex",
-        "prefix": ["/BbbZ", "/bbbZ"],
+        "prefix": "/BbbZ",
         "body": "ℤ",
         "description": [
             "ℤ",
@@ -783,7 +783,7 @@
     },
     "02128": {
         "scope": "latex",
-        "prefix": ["/mfrakZ", "/frakZ"],
+        "prefix": "/mfrakZ",
         "body": "ℨ",
         "description": [
             "ℨ",
@@ -833,7 +833,7 @@
     },
     "0212F": {
         "scope": "latex",
-        "prefix": ["/mscre", "/scre"],
+        "prefix": "/mscre",
         "body": "ℯ",
         "description": [
             "ℯ",
@@ -843,7 +843,7 @@
     },
     "02130": {
         "scope": "latex",
-        "prefix": ["/mscrE", "/scrE"],
+        "prefix": "/mscrE",
         "body": "ℰ",
         "description": [
             "ℰ",
@@ -853,7 +853,7 @@
     },
     "02131": {
         "scope": "latex",
-        "prefix": ["/mscrF", "/scrF"],
+        "prefix": "/mscrF",
         "body": "ℱ",
         "description": [
             "ℱ",

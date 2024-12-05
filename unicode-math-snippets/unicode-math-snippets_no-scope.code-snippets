@@ -13138,7 +13138,7 @@
         ]
     },
     "02102": {
-        "prefix": ["/BbbC", "/bbbC"],
+        "prefix": "/BbbC",
         "body": "ℂ",
         "description": [
             "ℂ",
@@ -13147,7 +13147,7 @@
         ]
     },
     "0210A": {
-        "prefix": ["/mscrg", "/scrg"],
+        "prefix": "/mscrg",
         "body": "ℊ",
         "description": [
             "ℊ",
@@ -13165,7 +13165,7 @@
         ]
     },
     "0210C": {
-        "prefix": ["/mfrakH", "/frakH"],
+        "prefix": "/mfrakH",
         "body": "ℌ",
         "description": [
             "ℌ",
@@ -13174,7 +13174,7 @@
         ]
     },
     "0210D": {
-        "prefix": ["/BbbH", "/bbbH"],
+        "prefix": "/BbbH",
         "body": "ℍ",
         "description": [
             "ℍ",
@@ -13192,7 +13192,7 @@
         ]
     },
     "02110": {
-        "prefix": ["/mscrI", "/scrI"],
+        "prefix": "/mscrI",
         "body": "ℐ",
         "description": [
             "ℐ",
@@ -13228,7 +13228,7 @@
         ]
     },
     "02115": {
-        "prefix": ["/BbbN", "/bbbN"],
+        "prefix": "/BbbN",
         "body": "ℕ",
         "description": [
             "ℕ",
@@ -13246,7 +13246,7 @@
         ]
     },
     "02119": {
-        "prefix": ["/BbbP", "/bbbP"],
+        "prefix": "/BbbP",
         "body": "ℙ",
         "description": [
             "ℙ",
@@ -13255,7 +13255,7 @@
         ]
     },
     "0211A": {
-        "prefix": ["/BbbQ", "/bbbQ"],
+        "prefix": "/BbbQ",
         "body": "ℚ",
         "description": [
             "ℚ",
@@ -13264,7 +13264,7 @@
         ]
     },
     "0211B": {
-        "prefix": ["/mscrR", "/scrR"],
+        "prefix": "/mscrR",
         "body": "ℛ",
         "description": [
             "ℛ",
@@ -13282,7 +13282,7 @@
         ]
     },
     "0211D": {
-        "prefix": ["/BbbR", "/bbbR"],
+        "prefix": "/BbbR",
         "body": "ℝ",
         "description": [
             "ℝ",
@@ -13291,7 +13291,7 @@
         ]
     },
     "02124": {
-        "prefix": ["/BbbZ", "/bbbZ"],
+        "prefix": "/BbbZ",
         "body": "ℤ",
         "description": [
             "ℤ",
@@ -13300,7 +13300,7 @@
         ]
     },
     "02128": {
-        "prefix": ["/mfrakZ", "/frakZ"],
+        "prefix": "/mfrakZ",
         "body": "ℨ",
         "description": [
             "ℨ",
@@ -13345,7 +13345,7 @@
         ]
     },
     "0212F": {
-        "prefix": ["/mscre", "/scre"],
+        "prefix": "/mscre",
         "body": "ℯ",
         "description": [
             "ℯ",
@@ -13354,7 +13354,7 @@
         ]
     },
     "02130": {
-        "prefix": ["/mscrE", "/scrE"],
+        "prefix": "/mscrE",
         "body": "ℰ",
         "description": [
             "ℰ",
@@ -13363,7 +13363,7 @@
         ]
     },
     "02131": {
-        "prefix": ["/mscrF", "/scrF"],
+        "prefix": "/mscrF",
         "body": "ℱ",
         "description": [
             "ℱ",
