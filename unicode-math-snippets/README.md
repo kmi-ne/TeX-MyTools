@@ -216,7 +216,7 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 | /mbfsans* | /bsu-* | \sym**b**f**s**f**u**p | サンセリフ・太字 |
 | /Bbb* | /bb-* | \sym**bb** | 黒板太字 |
 
-> 例：`u-pi`（ `π` ），`bu-pi`（ `𝛑` ），`bsu-pi`（ `𝝿` ），`bb-pi`（ `ℼ` ），
+> 例：`/u-pi`（ `π` ），`/bu-pi`（ `𝛑` ），`/bsu-pi`（ `𝝿` ），`/bb-pi`（ `ℼ` ），
 
 > [!TIP]
 > `\symbb` が有効なギリシャ文字は，γ, π, Γ, Π の4文字のみです．
@@ -230,7 +230,7 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 | /mbfit* | /bi-*, /b-\* | \sym**b**f**i**t | セリフ・太字 |
 | /mbfitsans* | /bsi-*, /bs-\* | \sym**b**f**s**f**i**t | サンセリフ・太字 |
 
-> 例：`pi`（ `𝜋` ），`b-pi`（ `𝝅` ），`bs-pi`（ `𝞹` ），
+> 例：`/pi`（ `𝜋` ），`/b-pi`（ `𝝅` ），`/bs-pi`（ `𝞹` ），
 
 ### ナブラと偏微分記号
 
