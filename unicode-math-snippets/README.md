@@ -32,7 +32,7 @@
 
 - [`unicode-math`](https://ctan.org/pkg/unicode-math) がサポートする Unicode 文字全てを入力できる，VS Code 用の巨大なスニペットファイルを作った．また，利便性を高めるための追加スニペットも作った．
 - [`unicode-math-snippets.code-snippets`](/unicode-math-snippets.code-snippets)（本体）と [`additional.code-snippets`](/additional.code-snippets)（追加スニペット）の中身を `latex.json` にコピペすることで使用できる．
-- 例えば，$\forall$ を出力するために `∀` を Unicode 文字入力したければ， `forall` とタイプし，サジェストから `/forall` を選択すればよい（`\` ではなく `/` であることに注意）．実際にはタイプ数はもっと短く済む．
+- 例えば，$`\forall`$ を出力するために `∀` を Unicode 文字入力したければ， `forall` とタイプし，サジェストから `/forall` を選択すればよい（`\` ではなく `/` であることに注意）．実際にはタイプ数はもっと短く済む．
 - 他の Unicode 文字についても，[`unicode-math` の記号表](http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unimath-symbols.pdf)に掲載されているマクロ名をタイプすることで，該当文字を入力できる．
 - 追加スニペットについては「[追加スニペット](#追加スニペット)」の節を参照．
 
