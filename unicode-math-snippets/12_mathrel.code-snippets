@@ -1093,21 +1093,21 @@
     },
     "02243": {
         "scope": "latex",
-        "prefix": "/sime",
+        "prefix": ["/simeq", "/sime"],
         "body": "≃",
         "description": [
             "≃",
-            "similar, equals (alias)",
+            "similar, equals",
             "\r"
         ]
     },
     "02244": {
         "scope": "latex",
-        "prefix": "/nsimeq",
+        "prefix": ["/nsime", "/nsimeq"],
         "body": "≄",
         "description": [
             "≄",
-            "not similar, equals (alias)",
+            "not similar, equals",
             "\r"
         ]
     },
