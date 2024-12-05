@@ -31,7 +31,7 @@
     },
     "0007B+0007D": {
         "prefix": "/lrbrace",
-        "body": "{$1}",
+        "body": "\\{$1\\\\}",
         "description": [
             "{ }",
             "left curly bracket + right curly bracket",
