@@ -2,7 +2,7 @@
 
 この記事（ `README.md` ）は，[TeX ＆ LaTeX Advent Calendar 2024](https://adventar.org/calendars/10647) の5日目の記事です．大層な見出しですが，羊頭狗肉だと思ってください．
 
-（4日目は [ut さん](http://texuttex.g2.xrea.com/AdventCal2024.html)です．）
+（4日目は [ut さん](http://texuttex.g2.xrea.com/AdventCal2024.html)，6日目は [tairahikaru さん](https://tairahikaru.github.io/texadvent2024/)です．）
 
 
 ## 予備知識
@@ -24,7 +24,7 @@
 > などの記事を参照してみてください（もちろん[公式ドキュメント](http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unicode-math.pdf)も）．
 
 > [!TIP]
-> 文字種コマンドと立体・イタリック体関連のパッケージオプションについては，「[unicode-math におけるラテン文字・ギリシャ文字とパッケージオプションを理解する](https://qiita.com/Yarakashi_Kikohshi/items/ac3a31420ad6f754db99)」や，[公式ドキュメント](http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unicode-math.pdf)の §4 "Unicode maths font setup" などを参照してください．
+> 文字種コマンドと立体・イタリック体関連のパッケージオプションについては，「[unicode-math におけるラテン文字・ギリシャ文字とパッケージオプションを理解する](https://qiita.com/Yarakashi_Kikohshi/items/ac3a31420ad6f754db99)」や，[公式ドキュメント](http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unicode-math.pdf)の §3.1 "New commands" および §4 "Unicode maths font setup" を参照してください．
 
 ## 要約
 
