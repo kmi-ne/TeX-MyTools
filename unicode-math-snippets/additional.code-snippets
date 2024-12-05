@@ -129,7 +129,7 @@
         ]
     },
     "027EC+027ED": {
-        "prefix": "/LRbrbrak",
+        "prefix": "/LR-brbrak",
         "body": "⟬$1⟭",
         "description": [
             "⟬ ⟭",
@@ -228,7 +228,7 @@
         ]
     },
     "02995+02996": {
-        "prefix": "/LRparengtrless",
+        "prefix": "/LR-parengtrless",
         "body": "⦕$1⦖",
         "description": [
             "⦕ ⦖",
@@ -273,7 +273,7 @@
         ]
     },
     "0007C+0007C": {
-        "prefix": ["/verts", "/abs"],
+        "prefix": ["/lrvert", "/abs"],
         "body": "|$1|",
         "description": [
             "| |",
@@ -282,7 +282,7 @@
         ]
     },
     "02016+02016": {
-        "prefix": ["/Verts", "/norm"],
+        "prefix": ["/lrVert", "/norm"],
         "body": "‖$1‖",
         "description": [
             "‖ ‖",
@@ -291,11 +291,147 @@
         ]
     },
     "02980+02980": {
-        "prefix": "/Vverts",
+        "prefix": "/lrVvert",
         "body": "⦀$1⦀",
         "description": [
             "⦀ ⦀",
             "triple vertical bar delimiter + triple vertical bar delimiter",
+            "\r"
+        ]
+    },
+// 
+// 
+// 
+// 
+// 
+// NEW SECTION HEADER
+// 
+// 
+// /LR~~ = \left/l~~ + \right/r~~
+// 
+    "00028+00029*": {
+        "prefix": "/LR-paren",
+        "body": "\\left( $1 \\right)",
+        "description": [
+            "( )",
+            "left parenthesis + right parenthesis",
+            "\r"
+        ]
+    },
+    "0005B+0005D*": {
+        "prefix": "/LR-brack",
+        "body": "\\left[ $1 \\right]",
+        "description": [
+            "[ ]",
+            "left square bracket + right square bracket",
+            "\r"
+        ]
+    },
+    "0007B+0007D*": {
+        "prefix": "/LR-brace",
+        "body": "\\left\\{ $1 \\right\\\\}",
+        "description": [
+            "{ }",
+            "left curly bracket + right curly bracket",
+            "\r"
+        ]
+    },
+    "02308+02309*": {
+        "prefix": ["/LR-ceil", "/ceil"],
+        "body": "\\left⌈ $1 \\right⌉",
+        "description": [
+            "⌈ ⌉",
+            "left ceiling + right ceiling",
+            "\r"
+        ]
+    },
+    "0230A+0230B*": {
+        "prefix": ["/LR-floor", "/floor"],
+        "body": "\\left⌊ $1 \\right⌋",
+        "description": [
+            "⌊ ⌋",
+            "left floor + right floor",
+            "\r"
+        ]
+    },
+    "027E6+027E7*": {
+        "prefix": "/LR-Brack",
+        "body": "\\left⟦ $1 \\right⟧",
+        "description": [
+            "⟦  ⟧",
+            "mathematical left white square bracket + mathematical right white square bracket",
+            "\r"
+        ]
+    },
+    "027E8+027E9*": {
+        "prefix": "/LR-angle",
+        "body": "\\left⟨ $1 \\right⟩",
+        "description": [
+            "⟨ ⟩",
+            "mathematical left angle bracket + mathematical right angle bracket",
+            "\r"
+        ]
+    },
+    "027EA+027EB*": {
+        "prefix": "/LR-Angle",
+        "body": "\\left⟪ $1 \\right⟫",
+        "description": [
+            "⟪ ⟫",
+            "mathematical left double angle bracket + mathematical right double angle bracket",
+            "\r"
+        ]
+    },
+    "027EE+027EF*": {
+        "prefix": "/LR-group",
+        "body": "\\left⟮ $1 \\right⟯",
+        "description": [
+            "⟮ ⟯",
+            "mathematical left flattened parenthesis + mathematical right flattened parenthesis",
+            "\r"
+        ]
+    },
+    "02983+02984*": {
+        "prefix": "/LR-Brace",
+        "body": "\\left⦃ $1 \\right⦄",
+        "description": [
+            "⦃ ⦄",
+            "left white curly bracket + right white curly bracket",
+            "\r"
+        ]
+    },
+    "02985+02986*": {
+        "prefix": "/LR-Paren",
+        "body": "\\left⦅ $1 \\right⦆",
+        "description": [
+            "⦅ ⦆",
+            "left white parenthesis + right white parenthesis",
+            "\r"
+        ]
+    },
+    "029FC+029FD*": {
+        "prefix": "/LR-curvyangle",
+        "body": "\\left⧼ $1 \\right⧽",
+        "description": [
+            "⧼ ⧽",
+            "left pointing curved angle bracket + right pointing curved angle bracket",
+            "\r"
+        ]
+    },
+    "0007C+0007C*": {
+        "prefix": "/LR-vert",
+        "body": "\\left| $1 \\right|",
+        "description": [
+            "| |",
+            "vertical bar + vertical bar",
+            "\r"
+        ]
+    },
+    "02016+02016*": {
+        "prefix": "/LR-Vert",
+        "body": "\\left‖ $1 \\right‖",
+        "description": [
+            "‖ ‖",
+            "double vertical bar + double vertical bar",
             "\r"
         ]
     },

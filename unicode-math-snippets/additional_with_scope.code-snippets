@@ -143,7 +143,7 @@
     },
     "027EC+027ED": {
         "scope": "latex",
-        "prefix": "/LRbrbrak",
+        "prefix": "/LR-brbrak",
         "body": "⟬$1⟭",
         "description": [
             "⟬ ⟭",
@@ -253,7 +253,7 @@
     },
     "02995+02996": {
         "scope": "latex",
-        "prefix": "/LRparengtrless",
+        "prefix": "/LR-parengtrless",
         "body": "⦕$1⦖",
         "description": [
             "⦕ ⦖",
@@ -303,7 +303,7 @@
     },
     "0007C+0007C": {
         "scope": "latex",
-        "prefix": ["/verts", "/abs"],
+        "prefix": ["/lrvert", "/abs"],
         "body": "|$1|",
         "description": [
             "| |",
@@ -313,7 +313,7 @@
     },
     "02016+02016": {
         "scope": "latex",
-        "prefix": ["/Verts", "/norm"],
+        "prefix": ["/lrVert", "/norm"],
         "body": "‖$1‖",
         "description": [
             "‖ ‖",
@@ -323,11 +323,161 @@
     },
     "02980+02980": {
         "scope": "latex",
-        "prefix": "/Vverts",
+        "prefix": "/lrVvert",
         "body": "⦀$1⦀",
         "description": [
             "⦀ ⦀",
             "triple vertical bar delimiter + triple vertical bar delimiter",
+            "\r"
+        ]
+    },
+// 
+// 
+// 
+// 
+// 
+// NEW SECTION HEADER
+// 
+// 
+// /LR~~ = \left/l~~ + \right/r~~
+// 
+    "00028+00029*": {
+        "scope": "latex",
+        "prefix": "/LR-paren",
+        "body": "\\left( $1 \\right)",
+        "description": [
+            "( )",
+            "left parenthesis + right parenthesis",
+            "\r"
+        ]
+    },
+    "0005B+0005D*": {
+        "scope": "latex",
+        "prefix": "/LR-brack",
+        "body": "\\left[ $1 \\right]",
+        "description": [
+            "[ ]",
+            "left square bracket + right square bracket",
+            "\r"
+        ]
+    },
+    "0007B+0007D*": {
+        "scope": "latex",
+        "prefix": "/LR-brace",
+        "body": "\\left\\{ $1 \\right\\\\}",
+        "description": [
+            "{ }",
+            "left curly bracket + right curly bracket",
+            "\r"
+        ]
+    },
+    "02308+02309*": {
+        "scope": "latex",
+        "prefix": ["/LR-ceil", "/ceil"],
+        "body": "\\left⌈ $1 \\right⌉",
+        "description": [
+            "⌈ ⌉",
+            "left ceiling + right ceiling",
+            "\r"
+        ]
+    },
+    "0230A+0230B*": {
+        "scope": "latex",
+        "prefix": ["/LR-floor", "/floor"],
+        "body": "\\left⌊ $1 \\right⌋",
+        "description": [
+            "⌊ ⌋",
+            "left floor + right floor",
+            "\r"
+        ]
+    },
+    "027E6+027E7*": {
+        "scope": "latex",
+        "prefix": "/LR-Brack",
+        "body": "\\left⟦ $1 \\right⟧",
+        "description": [
+            "⟦  ⟧",
+            "mathematical left white square bracket + mathematical right white square bracket",
+            "\r"
+        ]
+    },
+    "027E8+027E9*": {
+        "scope": "latex",
+        "prefix": "/LR-angle",
+        "body": "\\left⟨ $1 \\right⟩",
+        "description": [
+            "⟨ ⟩",
+            "mathematical left angle bracket + mathematical right angle bracket",
+            "\r"
+        ]
+    },
+    "027EA+027EB*": {
+        "scope": "latex",
+        "prefix": "/LR-Angle",
+        "body": "\\left⟪ $1 \\right⟫",
+        "description": [
+            "⟪ ⟫",
+            "mathematical left double angle bracket + mathematical right double angle bracket",
+            "\r"
+        ]
+    },
+    "027EE+027EF*": {
+        "scope": "latex",
+        "prefix": "/LR-group",
+        "body": "\\left⟮ $1 \\right⟯",
+        "description": [
+            "⟮ ⟯",
+            "mathematical left flattened parenthesis + mathematical right flattened parenthesis",
+            "\r"
+        ]
+    },
+    "02983+02984*": {
+        "scope": "latex",
+        "prefix": "/LR-Brace",
+        "body": "\\left⦃ $1 \\right⦄",
+        "description": [
+            "⦃ ⦄",
+            "left white curly bracket + right white curly bracket",
+            "\r"
+        ]
+    },
+    "02985+02986*": {
+        "scope": "latex",
+        "prefix": "/LR-Paren",
+        "body": "\\left⦅ $1 \\right⦆",
+        "description": [
+            "⦅ ⦆",
+            "left white parenthesis + right white parenthesis",
+            "\r"
+        ]
+    },
+    "029FC+029FD*": {
+        "scope": "latex",
+        "prefix": "/LR-curvyangle",
+        "body": "\\left⧼ $1 \\right⧽",
+        "description": [
+            "⧼ ⧽",
+            "left pointing curved angle bracket + right pointing curved angle bracket",
+            "\r"
+        ]
+    },
+    "0007C+0007C*": {
+        "scope": "latex",
+        "prefix": "/LR-vert",
+        "body": "\\left| $1 \\right|",
+        "description": [
+            "| |",
+            "vertical bar + vertical bar",
+            "\r"
+        ]
+    },
+    "02016+02016*": {
+        "scope": "latex",
+        "prefix": "/LR-Vert",
+        "body": "\\left‖ $1 \\right‖",
+        "description": [
+            "‖ ‖",
+            "double vertical bar + double vertical bar",
             "\r"
         ]
     },
