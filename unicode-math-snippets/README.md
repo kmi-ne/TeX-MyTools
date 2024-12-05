@@ -194,7 +194,7 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 |-|-|-|-|
 | /mit* | /i-*, /\* | \sym**i**t | セリフ・中字 |
 | /mbfit* | /bi-*, /b-\* | \sym**b**f**i**t | セリフ・太字 |
-| /mitsans* | /si-*, /s-\* | \sym**b**f**s**f**i**t | サンセリフ・中字 |
+| /mitsans* | /si-*, /s-\* | \sym**s**f**i**t | サンセリフ・中字 |
 | /mbfitsans* | /bsi-*, /bs-\* | \sym**b**f**s**f**i**t | サンセリフ・太字 |
 | /mitBbb* | /bbi-* | \sym**bbi**t | 黒板太字 |
 
