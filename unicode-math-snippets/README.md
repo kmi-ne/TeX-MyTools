@@ -56,7 +56,7 @@
 
 ## 背景
 
-よく知られているように，$\text{Lua}\LaTeX$ や $\text{Xe}\LaTeX$ では，[`unicode-math`](https://ctan.org/pkg/unicode-math) によって数学記号の Unicode 文字入力が可能となります．
+よく知られているように，$'\text{Lua}\LaTeX'$ や $'\text{Xe}\LaTeX'$ では，[`unicode-math`](https://ctan.org/pkg/unicode-math) によって数学記号の Unicode 文字入力が可能となります．
 
 例えば，
 $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} \ (n > N \Rightarrow |a_n - b| < \varepsilon)$$
