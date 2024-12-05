@@ -31,7 +31,7 @@
 困難に対しては，パワー系ソリューションが求められる時もあります．
 
 - [`unicode-math`](https://ctan.org/pkg/unicode-math) がサポートする Unicode 文字全てを入力できる，VS Code 用の巨大なスニペットファイルを作った．また，利便性を高めるための追加スニペットも作った．
-- [`unicode-math-snippets.code-snippets`](/unicode-math-snippets.code-snippets)（本体）と [`additional.code-snippets`](/additional.code-snippets)（追加スニペット）の中身を `latex.json` にコピペすることで使用できる．
+- [`unicode-math-snippets.code-snippets`](/unicode-math-snippets/unicode-math-snippets.code-snippets)（本体）と [`additional.code-snippets`](/unicode-math-snippets/additional.code-snippets)（追加スニペット）の中身を `latex.json` にコピペすることで使用できる．
 - 例えば，$`\forall`$ を出力するために `∀` を Unicode 文字入力したければ， `forall` とタイプし，サジェストから `/forall` を選択すればよい（`\` ではなく `/` であることに注意）．実際にはタイプ数はもっと短く済む．
 - 他の Unicode 文字についても，[`unicode-math` の記号表](http://mirrors.ctan.org/macros/unicodetex/latex/unicode-math/unimath-symbols.pdf)に掲載されているマクロ名をタイプすることで，該当文字を入力できる．
 - 追加スニペットについては「[追加スニペット](#追加スニペット)」の節を参照．
@@ -43,14 +43,14 @@
 
 ## ファイル
 以下のスニペットファイルが含まれています．
-- [`unicode-math-snippets.code-snippets`](/unicode-math-snippets.code-snippets)：全てのスニペット．`latex.json` での使用を想定．
-- [`unicode-math-snippets_with-scope.code-snippets`](/unicode-math-snippets_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
-- [`additional.code-snippets`](/additional.code-snippets)：上記のスニペットファイルには登録されていないが，個人的にあった方が便利と思われる prefix・スニペットを登録したもの．`latex.json` での使用を想定．
-- [`additional_with-scope.code-snippets`](/additional_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
+- [`unicode-math-snippets.code-snippets`](/unicode-math-snippets/unicode-math-snippets.code-snippets)：全てのスニペット．`latex.json` での使用を想定．
+- [`unicode-math-snippets_with-scope.code-snippets`](/unicode-math-snippets/unicode-math-snippets_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
+- [`additional.code-snippets`](/unicode-math-snippets/additional.code-snippets)：上記のスニペットファイルには登録されていないが，個人的にあった方が便利と思われる prefix・スニペットを登録したもの．`latex.json` での使用を想定．
+- [`additional_with-scope.code-snippets`](/unicode-math-snippets/additional_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
 
 その他，以下のファイルが含まれています．
-- [`01_mathopen.code-snippets`](/01_mathopen.code-snippets) ～ [`13_mathalpha.code-snippets`](/13_mathalpha.code-snippets)（全13個）：`unicode-math-snippets.code-snippets` を数式クラス別に分割したもの．
-- [`macro_extract.py`](/macro_extract.py)：スニペットファイル生成に用いたスクリプト．「[その他](#その他)」の節を参照．
+- [`01_mathopen.code-snippets`](/unicode-math-snippets/01_mathopen.code-snippets) ～ [`13_mathalpha.code-snippets`](/unicode-math-snippets/13_mathalpha.code-snippets)（全13個）：`unicode-math-snippets.code-snippets` を数式クラス別に分割したもの．
+- [`macro_extract.py`](/unicode-math-snippets/macro_extract.py)：スニペットファイル生成に用いたスクリプト．「[その他](#その他)」の節を参照．
 
 
 
@@ -85,8 +85,8 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 ## 本体
 
 > 以下のファイルからなります．ファイルの使用方法は「[ファイルの設置](#ファイルの設置)」の節を見てください．
-> - [`unicode-math-snippets.code-snippets`](/unicode-math-snippets.code-snippets)：全てのスニペット．`latex.json` での使用を想定．
-> - [`unicode-math-snippets_with-scope.code-snippets`](/unicode-math-snippets_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
+> - [`unicode-math-snippets.code-snippets`](/unicode-math-snippets/unicode-math-snippets.code-snippets)：全てのスニペット．`latex.json` での使用を想定．
+> - [`unicode-math-snippets_with-scope.code-snippets`](/unicode-math-snippets/unicode-math-snippets_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
 
 `unicode-math` の記号表によると，U+0222B（`∫`, integral operator）に対応するマクロは `\int` となっています．これに対応して，本スニペットファイルには， `∫` を入力するためのスニペットが以下のように登録されています．
 
@@ -114,8 +114,8 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 ## 追加スニペット
 
 > 以下のファイルからなります．ファイルの使用方法は「[ファイルの設置](#ファイルの設置)」の節を見てください．
-> - [`additional.code-snippets`](/additional.code-snippets)：本体のスニペットファイルには登録されていないが，個人的にあった方が便利と思われる prefix・スニペットを登録したもの．`latex.json` での使用を想定．
-> - [`additional_with-scope.code-snippets`](/additional_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
+> - [`additional.code-snippets`](/unicode-math-snippets/additional.code-snippets)：本体のスニペットファイルには登録されていないが，個人的にあった方が便利と思われる prefix・スニペットを登録したもの．`latex.json` での使用を想定．
+> - [`additional_with-scope.code-snippets`](/unicode-math-snippets/additional_with-scope.code-snippets)：上記ファイルに scope 指定を付けたもの．
 
 追加スニペットには，以下の「括弧ペア」・「数字」・「ラテン文字」・「ギリシャ文字」・「ナブラと偏微分記号」の各号に掲げるものが追加登録されています．
 
