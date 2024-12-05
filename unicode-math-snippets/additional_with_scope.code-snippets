@@ -43,7 +43,7 @@
     },
     "02308+02309": {
         "scope": "latex",
-        "prefix": "/lrceil",
+        "prefix": ["/lrceil", "/ceil"],
         "body": "⌈$1⌉",
         "description": [
             "⌈ ⌉",
@@ -53,7 +53,7 @@
     },
     "0230A+0230B": {
         "scope": "latex",
-        "prefix": "/lrfloor",
+        "prefix": ["/lrfloor", "/floor"],
         "body": "⌊$1⌋",
         "description": [
             "⌊ ⌋",

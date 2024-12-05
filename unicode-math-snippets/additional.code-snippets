@@ -39,7 +39,7 @@
         ]
     },
     "02308+02309": {
-        "prefix": "/lrceil",
+        "prefix": ["/lrceil", "/ceil"],
         "body": "⌈$1⌉",
         "description": [
             "⌈ ⌉",
@@ -48,7 +48,7 @@
         ]
     },
     "0230A+0230B": {
-        "prefix": "/lrfloor",
+        "prefix": ["/lrfloor", "/floor"],
         "body": "⌊$1⌋",
         "description": [
             "⌊ ⌋",
