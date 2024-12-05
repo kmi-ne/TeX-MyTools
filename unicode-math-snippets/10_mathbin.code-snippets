@@ -583,7 +583,7 @@
     },
     "022D2": {
         "scope": "latex",
-        "prefix": ["/Cap", "/cap*", "/doublecap"],
+        "prefix": ["/Cap", "/doublecap"],
         "body": "⋒",
         "description": [
             "⋒",
@@ -593,7 +593,7 @@
     },
     "022D3": {
         "scope": "latex",
-        "prefix": ["/Cup", "/cup*", "/doublecup"],
+        "prefix": ["/Cup", "/doublecup"],
         "body": "⋓",
         "description": [
             "⋓",
@@ -603,7 +603,7 @@
     },
     "02305": {
         "scope": "latex",
-        "prefix": ["/varbarwedge", "/barwedge*"],
+        "prefix": ["/varbarwedge", ],
         "body": "⌅",
         "description": [
             "⌅",
@@ -613,7 +613,7 @@
     },
     "02306": {
         "scope": "latex",
-        "prefix": ["/vardoublebarwedge", "/doublebarwedge*"],
+        "prefix": ["/vardoublebarwedge", ],
         "body": "⌆",
         "description": [
             "⌆",

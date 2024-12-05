@@ -2092,7 +2092,7 @@
         ]
     },
     "022D2": {
-        "prefix": ["/Cap", "/cap*", "/doublecap"],
+        "prefix": ["/Cap", "/doublecap"],
         "body": "⋒",
         "description": [
             "⋒",
@@ -2101,7 +2101,7 @@
         ]
     },
     "022D3": {
-        "prefix": ["/Cup", "/cup*", "/doublecup"],
+        "prefix": ["/Cup", "/doublecup"],
         "body": "⋓",
         "description": [
             "⋓",
@@ -2110,7 +2110,7 @@
         ]
     },
     "02305": {
-        "prefix": ["/varbarwedge", "/barwedge*"],
+        "prefix": ["/varbarwedge", ],
         "body": "⌅",
         "description": [
             "⌅",
@@ -2119,7 +2119,7 @@
         ]
     },
     "02306": {
-        "prefix": ["/vardoublebarwedge", "/doublebarwedge*"],
+        "prefix": ["/vardoublebarwedge", ],
         "body": "⌆",
         "description": [
             "⌆",
@@ -8106,7 +8106,7 @@
         ]
     },
     "0220D": {
-        "prefix": ["/smallni", "/ni*", "/owns"],
+        "prefix": ["/smallni", "/owns"],
         "body": "∍",
         "description": [
             "∍",
@@ -8367,7 +8367,7 @@
         ]
     },
     "02251": {
-        "prefix": ["/Doteq", "/doteqdot", "/doteq*"],
+        "prefix": ["/Doteq", "/doteqdot", ],
         "body": "≑",
         "description": [
             "≑",
@@ -9195,7 +9195,7 @@
         ]
     },
     "022D8": {
-        "prefix": ["/lll", "/ll*", "/llless"],
+        "prefix": ["/lll", "/llless"],
         "body": "⋘",
         "description": [
             "⋘",

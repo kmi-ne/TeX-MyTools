@@ -943,7 +943,7 @@
     },
     "0220D": {
         "scope": "latex",
-        "prefix": ["/smallni", "/ni*", "/owns"],
+        "prefix": ["/smallni", "/owns"],
         "body": "∍",
         "description": [
             "∍",
@@ -1233,7 +1233,7 @@
     },
     "02251": {
         "scope": "latex",
-        "prefix": ["/Doteq", "/doteqdot", "/doteq*"],
+        "prefix": ["/Doteq", "/doteqdot", ],
         "body": "≑",
         "description": [
             "≑",
@@ -2153,7 +2153,7 @@
     },
     "022D8": {
         "scope": "latex",
-        "prefix": ["/lll", "/ll*", "/llless"],
+        "prefix": ["/lll", "/llless"],
         "body": "⋘",
         "description": [
             "⋘",

@@ -2314,7 +2314,7 @@
     },
     "022D2": {
         "scope": "latex",
-        "prefix": ["/Cap", "/cap*", "/doublecap"],
+        "prefix": ["/Cap", "/doublecap"],
         "body": "⋒",
         "description": [
             "⋒",
@@ -2324,7 +2324,7 @@
     },
     "022D3": {
         "scope": "latex",
-        "prefix": ["/Cup", "/cup*", "/doublecup"],
+        "prefix": ["/Cup", "/doublecup"],
         "body": "⋓",
         "description": [
             "⋓",
@@ -2334,7 +2334,7 @@
     },
     "02305": {
         "scope": "latex",
-        "prefix": ["/varbarwedge", "/barwedge*"],
+        "prefix": ["/varbarwedge", ],
         "body": "⌅",
         "description": [
             "⌅",
@@ -2344,7 +2344,7 @@
     },
     "02306": {
         "scope": "latex",
-        "prefix": ["/vardoublebarwedge", "/doublebarwedge*"],
+        "prefix": ["/vardoublebarwedge", ],
         "body": "⌆",
         "description": [
             "⌆",
@@ -8994,7 +8994,7 @@
     },
     "0220D": {
         "scope": "latex",
-        "prefix": ["/smallni", "/ni*", "/owns"],
+        "prefix": ["/smallni", "/owns"],
         "body": "∍",
         "description": [
             "∍",
@@ -9284,7 +9284,7 @@
     },
     "02251": {
         "scope": "latex",
-        "prefix": ["/Doteq", "/doteqdot", "/doteq*"],
+        "prefix": ["/Doteq", "/doteqdot", ],
         "body": "≑",
         "description": [
             "≑",
@@ -10204,7 +10204,7 @@
     },
     "022D8": {
         "scope": "latex",
-        "prefix": ["/lll", "/ll*", "/llless"],
+        "prefix": ["/lll", "/llless"],
         "body": "⋘",
         "description": [
             "⋘",
