@@ -276,4 +276,4 @@ $$\forall \varepsilon > 0 \ \exists N \in \mathbb{N} \ \forall n \in \mathbb{N} 
 
 ## ライセンス
 
-MIT
+CC0 1.0 Universal
